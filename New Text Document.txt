@@ -1,0 +1,43 @@
+Tutorials
+
+Finished Tutorials
+Networking and it's security-related issues
+* FTP Tutorial (version 2.1) - covers FTP hacking,FTP commands, what the hell is FTP and tons of tips and tricks (not allFTP-related) in the newbies corner.
+* RM Networks Tutorial (version 1.22) - yes, RMNetworks. You know, those local networks, not Internet networks... RM Networksare so stupid that they rely on the fact that the user is even dumber.Stumbled across one in your school/University/college/working place? Wantmaximum priviledges on it? Then try this tutorial.
+* Ad Blocking Tutorial (version 1.8) - areyou tired of seeing stupid commercials and popups popping on your screenand chewing up your bandwidth? Then read this!
+* Sendmail Tutorial (version 2.1) - findout why Sendmail is called 'the buggiest daemon on earth', and find outwhat a daemon is anyway. Tons of ways to crack into big computers as wellas PCs unleashed, including, of course, information on how to block theseholes.
+* Anonymity Tutorial (version 1.2) - tiredof people getting your IP over ICQ or IRC? Tired of website owners knowingEVERYTHING about you? Tired of people tracing you by your Email address?Read this one and learn how to anonymize yourself!
+* Proxy/WinGate/SOCKS Tutorial (version 1.0)- don't know what a Proxy is? Don't know what  a WinGate is? Don'tknow what a SOCKS firewall is? Wanna learn how to increase your anonymityusing them? Then read this one.
+* Info Gathering Tutorial (version 1.3) - wantto find private information about people and scare them like hell? Thenread this tutorial, you'll just love it!
+* ICQ Security (version 1.0) - learn about ICQ'ssecurity flaws, how to exploit them and how to protect yourself from malicioususers who use these flaws against you. Stealing passwords, reading someone'sentire hard drive, flooding, spoofing, DoSsing and what not.
+IRC-related issues
+* IRC Warfare Tutorial (version 1.0) - ever wantedto know how those lamers keep taking over your channel and/or kicking youoff IRC? Learn to protect yourself here!
+* Eggdrop Bots Tutorial (coming soon in a few days) - learn how toset up your own Eggdrop bots on IRC, and how to send them commands, makethem execute automated processes or commands on certain conditions or timeetc'.
+
+Local stuff
+* Overclocking Tutorial (version 1.6)- tired of your old CPU? Your outdated 3D accelerator? Your X-type hardware?Then do some overclocking! Get more speed from your hardware for free!This tutorial covers overclocking plus lots of explanations about variouspieces of hardware like the CMOS chip, the Cache chip, your RAM, BUS connectionsetc'.
+* Windows Registry Tutorial (version 1.0)- learn more about the Windows registry. How does it work, what does itdo and what happened to the old .ini files?
+* Standalone Security (this tutorials wasn'twritten by a BSRF member. Read about what exactly happened here).
+* Interesting Things You Didn't Know About YourComputer's Hardware (version 1.0) - read Njan's amazing tutorial aboutall those things you always wanted to know about PC hardware but neverhad the guts to ask.
+
+Phreaking
+* Phreaking Tutorial (version 1.0) - thisshould get all those newbie phreakers out there started. An excellent tutorialby Squiler, the only phreaker aboard BSRF.
+* Advanced Phreaking Tutorial (version1.1) - already finished Squiler's phreaking tutorial?Want more? Then this one is for you! More phreaking information and techniques,with some more advanced stuff than the previous one.
+* The Ultimate Phreaking Tutorial II (version1.0) - liked Squiler's first phreaking tutorial?Want more? Then read this one!
+
+Cracking
+* Cracking, Part I (version 1.0) - learnhow to crack programs by yourself, and what the hell cracking means anyway.
+
+Programming
+* HTML (version 1.0) - learn how to buildyour own HTML pages. Fonts, colors, pictures, backgrounds, frames, imagemaps and what not.
+
+Upcoming Tutorials
+* DoS Attacks Tutorial - learn how DoS attacks work and how to protectyourself against them.
+* Eggdrop Bots - learn how Eggdrop bots work and how to set up yourown bot.
+* PGP Tutorial - learn how PGP works behind the scenes and how to useit.
+* The POP Protocol - wanna learn more on how Email works? Wanna deletespam and mailbombs on the server, without even having to download themand fill your entire inbox? Then read this one once it gets out.
+* Cracking, Part II + III - the continuation of Techlord'sfirst cracking tutorial.
+* Exploits Explained series - a series of tutorials about various exploitsin various fields.
+
+Translated Tutorials
+Overclocking Tutorial (Lithuanianversion) - by Saint.

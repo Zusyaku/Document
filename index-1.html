@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Introduction</TITLE>
+
+<META NAME="keywords" CONTENT="Oracle,DBA,PHP,Zope,Perl,Python,Java,Systems Analyst,Designer/2000,Developer/2000,PL/SQL,Pro*C,ASP,FileMaker Pro,Cold Fusion,Linux,Unix">
+<META NAME="description" CONTENT="Home page of V.Satheesh Babu, an Oracle systems analyst with 6 years experience in Unix/Linux, PHP/Zope/Java/Cold Fusion/ASP.">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" CONTENT="NOFOLLOW">
+<META NAME="generator" CONTENT="Zope 2.0.1 on Mandrake Linux 6.1">
+<META NAME="author" CONTENT="V.Satheesh Babu">
+<META NAME="copyright" CONTENT="&copy; 1999-2000 V.Satheesh Babu">
+
+
+<link rel="stylesheet" href="Babu.css">
+</HEAD>
+
+<BODY leftmargin="20" topmargin="3" marginwidth="0" marginheight="0">
+<hr noshade size="1">
+<center>
+  <A href="index-2.html">Next</A> Previous <A href="index.html#toc1">Contents</A> 
+</center>
+<HR size="1" noshade>
+<H2><A name="s1">1. Introduction</A></H2>
+
+<P>Perl was invented by Larry Wall. He called it Practical Extraction and
+Reporting Language (he also calls it Pathologically Eclectic Rubbish Lister).
+What started as an exercise in unifying multiple tools used to write scripts
+to make routine tasks of a system adminstrator evolved into a powerful
+scripting language with lots of followers. 
+<P>In all fairness, Perl (written always as Perl and not as PERL), is now treated
+as a generic programming language, though its early beginnings as a melting pot
+of multiple computing paradigms still make it possible to write undecipherable
+programs! We will try to get an introduction to Perl and its prowess as a text
+manipulation language without trying to write cryptic programs. 
+<P>According to Larry Wall, the parents of Perl are
+<BLOCKQUOTE><CODE>
+<PRE>
+                        COMPUTER SCIENCE
+
+LINGUISTICS                  Perl                   COMMON SENSE
+
+                             ART
+</PRE>
+</CODE></BLOCKQUOTE>
+
+So, Perl is a computer language that helps to implement some common sense with
+help from the principles of computer science in an artistic way using common
+linguistic constructs.
+<P>
+<H2><A name="ss1.1">1.1 Short History</A>
+</H2>
+
+<P>Like mentioned  before, Perl was born as a tool to aid system administrators.
+In 1986, Larry Wall was asked to build a bi-coastal CM system in a very short
+time. That, he did and then his manager asked to produce reports from the
+system. Awk in those days did not have the capability to manage multiple input
+files and hence the new language was born. 
+<P>Primarily, the new language was aimed at getting things done quickly with data
+from and to multiple files.
+<P>
+<H2><A name="ss1.2">1.2 Evolution</A>
+</H2>
+
+<P>From a quick hack by one system administrator, Perl has grown into a full-fledged language. It is being developed and enhanced continuously by hundreds of programmers around the world. One big step in earning recognition was the addition of regular expression engine. Now, the regular expression capabilities of Perl are so well known (especially since version 5.0), that it is being used in other languages like Python as Perl5 regex'es.
+<P>The growth of Internet also complemented Perl. The initial attempt at providing dynamic content was through CGI (even now CGI is used extensively), and Perl's remarkable text handling features made it a quick fit. CGI programming is now synonymous with Perl programming.
+<P><i>CPAN</i> - Comprehensive Perl Archive Network, was set up to share Perl 
+  code. Perl supports modules and chances are that for 99% of the programming 
+  requirements, there is already a tested module in CPAN (for the remaining 1%, 
+  write modules and contribute to CPAN!). Using modules really mask the complexities 
+  of adhering to pre-defined standards and frees you to concentrate on your tasks 
+  - no point in re-inventing the wheel. Now, you have modules which handles graphics, 
+  CGI etc... 
+<P>You can also embed Perl code in your C/C++ programs. A very popular embedded
+Perl architecture is mod_perl for Apache web server. 
+<P><B>JAPH</B> is a project to get Java and Perl working together.
+<P>
+<H2><A name="ss1.3">1.3 Relevance</A>
+</H2>
+
+<P>
+<P>
+<H3>Data manipulation</H3>
+
+<P>Perl can handle strings, dates, binary data, database connectivity, streams,
+sockets and many more. This ability to manipulate multiple data types help
+immensely in data conversion (and by the way, it is much faster than PL/SQL!).
+Perl also has provision for lists (or arrays) and for
+hashes (associative arrays). Perl also supports references, which are similar
+to the pointers in C. Lists, hashes and references together make it possible
+to define and manipulate powerful custom-defined data-types. 
+<P>
+<H3>Glue language</H3>
+
+<P>Perl does not differentiate between files and pipes. So, it makes it very easy
+to use Perl as a glue language. Suppose you have a sed script, the output of
+which is to be given to a Perl script. You can do this the UNIX way,
+<BLOCKQUOTE><CODE>
+<PRE>
+sedscript | perlscript
+</PRE>
+</CODE></BLOCKQUOTE>
+
+or the perl way
+<BLOCKQUOTE><CODE>
+<PRE>
+perlscript
+  open(FH,"sedscript|") or die "could not open sedscript\n"l
+  ...
+</PRE>
+</CODE></BLOCKQUOTE>
+
+This really helps when people want to migrate from traditional UNIX tools like
+Awk, sed, grep etc... You can use these tools straightaway instead of worrying
+on how to do the same thing entirely in Perl.
+<P>In this aspect, Perl is just like shell. However, we must consider other
+features of Perl, which shell simply cannot provide easily.
+<P>
+<P>
+<H3>CGI</H3>
+
+<P>CGI.pm. Period. Almost all CGI programs written today are using the CGI.pm module from CPAN. Even before this was written, people used to use Perl extensively for CGI programming. CGI.pm made the process streamlined and easy, even for beginners. The graphics library GD is used extensively in producing dynamic web charts.
+<P>
+<H3>Quick coding</H3>
+
+<P>The ease with which Perl can be employed to write programs quickly cannot be overstressed. <EM>A disturbing fact about this is that such quick code can tend to be dirty and quickly get out of hand if you keep extending it! </EM> Most of the time, you must control  your urges to over-extend short programs! But, as a prototyping tool, or as a fast reporting/text-processing tool, Perl is immensely helpful.
+<P>Two very good tools worth mentioning in this context are <B>s2p</B> and 
+<B>a2p</B> tools which come with the Perl distribution. s2p converts a sed script to Perl script and a2p converts from Awk scripts. These two help a lot
+in extending sed and awk scripts.
+<P>
+<H3>Portability</H3>
+
+<P>Most of the Perl code will run without any change in Unix or Windows or Macintosh. Typical changes you might have to make include specifying file paths and use of low-level OS specific functions.
+<P>
+<H2><A name="ss1.4">1.4 Installation</A>
+</H2>
+
+<P>Just go to 
+<A href="http://www.perl.com">http://www.perl.com</A> and download the source or pre-compiled binaries. Installation typically includes extracting the binary and then changing your PATH variable to reflect where Perl executable resides. Even when you want to compile Perl from scratch, it is a simple job. 
+<P>
+<H2><A name="ss1.5">1.5 Similarities to common languages/tools</A>
+</H2>
+
+<P>Perl has a remarkable resemblance to the syntax of C, AWK, SED and SHELL.
+<P>
+<H3>C</H3>
+
+<P>99% of code looks like C code. So, it is very easy for C programmers
+to switch to Perl. And believe me, the <EM>code as you go</EM> philosophy
+of Perl really makes C programmers happy - especially for small programs.
+All C functions that are available through standard libraries are available
+with little or no change at all in Perl.
+<P>
+<H3>AWK & SED</H3>
+
+<P>The string processing strategy of Perl is very similar to that of Awk and sed,
+making it easy to migrate. 
+<P>
+<H3>Shell</H3>
+
+<P>Again, the commenting scheme, variable naming scheme etc of Perl look similar
+to that of Shell.  Many  shell utilities like grep, tr etc are available as functions within Perl.
+<P>
+<HR noshade size="1">
+<center>
+  <A href="index-2.html">Next</A> Previous <A href="index.html#toc1">Contents</A> 
+</center>
+<hr width="100%" size="1" noshade>
+<br>
+<p class="copyright">
+Copyright&copy; 2000 <U>V.Satheesh Babu</U>. All rights reserved.
+</p>
+
+</BODY>
+</HTML>

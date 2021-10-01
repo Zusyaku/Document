@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Useful Examples</TITLE>
+
+<META NAME="keywords" CONTENT="Oracle,DBA,PHP,Zope,Perl,Python,Java,Systems Analyst,Designer/2000,Developer/2000,PL/SQL,Pro*C,ASP,FileMaker Pro,Cold Fusion,Linux,Unix">
+<META NAME="description" CONTENT="Home page of V.Satheesh Babu, an Oracle systems analyst with 6 years experience in Unix/Linux, PHP/Zope/Java/Cold Fusion/ASP.">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" CONTENT="NOFOLLOW">
+<META NAME="generator" CONTENT="Zope 2.0.1 on Mandrake Linux 6.1">
+<META NAME="author" CONTENT="V.Satheesh Babu">
+<META NAME="copyright" CONTENT="&copy; 1999-2000 V.Satheesh Babu">
+
+
+<link rel="stylesheet" href="Babu.css">
+</HEAD>
+
+<BODY leftmargin="20" topmargin="3" marginwidth="0" marginheight="0">
+<hr noshade size="1">
+<center>
+  <A href="index-4.html">Next</A> <A href="index-2.html">Previous</A> <A href="index.html#toc3">Contents</A> 
+</center>
+<HR noshade size="1">
+<H2><A name="s3">3. Useful Examples</A></H2>
+
+<P>
+<H2><A name="ss3.1">3.1 Processing colon delimited Excel files</A>
+</H2>
+
+<P>This example takes in a text file as parameter and creates a set of SQL
+statements which will create Oracle tables.
+<BLOCKQUOTE><CODE>
+<PRE>
+#! /usr/local/bin/perl
+
+# this is the normal perl formatting mechanism
+# we don't've any standard headers, so we make
+# STDOUT_TOP as blank.
+format STDOUT_TOP =
+. 
+# now we format and print the column types nicely
+# the @<<<... is the picture and for each picture line, we
+# must have the next line made of the variables.
+# during printing, picture is substituted by the actual
+# values in the corresponding variables
+# @< will left align, @> for right align, @| for center-align
+format STDOUT =
+   @<<<<<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<<<<<<<< @<<<<<<<<<<<<<
+$column_name, $data_type, $nullable
+.
+
+# you can have multiple table definitions in one input file
+# so keep a count
+$tableno=$colno=0;
+
+# similarly, we will store the comments in hashes
+%colcmnts=%tblcmnts=();
+LINE: while(<>){
+        chomp; # remove the new line character
+        next LINE if (/^$/); # ignore null lines
+        next LINE if (/^\s*#/); # ignore comment lines
+        ($column_name, $data_type, $precision, $nullable, $comment) = split /:/;
+        $column_name =~ tr/[A-Z]/[a-z]/ ; #lowercase column name
+        if ($data_type eq ""){ #no data-type ? then this is a table
+                $table_name = $column_name;
+                $colno=0;
+                print ");\n\n" unless ($tableno==0);
+                print "CREATE TABLE $table_name AS (\n";
+                $tableno++;
+                #store table comment if there is a comment
+                $tblcmnts{$table_name} = $comment unless ($comment eq "");
+                next LINE;
+        }
+        #column comment
+        $colcmnts{"$table_name.$column_name"} = $comment unless ($comment eq "");
+        $colno++;
+        #if precision is specified, we need to put it inside parantheses
+        $data_type .="($precision)" unless ($precision eq  "");
+        if ($colno==1) {
+                $column_name = " $column_name";
+        } else {
+                $column_name = ",$column_name";
+        }
+        $data_type =~ tr/[a-z]/[A-Z]/ ; # uppercase datatype
+        $nullable =~ tr/[a-z]/[A-Z]/ ;  # upper case "not null"
+        # print to the format defined before
+        write ;
+}
+print ");\n\n" ;
+
+
+
+# print table comments
+foreach my $key (sort keys(%tblcmnts)) {
+        $comment = "'$tblcmnts{$key}'";
+        print "COMMENT ON TABLE $key IS $comment;\n";
+}
+print "\n\n" ;
+
+# print column comments
+foreach my $key (sort keys(%colcmnts)) {
+        $comment = "'$colcmnts{$key}'";
+        print "COMMENT ON COLUMN $key IS $comment;\n";
+}
+print "\n\n" ;
+
+__END__
+# from here is the sample input file
+# columns are
+# column(table):data type:precision:nullable:comment
+# for table name, data type is null
+BARS_BATCH::::Batch Header Table
+batch_number:number:5:not null:The batch number(sequential)
+deposit_date:date::not null:Deposit date of the batch
+payments:number:3:not null:Number of payments in the batch
+payment_amount:number:11,2:not null:Dollar amount of the batch
+pieces:number:3:not null:Number of cheques in the batch
+payment_method:varchar2:2:not null:Method of payment(Cheque,Cash...)
+clerk:varchar2:10:not null:Who entered the batch
+origin:varchar2:2:not null:Where the batch originated (Field, HO...)
+dirty:varchar2:1::Is the batch marked as dirty(1,0)
+actual_payments:number:3::Number of payments actually entered
+actual_amount:number:11,2::Amount actually entered
+creadt:date::not null:Date batch was created
+modidt:date:::Date batch was last modified
+sts:varchar2:1:not null:Status of the batch
+errcode:varchar2:16::Errors in the batch
+
+BARS_GIFTS::::Batch Detail Table
+batch_number:number:5:not null:The batch number(sequential)
+doc_number:number:2:not null:The gift doc number(sequential within batch)
+page:number:2:not null:Page number
+account_id:number:8:not null:Active/new account id for the member
+source:varchar2:14:not null:Active source
+fund:varchar2:16::Active fund
+gift_type:varchar2:2::Active gift type
+credit_account:varchar2:4:not null:Active credit account (check the size!)
+handle_flag:varchar2:1::Special handling flag
+payment_amount:number:11,2:not null:Gift amount
+total_payment_amount:number:11,2:not null:Cheque amount
+creadt:date::not null:Date gift was created
+modidt:date:::Date gift was last modified
+errcode:varchar2:16::Errors in the gift
+
+BARS_ACCOUNTS::::New members
+account_id:number:8:not null:New account id for the member
+title:varchar2:8::Title for the new member
+first_name:varchar2:20::First name
+middle_name:varchar2:20::Middle name
+last_name:varchar2:40:not null:Last name(In TA, can be null)
+suffix:varchar2:8::Suffix
+phone_number:varchar2:15::Phone number
+street_number:varchar2:8::Street number
+street_name:varchar2:30::Street name
+apt_no:varchar2:8::Apartment number
+zipcode:varchar2:5::Zipcode
+zipcode_ext:varchar2:5::Zipcode extension
+city:varchar2:30::City
+state:varchar2:2::State
+freeline:varchar2:50::Free comments
+extraline:varchar2:50::Free comments 2
+
+BARS_CODES::::Default codes for LOVs
+code_type:varchar2:2:not null:Code type
+code:varchar2:20:not null:Code
+codelb:varchar2:40:not null:Description
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss3.2">3.2 Processing fixed format text files</A>
+</H2>
+
+<P>Following is an extract from one of our SQL*Loader control files.
+Note that the ocr_gift_fate and ocr_deposit_date columns are same
+and that there is a filler between positions 21 and 27.
+<BLOCKQUOTE><CODE>
+<PRE>
+INTO TABLE ACQUIRED_DATA
+   WHEN record_type =  'T'
+(
+record_type  POSITION(001:001) CHAR
+ "DECODE (:record_type, 'T', 'BT', 'X', 'FT', 'D', 'D', 'O')",
+ocr_batch_number POSITION(002:010) CHAR,
+ocr_gift_date POSITION(011:021) CHAR,
+ocr_deposit_date POSITION(011:021) CHAR,
+target_payment_num POSITION(027:029) INTEGER EXTERNAL,
+target_payment_amt POSITION(030:040) DECIMAL EXTERNAL
+)
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Here is our Perl code to read all the <EM>T</EM> records, split the record
+into corresponding variables and then print the batch number, payment number
+and the amount.
+<BLOCKQUOTE><CODE>
+<PRE>
+#! /usr/local/bin/perl -w
+
+# read standard input
+LINE : while(<>) {
+    #ignore records other than  batch headers
+    next LINE unless /^T/;
+
+    # remove the new line character
+    chomp;
+
+    # split the record!
+    ($rec_type, $ocr_batch_number, $ocr_gift_date,
+     $filler, $target_payment_num,
+     $target_payment_amount) = unpack("A1 A9 A11 A5 A3 A11",$_);
+
+     #convert the number fields from scalar string to scalar number!
+     $target_payment_num += 0;
+     $target_payment_amount += 0;
+
+     #voila! print it
+     print "$ocr_batch_number, $target_payment_num, $target_payment_amount \n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss3.3">3.3 Report Generation and Formatting</A>
+</H2>
+
+<P>This is same as the previous code except that we now format the output nicely
+(well, it is debatable whether this is nice!). We have also added a subroutine
+<B>commify</B> that will format numbers by adding commas.
+<BLOCKQUOTE><CODE>
+<PRE>
+#! /usr/local/bin/perl
+
+# use the POSIX module to access only the function
+# strftime - to format a date nicely
+use POSIX(strftime); 
+# and use it right-away to format current time
+# as MM/DD/YY HH:MI
+$today=strftime("%m/%d/%y %H:%M",localtime());
+
+# this subroutine adds commas to a number
+#
+sub commify {
+        my $input = shift;
+        $input = reverse $input;
+        $input =~ s<(\d\d\d)(?=\d)(?!\d*\.)><$1,>g;
+        return reverse $input;
+}
+
+#define the page header
+## $% is the page number
+format STDOUT_TOP=
+                      THE NATURE CONSERVANCY
+@<<<<<<<<<<<<<       Upload File Batch Report          Page : @>>>
+$today,$%
+------------------------------------------------------------------
+Batch Number        Gift Date     Payments                  Amount
+------------------------------------------------------------------
+.
+
+# define the page
+format STDOUT=
+@<<<<<<<<<<<<<<<<   @<<<<<<<<<<    @>>>>>>  @>>>>>>>>>>>>>>>>>>>>>
+$ocr_batch_number,$ocr_gift_date,$target_payment_num,$target_payment_amount
+.
+
+# $= is the lines per page . Normal printers have this as 59
+$= = 59;
+
+# initialize the variables that hold report totals
+$sum_num = $sum_amount = 0;
+
+# read standard input
+LINE : while(<>) {
+        #ignore records other than  batch headers
+        next LINE unless /^T/;
+
+        # remove the new line character
+        chomp;
+
+        # split the record!
+        ($rec_type, $ocr_batch_number, $ocr_gift_date,
+         $filler, $target_payment_num,
+         $target_payment_amount) = unpack("A1 A9 A11 A5 A3 A11",$_);
+
+         #convert the number fields from scalar string to scalar number!
+         $target_payment_num += 0;
+         $target_payment_amount += 0;
+
+         # add to the totals
+         $sum_num += $target_payment_num;
+         $sum_amount += $target_payment_amount;
+
+         #add commas to the number
+         $target_payment_num = &commify($target_payment_num);
+         # dollar amount should have 2 decimal places 
+         $target_payment_amount = "\$".&commify(sprintf("%.2f",$target_payment_amount));
+
+         #voila! print it
+         #print "$ocr_batch_number, $target_payment_num, $target_payment_amount \n";
+         write;
+}
+
+##
+# print a line before printing totals
+#
+$ocr_batch_number = "---------";
+$ocr_gift_date = "-----------";
+$target_payment_num = "------";
+$target_payment_amount = "----------------------";
+write;
+
+##
+# print totals
+#
+$ocr_batch_number = "TOTAL";
+$ocr_gift_date = "";
+$target_payment_num = &commify($sum_num);
+$target_payment_amount = "\$".&commify(sprintf("%.2f",$sum_amount));
+write;
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss3.4">3.4 DBM Databases</A>
+</H2>
+
+<P>DBM is a standard UNIX database, which store data as key-value pairs. In this
+example, we will read in the batch records, check against a DBM database
+whether the batch exists in that. If it exists, we will print an error
+and if not we will insert the batch and values. This code helps in 
+checking for duplicate uploading of batches.
+<BLOCKQUOTE><CODE>
+<PRE>
+#! /usr/local/bin/perl
+
+# set the name of your DBM file
+$DBM_FILE = "batches.db";
+
+# this will create two files, one for data and one for index
+dbmopen %HASH, $DBM_FILE, 0666
+    or die "Can't open $DBM_FILE: $!\n";
+
+# read standard input
+LINE : while(<>) {
+        #ignore records other than  batch headers
+        next LINE unless /^T/;
+
+        # remove the new line character
+        chomp;
+
+        # split the record!
+        ($rec_type, $ocr_batch_number, $ocr_gift_date,
+         $filler, $target_payment_num,
+         $target_payment_amount) = unpack("A1 A9 A11 A5 A3 A11",$_);
+
+                #convert the number fields from scalar string to scalar number!
+                $target_payment_num += 0;
+                $target_payment_amount += 0;
+
+                # key is the batch number
+                # value is batch date + payments + amount
+                # all joined by :
+                ($Key,$Value) = ($ocr_batch_number,"$ocr_gift_date:$target_payment_num:$target_payment_amount");
+                ##
+                # check whether this batch is already loaded
+                if ( defined($HASH{$Key}) ) {
+                        # if so, print an error
+                        ($b_date,$b_payments,$b_amount)=split(/:/,$HASH{$Key});
+                        print "Error: The batch $Key ($b_payments for \$$b_amount) is already uploaded\n";
+                } else {
+                        # else, add to the batch database
+                        $HASH{$Key} = $Value;
+                }
+}
+dbmclose %HASH;
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss3.5">3.5 Exercise</A>
+</H2>
+
+<P>Using the examples above, write a program to read all batch records
+from an input file, verify against a DBM database and print a formatted
+report. Duplicate batches should also be indicated in the report. Try
+to split the tasks (verifying against the database, reporting etc) into
+individual subroutines.
+<P>Also add another routine to generate an Excel CSV file report, in addition
+to the normal report.
+<P>
+<HR size="1" noshade>
+<center>
+  <A href="index-4.html">Next</A> <A href="index-2.html">Previous</A> <A href="index.html#toc3">Contents</A> 
+</center>
+<hr noshade size="1">
+<br>
+<p class="copyright">
+Copyright&copy; 2000 <U>V.Satheesh Babu</U>. All rights reserved.
+</p>
+
+</BODY>
+</HTML>

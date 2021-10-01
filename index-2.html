@@ -1,0 +1,1328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Tutorial</TITLE>
+
+<META NAME="keywords" CONTENT="Oracle,DBA,PHP,Zope,Perl,Python,Java,Systems Analyst,Designer/2000,Developer/2000,PL/SQL,Pro*C,ASP,FileMaker Pro,Cold Fusion,Linux,Unix">
+<META NAME="description" CONTENT="Home page of V.Satheesh Babu, an Oracle systems analyst with 6 years experience in Unix/Linux, PHP/Zope/Java/Cold Fusion/ASP.">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" CONTENT="NOFOLLOW">
+<META NAME="generator" CONTENT="Zope 2.0.1 on Mandrake Linux 6.1">
+<META NAME="author" CONTENT="V.Satheesh Babu">
+<META NAME="copyright" CONTENT="&copy; 1999-2000 V.Satheesh Babu">
+
+
+<link rel="stylesheet" href="Babu.css">
+</HEAD>
+
+<BODY leftmargin="20" topmargin="3" marginwidth="0" marginheight="0">
+<hr noshade size="1">
+<center>
+  <A href="index-3.html">Next</A> <A href="index-1.html">Previous</A> <A href="index.html#toc2">Contents</A> 
+</center>
+<HR noshade size="1">
+<H2><A name="s2">2. Tutorial</A></H2>
+
+<P><EM>Majority of the contents of this tutorial section  were written by Nik Silver, at the School of Computer Studies, University of Leeds, UK.</EM>
+Assuming working knowledge of any programming language, we will now try to see
+what Perl programs look like.
+<P>
+<H2><A name="ss2.1">2.1 First Step</A>
+</H2>
+
+<P>Ever since Kernighan and Ritchie came out with <B>C programming language</B>,
+people have started learning almost any programming language with the
+obligatory "Hello World" program. Let us do the same!
+<P>
+<H3>Hello World!</H3>
+
+<P>Here is the basic perl program that we'll use to get started.
+<BLOCKQUOTE><CODE>
+  <HR size="1">
+<PRE>
+#! /usr/local/bin/perl
+#
+# prints a greeting.
+#
+print 'Hello world.';           # Print a message
+</PRE>
+  <HR noshade size="1">
+</CODE></BLOCKQUOTE>
+<P>
+<H3>Comments</H3>
+
+<P>A common Perl-pitfall is to write cryptic code. In that context, Perl do
+provide for comments, albeit not very flexible. Perl treats any thing from a
+hash <B>#</B> to the end of line as a comment. Block comments are not
+possible. So, if you want to have a block of comments, you must ensure that
+each line starts with #.
+<P>
+<H3>Statements</H3>
+
+<P>Everything other than comments are  Perl statements, which must end with a semicolon, like
+the last line above. Unlike C, you need not put a wrapping character <B>\</B>
+for long statements. A Perl statement always ends with a semicolon.
+<P>
+<H2><A name="ss2.2">2.2 Running Perl</A>
+</H2>
+
+<P>Type in the example program using a text editor, and save it. The first line
+of the program is a typical shell construct, which will make the shell start the
+interpreter and feed the remaining lines of the file as an input to the
+interpreter. 
+<P>After you've entered and saved the program make sure the file is executable by using the command 
+<BLOCKQUOTE><CODE>
+<PRE>
+chmod u+x progname
+</PRE>
+</CODE></BLOCKQUOTE>
+
+at the UNIX prompt, where progname is the filename of the program. Now, to run
+the program, just type any of the following at the prompt. 
+<BLOCKQUOTE><CODE>
+<PRE>
+perl progname
+./progname
+progname
+</PRE>
+</CODE></BLOCKQUOTE>
+
+If something goes wrong then you may get error messages, or you may get 
+nothing. You can always run the program with warnings using the command 
+<BLOCKQUOTE><CODE>
+<PRE>
+perl -w progname
+</PRE>
+</CODE></BLOCKQUOTE>
+
+at the prompt. This will display warnings and other (hopefully) helpful 
+messages before it tries to execute the program. To run the program with 
+a debugger use the command 
+<BLOCKQUOTE><CODE>
+<PRE>
+perl -d progname
+</PRE>
+</CODE></BLOCKQUOTE>
+
+When the file is executed Perl first compiles it and then executes that 
+compiled version. Unlike many other interpreted languages, Perl scripts 
+are compiled first, helping you to catch most of errors before program 
+actually starts executing. In this context, the <B>-w</B> switch is 
+very helpful. It will warn you about unused variables, suspicious 
+statements etc.
+<P>
+<P>
+<H2><A name="ss2.3">2.3 Scalars</A>
+</H2>
+
+<P>Perl supports 3 basic types of variables, viz., scalars, lists and hashes. 
+We will explore each of these little more.
+<P>The most basic kind of variable in Perl is the <EM> scalar variable</EM>.
+Scalar variables hold both strings and numbers, and are remarkable in
+that strings and numbers are completely interchangeable. For example,
+the statement
+<BLOCKQUOTE><CODE>
+<PRE>
+$age = 27;
+</PRE>
+</CODE></BLOCKQUOTE>
+
+sets the scalar variable $age to 27, but you can also assign a string
+to exactly the same variable:
+<BLOCKQUOTE><CODE>
+<PRE>
+$age = 'Twenty Seven';
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Perl also accepts numbers as strings, like this:
+<BLOCKQUOTE><CODE>
+<PRE>
+$priority = '9';
+$default = '0009';
+</PRE>
+</CODE></BLOCKQUOTE>
+
+and can still cope with arithmetic and other operations quite happily.
+However, please note that the following code is a bit too much to ask for!
+<BLOCKQUOTE><CODE>
+<PRE>
+$age = 'Twenty Seven';
+$age = $age + 10;
+</PRE>
+</CODE></BLOCKQUOTE>
+
+<I>For the curious, the above code will set $age to 10. Think why.</I>
+<P>In general variable names consists of numbers, letters and underscores, but
+they should not start with a number and the variable <B>$_</B> is
+special, as we'll see later. Also, Perl is case sensitive, so
+$a and $A are different.
+<P>
+<H3>Operations and Assignment</H3>
+
+<P>
+<P>Perl uses all the usual C arithmetic operators:
+<BLOCKQUOTE><CODE>
+<PRE>
+$a = 1 + 2;     # Add 1 and 2 and store in $a
+$a = 3 - 4;     # Subtract 4 from 3 and store in $a
+$a = 5 * 6;     # Multiply 5 and 6
+$a = 7 / 8;     # Divide 7 by 8 to give 0.875
+$a = 9 ** 10;   # Nine to the power of 10
+$a = 5 % 2;     # Remainder of 5 divided by 2
+++$a;           # Increment $a and then return it
+$a++;           # Return $a and then increment it
+--$a;           # Decrement $a and then return it
+$a--;           # Return $a and then decrement it
+</PRE>
+</CODE></BLOCKQUOTE>
+
+and for strings Perl has the following among others:
+<BLOCKQUOTE><CODE>
+<PRE>
+$a = $b . $c;   # Concatenate $b and $c
+$a = $b x $c;   # $b repeated $c times
+</PRE>
+</CODE></BLOCKQUOTE>
+
+To assign values Perl includes
+<BLOCKQUOTE><CODE>
+<PRE>
+$a = $b;        # Assign $b to $a
+$a += $b;       # Add $b to $a
+$a -= $b;       # Subtract $b from $a
+$a .= $b;       # Append $b onto $a
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Note that when Perl assigns a value with <B>$a = $b</B> it 
+makes a copy of $b and then assigns that to $a. Therefore 
+the next time you change $b it will not alter $a.
+<P>Other operators can be found on the <B>perlop</B> manual page.
+Type <B>man perlop</B> at the prompt.
+<P>
+<H3>Interpolation</H3>
+
+<P>The following code prints <EM>apples and pears</EM> using concatenation:
+<BLOCKQUOTE><CODE>
+<PRE>
+$a = 'apples';
+$b = 'pears';
+print $a.' and '.$b;
+</PRE>
+</CODE></BLOCKQUOTE>
+
+It would be nicer to include only one string in the final print statement,
+but the line
+<BLOCKQUOTE><CODE>
+<PRE>
+print '$a and $b';
+</PRE>
+</CODE></BLOCKQUOTE>
+
+prints literally <EM>$a and $b</EM> which isn't very helpful.
+Instead we can use the double quotes in place of the single quotes:
+<BLOCKQUOTE><CODE>
+<PRE>
+print "$a and $b";
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The double quotes force <EM>interpolation</EM> of any codes, including
+interpreting variables. This is a much nicer than our original statement.
+Other codes that are interpolated include special characters such as
+newline and tab. The code <B>\n</B> is a newline and
+<B>\t</B> is a tab.
+<P>
+<P>
+<H3>Exercise</H3>
+
+<P>This exercise is to rewrite the Hello world program so that
+(a) the string is assigned to a variable and (b) this variable is
+then printed with a newline character. Use the double quotes and
+don't use the concatenation operator. 
+<P>
+<H2><A name="ss2.4">2.4 Lists (Arrays)</A>
+</H2>
+
+<P>A slightly more interesting kind of variable is the <EM>list variable</EM>
+which is an array  of scalars (i.e. numbers and strings). From now on, we will
+use the terms list and array interchangeably.
+<P>Array variables have the same format as scalar variables except that they
+are prefixed by an <B>@</B> symbol. The statement
+<BLOCKQUOTE><CODE>
+<PRE>
+@food  = ("apples", "pears", "eels");
+@music = ("whistle", "flute");
+</PRE>
+</CODE></BLOCKQUOTE>
+
+assigns a three element list to the array variable @food and
+a two element list to the array variable @music.
+<P>The array is accessed by using indices starting from 0,
+and square brackets are used to specify the index. The expression
+<BLOCKQUOTE><CODE>
+<PRE>
+$food[2]
+</PRE>
+</CODE></BLOCKQUOTE>
+
+returns <EM>eels</EM>. Notice that the <B>@</B> has changed to
+a <B>$</B> because <EM>eels</EM> is a scalar.
+<P>
+<H3>Array assignments</H3>
+
+<P>As in all of Perl, the same expression in a different context can produce
+a different result. The first assignment below
+explodes the @music variable so that it is equivalent to the second
+assignment.
+<BLOCKQUOTE><CODE>
+<PRE>
+@moremusic = ("organ", @music, "harp");
+@moremusic = ("organ", "whistle", "flute", "harp");
+</PRE>
+</CODE></BLOCKQUOTE>
+
+This should suggest a way of adding elements to an array. A neater way
+of adding elements is to use the statement
+<BLOCKQUOTE><CODE>
+<PRE>
+push(@food, "eggs");
+</PRE>
+</CODE></BLOCKQUOTE>
+
+which pushes <EM>eggs</EM> onto the end of the array @food. To push two
+or more items onto the array use one of the following forms:
+<BLOCKQUOTE><CODE>
+<PRE>
+push(@food, "eggs", "lard");
+push(@food, ("eggs", "lard"));
+push(@food, @morefood);
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The <B>push</B> function returns the length of the new list. So does
+<B>$#food</B> !
+<P>
+<P>
+<P>To remove the last item from a list and return it use the
+<B>pop</B> function.
+From our original list the <B>pop</B> function returns
+<EM>eels</EM> and @food now has two elements:
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+$grub = pop(@food);     # Now $grub = "eels"
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>It is also possible to assign an array to a scalar variable. As usual
+context is important. The line
+<BLOCKQUOTE><CODE>
+<PRE>
+$f = @food;
+</PRE>
+</CODE></BLOCKQUOTE>
+
+assigns the length of @food, but
+<BLOCKQUOTE><CODE>
+<PRE>
+$f = "@food";
+</PRE>
+</CODE></BLOCKQUOTE>
+
+turns the list into a string with a space between each element. This
+space can be replaced by any other string by changing the value
+of the special <B>$"</B> variable. This variable is 
+just one of Perl's many special variables, most of which have odd names.
+<P><EM>When you get overloaded with oddity, use the English module which
+lets you name these variables in more user-friendly (i.e. to English-speaking
+people) way.</EM>
+<P>Arrays can also be used to make multiple assignments to scalar
+variables:
+<BLOCKQUOTE><CODE>
+<PRE>
+($a, $b) = ($c, $d);            # Same as $a=$c; $b=$d;
+($a, $b) = @food;               # $a and $b are the first two
+                                # items of @food.
+($a, @somefood) = @food;        # $a is the first item of @food
+                                # @somefood is a list of the
+                                # others.
+(@somefood, $a) = @food;        # @somefood is @food and
+                                # $a is undefined.
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The last assignment occurs because arrays are greedy, and @somefood
+will swallow up as much of @food as it can. Therefore that form
+is best avoided.
+<P>Finally, you may want to find the index of the last element of a list.
+To do this for the @food array use the expression
+<BLOCKQUOTE><CODE>
+<PRE>
+$#food
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H3>Displaying arrays</H3>
+
+<P>Since context is important, it shouldn't be too surprising that
+the following all produce different results:
+<BLOCKQUOTE><CODE>
+<PRE>
+print @food;    # By itself
+print "@food";        # Embedded in double quotes
+print @food."";       # In a scalar context
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss2.5">2.5 Hashes (Associative Arrays)</A>
+</H2>
+
+<P>Ordinary list arrays allow us to access their element by number. The first
+element of array @food is $food[0]. The second element is $food[1],
+and so on. But Perl also allows us to create arrays which are accessed
+by string. These are called <EM>associative arrays</EM> or <EM>hashes</EM>.
+<P>
+<P>
+<P>To define an associative array we use the usual parenthesis notation, but
+the array itself is prefixed by a % sign. Suppose we want to create an
+array of people and their ages. It would look like this:
+<BLOCKQUOTE><CODE>
+<PRE>
+%ages = ("Michael Caine", 39,
+         "Dirty Den", 34,
+         "Angie", 27,
+         "Willy", "21 in dog years",
+         "The Queen Mother", 108);
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Now we can find the age of people with the following expressions
+<BLOCKQUOTE><CODE>
+<PRE>
+$ages{"Michael Caine"};               # Returns 39
+$ages{"Dirty Den"};           # Returns 34
+$ages{"Angie"};                       # Returns 27
+$ages{"Willy"};                       # Returns "21 in dog years"
+$ages{"The Queen Mother"};    # Returns 108
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Notice that
+like list arrays each
+<B>%</B> sign has changed to a
+<B>$</B> to access an individual
+element because that element is a scalar. Unlike list arrays the
+index (in this case the person's name)
+is enclosed in curly braces, the idea
+being that associative arrays are fancier than list arrays.
+<P>
+<P>
+<P>An associative array can be converted back into a list array just by
+assigning it to a list array variable. A list array can be converted
+into an associative array by assigning it to an associative array
+variable. Ideally the list array will have an even number of
+elements:
+<BLOCKQUOTE><CODE>
+<PRE>
+@info = %ages;          # @info is a list array. It
+                        # now has 10 elements
+$info[5];               # Returns the value 27 from
+                        # the list array @info
+%moreages = @info;      # %moreages is an associative
+                        # array. It is the same as %ages
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>Operators</H3>
+
+<P>
+<P>Associative arrays do not have any order to their elements (they
+are just like hash tables) but is it possible to access all
+the elements in turn using the <B>keys</B> function and the
+<B>values</B> function:
+<BLOCKQUOTE><CODE>
+<PRE>
+foreach $person (keys %ages)
+{
+        print "I know the age of $person\n";
+}
+foreach $age (values %ages)
+{
+        print "Somebody is $age\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+When <B>keys</B> is called it returns a list of the keys
+(indices) of the
+associative array. When <B>values</B> is called it returns a list
+of the values of the array. These functions return their lists in
+the same order, but this order has nothing to do with the order
+in which the elements have been entered.
+<P>
+<P>
+<P>When <B>keys</B> and
+<B>values</B> are called in a scalar context they return
+the number of key/value pairs in the associative array.
+<P>
+<P>
+<P>There is also a function <B>each</B> which returns a two element
+list of a key and its value. Every time <B>each</B>
+is called it returns another key/value pair:
+<BLOCKQUOTE><CODE>
+<PRE>
+while (($person, $age) = each(%ages))
+{
+        print "$person is $age\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>Environment variables</H3>
+
+<P>
+<P>When you run a perl program, or any script in UNIX, there will be
+certain environment variables set. These will be things like
+USER which contains your username and DISPLAY which specifies
+which screen your graphics will go to. When you run a perl CGI script
+on the World Wide Web there are environment variables which hold
+other useful information. All these variables and their values are
+stored in the associative <B>%ENV</B> array in which the keys
+are the variable names. Try the following in a perl program:
+<BLOCKQUOTE><CODE>
+<PRE>
+print "You are called $ENV{'USER'} and you are ";
+print "using display $ENV{'DISPLAY'}\n";
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss2.6">2.6 Control Structures</A>
+</H2>
+
+<P>
+<P>More interesting possibilities arise when we introduce control structures
+and looping. Perl supports lots of different kinds of control structures
+which tend to be like those in C, but are very similar to Pascal, too.
+Here we discuss a few of them.
+<P>
+<P>
+<H3>foreach</H3>
+
+<P>
+<P>To go through each line of an array or other list-like structure
+(such as lines in a file) Perl uses the foreach structure. This has
+the form
+<BLOCKQUOTE><CODE>
+<PRE>
+foreach $morsel (@food)         # Visit each item in turn
+                                # and call it $morsel
+{
+        print "$morsel\n";    # Print the item
+        print "Yum yum\n";    # That was nice
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The actions to be performed each time are enclosed in a block
+of curly braces.
+The first time through the block $morsel is assigned the value of
+the first item in the array @food. Next time it is assigned the
+value of the second item, and so until the end. If @food is empty
+to start with then the block of statements is never executed.
+<P>
+<P>
+<H3>Testing</H3>
+
+<P>
+<P>The next few structures rely on a test being true or false. In Perl
+any non-zero number and non-empty string is counted as true.
+The number zero,
+zero by itself in a string, and
+the empty string are counted as false. Here are some tests on numbers
+and strings.
+<BLOCKQUOTE><CODE>
+<PRE>
+$a == $b                # Is $a numerically equal to $b?
+                        # Beware: Don't use the = operator.
+$a != $b                # Is $a numerically unequal to $b?
+$a eq $b                # Is $a string-equal to $b?
+$a ne $b                # Is $a string-unequal to $b?
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>You can also use logical and, or and not:
+<BLOCKQUOTE><CODE>
+<PRE>
+($a && $b)              # Is $a and $b true?
+($a || $b)              # Is either $a or $b true?
+!($a)                   # is $a false?
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>for</H3>
+
+<P>
+<P>Perl has a <B>for</B> structure that mimics that of C.
+It has the form
+<BLOCKQUOTE><CODE>
+<PRE>
+for (initialise; test; inc)
+{
+         first_action;
+         second_action;
+         etc
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>First of all the statement <EM>initialise</EM> is executed. Then while
+<EM>test</EM> is true the block of actions is executed. After each
+time the block is executed <EM>inc</EM> takes place. Here is an
+example for loop to print out the numbers 0 to 9.
+<BLOCKQUOTE><CODE>
+<PRE>
+for ($i = 0; $i < 10; ++$i)  # Start with $i = 1
+                                # Do it while $i < 10
+                                # Increment $i before repeating
+{
+        print "$i\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>while and until</H3>
+
+<P>
+<P>Here is a program that reads some input from the keyboard and won't
+continue until it is the correct password
+<BLOCKQUOTE><CODE>
+<PRE>
+#!/usr/local/bin/perl
+print "Password? ";           # Ask for input
+$a = <STDIN>;                     # Get input
+chop $a;                        # Remove the newline at end
+while ($a ne "fred")          # While input is wrong...
+{
+    print "sorry. Again? ";   # Ask again
+    $a = <STDIN>;         # Get input again
+    chop $a;                    # Chop off newline again
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The curly-braced block of code is executed while the input does
+not equal the password. The <B>while</B>
+structure should be fairly clear,
+but this is the opportunity to notice several things. First, we can
+we read from the standard input (the keyboard) without opening the
+file first. Second, when the password is entered $a is given that
+value including the newline character at the end. The
+<B>chop</B> function
+removes the last character of a string which in this case is the
+newline.
+<P>
+<P>
+<P>To test the opposite thing we can use the <B>until</B> statement
+in just the same way. This executes the block repeatedly until the
+expression is true, not while it is true.
+<P>
+<P>
+<P>Another useful technique is putting the <B>while</B> or
+<B>until</B> check at the end of the statement block rather
+than at the beginning. This will require the presence of the
+<B>do</B> operator to mark the beginning of the block and
+the test at the end. If we forgo the <EM>sorry. Again</EM> message
+in the above password program then it could be written like this.
+<BLOCKQUOTE><CODE>
+<PRE>
+#!/usr/local/bin/perl
+do
+{
+        print "Password? ";           # Ask for input
+        $a = <STDIN>;             # Get input
+        chop $a;                # Chop off newline
+}
+while ($a ne "fred")          # Redo while wrong input
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H3>Exercise</H3>
+
+<P>
+<P>Modify the program from the previous exercise so that each line of the file
+is read in one by one and is output with a line number at the beginning.
+You should get something like:
+<BLOCKQUOTE><CODE>
+<PRE>
+1 root:oYpYXm/qRO6N2:0:0:Super-User:/:/bin/csh
+2 sysadm:*:0:0:System V Administration:/usr/admin:/bin/sh
+3 diag:*:0:996:Hardware Diagnostics:/usr/diags:/bin/csh
+etc
+</PRE>
+</CODE></BLOCKQUOTE>
+
+You may find it useful to use the structure
+<BLOCKQUOTE><CODE>
+<PRE>
+while ($line = <INFO>)
+{
+        ...
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>When you have done this see if you can alter it so that line numbers are
+printed as 001, 002, ..., 009, 010, 011, 012, etc. To do this you should
+only need to
+change one line by inserting an extra four characters. Perl's clever like
+that.
+<P>
+<H3>if-else</H3>
+
+<P>Of course Perl also allows if/then/else statements. These are
+of the following form:
+<BLOCKQUOTE><CODE>
+<PRE>
+if ($a)
+{
+        print "The string is not empty\n";
+}
+else
+{
+        print "The string is empty\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+For this, remember that an empty string is considered to be false.
+It will also give an "empty" result if $a is the string <EM>0</EM>.
+<P>
+<P>
+<P>It is also possible to include more alternatives in a conditional
+statement:
+<BLOCKQUOTE><CODE>
+<PRE>
+if (!$a)                        # The ! is the not operator
+{
+        print "The string is empty\n";
+}
+elsif (length($a) == 1)         # If above fails, try this
+{
+        print "The string has one character\n";
+}
+elsif (length($a) == 2)         # If that fails, try this
+{
+        print "The string has two characters\n";
+}
+else                            # Now, everything has failed
+{
+        print "The string has lots of characters\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+In this, it is important to notice that the elsif statement really
+does have an "e" missing.
+<P>Sometimes, it is more readable to use <B>unless</B> instead of
+<B>if (!...)</B> .
+The switch-case statement familiar to C programmers are not available in Perl. You can simulate it in other ways. See the manual pages.
+<P>
+<H3>Exercise</H3>
+
+<P>From the previous exercise
+you should have a program which prints out the password file with line
+numbers. Change it so that works with the text file. Now alter
+the program so that line numbers aren't printed or counted with
+blank lines, but every line is still printed, including the blank ones.
+Remember that when a line of the file is read in it will still
+include its newline character at the end.
+<P>
+<H2><A name="ss2.7">2.7 File operations</A>
+</H2>
+
+<P>Here is the basic perl program which does the same as the UNIX
+<B>cat</B> command on a certain file.
+<BLOCKQUOTE><CODE>
+<PRE>
+#!/usr/local/bin/perl
+#
+# Program to open the password file, read it in,
+# print it, and close it again.
+
+$file = '/etc/passwd';          # Name the file
+open(INFO, $file);              # Open the file
+@lines = <INFO>;          # Read it into an array
+close(INFO);                    # Close the file
+print @lines;                   # Print the array
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>The <B>open</B> function opens a file for input (i.e. for
+reading). The first parameter is the <EM>filehandle</EM> which allows Perl
+to refer to the file in future. The second parameter is an expression
+denoting the filename. If the filename was given in quotes then it is taken
+literally without shell expansion.  So the expression
+'~/notes/todolist' will not be interpreted successfully. If
+you want to force shell expansion then use angled brackets: that is, use
+<~/notes/todolist> instead.
+<P>
+<P>
+<P>The <B>close</B> function tells Perl to finish with that file.
+<P>
+<P>
+<P>There are a few useful points to add to this discussion on file-handling.
+First, the <B>open</B> statement can also specify a file for output
+and for appending as well as for input. To do this, prefix the filename
+with a <B>></B> for output and a <B>>></B> for
+appending:
+<BLOCKQUOTE><CODE>
+<PRE>
+open(INFO, $file);      # Open for input
+open(INFO, ">$file");      # Open for output
+open(INFO, ">>$file");  # Open for appending
+open(INFO, "<$file");      # Also open for input
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>Second, if you want to print something to a file you've already
+opened for output then you can use the print statement with an
+extra parameter. To print a string to the file with the INFO filehandle use
+<BLOCKQUOTE><CODE>
+<PRE>
+print INFO "This line goes to the file.\n";
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>Third, you can use the following to open
+the standard input (usually the keyboard) and standard output
+(usually the screen) respectively:
+<BLOCKQUOTE><CODE>
+<PRE>
+open(INFO, '-');        # Open standard input
+open(INFO, '>-');    # Open standard output
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>In the above program the information is read from a file. The
+file is the INFO file and to read from it Perl uses angled brackets.
+So the statement
+<BLOCKQUOTE><CODE>
+<PRE>
+@lines = <INFO>;
+</PRE>
+</CODE></BLOCKQUOTE>
+
+reads the file denoted by the filehandle into the array @lines.  Note that
+the <INFO> expression reads in the file entirely in one go. This
+is because the reading takes place in the context of an array variable. If
+@lines is replaced by the scalar $lines then only the next one line would
+be read in. In either case each line is stored complete with its newline
+character at the end.
+<P>
+<P>
+<H3>Exercise</H3>
+
+<P>
+<P>Modify the above program so that the entire file is printed with a # symbol
+at the beginning of each line. You should only have to add one line and
+modify another. Use the <B>$"</B> variable.
+Unexpected things can happen with files, so you may find it
+helpful to use the <B>-w</B> option. 
+<P>
+<H3>Extending pipes</H3>
+
+<P>You can very easily substitute reading a file to reading a pipe. The
+following example shows reading the ouput of the <EM>ps</EM> command.
+<BLOCKQUOTE><CODE>
+<PRE>
+open(PS,"ps -aef|") or die "Cannot open ps \n";
+while(<PS>){
+        print ;
+}
+close(PS);
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss2.8">2.8 String Processing</A>
+</H2>
+
+<P>One of the most useful features of Perl (if not <EM>the</EM> most useful
+feature) is its powerful string manipulation facilities. At the
+heart of this is the <EM>regular expression</EM> (RE) which is shared by
+many other UNIX utilities.
+<P>
+<H3>Regular expressions</H3>
+
+<P>
+<P>A regular expression is contained in slashes, and matching occurs with
+the <B>=~</B> operator. The following expression
+is true if the string <EM>the</EM> appears in variable $sentence.
+<BLOCKQUOTE><CODE>
+<PRE>
+$sentence =~ /the/
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The RE is case sensitive, so if
+<BLOCKQUOTE><CODE>
+<PRE>
+$sentence = "The quick brown fox";
+</PRE>
+</CODE></BLOCKQUOTE>
+
+then the above match will be false. The operator <B>!~</B> is
+used for spotting a non-match. In the above example
+<BLOCKQUOTE><CODE>
+<PRE>
+$sentence !~ /the/
+</PRE>
+</CODE></BLOCKQUOTE>
+
+is true because the string <EM>the</EM> does not appear in $sentence.
+<P>
+<P>
+<H3>The $_ special variable</H3>
+
+<P>
+<P>We could use a conditional as
+<BLOCKQUOTE><CODE>
+<PRE>
+if ($sentence =~ /under/)
+{
+        print "We're talking about rugby\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+which would print out a message if we had either of the following
+<BLOCKQUOTE><CODE>
+<PRE>
+$sentence = "Up and under";
+$sentence = "Best winkles in Sunderland";
+</PRE>
+</CODE></BLOCKQUOTE>
+
+But it's often much easier if we assign the sentence to the special
+variable <B>$_</B> which is of course a scalar. If we do this
+then we can avoid using the match and non-match operators and the
+above can be written simply as
+<BLOCKQUOTE><CODE>
+<PRE>
+if (/under/)
+{
+        print "We're talking about rugby\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The <B>$_</B> variable is the default for many Perl operations
+and tends to be used very heavily.
+<P>
+<H3>More on REs</H3>
+
+<P>
+<P>In an RE there are plenty of special characters, and it is these
+that both give them their power and make them appear very complicated.
+It's best to build up your use of REs slowly; their creation can be
+something of an art form.
+<P>
+<P>
+<P>Here are some special RE characters and their meaning
+<BLOCKQUOTE><CODE>
+<PRE>
+.       # Any single character except a newline
+^       # The beginning of the line or string
+$       # The end of the line or string
+*       # Zero or more of the last character
++       # One or more of the last character
+?       # Zero or one of the last character
+</PRE>
+</CODE></BLOCKQUOTE>
+
+and here are some example matches. Remember that should be enclosed
+in <B>/</B>...<B>/</B> slashes to be used.
+<BLOCKQUOTE><CODE>
+<PRE>
+t.e     # t followed by anthing followed by e
+        # This will match the
+        #                 tre
+        #                 tle
+        # but not te
+        #         tale
+^f      # f at the beginning of a line
+^ftp    # ftp at the beginning of a line
+e$      # e at the end of a line
+tle$    # tle at the end of a line
+und*    # un followed by zero or more d characters
+        # This will match un
+        #                 und
+        #                 undd
+        #                 unddd (etc)
+.*      # Any string without a newline. This is because
+        # the . matches anything except a newline and
+        # the * means zero or more of these.
+^$      # A line with nothing in it.
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>There are even more options.
+Square brackets are used to match any one of the characters inside
+them. Inside square brackets a <B>-</B> indicates "between" and
+a <B>^</B> at the beginning means "not":
+<BLOCKQUOTE><CODE>
+<PRE>
+[qjk]           # Either q or j or k
+[^qjk]          # Neither q nor j nor k
+[a-z]           # Anything from a to z inclusive
+[^a-z]          # No lower case letters
+[a-zA-Z]        # Any letter
+[a-z]+          # Any non-zero sequence of lower case letters
+</PRE>
+</CODE></BLOCKQUOTE>
+
+At this point you can probably skip to the end and do at least most of the
+exercise. The rest is mostly just for reference.
+<P>
+<P>
+<P>A vertical bar <B>|</B> represents an "or" and parentheses
+<B>(</B>...<B>)</B>
+can be used to group things together:
+<BLOCKQUOTE><CODE>
+<PRE>
+jelly|cream     # Either jelly or cream
+(eg|le)gs       # Either eggs or legs
+(da)+           # Either da or dada or dadada or...
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>Here are some more special characters:
+<BLOCKQUOTE><CODE>
+<PRE>
+\n              # A newline
+\t              # A tab
+\w              # Any alphanumeric (word) character.
+                # The same as [a-zA-Z0-9_]
+\W              # Any non-word character.
+                # The same as [^a-zA-Z0-9_]
+\d              # Any digit. The same as [0-9]
+\D              # Any non-digit. The same as [^0-9]
+\s              # Any whitespace character: space,
+                # tab, newline, etc
+\S              # Any non-whitespace character
+\b              # A word boundary, outside [] only
+\B              # No word boundary
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<P>Clearly characters like
+<B>$</B>,
+<B>|</B>,
+<B>[</B>,
+<B>)</B>,
+<B>\</B>,
+<B>/</B>
+and so on are peculiar cases in
+regular expressions. If you want to match for one of those then
+you have to preceed it by a backslash. So:
+<BLOCKQUOTE><CODE>
+<PRE>
+\|              # Vertical bar
+\[              # An open square bracket
+\)              # A closing parenthesis
+\*              # An asterisk
+\^              # A carat symbol
+\/              # A slash
+\\              # A backslash
+</PRE>
+</CODE></BLOCKQUOTE>
+
+and so on.
+<P>
+<H3>Some example REs</H3>
+
+<P>
+<P>As was mentioned earlier, it's probably best to build up your
+use of regular expressions slowly. Here are a few examples. Remember
+that to use them for matching they should be put in
+<B>/</B>...<B>/</B> slashes
+<BLOCKQUOTE><CODE>
+<PRE>
+[01]            # Either "0" or "1"
+\/0             # A division by zero: "/0"
+\/ 0            # A division by zero with a space: "/ 0"
+\/\s0           # A division by zero with a whitespace:
+                # "/ 0" where the space may be a tab etc.
+\/ *0           # A division by zero with possibly some
+                # spaces: "/0" or "/ 0" or "/  0" etc.
+\/\s*0          # A division by zero with possibly some
+                # whitespace.
+\/\s*0\.0*      # As the previous one, but with decimal
+                # point and maybe some 0s after it. Accepts
+                # "/0." and "/0.0" and "/0.00" etc and
+                # "/ 0." and "/  0.0" and "/   0.00" etc.
+# Check for valid currency value
+^([0-9]+|[0-9]{1,3}(,[0-9]{3})*)(\.[0-9]{1,2})?$
+# Check for valid email address
+^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*$
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>Exercise</H3>
+
+<P>
+<P>Previously your program counted non-empty lines. Alter it so that
+instead of counting non-empty lines it counts only lines with
+<UL>
+<LI> the letter <EM>x</EM></LI>
+<LI> the string <EM>the</EM></LI>
+<LI> the string <EM>the</EM> which may or may not have a
+capital <EM>t</EM></LI>
+<LI> the word <EM>the</EM> with or without a capital. Use
+<B>\b</B> to detect word boundaries.</LI>
+</UL>
+
+In each case the program should print out every line, but it should
+only number those specified.
+Try to use the <B>$_</B> variable to
+avoid using the <B>=~</B> match operator explicitly.
+<H3>Substitution & Translation</H3>
+
+<P>Just like the sed and tr utilities in Unix, you have <B>s///</B>
+and <B>tr///</B> in Perl. The former is for substitution and the
+later is for translation.
+<BLOCKQUOTE><CODE>
+<PRE>
+$bar =~ s/this/that/g;      # change this to that in $bar
+$path =~ s|/usr/bin|/usr/local/bin|;
+
+s/\bgreen\b/mauve/g;        # don't change wintergreen
+
+s/Login: $foo/Login: $bar/; # run-time pattern
+$count = ($paragraph =~ s/Mister\b/Mr./g);  # get change-count
+
+$program =~ s {
+/\*     # Match the opening delimiter.
+.*?     # Match a minimal number of characters.
+\*/     # Match the closing delimiter.
+} []gsx; # Delete (most) C comments.
+
+s/^\s*(.*?)\s*$/$1/;        # trim white space in $_, expensively
+for ($variable) {           # trim white space in $variable, cheap
+    s/^\s+//;
+    s/\s+$//;
+}
+
+s/([^ ]*) *([^ ]*)/$2 $1/;  # reverse 1st two fields
+
+#Note the use of $ instead of \ in the last example. Unlike sed,
+#we use the \<digit> form in only the left hand side.
+#Anywhere else it's $<digit>.
+
+$myname = "BABU";
+$myname =~ tr/[A-Z]/[a-z]/ ; # yields babu
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H3>Splitting</H3>
+
+<P>Perl provides a <B>split</B> function to split strings, based on REs. The syntax is 
+<BLOCKQUOTE><CODE>
+<PRE>
+split /PATTERN/,EXPR,LIMIT 
+split /PATTERN/,EXPR 
+split /PATTERN/ 
+split 
+</PRE>
+</CODE></BLOCKQUOTE>
+
+If EXPR is omitted, $_ is used. If PATTERN is also omitted, splits
+on whitespaces, after skipping leading whitespaces. LIMIT sets the maximum fields returned - so this can be used to split partially. Some examples are given below:
+<BLOCKQUOTE><CODE>
+<PRE>
+# process the password file
+open(PASSWD, '/etc/passwd');
+    while (<PASSWD>) {
+        ($login, $passwd, $uid, $gid,
+         $gcos, $home, $shell) = split(/:/);
+                # note that $shell still has a new line.
+                # use chop or chomp to remove the newline
+        #...
+                ($login, $passwd, $remainder) = split(/:/, $_, 3);
+                # here we use LIMIT to set the number of fields
+
+    } 
+</PRE>
+</CODE></BLOCKQUOTE>
+
+We also have <B>join</B> which is the opposite of split.
+For fixed length strings, we have <B>unpack</B> and <B>pack</B> functions.
+<P>
+<H2><A name="ss2.9">2.9 Subroutines</A>
+</H2>
+
+<P>Like any good programming language Perl allows the user to define
+their own functions, called <EM>subroutines</EM>. They may be placed
+anywhere in your program but it's probably best to put them
+all at the beginning or all at the end. A subroutine
+has the form
+<BLOCKQUOTE><CODE>
+<PRE>
+sub mysubroutine
+{
+        print "Not a very interesting routine\n";
+        print "This does the same thing every time\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+regardless of any parameters that we may want to pass to it.
+All of the following will work to call this subroutine.
+Notice that a subroutine is called with an <B>&</B> character
+in front of the name:
+<BLOCKQUOTE><CODE>
+<PRE>
+&mysubroutine;              # Call the subroutine
+&mysubroutine($_);  # Call it with a parameter
+&mysubroutine(1+2, $_);     # Call it with two parameters
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<P>
+<H3>Parameters</H3>
+
+<P>
+<P>
+<P>In the above case the parameters are acceptable but ignored. When the
+subroutine is called any parameters are passed as a list in the
+special <B>@_</B> list
+array variable. This variable has absolutely nothing
+to do with the <B>$_</B> scalar variable. The following
+subroutine merely prints out the list that it was called with.
+It is followed by a couple of examples of its use.
+<BLOCKQUOTE><CODE>
+<PRE>
+sub printargs
+{
+        print "@_\n";
+}
+
+&printargs("perly", "king");    # Example prints "perly king"
+&printargs("frog", "and", "toad"); # Prints "frog and toad"
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Just like any other list array the individual elements of
+<B>@_</B> can
+be accessed with the square bracket notation:
+<BLOCKQUOTE><CODE>
+<PRE>
+sub printfirsttwo
+{
+        print "Your first argument was $_[0]\n";
+        print "and $_[1] was your second\n";
+}
+</PRE>
+</CODE></BLOCKQUOTE>
+
+Again it should be stressed that the indexed scalars
+<B>$_[0]</B> and <B>$_[1]</B> and
+so on have nothing to with the scalar <B>$_</B>
+which can also be used without
+fear of a clash.
+<P>
+<P>
+<H3>Returning values</H3>
+
+<P>
+<P>Result of a subroutine is always the last thing evaluated. This
+subroutine returns the maximum of two input parameters. An example of
+its use follows.
+<BLOCKQUOTE><CODE>
+<PRE>
+sub maximum
+{
+        if ($_[0] > $_[1])
+        {
+                $_[0];
+        }
+        else
+        {
+                $_[1];
+        }
+}
+
+$biggest = &maximise(37, 24);       # Now $biggest is 37
+</PRE>
+</CODE></BLOCKQUOTE>
+
+The &printfirsttwo subroutine above also returns a value, in this case
+1. This is because the last thing that subroutine did was a
+<B>print</B>
+statement and the result of a successful <B>print</B> statement
+is always 1.
+<P>
+<P>
+<H3>Local variables</H3>
+
+<P>
+<P>The <B>@_</B> variable is local to the current subroutine, and so
+of course are <B>$_[0]</B>, <B>$_[1]</B>,
+<B>$_[2]</B>, and so on. Other variables can be made local too,
+and this is useful if we want to start altering the input parameters. The
+following subroutine tests to see if one string is inside another, spaces
+not withstanding. An example follows.
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+sub inside
+{
+        local($a, $b);                  # Make local variables
+        ($a, $b) = ($_[0], $_[1]);      # Assign values
+        $a =~ s/ //g;                   # Strip spaces from
+        $b =~ s/ //g;                   #   local variables
+        ($a =~ /$b/ || $b =~ /$a/);     # Is $b inside $a
+                                        #   or $a inside $b?
+}
+
+&inside("lemon", "dole money");         # true
+</PRE>
+</CODE></BLOCKQUOTE>
+
+In fact, it can even be tidied up by replacing the first two
+lines with
+<BLOCKQUOTE><CODE>
+<PRE>
+local($a, $b) = ($_[0], $_[1]);
+</PRE>
+</CODE></BLOCKQUOTE>
+<P>
+<H2><A name="ss2.10">2.10 More information</A>
+</H2>
+
+<P>Only a <B>very brief</B> of Perl is covered in this tutorial. The easiest way to lern Perl is to look at existing code. The Perl manual pages and FAQ's are really superb and will help you a lot. Unless until you are sure, run Perl with the -w switch!
+<P>
+<HR noshade size="1">
+<center>
+  <A href="index-3.html">Next</A> <A href="index-1.html">Previous</A> <A href="index.html#toc2">Contents</A> 
+</center>
+<hr size="1" noshade>
+<br>
+<p class="copyright">
+Copyright&copy; 2000 <U>V.Satheesh Babu</U>. All rights reserved.
+</p>
+
+</BODY>
+</HTML>

@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Modules</TITLE>
+
+<META NAME="keywords" CONTENT="Oracle,DBA,PHP,Zope,Perl,Python,Java,Systems Analyst,Designer/2000,Developer/2000,PL/SQL,Pro*C,ASP,FileMaker Pro,Cold Fusion,Linux,Unix">
+<META NAME="description" CONTENT="Home page of V.Satheesh Babu, an Oracle systems analyst with 6 years experience in Unix/Linux, PHP/Zope/Java/Cold Fusion/ASP.">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" CONTENT="NOFOLLOW">
+<META NAME="generator" CONTENT="Zope 2.0.1 on Mandrake Linux 6.1">
+<META NAME="author" CONTENT="V.Satheesh Babu">
+<META NAME="copyright" CONTENT="&copy; 1999-2000 V.Satheesh Babu">
+
+
+<link rel="stylesheet" href="Babu.css">
+</HEAD>
+
+<BODY leftmargin="20" topmargin="3" marginwidth="0" marginheight="0">
+<hr noshade size="1">
+<center>
+  <A href="index-5.html">Next</A> <A href="index-3.html">Previous</A> <A href="index.html#toc4">Contents</A> 
+</center>
+<HR noshade size="1">
+<H2><A name="s4">4. Modules</A></H2>
+
+<P>(The following section is borrowed directly from Tim Bunce's modules file, available at your nearest CPAN site.) 
+<P>Perl implements a class using a package, but the presence of a package doesn't imply the presence of a class. A package is just a namespace. A class is a package that provides subroutines that can be used as methods. A method is just a subroutine that expects, as its first argument, either the name of a package (for ``static'' methods), or a reference to something (for ``virtual'' methods). 
+<P>A module is a file that (by convention) provides a class of the same name (sans the .pm), plus an import method in that class that can be called to fetch exported symbols. This module may implement some of its methods by loading dynamic C or C++ objects, but that should be totally transparent to the user of the module. Likewise, the module might set up an AUTOLOAD function to slurp in subroutine definitions on demand, but this is also transparent. Only the .pm file is required to exist. 
+<P>
+<H2><A name="ss4.1">4.1 Where to get them?</A>
+</H2>
+
+<P><B>CPAN</B> - <EM>Comprehensive Perl Archive Network</EM> is the one-stop
+shop for Perl archives, modules, scripts and even documentation. The URL is
+<A href="http://www.cpan.org">http://www.cpan.org</A>.
+<P>
+<H2><A name="ss4.2">4.2 Modules vs. coding</A>
+</H2>
+
+<P>The advantage of modules is that, you really don't need to know about how
+the software works, but how to use it. Modules can drastically reduce 
+development time. Most modules have good documentation and are well
+tested. These also tend to thoroughly follow standards. As a programmer,
+you might not be interested in reading hundreds of pages of standards'
+documentation, just to code something quickly!
+<P>Modules do have an apparent disadvantage. Speed. Since modules tend to
+be generic in nature, the code contained within tend to be large. And
+most of the time, you might be using just 10% of the features modules
+provide. In such cases, and if a second or two in the overall run-time
+makes a difference, you probably want to code manually.
+<P>Even in such situations, the easiest way is to download the module,
+see what you don't require and delete it. An easier and more elegant
+solution is to selectively import functions from the module.
+<P>CPAN provides guidelines on writing modules. So, if you think you
+have some code that nobody else has written (rare chance!) and can
+be modularized, do so by all means and submit to CPAN.
+<P>
+<H2><A name="ss4.3">4.3 Well known modules</A>
+</H2>
+
+<P>
+<H3>CGI  - web programming</H3>
+
+<P><B>CGI.pm</B> is the most used module for CGI scripts. These days,
+page design and content management are mostly done independently and
+it is rare to find a good CGI programmer with a good aesthetic sense!
+CGI.pm makes programmer's life easy, without making him bother much
+about the HTML tags (and also avoiding heated discussions with the page
+designer!). 
+<P>
+<H3>DBI  - common database interface</H3>
+
+<P>To quote Tim Bunce, the architect and author of DBI: 
+<P>
+<BLOCKQUOTE><CODE>
+<PRE>
+      DBI is a database access Application Programming Interface (API)
+      for the Perl Language. The DBI API Specification defines a set
+      of functions, variables and conventions that provide a consistent
+      database interface independant of the actual database being used.
+</PRE>
+</CODE></BLOCKQUOTE>
+
+In simple language, the DBI interface allows users to access multiple database 
+types transparently. So, if you are connecting to an Oracle, Informix, mSQL, 
+Sybase or whatever database, you don't need to know the underlying mechanics 
+of the 3GL layer. The API defined by DBI will work on all these database types. 
+<P>A similar benefit is gained by the ability to connect to two different 
+databases by different vendors within the one perl script, i.e., I want
+to read data from an Oracle database and insert it back into an Informix 
+database all within one program. The DBI layer allows you to do this 
+simply and powerfully. 
+<P>The DBI requires one or more <EM>driver</EM> modules to talk to databases.
+Oracle, Access and ODBC drivers might be of interest to us.
+<P>Please note that DBI only standardize the database interaction process. If
+you use Oracle driver and write SQL specific to Oracle, don't expect to
+port your project smoothly to Informix, just by changing the driver!
+<P>
+<H3>GUI  - interfaces to GUI toolkits</H3>
+
+<P>Perl also provides modules for various GUI toolkits on Unix like  Gtk,
+Tk, XForms etc.  A beta version for Win32 GUI is also available.
+<P>
+<HR size="1" noshade>
+<center>
+  <A href="index-5.html">Next</A> <A href="index-3.html">Previous</A> <A href="index.html#toc4">Contents</A> 
+</center>
+<hr noshade size="1">
+<br>
+<p class="copyright">
+Copyright&copy; 2000 <U>V.Satheesh Babu</U>. All rights reserved.
+</p>
+
+</BODY>
+</HTML>
