@@ -1,0 +1,834 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="Topic_files/filelist.xml">
+<title>Topic: WINDOWS INTERNET PROGRAMMING PART 3</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="place"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceType"/>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="PlaceName"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Faiz</o:Author>
+  <o:LastAuthor>Faiz</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>99</o:TotalTime>
+  <o:Created>2011-06-07T08:50:00Z</o:Created>
+  <o:LastSaved>2011-06-07T11:30:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>9532</o:Words>
+  <o:Characters>54338</o:Characters>
+  <o:Company>Israili</o:Company>
+  <o:Lines>452</o:Lines>
+  <o:Paragraphs>127</o:Paragraphs>
+  <o:CharactersWithSpaces>63743</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>112</w:Zoom>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1><pre style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:8.0pt;font-family:Arial;color:red'>Topic: </span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:8.0pt;font-family:
+Arial'>WINDOWS INTERNET PROGRAMMING PART 3<o:p></o:p></span></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='font-size:8.0pt;font-family:
+Arial;color:red'>WRITTEN BY:</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:8.0pt;font-family:Arial'> <a href="mailto:cos125@hotmail.com">BINARY RAPE</a><o:p></o:p></span></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='font-size:8.0pt;font-family:
+Arial;color:red'>E-MAIL:</span></b><b style='mso-bidi-font-weight:normal'><span
+style='font-size:8.0pt;font-family:Arial'> <a href="mailto:cos125@hotmail.com">cos125@hotmail.com</a><o:p></o:p></span></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='font-size:8.0pt;font-family:
+Arial'><o:p>&nbsp;</o:p></span></b></pre><pre><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;font-family:Arial;color:red'>HTML BY:</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+Arial'> Faiz Israili<o:p></o:p></span></b></pre><pre><b style='mso-bidi-font-weight:
+normal'><span style='font-size:12.0pt;font-family:Arial;color:red'>E-MAIL:</span></b><b
+style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:
+Arial'> <a href="mailto:faiz_israili@yahoo.com">faiz_israili@yahoo.com</a><o:p></o:p></span></b></pre><pre><o:p>&nbsp;</o:p></pre><pre
+style='text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;font-family:Arial;color:red'><o:p>&nbsp;</o:p></span></b></pre><pre
+style='text-align:center'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:20.0pt;font-family:Arial;color:red'>BLACK SUN RESEARCH FACILITY<o:p></o:p></span></b></pre><pre
+style='text-align:center'><span style='font-size:20.0pt;font-family:Arial'><a
+href="http://blacksun.box.sk/">http://blacksun.box.sk/</a><o:p></o:p></span></pre><pre
+style='text-align:center'><span style='font-size:14.0pt;font-family:Arial'><o:p>&nbsp;</o:p></span></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt'>Disclaimer:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>None of the information or code in this tutorial is meant to be used against others or to purposely damage computer systems or cause any loss of or damage to property.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Further more neither myself or any other contributor to, or member of, the Blacksun research Facility (BSRF) can be held responsible for damage or loss of property of computer systems as a result of this tutorial.</pre><pre><o:p>&nbsp;</o:p></pre><pre>In this tutorial the code is provided as a learning aid so you can see how it’s done its not meant for you to use against yourself or others.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Also you are encouraged to alter the code and improve it. I say create or build a program to do something not create or build a program to do something and use it for that purpose.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt'>CONTENTS:</span></u></b><span
+style='font-size:14.0pt'><o:p></o:p></span></pre><pre><span style='font-size:
+14.0pt'><o:p>&nbsp;</o:p></span></pre><pre><b style='mso-bidi-font-weight:normal'>1.<span style='mso-spacerun:yes'>  </span>Introduction<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>2.<span style='mso-spacerun:yes'>  </span>What are Raw Sockets?<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>3.<span style='mso-spacerun:yes'>  </span>The Internet Headers<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><span style='mso-spacerun:yes'>    </span>3.1 The IP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>3.2 The TCP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>3.3 The UDP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>3.4 The ICMP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>4.<span style='mso-spacerun:yes'>  </span>Creating a Packet<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>4.1 <span
+class=GramE>Setsockopt()</span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>4.2 Socket ()</pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>5.<span style='mso-spacerun:yes'>  </span>Building Headers in code.<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>5.1 The IP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>5.2 The TCP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>5.3 The UDP Header</pre><pre><span style='mso-spacerun:yes'>    </span>5.4 The ICMP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>5.5 The Psuedo Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>5.6 The Checksum Function</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>6.<span style='mso-spacerun:yes'>  </span>Source Code<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>6.1 ICMP Echo Request</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>6.2 TCP ACK Packets</pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>7.<span style='mso-spacerun:yes'>  </span>Receiving Raw Sockets<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>8.<span style='mso-spacerun:yes'>  </span>Last Words<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt'>1.0 INTRODUCTION:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Welcome to the 3rd and quite possibly... the last in this little series</pre><pre><span
+class=GramE>of</span> ours, its been fun.. Kind of...<span style='mso-spacerun:yes'>  </span>but never fear there may be one last part to come in future covering advanced topics like multicasting and we'll always have updates on the tutorials. Of course ive saved the best topic for last, Raw Socket programming, and even more so <span
+class=GramE>its</span> in Windows! A topic which in this place has a certain member of the computer security world huffing and yes indeed there is puffing also.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Head on over to grc.com for more information and listen to him piss his pants scared because of raw sockets support in Windows XP...<span style='mso-spacerun:yes'>  </span>you see Steve Gibson of grc.com believes that because of windows xp's raw socket support is available to all users on a windows XP Home Edition computer he foreseer’s the following scenario:</pre><pre><o:p>&nbsp;</o:p></pre><pre>A few kids, it would only take a small group, maybe friends in school,</pre><pre><span
+class=GramE>they</span> meet each day in a dark little old alley at the back of school</pre><pre>and decide who there next &quot;target&quot; is going to be, they then all decide on a time to attack and as Gibson puts it &quot;synchronizes their watches&quot;, then at the decided time they fire up the DoS tools on their new copy of windows XP Home Edition and launch their attack upon whatever ill-faithed domain name that the kids had decided earlier.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Hmmm....<span style='mso-spacerun:yes'>  </span>interesting, well mostly Gibson you focus upon Home Edition of windows XP, why? Well of course it’s because of its support for Raw Sockets for all users, yes but in your dark and devious example of &quot;Junior and his XP gang&quot; you refer to that upgrade the kids would get to windows XP home edition well what if they had a copy of Windows XP professional or Windows 2000, or even Windows NT for that matter of course these other operating systems don’t have support for Raw Sockets to all its users but if its the kids that are installing these OS's wouldn't set up the admin account or give themselves admin privy’s? Then they would have raw socket support anyway. ok Gibson lets give ya a little break in fairness Raw Socket support on Home Edition may be dangerous and people are of course likely to exploit this feature (no</pre><pre>Steven it is not a bug it is a feature) and create DDoS tools with it but lets look at things, will it really make things bad, will this put an end to the threat of DDoS attacks from Windows Systems? Well no actually huh! Shock horror there is yet still raw socket support on systems other than windows XP, Win2k only supports raw sockets for admin users, what if some-1 gains admin privileges they could still use it hell with NT all you have to do is change an entry in the registry, ok lets pull out raw socket support for these 3 operating systems all together and we'll be safe right? Well unfortunately Win9x systems with Winsock v2.0 also have Raw Socket support limited as it is.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Thankfully with Windows 9 xs you can only create ICMP packets... but am... there’s still a load of things I could do with just ICMP Steveo, I could get a subnetmask, ping and traceroute, firewalk, fact of the matter is I could even create a Trojan with icmp tunneling! And this is all without even touching icmp based DoS attacks! Well the answer is simple then isn't it Steve all we have to do is pull raw socket support from Winsock v2.0, but yes Steve all we have to do is create a dll or use an already existing C++ library to create raw socket abilities in our applications, you do comment on this in your site saying how it doesn't matter because in the past we would have to install new drivers and things, wow, do you think that some-1 that really wanted to create a DoS attack would be stopped by the need to download 1 more little piece, the application could even install any drivers or dll's it needed on its own. Yes Steve Gibson, there could be raw socket support now on Windows XP computers...<span style='mso-spacerun:yes'>  </span>but then again there always was raw socket support on all windows boxes if you really looked and yes there will be DDoS attacks to come, just like there always would have been even without its canned support in windows boxes, also you referred to Linux support for raw sockets as if it didn’t matter because of the size of its distribution, more and more people are using Linux and realizing its benefits and we are seeing the beginning of &quot;The Linux Lamer&quot; 2 words which sadly should never have been mentioned in the same sentence, these people could still use DDoS Linux tools.</pre><pre><o:p>&nbsp;</o:p></pre><pre>What will Raw Sockets bring? DDoS tools? Certainly, better firewalls on Windows systems? Yes. </pre><pre><o:p>&nbsp;</o:p></pre><pre>The availability of security scanners and a wider understanding of the internet and its protocols to windows programmers? Well yup and probably a lot more, maybe you are just setting up so much hype for the very reason you gave Mr. Gibson sir, You didn’t shout out when scripting support was added to mail clients, now you can cause such a large amount of confusion and fear in people and have a lot of people shouting no at you that once the very first stupid little DoS tool that comes along for windows XP that you can say ha-ha yes! I told you so, I was right, you were wrong, but you see the thing is we're not saying your wrong, infect, your right, there will be DDoS tools and we all know that but all your managing to do is cause fear and confusion although who knows, maybe you just make it your jollies getting people to complain and send flames to secure@microsoft.com so that they remove raw socket support from windows and you can feel like your a big man getting the big bad Microsoft empire to do what you want? Even the security manager at Microsoft says:</pre><pre><o:p>&nbsp;</o:p></pre><pre>&quot;. . . 'Are DDoS attacks going to happen?' Yes. They will happen; and they will happen on Windows XP. &quot; </pre><pre><o:p>&nbsp;</o:p></pre><pre>He is not admitting the great 'flaw' in the Windows XP operating system he is being realistic, maybe you should try it it'll be a new experience for ya. Any-1 in the computer security field will happily admit, no system can be completely secure and things like what you’re talking about will happen, but they don't even need raw socket support to do so.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Maybe ive been wrong about you all the time maybe you just want to shout so much about the damn thing and even pass out source code for such tools so that some-1 will come across read your files, get the stuff into their head and run along with a hand-full of your little code and propaganda and finally design a tool like this, the more publicity you give this the more likely such a scenario like this will happen, of course that could be your whole point to get whatever it is your after, or it could be that if some-1 does design a bad DoS tool Microsoft will have to pull the raw support and again you can get your jollies from being correct, forgetting every-1 that did agree with you but still saw your utter stupidity.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Just to let every-1 know incase they are a bit concerned about Gibson's evil Windows XP Raw Socket support, the source code he created using raw sockets to show how bad they are doesn't actually work, there was a problem in his bind() function, after realizing this he stated, &quot;it's not clear to me what it even means to 'bind' a raw socket&quot; and of course around the same time has really getting at Microsoft for their stupidity and complete lack of security or as you like to phrase it &quot; MICROSOFT SECURITY &quot; &quot; The Oxymoron that keeps on giving &quot;.</pre><pre><o:p>&nbsp;</o:p></pre><pre>One of the best things you’ve said throughout all this was infect: </pre><pre><o:p>&nbsp;</o:p></pre><pre>&quot;<span
+class=GramE>a</span> good thing for Windows raw socket security!&quot;</pre><pre><o:p>&nbsp;</o:p></pre><pre>What was that the time you realized you were wrong about Microsoft’s security or the time you went out to lunch and SHUT YOUR FUCKING ASS</pre><pre>FOR 5 MINUTES AND STOPPED WRECKING EVERY-1'S FUCKING HEAD YOU ASSHOLE. </pre><pre><o:p>&nbsp;</o:p></pre><pre>I am so lucky that unlike people at microsoft.com's security division I don't have to listen to either you or the countless number of people that you have scared into doing your bidding by exaggerating facts and twisting other people's words to give the wrong idea, my hat goes off to Greg at Microsoft, personally I couldn't have done the same as he has done, not only did he immediately help out Steve with his enquiries he even kept Steve up to date step by step in reviewing his concerns.</pre><pre>Steve quickly returned Greg's hospitality and consideration by insulting the amount of work he has done on his behalf and its quality. This particular behavior is probably to be expected I guess from some-1 who is so egotistical, some-1 that would pretty much say people who say its good because its a standard are morons because they are following the pack and that its a standard just because some-1 said it is, no Steve its a standard because its a part of the standard specification for sockets, that’s why its supported, 'as standard' if you will by all operating systems except from Microsoft up to this point. Apparently trough it all Gibson just wants a time machine to travel a few years back where people still believed like he does that the best security is obscurity.</pre><pre><o:p>&nbsp;</o:p></pre><pre>One last point on this subject, The Firewall that comes with versions of windows XP, once again 'As Standard' blocks the types of attacks that Steve Gibson is describing, and you think that’s also a good thing for Microsoft’s security Steve? So why all the fuss and anger in the last few paragraphs? Taught id never shut up didn’t ya :P. Well as ive been researching Windows XP's raw socket abilities ive been effectively blocked by the constant reoccurring pages found concerning Gibson’s bullshit and fear spreading tactics, after using a total of 8 different combinations of keywords and reading many pages I finally found a grand total of 4 examples of windows raw socket programs, btw only one of them had ever been run on windows XP and I am not even sure about that I think his code may actually have been run on windows 2000. One of them had only been run on a Windows 9x system!! Basically there isn't that much documentation to learn from out there in the void so I think it could do with me adding a little more, besides few guys flamed me a while back on 1 of the channels on box.sk's IRC server, (not in #bsrf or #code), for saying that there was raw socket support in windows so I kind of wrote this for them as well, here ya go guys ;).</pre><pre><o:p>&nbsp;</o:p></pre><pre>So anyway without further delay let’s get onto some real substance in this tutorial with the most common question of all. </pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>2.0 WHAT ARE RAW SOCKETS<span class=GramE>?:</span><o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Raw sockets are very similar to normal sockets but with raw sockets you can control the packets that you send better and can control them. </pre><pre>Raw sockets don't have anything to do with packets themselves they are purely a programming concept. You see with normal socket programming we would supply a certain amount of information like the IP address we were sending it to, the port, the buffer contain the text we were sending, and whatever protocol we would be sending it with like TCP or UDP, we would supply all this information by filling up structures and send the information by calling a couple of functions.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The difference with Raw sockets is that we create our own structures for the headers and tell the Winsock that we wanted to use that information, now we would fill out these structures with a bit more </pre><pre>Information like our source IP address and fields like the Time <span
+class=GramE>To</span> Live (TTL) that we discussed in the first part of this tutorial.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Using this method we can do many things with the Packets that we use like the following:</pre><pre><o:p>&nbsp;</o:p></pre><pre>* Get the Subnetmask from a computer.</pre><pre>* Bypass firewalls and routers using various methods.</pre><pre>* Map networks.</pre><pre>* Send information covertly.</pre><pre>* Exploit Network Stack vulnerabilities.</pre><pre>* Perform a stealth port scan.</pre><pre>* Remote OS identification.</pre><pre>* Build a firewall.</pre><pre><o:p>&nbsp;</o:p></pre><pre>And there’s way more that you could do as well. Until the release of Winsock 2.0 Raw Sockets could not be possible unfortunately, Winsock 1.1 never included the ability which was specified in the Berkeley Sockets specification (mostly because Microsoft was in a rush to release the Winsock stack). Luckily even if you don’t have Winsock v2 (which more than likely you will) you can still download version 2.0 for your version of windows from the Microsoft website, windows 3.1 unfortunately does not have a 2.0 version Microsoft has decided not to release a 16 bit one. Of course if you have Windows 3.1 what the fuck are you doing? Suddenly springs to mind, oh well, go away.</pre><pre>Now Windows32 systems have Winsock however different versions have varying amounts of support for raw sockets. All Version 2 stacks have support for creating ICMP packets using Raw Sockets but Only Windows NT4, 2000 and XP have the capability for creating TCP and UDP packets. Doesn’t worry there is still a lot of things you can do with ICMP alone if you use a Win 9x system. Before we go into the programming side of things we must now cover the IP, ICMP, TCP and UDP protocols in more detail.</pre><pre><o:p>&nbsp;</o:p></pre><pre>If you have read Part 1 of this tutorial you should have a pretty good idea about how all the protocols work if not that’s ok it shouldn't be too bad and you should be able to understand things, so please read on for explanations of the Protocols.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>3.0 THE INTERNET HEADERS:</span></u></b><span
+style='font-size:14.0pt;mso-bidi-font-size:10.0pt'> <o:p></o:p></span></pre><pre><o:p>&nbsp;</o:p></pre><pre>In part 1 we discussed the different Internet protocols and how they fit together with packets so you should know pretty well how data is transferred across the internet and understand many of the fields within the different headers, if you aren't sure or cant quite remember I suggest you read the first few sections of Part 1 of this tutorial.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Well now that you have a pretty good idea about the different headers and understand the idea behind them we are going to have to go into slightly more detail about the different headers and their respective fields.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>3.1 THE IP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|Version <span
+class=GramE>|<span style='mso-spacerun:yes'>  </span>IHL</span><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>     </span>TOS<span style='mso-spacerun:yes'>       </span>|<span style='mso-spacerun:yes'>         </span>Total Length<span style='mso-spacerun:yes'>           </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>| 4 bits | 4 bits |<span style='mso-spacerun:yes'>    </span>8 bits<span style='mso-spacerun:yes'>     </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+--------+--------+---------------+------+-------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>        </span>Identification<span style='mso-spacerun:yes'>           </span>|Flags |<span style='mso-spacerun:yes'>     </span>Fragment Offset<span style='mso-spacerun:yes'>     </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>              </span>|3 bits|<span style='mso-spacerun:yes'>         </span>13 bits<span style='mso-spacerun:yes'>         </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+-----------------+---------------+------+-------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+class=GramE>|<span style='mso-spacerun:yes'>  </span>Time</span> to Live<span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>   </span>Protocol<span style='mso-spacerun:yes'>    </span>|<span style='mso-spacerun:yes'>        </span>Header Checksum<span style='mso-spacerun:yes'>         </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>      </span>8 bits<span style='mso-spacerun:yes'>     </span>|<span style='mso-spacerun:yes'>    </span>8 bits<span style='mso-spacerun:yes'>     </span>|<span style='mso-spacerun:yes'>             </span>16 bits<span style='mso-spacerun:yes'>            </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+-----------------+---------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                        </span>Source Address<span style='mso-spacerun:yes'>                            </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                            </span>32 bits<span style='mso-spacerun:yes'>                               </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                      </span>Destination Address<span style='mso-spacerun:yes'>                         </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>| <span style='mso-spacerun:yes'>                           </span>32 bits<span style='mso-spacerun:yes'>                               </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------+-----------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                     </span>Options<span style='mso-spacerun:yes'>                    </span>|<span style='mso-spacerun:yes'>     </span>Padding<span style='mso-spacerun:yes'>     </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------+-----------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>FIG 1.0 - Structure of an IP Header<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>As you can see above the IP header has a total of 14 Fields.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span>Version</pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span>IHL</pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>TOS</pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Total Length</pre><pre><o:p>&nbsp;</o:p></pre><pre>5.<span style='mso-spacerun:yes'>  </span>Identification</pre><pre><o:p>&nbsp;</o:p></pre><pre>6.<span style='mso-spacerun:yes'>  </span>Flags</pre><pre><o:p>&nbsp;</o:p></pre><pre>7.<span style='mso-spacerun:yes'>  </span>Fragment Offset</pre><pre><o:p>&nbsp;</o:p></pre><pre>8.<span style='mso-spacerun:yes'>  </span>Time <span
+class=GramE>To</span> Live</pre><pre><o:p>&nbsp;</o:p></pre><pre>9.<span style='mso-spacerun:yes'>  </span>Protocol</pre><pre><o:p>&nbsp;</o:p></pre><pre>10. Header Checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre>11. Source Address</pre><pre><o:p>&nbsp;</o:p></pre><pre>12. Destination Address</pre><pre><o:p>&nbsp;</o:p></pre><pre>13. Options</pre><pre><o:p>&nbsp;</o:p></pre><pre>14. Padding</pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span>Version<span
+style='mso-tab-count:2'>            </span>- The version field describes what version of the IP Protocol is being used, we will be using IPv4 because it is more supported and IPv6 is not yet fully implemented.</pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span>IHL<span
+style='mso-tab-count:3'>                </span>- The Internet Header Length (IHL) contains the length of the Internet Header in 32 bit words. Minimum value for a header is 5.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>TOS<span
+style='mso-tab-count:3'>                </span>- The Type Of Service (TOS) field was designed to tell routers how the packet is to be handled for example so that packets that need to move quickly like streaming audio would have a higher TOS value than other packets so that routers would send them across the network faster. These days most routers do not process the TOS field because it would waste too much of the routers time so we usually just set the TOS field to 0.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Total Length <span
+style='mso-tab-count:2'>              </span>- This field contains the total size of the Internet Packet including headers and data. Typical IP headers are 20 bytes in size, same with TCP ones, so an Internet Packet with an IP Header, a TCP Header and no data would be 20 + 20 = 40 bytes in length, Total Length = 40 Bytes.</pre><pre><o:p>&nbsp;</o:p></pre><pre>5.<span style='mso-spacerun:yes'>  </span>Identification<span
+style='mso-tab-count:2'>             </span>- This field is used to aid in tracking fragmented packets, each fragment has the same ID as the first datagram, the ID's of datagram’s following each other is usually incremented, because this value must be unique most applications use there process id to fill in this field.</pre><pre><o:p>&nbsp;</o:p></pre><pre>6.<span style='mso-spacerun:yes'>  </span>Flags<span
+style='mso-tab-count:3'>                      </span>- Flags are used with IP to control fragmentation, there are 4 flags. </pre><pre><o:p>&nbsp;</o:p></pre><pre>1-NO FLAGS [VALUE = 0x00] Does not specify any fragmentation options </pre><pre>2-MORE FRAGMENT [VALUE - 0X01] means there is more fragments to be received after this packet </pre><pre>3-DONT FRAGMENT [VALUE = 0X02] Tells the stack not to fragment this packet </pre><pre><o:p>&nbsp;</o:p></pre><pre>4-MORE &amp; DON’T [VALUE = 0X03] Tells the stack that there are more packets to be received after this one and not to fragment it </pre><pre><o:p>&nbsp;</o:p></pre><pre>NOTE: THE LAST FRAGMENT CANNOT HAVE A FLAG OF 0X01 (MORE FRAG) AS THERE ARE NO OTHER PACKETS TO FOLLOW.</pre><pre><o:p>&nbsp;</o:p></pre><pre>7.<span style='mso-spacerun:yes'>  </span>Fragment Offset<span
+style='mso-tab-count:1'>    </span>- The fragment offset is used for placing different packets in the correct order when reassembling Datagram's. The first fragment must have a value of 0 and the last must be equal to the value of Total Length. Value is measured in units of 64 bits (8 octets).</pre><pre><o:p>&nbsp;</o:p></pre><pre>8.<span style='mso-spacerun:yes'>  </span>Time To Live<span
+style='mso-tab-count:1'>       </span>- The Time to Live (TTL) field was created so that if a packet cannot find its destination it will be destroyed rather than travel across the internet indefinitely, if packets kept mounting in this fashion it would seriously degrade network performance.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Each router that a packet meets decrements the value of the TTL field by one. </pre><pre><o:p>&nbsp;</o:p></pre><pre>If the value is decremented to 0 before it reaches its destination the packet will be destroyed and an error sent back to the computer that the packet originated from. If the TTL is set to 0 on creation it will immediately be destroyed.</pre><pre><o:p>&nbsp;</o:p></pre><pre>9.<span style='mso-spacerun:yes'>  </span>Protocol <span
+style='mso-tab-count:2'>          </span>- This field specifies what protocol is being carried in the datagram eg; TCP.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The most common values are as follows:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>IPPROTO_TCP<span
+style='mso-tab-count:1'>  </span>= TCP</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>IPPROTO_UDP<span
+style='mso-tab-count:1'>  </span>= UDP</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>IPPROTO_ICMP<span
+style='mso-tab-count:1'> </span>= ICMP</pre><pre><o:p>&nbsp;</o:p></pre><pre>Other protocols and there values will be specified later.</pre><pre><o:p>&nbsp;</o:p></pre><pre>10. Header Checksum<span
+style='mso-tab-count:1'>    </span>- The checksum is the size of the Internet Header, it is used to verify the integrity of a packet by comparing the headers size with the value of the checksum. Certain fields in the IP Header change throughout transport such as the TTL field because of this the checksum is recalculated and verified by each router or gateway it encounters.</pre><pre><o:p>&nbsp;</o:p></pre><pre>11. Source Address<span
+style='mso-tab-count:2'>             </span>- The IP Address of the computer that the packet originated from. In other words if you sent a packet this field would contain your IP Address. This lets the computer being sent the packet know where it came from and where to send a reply.</pre><pre><o:p>&nbsp;</o:p></pre><pre>12. Destination Address <span
+style='mso-tab-count:1'>       </span>- The IP Address of the computer that the packet is being sent. Lets routers that the packet meets know where to send the packet to. </pre><pre><o:p>&nbsp;</o:p></pre><pre>13. Options<span
+style='mso-tab-count:2'>            </span>- Mostly the options aren't filled out and they are very rarely used at all so we won’t discuss them very much. There are however 3 interesting options that we will discuss here, they are:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>1. Loose Source Routing</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>2. Strict Source Routing</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>3. Record Routing.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>1. Loose Routing</pre><pre><o:p>&nbsp;</o:p></pre><pre>Loose Routing allows us to specify the source computer (us) and the destination computer's IP Address's in the IP header along with the address's of a couple of other routers that the packet must travel across between, then we can better control how the packet travels across the internet.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>2. Strict Routing</pre><pre><o:p>&nbsp;</o:p></pre><pre>Strict Routing allows us to specify the source computer (us) and the destination computer's IP Address's in the IP header along with the address's of other routers, the packet then has to travel along this exact route to get to its destination, using this we can route our packets around routers or gateways that are down or not responding, this also means that if you wanted to you could ensure that the packet travels across certain networks and passes certain routers, of course this isn't recommended as you could 'accidentally' bypass security restrictions on some networks by using this method, which is naughty.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>3. Record Routing</pre><pre><o:p>&nbsp;</o:p></pre><pre>Im sure we are all familiar with the traceroute program which uses the ICMP protocol to tell us what routers our packets are traveling trough to get to there destination, record routing can be used ina similar way, by setting this option every router that the packet meets places its IP Address into the IP Header, we can then examine the packet and see what IP Address's it contains.</pre><pre><o:p>&nbsp;</o:p></pre><pre>NOTE: AN IP HEADER CAN ONLY BE A MAXIMUM OF 60 BYTES LONG AND THE HEADER IS 20 BYTES IN LENGTH, EACH IP ADDRESS IS 4 BYTES IN SIZE SO AN IP HEADER CAN ONLY CONTAIN A MAXIMUM OF 10 IP ADDRESS'S EACH.</pre><pre><o:p>&nbsp;</o:p></pre><pre>14. Padding<span
+style='mso-tab-count:2'>            </span>- Padding is there to respect the 32 bits boundary, it’s composed of 0's.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>3.2 THE TCP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Well before we get into the TCP header we first have to explain how exactly a TCP connection is formed between two hosts. The First host sends a TCP packet with one of the fields in the header set with a value of SYN, this is known as a SYN (synchronies) packet. So what is this packet synchronizing? A potential problem with a TCP connection would be if a connection was established between some internet user at home and a shop on the internet, the user views his details but in the mean time some-1 were to pretend they were that user and the webshop sent that users details to that person instead of the real user (such as the real users credit card numbers?). Because of this a thing called an acknowledgement number was created, the number is defined by the server and the SYN packet is used to transmit this number to the host, both sides of the connection now have the same Acknowledgement number and they are synchronized! The Acknowledgement number will be contained in all TCP packets throughout this session and if any packets received at either side have a wrong Acknowledgement number then the packet will be discarded.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The second host will now send another TCP packet this time with a field set to ACK (Acknowledge) this is known as a SYN_ACK packet. Its purpose is to acknowledge the reception of the SYN packet.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Once the first host has received the SYN_ACK packet it sends one last ACK packet, just to be sure to be sure.</pre><pre><o:p>&nbsp;</o:p></pre><pre>As you can see this process involves 3 steps.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. Host sends SYN packet to target start a connection</pre><pre><o:p>&nbsp;</o:p></pre><pre>2. Target sends host an ACK packet saying it received the SYN.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Host sends target an ACK packet to confirm and connection is established.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Because of these 3 steps the TCP connection is known as the Three-Way-Handshake.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>          </span><st1:PlaceName
+w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType> <span style='mso-spacerun:yes'>           </span>|<span style='mso-spacerun:yes'>       </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-spacerun:yes'>         </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>              </span>|<span style='mso-spacerun:yes'>           </span>16 bits<span style='mso-spacerun:yes'>              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                          </span>Sequence Number<span style='mso-spacerun:yes'>                  </span><span style='mso-spacerun:yes'>       </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                              </span>32 bits<span style='mso-spacerun:yes'>                             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                      </span>Acknowledgment Number<span style='mso-spacerun:yes'>                       </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span
+style='mso-tab-count:4'>                           </span><span style='mso-spacerun:yes'>  </span>32 bits<span
+style='mso-tab-count:3'>                      </span><span style='mso-spacerun:yes'>      </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+--------+------------+-----------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|D-Offset<span
+class=GramE>|<span style='mso-spacerun:yes'>  </span>Reserved</span><span style='mso-spacerun:yes'>  </span>| Ctrl Bits |<span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>   </span>Window<span style='mso-spacerun:yes'>               </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>| 4 bits |<span style='mso-spacerun:yes'>   </span>6 bits<span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>   </span>6 <span
+class=GramE>bits<span style='mso-spacerun:yes'>  </span>|</span><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span>16 bits<span style='mso-spacerun:yes'>              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+--------+------------+-----------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>Checksum<span style='mso-spacerun:yes'>             </span>|<span style='mso-spacerun:yes'>        </span>Urgent Pointer<span style='mso-spacerun:yes'>          </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>             </span>16 bits<span style='mso-spacerun:yes'>             </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------+-----------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>      </span><span style='mso-spacerun:yes'>               </span>Options<span style='mso-spacerun:yes'>                    </span>|<span style='mso-spacerun:yes'>     </span>Padding<span style='mso-spacerun:yes'>     </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------+-----------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span
+style='mso-tab-count:4'>                           </span>Data<span
+style='mso-tab-count:3'>                   </span><span style='mso-spacerun:yes'>      </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><b
+style='mso-bidi-font-weight:normal'>FIG 1.1 - Structure of a TCP Header<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>There are 12 fields in total in the TCP Header and your Datagram.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place></pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place></pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>Sequence Number</pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Acknowledgement Number</pre><pre><o:p>&nbsp;</o:p></pre><pre>5.<span style='mso-spacerun:yes'>  </span>Data Offset</pre><pre><o:p>&nbsp;</o:p></pre><pre>6.<span style='mso-spacerun:yes'>  </span>Reserved</pre><pre><o:p>&nbsp;</o:p></pre><pre>7.<span style='mso-spacerun:yes'>  </span>Control Bits</pre><pre><o:p>&nbsp;</o:p></pre><pre>8.<span style='mso-spacerun:yes'>  </span>Window</pre><pre><o:p>&nbsp;</o:p></pre><pre>9. <span style='mso-spacerun:yes'> </span>Checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre>10. Urgent Pointer</pre><pre><o:p>&nbsp;</o:p></pre><pre>11. Options</pre><pre><o:p>&nbsp;</o:p></pre><pre>12. Padding</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place><span
+style='mso-tab-count:2'>        </span>- The Source port number.</pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-tab-count:1'>   </span>- The Destination port number.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>Sequence No.<span
+style='mso-tab-count:2'>               </span>- The sequence number is used to ensure that segments received by a host are from where they claim to be, this prevents people from hijacking connections.</pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Acknowledgement No. <span
+style='mso-tab-count:1'>       </span>- The acknowledgement number to ensure both sides of the connection are authentic, as explained above.</pre><pre><o:p>&nbsp;</o:p></pre><pre>5.<span style='mso-spacerun:yes'>  </span>Data Offset<span
+style='mso-tab-count:2'>        </span>- The Data Offset in the header is expressed in 32 bit words. The default is 5 if you have no options set in the TCP header.</pre><pre><o:p>&nbsp;</o:p></pre><pre>6.<span style='mso-spacerun:yes'>  </span>Reserved<span
+style='mso-tab-count:2'>           </span>- This field is reserved for future <span
+class=GramE>use,</span> you must have it set to 0. </pre><pre><o:p>&nbsp;</o:p></pre><pre>7.<span style='mso-spacerun:yes'>  </span>Control Bits<span
+style='mso-tab-count:2'>               </span>- This is the field that contains values such as SYN and ACK. It has a total of 6 values. </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:2'>           </span><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:1'>    </span><span style='mso-spacerun:yes'>  </span>URG:<span style='mso-spacerun:yes'>  </span>Send Urgent Data to destination.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:2'>           </span><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:1'>    </span><span style='mso-spacerun:yes'>  </span>ACK:<span style='mso-spacerun:yes'>  </span>Acknowledgment of Data.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:3'>                   </span><span style='mso-spacerun:yes'>  </span>PSH:<span style='mso-spacerun:yes'>  </span>Push Data to destination.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:3'>                   </span><span style='mso-spacerun:yes'>  </span>RST:<span style='mso-spacerun:yes'>  </span>Reset the connection.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:3'>                   </span><span style='mso-spacerun:yes'>  </span>SYN:<span style='mso-spacerun:yes'>  </span>Synchronize sequence numbers.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+style='mso-tab-count:3'>                   </span><span style='mso-spacerun:yes'>  </span>FIN:<span style='mso-spacerun:yes'>  </span>No more data from sender.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>8.<span style='mso-spacerun:yes'>  </span>Window<span
+style='mso-tab-count:2'>             </span>- Specifies the maximum size of a segment that you can accept, if the segment is larger than this then it must be fragmented.</pre><pre><o:p>&nbsp;</o:p></pre><pre>9.<span style='mso-spacerun:yes'>  </span>Checksum<span
+style='mso-tab-count:2'>           </span>- The TCP checksum just like we explained with the IP header, is to ensure that there is no loss of Data during transport, it gets the size of the packet and when it gets to the host the host compares the size of the packet with the value of the checksum and if they don’t match you can see the packet was mangled during transport. The TCP Checksum is calculated using a psuedo header which is prefixed to the TCP Header. The purpose of this Psuedo Header is to protect the TCP packet from misrouted segments. The Psuedo Header contains 4 main pieces of information, the Source IP, the Destination IP numbers, the protocol and the TCP length.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>+-----------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>|<span style='mso-spacerun:yes'>           </span>Source Address<span style='mso-spacerun:yes'>          </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>+-----------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>|<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'>       </span>Destination Address<span style='mso-spacerun:yes'>       </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>+--------+--------+--------+--------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>|<span style='mso-spacerun:yes'>  </span>zero</span><span style='mso-spacerun:yes'>  </span>|<span style='mso-spacerun:yes'>  </span>PTCL<span style='mso-spacerun:yes'>  </span>|<span style='mso-spacerun:yes'>    </span>TCP Length<span style='mso-spacerun:yes'>   </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+style='mso-tab-count:3'>                    </span><span style='mso-spacerun:yes'>  </span>+--------+--------+--------+--------+</pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>FIG 1.3 - The structure of a Psuedo Header<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span>The TCP Length field is the length of the TCP Header + length of the Data and does not count the length of the Psuedo Header (12 Bytes).</pre><pre><o:p>&nbsp;</o:p></pre><pre>10. Urgent Pointer<span
+style='mso-tab-count:1'>     </span>- This field is only to be set when the URG control bit is set. It points to a Data area.</pre><pre><o:p>&nbsp;</o:p></pre><pre>11. Options<span
+style='mso-tab-count:2'>            </span>- The TCP options field is very similar to the IP Options field except it has fewer interesting parts that need to be mentioned here...<span style='mso-spacerun:yes'>  </span>none.</pre><pre><o:p>&nbsp;</o:p></pre><pre>12. Padding<span
+style='mso-tab-count:2'>            </span>- The same as the IP Padding Field.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>3.3 THE UDP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>          </span><st1:PlaceName
+w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType><span style='mso-spacerun:yes'>            </span>|<span style='mso-spacerun:yes'>       </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-spacerun:yes'>         </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>              </span>|<span style='mso-spacerun:yes'>           </span>16 bits<span style='mso-spacerun:yes'>              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>Length<span style='mso-spacerun:yes'>               </span>|<span style='mso-spacerun:yes'>           </span>Checksum<span style='mso-spacerun:yes'>             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>16 bits<span style='mso-spacerun:yes'>              </span>|<span style='mso-spacerun:yes'>           </span>16 bits<span style='mso-spacerun:yes'>              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+---------------------------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'>   </span>FIG 1.4 - The Structure of a UDP Header<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The UDP Header is more basic than previous Headers, it has only 4 fields.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. <st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place></pre><pre><o:p>&nbsp;</o:p></pre><pre>2. <st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place></pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Length</pre><pre><o:p>&nbsp;</o:p></pre><pre>4. Checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place><span
+style='mso-tab-count:2'>        </span>- Same as in TCP.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span><st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-tab-count:1'>   </span>- Same as in TCP.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>Length<span
+style='mso-tab-count:2'>             </span>- The length of the Datagram, including UDP Header and Data. Size must be at least 8.</pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Checksum<span
+style='mso-tab-count:2'>           </span>- Same as TCP this field protects against misrouted packets it also uses the same Psuedo Header as TCP.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='font-size:14.0pt;mso-bidi-font-size:
+10.0pt'>3.4 THE ICMP HEADER<o:p></o:p></span></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+----------------+----------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>      </span>Type<span style='mso-spacerun:yes'>      </span>|<span style='mso-spacerun:yes'>     </span>Code<span style='mso-spacerun:yes'>       </span>|<span style='mso-spacerun:yes'>           </span>Checksum<span style='mso-spacerun:yes'>             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>     </span>8 bits<span style='mso-spacerun:yes'>     </span>|<span style='mso-spacerun:yes'>    </span>8 bits<span style='mso-spacerun:yes'>      </span>|<span style='mso-spacerun:yes'>           </span>16 bits<span style='mso-spacerun:yes'>              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+----------------+----------------+--------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                              </span>Unused<span style='mso-spacerun:yes'>                              </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                              </span>32 bits<span style='mso-spacerun:yes'>                             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>            </span>Internet Header + 64 bits of Original Data<span style='mso-spacerun:yes'>            </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>|<span style='mso-spacerun:yes'>                              </span>32 bits<span style='mso-spacerun:yes'>                             </span>|</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span>+------------------------------------------------------------------+</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><span style='mso-spacerun:yes'>   </span>FIG 1.5 - The Standard Structure of an ICMP Header<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The ICMP Header changes depending on the message it is sending. Different ICMP Messages are conveyed by combinations of different values and the Unused Field can contain different values and become used depending upon the different ICMP messages being sent. For example in some messages you may need to specify the general Type of message and then its code, this certain message may require additional information such as the IP Address of a computer, this address would then be stored in the Unused Field.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The ICMP protocol is similar to UDP in that it is used in messages of 1 Datagram in size, however, ICMP is more like an extension of IP and certain fields must also be set for use with ICMP.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The Standard ICMP Header has 4 main fields.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. Type</pre><pre><o:p>&nbsp;</o:p></pre><pre>2. Code</pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre>4. Unused</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>1.<span style='mso-spacerun:yes'>  </span>Type<span
+style='mso-tab-count:2'>               </span>- Field declaring the type of ICMP Message.</pre><pre><o:p>&nbsp;</o:p></pre><pre>2.<span style='mso-spacerun:yes'>  </span>Code<span
+style='mso-tab-count:2'>               </span>- Field specifying the messages code to identify its meaning.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3.<span style='mso-spacerun:yes'>  </span>Checksum<span
+style='mso-tab-count:1'>   </span>- Calculated the same as other headers, the kernel may pad this if the checksum is an odd number to respect 32 bit boundaries in most ICMP messages but Checksum is not calculated in some ICMP Messages.</pre><pre><o:p>&nbsp;</o:p></pre><pre>4.<span style='mso-spacerun:yes'>  </span>Unused<span
+style='mso-tab-count:1'>     </span>- The value of this field varies depending on the type of ICMP message, if no value is to be entered in this field it must be specified as 0.</pre><pre><o:p>&nbsp;</o:p></pre><pre>There are several different ICMP messages but here we are only going to refer to the 2 most interesting types Echo and Netmask request and replies.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>======================<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><u>Echo Request and Reply<o:p></o:p></u></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>======================<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>Description:<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>These two ICMP Messages are commonly used in conjunction to form the ping program. First we send an Echo Request to a host and that host then sends us an echo reply. By sending multiple requests to a host and comparing the time they were sent with the time that the Echo Reply was received we can calculate the mean time that packets are sent between us and that host. This Message is also useful to determine whether a host is reachable and connected to the internet or not.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Data can be inserted into an Echo request, perhaps for checking the integrity of a packet which it is returned? </pre><pre><o:p>&nbsp;</o:p></pre><pre>Type:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Echo Request<span
+style='mso-tab-count:1'>   </span>= 8</pre><pre>Echo Reply <span
+style='mso-tab-count:1'>    </span>= 0</pre><pre><o:p>&nbsp;</o:p></pre><pre>Code:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Field Unused<span
+style='mso-tab-count:1'>   </span>= 0</pre><pre><o:p>&nbsp;</o:p></pre><pre>Checksum:</pre><pre><o:p>&nbsp;</o:p></pre><pre>As specified above.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>Identifier:<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Same as the IP Identifier, useful to determine which ICMP Echo Reply belongs to which Echo Request. </pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>Sequence Number:<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Used in the same way as the Identifier is above, useful for matching Echo Reply's with Requests.</pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>=========================<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><u>Netmask Request and Reply<o:p></o:p></u></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>=========================<o:p></o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></pre><pre><b
+style='mso-bidi-font-weight:normal'>Description:<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>We can send a netmask request to a host and it will return a netmask reply containing its subnetmask, getting subnetmasks is useful for mapping out and gathering information on network topology.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Type:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Netmask Request<span
+style='mso-tab-count:1'> </span>= 17</pre><pre><o:p>&nbsp;</o:p></pre><pre>Netmask Reply<span
+style='mso-tab-count:1'>  </span>= 18</pre><pre><o:p>&nbsp;</o:p></pre><pre>Code:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Field Unused<span
+style='mso-tab-count:1'>   </span>= 0</pre><pre><o:p>&nbsp;</o:p></pre><pre>Checksum:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Same as above.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Identifier:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Same as the IP Identifier, useful to determine which ICMP Netmask Reply belongs to which Netmask Request.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Sequence Number:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Used in the same way as the Identifier is above, useful for matching Netmask Reply's with Requests.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>4.0 CREATING A PACKET:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>OK well that’s enough Protocol Header theory, lets look at how we are going to construct a raw socket in code and the differences between coding raw sockets and normal windows sockets code.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Now with normal Sockets we give certain information to the stack in the case of windows, the Winsock. This information comprises of things like what transport layer were gonna use, TCP or UDP, the address of the host we are going to send it to, the port for it to go to, the Data to be contained within the Datagram, we name the socket call the sendto() function and off it goes. What we should consider now is what then happens to the information that we just provided, we know how the IP protocol sends it off zooming across the internet and how the host handles and sends this Data, but what happens in between the time we called sendto() and the time that packet leaves our computer? Well we passed this information to the winsock, the winsock then takes information such as the Destination address and our own address along with the protocol we specified and fills out the relevant fields in the protocol header, and it then sets the TTL with its own default value of 35.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Then the winsock uses the other information we provided, the source and destination port numbers, and fills the relevant TCP or UDP Header fields, and constructs the header, wraps the headers around the Data we specified and calculates things such as fragmentation and fills in the fields. Once everything is filled out and wrapped up the winsock calculates the size of the packet and specifies the checksum value.</pre><pre><o:p>&nbsp;</o:p></pre><pre>With all this done the winsock sends the packet off to whiz around the internet.</pre><pre><o:p>&nbsp;</o:p></pre><pre>So with normal sockets we don’t have to specify all those nasty fields in the Headers we leave it up to good ol' winsock and it handles that but we want to create our own headers so how do we stop the winsock from prefixing its headers onto our packet?</pre><pre><b
+style='mso-bidi-font-weight:normal'><u><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></u></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>4.1 <span class=GramE>SETSOCKOPT(</span>):<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The <span
+class=GramE>setsockopt(</span>) function is very important in raw sockets, its here that we tell the winsock that we want to use our own headers for this packet and for it to not add its own to ours.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The <span
+class=GramE>setsockopt(</span>) function has 5 parameters:</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. Socket</pre><pre><o:p>&nbsp;</o:p></pre><pre>2. Level</pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Option Name</pre><pre><o:p>&nbsp;</o:p></pre><pre>4. Option value</pre><pre><o:p>&nbsp;</o:p></pre><pre>5. Option Length</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. Socket<span
+style='mso-tab-count:2'>              </span>- Just like in normal sockets this is a Socket that we made earlier in the program.</pre><pre><o:p>&nbsp;</o:p></pre><pre>2. Level<span
+style='mso-tab-count:2'>               </span>- This is the protocol we are going to be using in the program, it has values such as</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:2'>               </span> <span style='mso-tab-count:1'>       </span><span style='mso-spacerun:yes'>  </span>IPPROTO_TCP and IPPROTO_IP.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Option Name<span
+style='mso-tab-count:2'>         </span>- The socket option we are going to set, we will</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>be</span> setting this to IP_HDRINCL, this option is</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>what</span> tells the winsock we want to include our</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>own</span> headers for the packet.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>4. Option Value<span
+style='mso-tab-count:2'>        </span>- Pointer to the buffer in which the value for</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>the</span> requested option is supplied. We will be</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>using</span> a Boolean called bOpt set to true for</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>this</span>, set to false would mean that we don’t want</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>to</span> use the IP_HDRINCL option.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>5. Option Length<span
+style='mso-tab-count:1'>       </span>- The size of the buffer which supplies the</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:3'>                       </span><span style='mso-spacerun:yes'>  </span><span
+class=GramE>value</span>. We will use <span class=GramE>sizeof(</span>bOpt) for this.</pre><pre><o:p>&nbsp;</o:p></pre><pre>The <span
+class=GramE>setsockopt(</span>) function well be looking at so will look like this:</pre><pre><o:p>&nbsp;</o:p></pre><pre>Setsockopt (myraw, IPPROTO_IP, IP_HDRINCL, (char *<span
+class=GramE>)&amp;</span>bOpt, sizeof(bOpt)</pre><pre><o:p>&nbsp;</o:p></pre><pre>So now how do we tell the winsock that we want to use raw sockets instead of normal sockets in the first place? </pre><pre><b
+style='mso-bidi-font-weight:normal'><u><o:p><span style='text-decoration:none'>&nbsp;</span></o:p></u></b></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>4.2 <span class=GramE>SOCKET(</span>):<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Of course weve already covered the socket() function in the past and are familiar with its different parameters but what we have to be concerned about two of its parameters, its type and protocol.</pre><pre><o:p>&nbsp;</o:p></pre><pre>A normal socket looks like the following:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>socket(</span>AF_INET, SOCK_STREAM, 0)</pre><pre><o:p>&nbsp;</o:p></pre><pre>Before we used to set its type as SOCK_STREAM or SOCK_DGRAM for TCP and UDP respectively. In raw sockets however we will set the type parameter to SOCK_RAW and the protocol to IPPROTO_RAW.</pre><pre><o:p>&nbsp;</o:p></pre><pre>A Raw Socket looks like this:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>socket(</span>AF_INET, SOCK_RAW, IPPROTO_RAW);</pre><pre><o:p>&nbsp;</o:p></pre><pre>So that’s how we tell the winsock that its a raw socket that we will be using which still leaves the question how do we build the actual header?</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.0 BUILDING HEADERS IN CODE:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The Headers are built using normal C structures, we declare a struct for each header we want to build and declare a variable for each field of the Header that we will be using.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>While creating the structure we must remember that there are certain expectations and limitations on the size of Headers, an IP Header is 20 Bytes in size, so we will have to use certain types of variables to reflect the sizes of these fields the different variable types and there sizes are as follows:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> char <span style='mso-tab-count:2'>         </span>= 1 byte<span style='mso-spacerun:yes'>  </span>(8 bits)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> short int <span style='mso-tab-count:1'>    </span>= 2 bytes (16 bits)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> int <span style='mso-tab-count:2'>          </span>= 4 bytes (32 bits)</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.1 THE IP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The IP Header as explained above will be built using a structure containing all of the fields in the IP Header. As you will remember there are 14 fields in the IP Header, however we will not be using any of the IP's Options or the padding, also in our examples we will only be using single Datagram’s so there will be no need for fragmenting the packets so we will not be using the flags field and we will just set the Fragment Offset to 0.</pre><pre><o:p>&nbsp;</o:p></pre><pre>So with a total of 14 fields in the IP Header we will not be using 3 of them so that leaves us with 11 fields, also we will be storing the IP version and length in one variable so that means we will be using a total of 10 variables for our code when building the Header.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Well here is the structure we will be using to build the IP Header:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct ip_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_verlen;<span style='mso-spacerun:yes'>        </span>// version &amp; IHL<span
+style='mso-tab-count:2'>        </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes<span style='mso-spacerun:yes'>  </span>(combined size of both)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_tos;<span style='mso-spacerun:yes'>           </span>// TOS<span
+style='mso-tab-count:3'>                  </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_totallength;<span style='mso-spacerun:yes'>   </span>// Total length<span
+style='mso-tab-count:2'>         </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_id;<span style='mso-spacerun:yes'>            </span>// Identification<span
+style='mso-tab-count:1'>       </span> <span style='mso-tab-count:1'>       </span><span style='mso-spacerun:yes'> </span>=&gt;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_offset;<span style='mso-spacerun:yes'>        </span>// Fragment Offset<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_ttl;<span style='mso-spacerun:yes'>           </span>// Time to live<span
+style='mso-tab-count:2'>         </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_protocol;<span style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'>   </span>// Protocol<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_checksum;<span style='mso-spacerun:yes'>      </span>// Header checksum<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>ip_srcaddr;<span style='mso-spacerun:yes'>       </span>// Source address<span
+style='mso-tab-count:2'>               </span> =&gt; <span style='mso-tab-count:
+1'>    </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>ip_destaddr;<span style='mso-spacerun:yes'>      </span>// Destination address<span
+style='mso-tab-count:1'>  </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:2'>               </span><span style='mso-tab-count:2'>               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span>= 20 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}IP</span>_HDR; </pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>This structure contains all of the fields we will be using and the sizes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>of</span> the variables add up to 20 Bytes, the correct size of an IP Header,</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>note</span> however that the Fragment Offset field is given a value of 2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>which</span> is equal to 16 bits, the true size of the frag offset is 13 but we</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>altered</span> it here to make up for the missing 3 bits of the flag field but</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>it</span> wont make any difference to the packet this is still a perfectly formed</pre><pre><o:p>&nbsp;</o:p></pre><pre>IP Header.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.2 THE TCP HEADER<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>With the below structure you will again notice that there are a few of the TCP Headers fields missing, again Options and Padding are not included as we will not be using them, that leaves us with a total of 10 fields and the reserved field has been left out because it is not currently implemented by TCP so we are left with 9 fields to fill.</pre><pre><o:p>&nbsp;</o:p></pre><pre>With the missing fields of the Header we have increased the sizes of the Control Bits and Data Offset fields both to 1 Byte to make up the 20 Byte size of the TCP Header.</pre><pre><o:p>&nbsp;</o:p></pre><pre>So here is the TCP Structure:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct tcp_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short sport;<span style='mso-tab-count:1'>      </span><span style='mso-spacerun:yes'>     </span>// <st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place><span
+style='mso-tab-count:2'>            </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short dport;<span style='mso-tab-count:1'>      </span><span style='mso-spacerun:yes'>     </span>// <st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-tab-count:1'>       </span> =&gt;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>seqnum;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>     </span>// Sequence Number<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>acknum;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>     </span>// Acknowledgement Number<span style='mso-spacerun:yes'>   </span>=&gt;<span
+style='mso-tab-count:1'>   </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>DataOffset;<span
+style='mso-tab-count:1'> </span><span style='mso-spacerun:yes'>     </span>// Data Offset<span
+style='mso-tab-count:2'>            </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>Flags;<span
+style='mso-tab-count:1'>      </span><span style='mso-spacerun:yes'>     </span>// Control Bits<span
+style='mso-tab-count:2'>           </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short Windows;<span style='mso-tab-count:1'>    </span><span style='mso-spacerun:yes'>     </span>// Window<span
+style='mso-tab-count:3'>                 </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short Checksum; <span style='mso-tab-count:1'>  </span><span style='mso-spacerun:yes'>     </span>// Checksum<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short UrgPointer;<span style='mso-spacerun:yes'>       </span>// Urgent Pointer<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span>= 20 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}TCP</span>_HDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.3 THE UDP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The below structure is the UDP Header, unlike previous headers it is not missing any fields and adds up to a total size of 8 Bytes.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct udp_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short sport;<span style='mso-tab-count:1'>      </span><span style='mso-spacerun:yes'>     </span>// <st1:place
+w:st="on"><st1:PlaceName w:st="on">Source</st1:PlaceName> <st1:PlaceType w:st="on">Port</st1:PlaceType></st1:place><span
+style='mso-tab-count:2'>            </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short dport;<span style='mso-tab-count:1'>      </span><span style='mso-spacerun:yes'>     </span>// <st1:place
+w:st="on"><st1:PlaceName w:st="on">Destination</st1:PlaceName> <st1:PlaceType
+ w:st="on">Port</st1:PlaceType></st1:place><span style='mso-tab-count:1'>       </span> =&gt;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short Length; <span style='mso-tab-count:1'>    </span><span style='mso-spacerun:yes'>     </span>// Length<span
+style='mso-tab-count:3'>                 </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short Checksum;<span style='mso-tab-count:1'>   </span><span style='mso-spacerun:yes'>     </span>// Checksum<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span><span
+class=GramE>=<span style='mso-spacerun:yes'>  </span>8</span> Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}UDP</span>_HDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.4 THE ICMP HEADER:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The ICMP Header is similar to the UDP Header, it has very few fields and it adds up to a size of 8 Bytes.</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct tagICMPHDR</pre><pre><o:p>&nbsp;</o:p></pre><pre>{ </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>icmp_type;<span
+style='mso-tab-count:1'>  </span><span style='mso-spacerun:yes'>     </span>// Type of message<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>icmp_code;<span style='mso-spacerun:yes'>        </span>// Type sub code<span
+style='mso-tab-count:2'>        </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_cksum;<span style='mso-spacerun:yes'>       </span>// Checksum<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes<span
+style='mso-tab-count:1'>      </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_id;<span style='mso-spacerun:yes'>          </span>// Identifer<span
+style='mso-tab-count:2'>            </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_seq;<span style='mso-spacerun:yes'>         </span>// sequence number<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span>+ 2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:5'>                               </span>= 8 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre>} ICMPHDR, *PICMPHDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.5 THE PSUEDO HEADER<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The Psuedo Header is used to protect against misrouted segments, its size is 12 Bytes, <span
+class=GramE>the</span> following structure forms the Psuedo </pre><pre><o:p>&nbsp;</o:p></pre><pre>Header:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct ps_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>source_address;<span style='mso-spacerun:yes'>   </span>// Source Address<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'> </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>dest_address;<span style='mso-spacerun:yes'>     </span>// Destination Address<span
+style='mso-tab-count:1'>  </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>placeholder;<span
+style='mso-tab-count:1'>       </span><span style='mso-spacerun:yes'>     </span>// Place Holder<span
+style='mso-tab-count:2'>           </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>protocol;<span
+style='mso-tab-count:1'>   </span><span style='mso-spacerun:yes'>     </span>// Protocol<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short tcp_length;<span style='mso-tab-count:1'> </span><span style='mso-spacerun:yes'>     </span>// TCP Length<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span>= 12 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>struct</span> tcp_hdr tcp;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}PS</span>_HDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>5.6 THE CHECKSUM FUNCTION<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>The Checksum Function is needed to calculate the size of the packet, here is the functions code:</pre><pre><o:p>&nbsp;</o:p></pre><pre>USHORT <span
+class=GramE>checksum(</span>USHORT *buffer, int size)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> long cksum=0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>while</span> (size &gt; 1)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *buffer++;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>size<span style='mso-spacerun:yes'>  </span>-</span>= sizeof(USHORT);<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (size)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *(UCHAR*)buffer;<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> = (cksum &gt;&gt; 16) + (cksum &amp; 0xffff);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> += (cksum &gt;&gt;16); </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>return</span> (USHORT)(~cksum); </pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>6.0 SOURCE CODE:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Well in the Source Code we are first going to look at code which is supported by all Winsock 2 Systems including Win 9x ones so that every-1 can av' a go as it were. So in this section we are going to put what weve learned so far together and create a working internet application by using the icmp protocol to send an ICMP Echo Request message, the first part of a ping program. First tough we are going to create a header &quot;.h&quot; file for the application, the file contains the checksum function and structures for the IP and ICMP headers.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Remember you will have to make sure that the header file is included correctly with the source file and that you linked to Ws2_32.lib.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>6.1 ICMP ECHO REQUEST:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************* icmp.h header file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// ICMP message types</pre><pre><o:p>&nbsp;</o:p></pre><pre>#define ICMP_ECHOREQ<span
+style='mso-tab-count:2'>           </span>13<span style='mso-tab-count:1'>      </span>// Echo request query</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// IP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct ip_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_verlen;<span style='mso-spacerun:yes'>        </span>// version &amp; IHL<span
+style='mso-tab-count:2'>        </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes<span style='mso-spacerun:yes'>  </span>(combined size of both)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_tos;<span style='mso-spacerun:yes'>           </span>// TOS<span
+style='mso-tab-count:3'>                  </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_totallength;<span style='mso-spacerun:yes'>   </span>// Total length<span
+style='mso-tab-count:2'>         </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_id;<span style='mso-spacerun:yes'>            </span>// Identification<span
+style='mso-tab-count:1'>       </span> <span style='mso-tab-count:1'>       </span><span style='mso-spacerun:yes'> </span>=&gt;<span
+style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_offset;<span style='mso-spacerun:yes'>        </span>// Fragment Offset<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_ttl;<span style='mso-spacerun:yes'>           </span>// Time to live<span
+style='mso-tab-count:2'>         </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>ip_protocol;<span style='mso-spacerun:yes'>      </span>// Protocol<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short ip_checksum;<span style='mso-spacerun:yes'>      </span>// Header checksum<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>ip_srcaddr;<span style='mso-spacerun:yes'>       </span>// Source address<span
+style='mso-tab-count:2'>               </span> =&gt; <span style='mso-tab-count:
+1'>    </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>ip_destaddr;<span style='mso-spacerun:yes'>      </span>// Destination address<span
+style='mso-tab-count:1'>  </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span>= 20 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}IP</span>_HDR; </pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// ICMP Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct tagICMPHDR</pre><pre><o:p>&nbsp;</o:p></pre><pre>{ </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>icmp_type;<span
+style='mso-tab-count:1'>  </span><span style='mso-spacerun:yes'>     </span>// Type of message<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>icmp_code;<span style='mso-spacerun:yes'>        </span>// Type sub code<span
+style='mso-tab-count:2'>        </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_cksum;<span style='mso-spacerun:yes'>       </span>// Checksum<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes<span
+style='mso-tab-count:1'>      </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_id;<span style='mso-spacerun:yes'>          </span>// Identifer<span
+style='mso-tab-count:2'>            </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short icmp_seq;<span style='mso-spacerun:yes'>         </span>// sequence number<span
+style='mso-tab-count:2'>              </span> =&gt;<span style='mso-tab-count:
+1'>     </span>+ 2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:5'>                               </span>= 8 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre>} ICMPHDR, *PICMPHDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#define REQ_DATASIZE 32<span
+style='mso-tab-count:2'>               </span>// Echo Request Data size</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// ICMP Echo Request</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct tagECHOREQUEST</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>ICMPHDR icmpHdr;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>char</span><span style='mso-spacerun:yes'>    </span>cData[REQ_DATASIZE];</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>} ECHOREQUEST, *PECHOREQUEST;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>USHORT <span
+class=GramE>checksum(</span>USHORT *buffer, int size)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> long cksum=0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>while</span> (size &gt; 1)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *buffer++;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>size<span style='mso-spacerun:yes'>  </span>-</span>= sizeof(USHORT);<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (size)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *(UCHAR*)buffer;<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> = (cksum &gt;&gt; 16) + (cksum &amp; 0xffff);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> += (cksum &gt;&gt;16); </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>return</span> (USHORT)(~cksum); </pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************* icmp.h header file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>So in the header file <span
+class=GramE>we</span> first #defined some code type for ICMP Echo Request to make things a bit more readable later on, then we set up our IP and ICMP structures by giving variables for each field in the Protocol headers. Notice the sizes of each field add up correctly for the sizes of the protocol headers, we also have a structure called ECHOREQUEST, all icmp messages have different fields except for the common ones defined in the icmp header above, the fields of ECHOREQUEST are the extra fields nedded for <span
+class=GramE>echo's</span>. We then have a function to calculate the checksum, all these bits of code are just placed inside our .h file to keep things shorter and more readable in the main program, speaking of which...</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************* icmp.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// Make sure you always include your headers and link your libraries :)</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;winsock2.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;ws2tcpip.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;stdio.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;stdlib.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &quot;icmp.h&quot;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>void</span> main(int argc, char **argv)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>DWORD dip = inet_<span
+class=GramE>addr(</span>argv[1]);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>WSADATA<span
+style='mso-tab-count:2'>            </span>wsaData;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>SOCKET<span
+style='mso-tab-count:2'>             </span>sock;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>static</span> ECHOREQUEST<span style='mso-tab-count:1'> </span>echo_req;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>struct</span> sockaddr_in sin;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Startup WinSock</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (WSAStartup(MAKEWORD(2,2), &amp;wsaData) != 0)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>printf(</span>&quot;WSAStartup failure!&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// <span
+class=GramE>Create</span> a raw socket</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> ((sock = socket(AF_INET, SOCK_RAW, IPPROTO_ICMP)) == SOCKET_ERROR)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>printf(</span>&quot;Error starting socket&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>sin.sin_family<span
+style='mso-tab-count:1'>     </span>= AF_INET;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>sin.sin_port<span
+style='mso-tab-count:1'>       </span>= <span class=GramE>htons(</span>0);</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span style='mso-spacerun:yes'>   </span>sin.sin_addr.s_addr = dip;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Fill in echo request</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_type<span
+style='mso-tab-count:1'> </span>= ICMP_ECHOREQ;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_code<span
+style='mso-tab-count:1'> </span>= 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_cksum<span
+style='mso-tab-count:1'>       </span>= 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_id<span
+style='mso-tab-count:1'>   </span>= 1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_seq<span
+style='mso-tab-count:1'>  </span>= 1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Fill in some data to send</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>memset(</span>echo_req.cData, ' ', REQ_DATASIZE);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Compute checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>echo_req.icmpHdr.icmp_cksum = <span
+class=GramE>checksum(</span>(unsigned short *)&amp;echo_req, sizeof(ECHOREQUEST));</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Status mesage</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>printf(</span>&quot;Sending Echo Request to &lt;%s&gt;.\n&quot;, argv[1]);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Send the echo request<span style='mso-spacerun:yes'>  </span><span
+style='mso-tab-count:8'>                                                      </span><span style='mso-spacerun:yes'>  </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (sendto(sock, (const char *) &amp;echo_req, sizeof(ECHOREQUEST), 0, (SOCKADDR *) dip, sizeof(SOCKADDR_IN)) == SOCKET_ERROR)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>       </span><span
+class=GramE>printf(</span>&quot;sendto() failed: %d\n&quot;, WSAGetLastError());</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>       </span><span
+class=GramE>return</span> -1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Status mesage</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>printf(</span>&quot;Message Sent\n&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>// Close socket and WinSock</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>closesocket(</span>sock);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>WSACleanup(</span>);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>return</span> 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************* icmp.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>Well start up your compiler and link to the Ws2_32.lib file then add the icmp.c and icmp.h files to a new project. Compile and run this program by typing icmp 127.0.0.1 at the command line. The program takes the argument passed to it, 127.0.0.1 or any other IP Address you want and sends an ICMP message with a type of 13 and a code of 0, this setting is an ICMP echo request. Now remember that whatever values you enter in the code for the ICMP headers fields that is the type of ICMP Message that is sent. For example, if we were to change the type to 17 then we would be sending <span
+class=GramE>a</span> ICMP Netmask request, the target machine would then send back a Netmask Reply which we could use to map a target network. Or say if we went to www.tlsecurity.com and browsed for vulnerabilities and the words ICMP and Win98 were to catch our eye, here we would find vulnerability for Windows 98 called p-smash. Now this advisory tells us that if we sent an icmp message to a computer running Windows 98 that had a Type of 9 and a code of 0 then the thing halt and stop responding. Therefore all we have to do with the above program is change:</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#define ICMP_ECHOREQ<span
+style='mso-tab-count:2'>           </span>13</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>To</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#define ICMP_ECHOREQ<span
+style='mso-tab-count:2'>           </span>19</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>in</span> the header file, then when we send this to a Windows 98 machine the thing halts, an icmp DoS tool.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Lamer Alert: I was using the above as an example DoS tools are indeed very lame!! and just shouldn't be used or designed, advisories are of course a good thing, they prompt vendors to do something about security vulnerabilities and promote security awareness, don't be lame, don't use DoS tools, otherwise you'll give Steve Gibson more stuff to prattle on about and ill have to bore ya to death with more flaming of 'the prick' (yes by flaming of the prick I am referring to Giving out about Gibson not medical conditions, I know what you were thinking cyberwolf!).</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>6.2 TCP ACK PACKET:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/*********************** ip.h header file *************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;winsock2.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;windows.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;ws2tcpip.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;stdio.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>struct</span> tcpheader {</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int th_sport;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int th_dport;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> int th_seq;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> int th_ack;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char th_x2:4, th_off:4;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char th_flags;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int th_win;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int th_sum;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int th_urp;</pre><pre><o:p>&nbsp;</o:p></pre><pre>}; /* total tcp header length: 20 bytes (=160 bits) */</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>struct</span> ipheader {</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char ip_hl:4, ip_v:4; /* this means that each member is 4 bits */</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char ip_tos;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int ip_len;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int ip_id;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int ip_off;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char ip_ttl;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> char ip_p;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> short int ip_sum;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> int ip_src;</pre><pre><o:p>&nbsp;</o:p></pre><pre> <span
+class=GramE>unsigned</span> int ip_dst;</pre><pre><o:p>&nbsp;</o:p></pre><pre>}; /* total ip header length: 20 bytes (=160 bits) */</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// Psuedo Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct ps_hdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>source_address;<span style='mso-spacerun:yes'>   </span>// Source Address<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>   </span>dest_address;<span style='mso-spacerun:yes'>     </span>// Destination Address<span
+style='mso-tab-count:1'>  </span> =&gt;<span style='mso-tab-count:1'>     </span><span style='mso-spacerun:yes'>  </span>4 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>placeholder;<span
+style='mso-tab-count:1'>       </span><span style='mso-spacerun:yes'>     </span>// Place Holder<span
+style='mso-tab-count:2'>           </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> char<span style='mso-spacerun:yes'>  </span>protocol;<span
+style='mso-tab-count:1'>   </span><span style='mso-spacerun:yes'>     </span>// Protocol<span
+style='mso-tab-count:2'>               </span> =&gt;<span style='mso-tab-count:
+1'>     </span><span style='mso-spacerun:yes'>  </span>1 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> short tcp_length;<span style='mso-tab-count:1'> </span><span style='mso-spacerun:yes'>     </span>// TCP Length<span
+style='mso-tab-count:2'>             </span> =&gt;<span style='mso-spacerun:yes'>    </span>+<span style='mso-spacerun:yes'>  </span>2 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:4'>                               </span><span style='mso-spacerun:yes'>     </span>//<span
+style='mso-tab-count:4'>                        </span><span style='mso-spacerun:yes'>       </span>= 12 Bytes</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>struct</span> tcpheader tcp;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}PS</span>_HDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// IP/TCP/UDP Checksum Function</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>USHORT <span
+class=GramE>checksum(</span>USHORT *buffer, int size)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>unsigned</span> long cksum=0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>while</span> (size &gt; 1)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *buffer++;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>size<span style='mso-spacerun:yes'>  </span>-</span>= sizeof(USHORT);<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (size)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>        </span><span
+class=GramE>cksum</span> += *(UCHAR*)buffer;<span style='mso-spacerun:yes'>   </span></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> = (cksum &gt;&gt; 16) + (cksum &amp; 0xffff);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>cksum</span> += (cksum &gt;&gt;16); </pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>return</span> (USHORT)(~cksum); </pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/*********************** ip.h header file *************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>Well that header file contained a few #define's, these dealt with TCP's control bits like ack and sequence and so on to make things more readable later. We then setup up the structures for the IP, TCP and Psuedo Headers and the function to calculate the checksum.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Now <span
+class=GramE>lets</span> put the header to use with the ack program, this program will send a single ACK packet to whatever computer you specify.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************** main.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &quot;ip.h&quot;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#define PORT 25</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>int</span> main (void)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>WSADATA wsd;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>char</span> datagram[4096];</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>bool</span> bOpt = 1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (WSAStartup(MAKEWORD(2,2), &amp;wsd) != 0)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>printf(</span>&quot;WSAStartup() failed: %d\n&quot;, GetLastError());</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>return</span> -1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// <span
+class=GramE>Create</span> a raw socket</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>SOCKET s = <span
+class=GramE>socket(</span>AF_INET, SOCK_RAW, IPPROTO_RAW);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (s == INVALID_SOCKET)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>       </span><span
+class=GramE>printf(</span>&quot;WSASocket() failed: %d\n&quot;, WSAGetLastError());</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>       </span><span
+class=GramE>return</span> -1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>struct</span> ipheader *iph = (struct ipheader *) datagram;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>struct</span> tcpheader *tcph = (struct tcpheader *) datagram + sizeof (struct ipheader);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>struct</span> sockaddr_in sin;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>PS_HDR pseudo_header;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>sin.sin_family = AF_INET;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>sin.sin_port = htons (PORT);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>sin.sin_addr.s_addr = inet_addr (&quot;127.0.0.1&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>memset</span> (datagram, 0, 4096);<span style='mso-tab-count:1'>  </span>/* zero out the buffer */</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_hl<span style='mso-tab-count:2'>           </span> = 5;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_v<span style='mso-tab-count:3'>                    </span> = 4;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_tos<span style='mso-tab-count:2'>          </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_len<span style='mso-tab-count:2'>          </span> = sizeof (struct ipheader) + sizeof (struct tcpheader);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_id<span style='mso-tab-count:2'>           </span> = 1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_off<span style='mso-tab-count:2'>          </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_ttl<span style='mso-tab-count:2'>          </span> = 255;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_p<span style='mso-tab-count:3'>                    </span> = 6;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_sum<span style='mso-tab-count:2'>          </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_src<span style='mso-tab-count:2'>          </span> = inet_addr (&quot;1.2.3.4&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_dst<span style='mso-tab-count:2'>          </span> = sin.sin_addr.s_addr;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_sport<span style='mso-tab-count:1'>       </span> = htons (1234);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_dport<span style='mso-tab-count:1'>       </span> = htons (PORT);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_seq<span style='mso-tab-count:2'>         </span> = rand();</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_ack<span style='mso-tab-count:2'>         </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_x2<span style='mso-tab-count:2'>          </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_off<span style='mso-tab-count:2'>         </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_flags<span style='mso-tab-count:1'>       </span> = 2; // SYN</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_win<span style='mso-tab-count:2'>         </span> = htons(65535);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_sum<span style='mso-tab-count:2'>         </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_urp<span style='mso-tab-count:2'>         </span> = 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>// Build the Psuedo Header</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>pseudo_header.source_address<span style='mso-spacerun:yes'>  </span><span style='mso-spacerun:yes'>  </span>= inet_addr (&quot;1.2.3.4&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>pseudo_header.dest_address<span
+style='mso-tab-count:1'>   </span><span style='mso-spacerun:yes'>  </span>= sin.sin_addr.s_addr;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>pseudo_header.placeholder<span
+style='mso-tab-count:2'>           </span><span style='mso-spacerun:yes'>  </span>= 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>pseudo_header.protocol<span
+style='mso-tab-count:2'>              </span><span style='mso-spacerun:yes'>  </span>= IPPROTO_TCP;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span>pseudo_header.tcp_length<span
+style='mso-tab-count:2'>            </span><span style='mso-spacerun:yes'>  </span>= <span
+class=GramE>htons(</span>sizeof(tcpheader));</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// Calculate Checksum</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>tcph</span>-&gt;th_sum = checksum((unsigned short *)&amp;pseudo_header, sizeof(pseudo_header));</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>iph</span>-&gt;ip_sum<span style='mso-spacerun:yes'>  </span>= checksum((unsigned short *)&amp;iph, sizeof(ipheader));</pre><pre><o:p>&nbsp;</o:p></pre><pre>// ENABLE IPHDRINCL </pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (setsockopt(s, IPPROTO_IP, IP_HDRINCL, (char *)&amp;bOpt, sizeof(bOpt)) == SOCKET_ERROR)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>printf(</span>&quot;setsockopt(IP_HDRINCL) failed: %d\n&quot;, WSAGetLastError());</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>return</span> -1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>while</span> (1)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>      </span>// Send <span
+class=GramE>The</span> Packet</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>if</span> (sendto(s, datagram, sizeof(datagram), 0, (SOCKADDR *)&amp;sin, sizeof(sin)) == SOCKET_ERROR)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>       </span><span
+style='mso-tab-count:1'> </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>printf(</span>&quot;sendto() failed: %d\n&quot;, WSAGetLastError());</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span style='mso-spacerun:yes'>   </span><span
+class=GramE>return</span> -1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>  </span><span
+class=GramE>return</span> 0;</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************** main.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>This program sends a tcp SYN packet to a target (you)<span
+class=GramE>,</span> it is a simple program but a very powerful one. You can edit all of the header fields enabling us to spoof our ip address amongst other things.</pre><pre><o:p>&nbsp;</o:p></pre><pre>Notice that we can also set the port numbers, some firewalls will let a packet with a port of 53 trough and not even log it, by knowing security tid bits like this we can build better more sophisticated programs.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>7.0 RECIEVING RAW PACKETS:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Receiving Raw Packets was never dealt with in the Berkeley Raw Socket specification, so far only Linux 2.2.3 and up I believe ever dealt with them, it is of course therefore surprising that Microsoft has indeed supported a way to receive raw packets with our programs! Yes indeed I am starting to like the guy who came up with the idea of supporting raw sockets in Windows more and more! But how do we do it? Well what we do is this: sniff all incoming packets on our computer and filter them for the packet we are looking for. This method can be used for, obviously, creating a packet sniffer and also for a firewall or some port redirection tool. Very good idea.</pre><pre><o:p>&nbsp;</o:p></pre><pre>We do it by creating a new raw socket and binding it to the interface, go into promiscuous mode and grab all the incomming packets. As usual we would set up our socket with something like the following:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>SOCKET<span style='mso-spacerun:yes'>        </span>sniffsock;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>SOCKADDR_IN<span style='mso-spacerun:yes'>   </span>if0;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>sniffsock</span> = socket(AF_INET, SOCK_RAW, IPPROTO_IP);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>and</span> then call bind() with this raw socket:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>bind(</span>sniffsock, (SOCKADDR *)&amp;if0, sizeof(if0));</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>we</span> then go into Promiscuous mode and recieve all of the packets by</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>calling</span> WSAIoctl() with SIO_RCVALL set:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+class=GramE>WSAIoctl(</span>sniffsock, SIO_RCVALL, &amp;optval, sizeof(optval), NULL, 0, &amp;dwBytesRet, NULL,<span
+style='mso-tab-count:1'>        </span>NULL);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>we</span> can then use the WSARecv() function to grab the packets and feed them into a buffer like so:</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>   </span><span
+class=GramE>recv(</span>sniffsock, RecvBuf, sizeof(RecvBuf), 0);</pre><pre><o:p>&nbsp;</o:p></pre><pre>We then use our own <span
+class=GramE>filterpacket(</span>) function to look for the particular packet that we want.</pre><pre><o:p>&nbsp;</o:p></pre><pre>So now for some example source code, this program will capture all packets sent to your computer for as long as the program is running, to do this well use a while loop to capture the packets then pass the packet to a function called filterpacket() in order to get the information from the packets headers. First create a new project and add a .cpp c++ source file.</pre><pre>Here comes the science bit.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************** recv.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;winsock2.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;windows.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;ws2tcpip.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre>#include &lt;stdio.h&gt;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>void</span> outtie(char *p)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>FILE *fp = <span class=GramE>fopen(</span>&quot;Sniffer1.txt&quot;,&quot;a+&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>fprintf(</span>fp,&quot;%s\n&quot;,p);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>fclose(</span>fp);</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>#define SIO_RCVALL _<span
+class=GramE>WSAIOW(</span>IOC_VENDOR,1)</pre><pre><o:p>&nbsp;</o:p></pre><pre>#define MAX_ADDR_LEN 16</pre><pre><o:p>&nbsp;</o:p></pre><pre>#define MAX_HOSTNAME_LAN 255</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>typedef</span> struct _iphdr</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> char<span style='mso-tab-count:1'>  </span>h_lenver;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> char<span style='mso-tab-count:1'>  </span>tos;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> short<span style='mso-tab-count:1'> </span>total_len;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> short<span style='mso-tab-count:1'> </span>ident;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> short<span style='mso-tab-count:1'> </span>frag_and_flags;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> char<span style='mso-tab-count:1'>  </span>ttl;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> char<span style='mso-tab-count:1'>  </span>proto;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> short<span style='mso-tab-count:1'> </span>checksum;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> int<span style='mso-tab-count:1'>   </span>sourceIP;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>unsigned</span> int<span style='mso-tab-count:1'>   </span>destIP;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>}IP</span>_HDR;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>void</span> RecvPacket();</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>int</span> filterpacket(char *buf);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>char</span><span style='mso-spacerun:yes'>     </span>output[500];</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>void</span> main()</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>RecvPacket(</span>);</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>void</span> RecvPacket()</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>SOCKET<span style='mso-spacerun:yes'>     </span><span style='mso-spacerun:yes'>   </span>sock;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>WSADATA<span style='mso-spacerun:yes'>       </span>wsd;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>char</span> RecvBuf[65535] = {0};</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>DWORD<span style='mso-tab-count:2'>          </span><span style='mso-spacerun:yes'>  </span>dwBytesRet;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>unsigned</span> int<span style='mso-spacerun:yes'>  </span>optval = 1;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>WSAStartup(</span>MAKEWORD(2,1),&amp;wsd);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>sock</span> = socket(AF_INET, SOCK_RAW, IPPROTO_IP);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>char</span> FAR name[MAX_HOSTNAME_LAN];</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>gethostname(</span>name, MAX_HOSTNAME_LAN);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>struct</span> hostent FAR * pHostent;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>pHostent</span> = (struct hostent * )malloc(sizeof(struct hostent));</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>pHostent</span> = gethostbyname(name);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>SOCKADDR_IN <span class=GramE>sa</span>;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>sa.sin_family = AF_INET;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span>sa.sin_port = <span class=GramE>htons(</span>6000);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>memcpy(</span>&amp;sa.sin_addr.S_un.S_addr, pHostent-&gt;h_addr_list[0], pHostent-&gt;h_length);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>bind(</span>sock, (SOCKADDR *)&amp;sa, sizeof(sa));</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>WSAIoctl(</span>sock, SIO_RCVALL, &amp;optval, sizeof(optval), NULL, 0, &amp;dwBytesRet, NULL, NULL);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>while</span> (1)</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span><span
+class=GramE>memset(</span>RecvBuf, 0, sizeof(RecvBuf));</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>recv(</span>sock, RecvBuf, sizeof(RecvBuf), 0);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>filterpacket(</span>RecvBuf);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span style='mso-spacerun:yes'>    </span>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>// Filter the Packet</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>int</span> filterpacket(char *buf)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre>IP_HDR *pIpheader;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>char</span> szSourceIP[MAX_ADDR_LEN], szDestIP[MAX_ADDR_LEN];</pre><pre><o:p>&nbsp;</o:p></pre><pre>SOCKADDR_IN saSource, saDest;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>int</span> iProtocol, iTTL;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>pIpheader</span> = (IP_HDR *)buf;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>//Check Proto</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>iProtocol</span> = pIpheader-&gt;proto;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>if(</span>iProtocol==IPPROTO_TCP)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>sprintf(</span>output,&quot;Protocol is TCP&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>outtie(</span>output);</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>if(</span>iProtocol==IPPROTO_UDP)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>sprintf(</span>output,&quot;Protocol is UDP&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>outtie(</span>output);</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>if(</span>iProtocol==IPPROTO_ICMP)</pre><pre><o:p>&nbsp;</o:p></pre><pre>{</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>sprintf(</span>output,&quot;Protocol is ICMP&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+style='mso-tab-count:1'>        </span><span class=GramE>outtie(</span>output);</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>//Check Source IP</pre><pre><o:p>&nbsp;</o:p></pre><pre>saSource.sin_addr.s_addr = pIpheader-&gt;sourceIP;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>strncpy(</span>szSourceIP, inet_ntoa(saSource.sin_addr), MAX_ADDR_LEN);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>//Check Dest IP</pre><pre><o:p>&nbsp;</o:p></pre><pre>saDest.sin_addr.s_addr = pIpheader-&gt;destIP;</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>strncpy(</span>szDestIP, inet_ntoa(saDest.sin_addr), MAX_ADDR_LEN);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>iTTL</span> = pIpheader-&gt;ttl;</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>//Output</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>sprintf(</span>output,&quot;%s-&gt;%s&quot;, szSourceIP, szDestIP);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>outtie(</span>output);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>sprintf(</span>output,&quot;TTL=%d&quot;, iTTL);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>outtie(</span>output);</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>printf(</span>&quot;\n&quot;);</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>return</span> true;</pre><pre><o:p>&nbsp;</o:p></pre><pre>}</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>/********************** recv.c source file ************************/</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>As i said this program will simply capture all packets sent to your</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>machine</span>, it will then output their details to a file called Sniffer.txt</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>in</span> the same directory as the program, as long as the program is running</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>the</span> window will remain black but it is still outputting the information.</pre><pre><o:p>&nbsp;</o:p></pre><pre>To enhance this program you could check the value of pIpheader-&gt;proto</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>field</span> and add code to handle the underlying tcp header or just format</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>the</span> output better.</pre><pre><o:p>&nbsp;</o:p></pre><pre>You will notice the line #define SIO_RCVALL _<span
+class=GramE>WSAIOW(</span>IOC_VENDOR,1) at the</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>top</span> of the file, this must be defined in all programs that capture packets,</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>not</span> sure why it wasn't just defined in one of the standard header files</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>but</span> what can we do.</pre><pre><o:p>&nbsp;</o:p></pre><pre>You could use this and the previous program in unison to send a packet</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>and</span> recv, checking received packets header fields to match values you</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>sent</span> out, working the two together to build up a more complex program.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'><u><span style='font-size:14.0pt;
+mso-bidi-font-size:10.0pt'>8.0 Last Words:<o:p></o:p></span></u></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>With a tear in my eye its time unfortunately, to go. I hope you enjoyed</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>this</span> final tutorial in the series and learnt alot from the series as a</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>whole</span> and I hope you go on to<span style='mso-spacerun:yes'>  </span>apply the knowledge you have learned from</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>this</span> tutorial and from source code and create some great security</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>applications</span>, maybe you can put all of the knowledge you have together</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>to</span> create something good and now with an understanding of protocols and</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>how</span> to implement them trough code you can review some security features</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>on</span> the internet and create some excellent new programs. So I leave you</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>now</span> with my TOP 5 suggestions to use your new knowledge, seperately or</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>in</span> unison.</pre><pre><o:p>&nbsp;</o:p></pre><pre>1. A stealth port scanner, sending ACK packets and listening for the</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>packets</span> returned to find out if the port is open (A SYN packet) closed</pre><pre><o:p>&nbsp;</o:p></pre><pre>(A RST Packet) or filtered (ICMP Blocked message).</pre><pre><o:p>&nbsp;</o:p></pre><pre>2. OS Fingerprinting, filtering the packets sent by a computer to your</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>own</span> to identify the operating system in use.</pre><pre><o:p>&nbsp;</o:p></pre><pre>3. Packet capturing, dumping the packets you sniff to a text file to</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>examine</span> them and learn protocols like icq or napster.</pre><pre><o:p>&nbsp;</o:p></pre><pre>4. Stealth Communication, sending data in ICMP or ACK packets so there</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>not</span> found by firewalls.</pre><pre><o:p>&nbsp;</o:p></pre><pre>5. Build a <span
+class=GramE>firewall,</span> filter the recieved packets to watch for signs of</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>attack</span> or system penetration (sounds kinky :P).</pre><pre><o:p>&nbsp;</o:p></pre><pre>Now you could even alter existing programs to add new features, send</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>packets</span> on ports 53 or 81 to bypass firewalls like checkpoint. OS</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>finger</span> print recieved packets to uncover firewall tricks like spoofing</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>the</span> source ip of the target your trying to get to, any many other</pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>things</span> to aid in system security, or insecurity.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><span
+class=GramE>[ SHOUTS</span>! ]</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>Starman_Jones<span
+style='mso-tab-count:2'>          </span>- Thanks for everything over the years (especially for my own room).</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>Vsus<span
+style='mso-tab-count:3'>                   </span>- I am never drinking Tsambuca with you <span
+class=GramE>again :P</span>.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>Delusive<span
+style='mso-tab-count:2'>               </span>- Delusive's breasts owns j00!!!!</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>BSRF<span
+style='mso-tab-count:3'>                   </span>- Thanks to every-1 at BSRF for releasing this and for being a good laugh :).</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>secure@microsoft.com<span
+style='mso-tab-count:1'>   </span>- The things you poor people must have to go trough.</pre><pre><o:p>&nbsp;</o:p></pre><pre><b
+style='mso-bidi-font-weight:normal'>Faiz Israili<span style='mso-tab-count:
+2'>           </span>- The HTML Editor…<o:p></o:p></b></pre><pre><o:p>&nbsp;</o:p></pre><pre>Greg from <span
+class=GramE>microsoft</span><span style='mso-tab-count:1'>    </span>- Your a better man than I.</pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre><o:p>&nbsp;</o:p></pre><pre>MOST WANTED HACKERS//</pre><pre><span
+style='font-size:8.0pt;font-family:Arial'>www.mwh-fz.co.cc<o:p></o:p></span></pre></div>
+
+</body>
+
+</html>

