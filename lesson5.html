@@ -1,0 +1,102 @@
+<HTML><HEAD><TITLE>WELCOME TO THE HTML TUTORIAL</TITLE></HEAD>
+<body>
+
+
+<STYLE type=text/css>A:active 
+{	TEXT-DECORATION: none}A:hover 
+{	COLOR: #ffffff; TEXT-DECORATION: underline}A:link 
+{	TEXT-DECORATION: none}A:visited 
+{	TEXT-DECORATION: none}.small 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}.small_uppercase {	FONT-SIZE: 10pt; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}TD 
+{	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; color: #AEAEAE}.7_ver_b_white 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}BODY 
+{	SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #333333; SCROLLBAR-DARKSHADOW-COLOR: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+
+</STYLE>
+
+<BODY text=#999999 vLink=#ff9900 aLink=#ffcc00 link=#ff9900 bgColor=#000000 leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson6.html">NEXT</A> | <A HREF="lesson4.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+</b><p>
+<h2>Lesson No.5 – More on Formatting your Text</h2>
+<br>
+<font size="5">H</font>ey! We're really getting somewhere! By now i'll bet that you've got a very informative page with a beautiful link to someplace (this site? please?! awww....) on it. That's great, but i'll bet you're hungry to make it look even more beautiful than it already is (or maybe your boss demands it!). Well, read on!
+<p>
+Do you like your name to stand out on your pages? I do! On every page i make sure that little v is in boldface. How did I do this? HTML has some special tags that allow us to change the way our text is shown. The one i just used is the &#60;B> or <b>boldface</b> tag. You can also make text in italics with the &#60;I> or <i>italics</i> tag. Similarly, you can underline text with the &#60;U> or <u>underline</u> tag. These tags need both an opening tag and a closing tag, so the format is &#60;I, B, or U>text to be formatted&#60;/I, B, or U>.
+<p>
+In addition to these regular formatting tags, theres lots of special formatting tags. Heres a list of them
+<p>
+<b>    Special formatting tags</b><br>
+    
+<img src="circbullet.gif">&#60;SMALL> - Small text<br>
+    <img src="circbullet.gif">&#60;BIG> - Big text<br>
+<img src="circbullet.gif">    &#60;SUPER> - Superscript<br>
+<img src="circbullet.gif">    &#60;SUB> - Subscript<br>
+   <img src="circbullet.gif"> &#60;STRIKE> - Strikethrough text (text with a line through it)<br>
+  <img src="circbullet.gif">  &#60;TT> - Monospaced (typewriter style) text<br>
+   <img src="circbullet.gif"> &#60;PRE> - Preserves all format and line breaks in source HTML <br>
+<p>
+Yep, text formatting is great! Now here's how to align your text.
+<p>
+When you align your text, it lines up with that portion of the window. So left aligned text (the default)is lined up with the left side of the window just like using a word processor and clicking the left align button.
+<p>
+However, there is no align tag. What HTML has is what's called an attribute. An attribute is an argument that is put into a tag to change the way that tag works. The align attribute can be put into many different tags to format paragraphs, or blocks of text (pictures too-more on this later). So if we wanted to make a paragraph aligned to the center of our window, we'd just add the align attribute to the &#60;P> tag at the beginning of that paragraph. So it would look like this:
+<p>
+&#60;P ALIGN="center"><br>
+<b>Hi, this paragraph is aligned to the center. This was accomplished by using the align attribute.</b>
+</p><p>
+There is also a way to format whole blocks of text. The way we do this is by using the &lt;DIV&gt;, or <b>division</b> tag. The division tag really does'nt do anything without the align attribute. In fact, it's useless with no attributes!</p><p>
+
+
+The &lt;DIV&gt; tag is used like this:</p><p>
+
+And here's how it would show up in the browser window:
+</p><p align="center">
+
+<b>Hi, this paragraph is aligned to the center. This was accomplished by using the align attribute.</b></p><p>
+
+
+
+There is also a way to format whole blocks of text. The way we do this is by using the &lt;DIV&gt;, or <b>division</b> tag. The division tag really does'nt do anything without the align attribute. In fact, it's useless with no attributes!</p><p>
+
+
+
+The &lt;DIV&gt; tag is used like this:</p><p>
+
+
+
+&lt;DIV ALIGN="left"&gt;<br>
+
+This is the text to be left aligned.
+
+&lt;P&gt;
+
+I can align lots of text with the division tag!<br>
+
+&lt;/DIV&gt;</p><p>
+
+
+If we put this into our web page, it shows up in a browser like this:</p><p>
+
+
+
+</p><div align="left">
+
+This is the text to be left aligned.<p>
+
+I can align lots of text with the division tag!
+
+</p></div><p>
+
+
+
+The align tag can also be used in headers. If you want your header to be eye catching, align="center" it!
+<p>
+All this stuff is great, but i bet you're worrying about the small margin space in your pages. Well, that can be fixed with one easy tag: the &#60;BLOCKQUOTE> tag! Simply put a &#60;BLOCKQUOTE> right under that &#60;BODY> tag, and a &#60;/BLOCKQUOTE> right above the &#60;/BODY>, and you'll have beautiful margins in your page with minimal work!
+<p>
+Now you should be an expert in text format and alignment. Take a few minute to absorb what you've just learned, and surf to the next lesson.
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson6.html">NEXT</A> | <A HREF="lesson4.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+<p></b>
+</body>
+</html>

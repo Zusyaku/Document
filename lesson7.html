@@ -1,0 +1,206 @@
+<HTML><HEAD><TITLE>WELCOME TO THE HTML TUTORIAL</TITLE></HEAD>
+<body>
+
+
+<STYLE type=text/css>A:active 
+{	TEXT-DECORATION: none}A:hover 
+{	COLOR: #ffffff; TEXT-DECORATION: underline}A:link 
+{	TEXT-DECORATION: none}A:visited 
+{	TEXT-DECORATION: none}.small 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}.small_uppercase {	FONT-SIZE: 10pt; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}TD 
+{	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; color: #AEAEAE}.7_ver_b_white 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}BODY 
+{	SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #333333; SCROLLBAR-DARKSHADOW-COLOR: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+
+</STYLE>
+
+<BODY text=#999999 vLink=#ff9900 aLink=#ffcc00 link=#ff9900 bgColor=#000000 leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson8.html">NEXT</A> | <A HREF="lesson6.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+</b><p>
+<h2>Lesson No.7 – Creating Lists</h2>
+<br>
+<font size="5">W</font>e've just about learned everything there is to know about text formatting, but there's still one very important thing that we have to learn: Lists. <p>
+
+
+
+Lists are everywhere. We post them on our refrigerators and take them to the grocery store. Lists are a very efficient way to organize information. Naturally, HTML has a few tags to help you make lists. HTML has not 1, not 2, but <i>3</i> different types of lists that you can add to your pages! They are the <b>ordered</b>, <b>unordered</b>, and <b>definition</b> lists.</p><p>
+
+
+
+Ordered lists are exactly what the name implies: lists that follow a numerical order. Ordered lists begin with the &lt;OL&gt; tag and end with a &lt;/OL&gt; tag. When we want to put an item into this list, we need to put a &lt;LI&gt;, or <i>list item</i> tag before that item.</p><p>
+
+
+Here's an example of the ordered list syntax:</p><p>
+
+
+
+What do I need from the store today?&lt;p&gt;</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;OL&gt;<br>
+
+    &lt;LI&gt;Bread<br>
+
+    &lt;LI&gt;Cheese<br>
+
+    &lt;LI&gt;Milk<br>
+
+    &lt;LI&gt;Butter<br>
+
+&lt;/OL&gt;</table></center></p><p>
+
+
+
+And heres how it looks to our viewers:</p><p>
+
+
+
+What do I need from the store today?</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+</p><ol>
+
+<li>Bread
+
+</li><li>Cheese
+
+
+</li><li>Milk
+
+</li><li>Butter
+
+</li></ol></table></center><p>
+
+
+
+Sure thing, but what if we do'nt want our list items to be numbered? That's when we use <i>Unordered Lists</i>. These are also called <i>Bulleted Lists</i>. Bulleted lists begin with the &lt;UL&gt; tag, and end with the &lt;/UL&gt; tag. They look exactly like ordered lists, except the item numbers are replaced with special characters called <i>bullets</i>. Here's an example of how bulleted lists are used:</p><p>
+
+
+
+The Tutorial Underground is:&lt;p&gt;</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;UL&gt;<br>
+
+    &lt;LI&gt;Cool!<br>
+
+    &lt;LI&gt;Free!<br>
+
+    &lt;LI&gt;Informative!<br>
+
+&lt;/UL&gt;</table></center></p><p>
+
+
+
+And here's how it would look to Joe Browser (our viewer!):</p><p>
+
+
+
+The Tutorial Underground is:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+</p><ul>
+
+<li>Cool!
+
+</li><li>Free!
+
+</li><li>Informative!
+
+</li></ul></table></center><p>
+
+
+
+Think that's cool? Try adding the <i>TYPE</i> attribute to the UL tag! With the TYPE attribute, we can change the type of bullet that we want to use! The TYPE attribute takes three arguments: "disc", "square" or "circle". So our new &lt;UL&gt; tag with a circle bullet would look like this: &lt;UL TYPE="circle"&gt;. The TYPE attribute can also be used in the &lt;OL&gt; tag to change from numbers to letters (capital[TYPE="A"] or small[TYPE="a"]), or roman numerals (uppercase[TYPE="I"] or lowercase[TYPE="i"]). If we want to make an ordered list with uppercase roman numerals, it looks like this:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;OL TYPE="I"&gt;</p><p>
+</table></center>
+
+
+The &lt;LI&gt; tag also has an attribute: <i>VALUE</i>. With the VALUE attrbute, we can change the value of a list item! Take a guess, what result would the following code result in:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;OL TYPE="A"&gt;<br>
+
+&lt;LI VALUE="2"&gt;Think hard now!<br>
+
+&lt;/OL&gt;</table></center></p><p>
+
+
+
+If you guessed "B. Think hard now!" you're right? Why? Check out the combination of the TYPE and VALUE attributes!</p><p>
+
+
+
+Heres a little trick: we can start an ordered list with any number (or letter, if we use TYPE) with the START attribute. It looks like this:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;OL START="3"&gt;<br>
+
+&lt;LI&gt;This is item number 3!
+
+&lt;/OL&gt;</table></center></p><p>
+
+
+
+And to our viewers at home, it looks like this:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+</p><ol start="3">
+
+<li>This is item number 3!
+
+</li></ol></table></center><p>
+
+
+
+The last list that we can use is the <i>Definition List</i>. Definition lists are normally used when we need to define terms. The definition list starts with the &lt;DL&gt; tag and ends with the &lt;/DL&gt; tag. Each term to be defined in a definition list uses the &lt;DT&gt; or <i>Definition Term</i> tag. Every definition in a definition list needs a &lt;DD&gt;, or <i>I do'nt know what DD stands for :)</i> tag in front of it. It probably looks alot like this:<p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+&lt;DL&gt;<br>
+
+&lt;DT&gt;HTML    &lt;DD&gt;Hypertext Markup Language<br>
+
+&lt;DT&gt;XML     &lt;DD&gt;eXtensible Markup Language<br>
+
+&lt;/DL&gt;</table></center></p><p>
+
+
+
+Our friend Joe Browser see's it like this:</p><p>
+
+
+<center><table border="0" bgcolor="#333333"><tr><td>
+</p><dl>
+
+<dt>HTML    </dt><dd>Hypertext Markup Language
+
+</dd><dt>XML     </dt><dd>eXtensible Markup Language
+
+
+</dd></dl></table></center><p>
+
+
+
+Note that you can create really cool effects if you use the formatting tags inside of lists. It's really neat when you have Bold terms and Italic definitions (in my opinion anyway)!</p><p>
+
+
+
+Great! Now we can list all our family members and their cats on our page! What's next?
+
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson8.html">NEXT</A> | <A HREF="lesson6.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+<p></b>
+</body>
+</html>

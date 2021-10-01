@@ -1,0 +1,202 @@
+<HTML><HEAD><TITLE>WELCOME TO THE HTML TUTORIAL</TITLE></HEAD>
+<body>
+
+
+<STYLE type=text/css>A:active 
+{	TEXT-DECORATION: none}A:hover 
+{	COLOR: #ffffff; TEXT-DECORATION: underline}A:link 
+{	TEXT-DECORATION: none}A:visited 
+{	TEXT-DECORATION: none}.small 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}.small_uppercase {	FONT-SIZE: 10pt; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}TD 
+{	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; color: #AEAEAE}.7_ver_b_white 
+{	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}BODY 
+{	SCROLLBAR-FACE-COLOR: #ffa534; SCROLLBAR-HIGHLIGHT-COLOR: #ffd756; SCROLLBAR-SHADOW-COLOR: #ff8312; SCROLLBAR-3DLIGHT-COLOR: #000000; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #333333; SCROLLBAR-DARKSHADOW-COLOR: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt}
+
+</STYLE>
+
+<BODY text=#999999 vLink=#ff9900 aLink=#ffcc00 link=#ff9900 bgColor=#000000 leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson7.html">NEXT</A> | <A HREF="lesson5.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+</b><p>
+<h2>Lesson No.6 – Working with Fontst</h2>
+<br>
+<font size="5">Y</font>eah, HTML is good. We've gotten pretty deep into text control, but there's still more ahead so let's trudge on.<p>
+
+
+
+We can control the font in HTML using, what else, the &lt;FONT&gt; tag! We can use the &lt;FONT&gt; tag to control size using the SIZE attribute. The SIZE attribute is used like this:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+&lt;FONT SIZE="x"&gt;<br>
+
+This text font size x.<br>
+
+&lt;/FONT&gt;</table></center></p><p>
+
+
+
+Where x is a number, from 1 to 7. The size that the formatted text is depends on the viewers preference settings and screen resolution. Generally though, 1 is really small and 7 is really big. Just in case you're curious, the default font size is 3. There is also a tag called the &lt;BASEFONT&gt; tag, which only can take the SIZE attibute, bute is made to change the size of the text on the entire page.</p><p>
+
+
+
+We can also add color to our text using the &lt;FONT&gt; tag. Color is added to text using, duh, the COLOR attribute to the &lt;FONT&gt; tag. We use the COLOR attribute the same way as the SIZE attribute:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+&lt;FONT SIZE="4" COLOR="blue"&gt;<br>
+
+This is colorful text in font size 4!<br>
+
+&lt;/FONT&gt;</table></center></p><p>
+
+
+
+To our page's viewers, it would look like this:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+<font color="blue" size="4">
+
+This is colorful text in font size 4!
+
+</font>
+</table></center></p><p>
+
+
+
+The COLOR attribute can use these standard colors: black, white, green, red, yellow, blue, aqua, fuchsia, gray, lime, maroon, purple, navy, olive, silver or teal. What? You need more control? Then I suggest you learn the hexadecimal color codes. Hex color codes are used like this:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+&lt;FONT COLOR="#0033FF"&gt;<br>
+
+This text is purple.<br>
+
+&lt;/FONT&gt;</table></center></p><p>
+
+
+
+For more information on Hex color codes, I suggest you try <a href="http://www.december.com/html/spec/color.html">this site</a>.</p><p>
+
+
+
+The last attribute to &lt;FONT&gt; we'll learn in this lesson is FACE. By defining a font's face, you can control the appearance of that font. The FACE attribute is used like this:</p><p>
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+&lt;FONT FACE="arial" size="5" color="blue"&gt;<br>
+
+This text is a stunning arial size 5 in blue!<br>
+
+&lt;/FONT&gt;
+</table></center></p><p>
+
+
+To the viewer, it would look like this:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+<font color="blue" size="5" face="arial">
+
+This text is a stunning arial size 5 in blue!
+
+</font></table></center></p><p>
+
+
+
+Yes, this is great, but there's a catch: for the viewer to see this font change he needs to have the font <i>on his computer</i>. How does it get there? Different computer's come with different font's installed. For example, the Arial font is used on PCs, but Macs use a similar font called Helvetica. We can get around this by asking for backup choices in our FACE attribute. This is done like this:</p><p>
+
+
+<center><table border="0" bgcolor="#3333333"><tr><td>
+&lt;FONT FACE="arial,helvetica"&gt;<br>
+
+This text is either Arial or Helvetica.<br>
+
+&lt;/FONT&gt;
+</table></center><p>
+
+
+This will show up as arial on computers that have arial installed, or helvetica if they do'nt have arial but do have helvetica. If they do'nt have either, the font does'nt change. However, you can specify as many back up choices as you want.</p><p>
+
+
+
+Yeah, simple text is great, but what if we need to put some special characters into our page? Well, once again HTML to the rescue! The format for this is &amp; followed by the Numeric Code of the special character, or the <i>mnemonic entity</i> of that character, followed by a ;. Here's a list of the important special characters:</p><p>
+
+
+
+<table align="center" border="1" width="75%">
+
+<tbody><tr><th>Character </th><th>Numeric Code</th><th>Mnemonic Entity</th><th>Character Name
+
+</th></tr><tr><td>"         </td><td>#34           </td><td>quot          </td><td>Quotation mark
+
+</td></tr><tr><td>&amp;         </td><td>#38          </td><td>amp            </td><td>Ampersand
+
+
+</td></tr><tr><td>&lt;      </td><td>#60          </td><td>lt             </td><td>Less Than sign
+
+</td></tr><tr><td>&gt;      </td><td>#62          </td><td>gt             </td><td>Greater Than sign
+
+</td></tr><tr><td>¢     </td><td>#162         </td><td>cent           </td><td>Cent sign
+
+</td></tr><tr><td>£     </td><td>#163         </td><td>pound          </td><td>Pound sterling
+
+</td></tr><tr><td>¦     </td><td>#166         </td><td>brkbar         </td><td>Broken Vertical bar
+
+
+</td></tr><tr><td>§     </td><td>#167         </td><td>sect           </td><td>Section sign
+
+</td></tr><tr><td>©     </td><td>#169         </td><td>copy           </td><td>Copyright
+
+</td></tr><tr><td>®     </td><td>#174         </td><td>reg            </td><td>Registered trademark
+
+</td></tr><tr><td>°     </td><td>#176         </td><td>deg            </td><td>Degree sign
+
+</td></tr><tr><td>±     </td><td>#177         </td><td>plusmn         </td><td>Positive or Negative
+
+
+</td></tr><tr><td>²     </td><td>#178         </td><td>sup2           </td><td>Superscript two
+
+</td></tr><tr><td>³     </td><td>#179         </td><td>sup3           </td><td>Superscript three
+
+</td></tr><tr><td>·     </td><td>#183         </td><td>middot         </td><td>Middle dot
+
+</td></tr><tr><td>¹     </td><td>#185         </td><td>sup1           </td><td>Superscript one
+
+</td></tr><tr><td>¼     </td><td>#188         </td><td>frac14         </td><td>Fraction one-fourth
+
+
+</td></tr><tr><td>½     </td><td>#189         </td><td>frac12         </td><td>Fraction one-half
+
+</td></tr><tr><td>¾     </td><td>#190         </td><td>frac34         </td><td>Fraction three-fourths
+
+</td></tr><tr><td>Æ     </td><td>#198         </td><td>AElig          </td><td>Capital AE ligature
+
+</td></tr><tr><td>æ      </td><td>#230         </td><td>aelig          </td><td>Small ae ligature
+
+</td></tr><tr><td>É      </td><td>#201         </td><td>Eacute         </td><td>Accented capital E
+
+
+</td></tr><tr><td>é     </td><td>#233         </td><td>eacute         </td><td>Accented small e
+
+</td></tr><tr><td>×      </td><td>#215         </td><td>               </td><td>Multiply sign
+
+</td></tr><tr><td>÷      </td><td>#247         </td><td>               </td><td>Division sign
+
+</td></tr></tbody></table>
+
+</p><p>
+
+Hey! Here's a little secret: to change the Background color of our web page, simply insert the BGCOLOR attribute into your &lt;BODY&gt; tag. It's used like this:</p><p>
+
+
+&lt;BODY BGCOLOR="color or hex number code"&gt;</p><p>
+
+
+
+A little review: How would we put the copyright sign (©) on your website? If you answered &amp; followed immediately by #169;, you're correct! You deserve to go on to the next lesson...!
+<p>
+<b><HR><A HREF="lesson1.html">FIRST</A> | <A HREF="lesson7.html">NEXT</A> | <A HREF="lesson5.html">PREVIOUS</A> | <A HREF="lesson11.html">LAST</A><HR>
+<p></b>
+</body>
+</html>
