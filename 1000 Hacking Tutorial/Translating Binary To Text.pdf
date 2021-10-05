@@ -1,0 +1,1112 @@
+%PDF-1.3
+1 0 obj
+<<
+/CreationDate(D:20160204102526)
+/Title()
+/Author(PDFZilla)
+/Keywords(PDFZilla,Zilla PDF)
+/Producer(PDFZilla - Zilla TXT To PDF Converter)
+>>
+endobj
+5 0 obj
+[
+750 750 278 278 355 556 556 889 667 190 333 333 389 584 278 333 
+278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 
+584 556 1015 667 667 722 722 667 610 778 722 278 500 667 556 832 
+722 778 667 778 722 667 610 722 667 944 667 667 610 278 278 278 
+469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 832 
+556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 
+584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 
+610 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 
+500 667 278 333 556 556 556 556 260 556 333 736 370 556 584 333 
+736 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 
+834 610 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 
+278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 
+667 610 556 556 556 556 556 556 889 500 556 556 556 556 278 278 
+278 278 556 556 556 556 556 556 556 549 610 556 556 556 556 500 
+556 500 
+]
+endobj
+6 0 obj
+<<
+/Type/FontDescriptor
+/FontName/Arial
+/Ascent 905
+/Descent -212
+/ItalicAngle 0
+/CapHeight 905
+/Flags 32
+/FontBBox[0 0 0 0]
+>>
+endobj
+7 0 obj
+<<
+/Type/Font
+/Subtype/TrueType
+/Name/F0
+/BaseFont/Arial
+/Encoding/WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths 5 0 R
+/FontDescriptor 6 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 5427
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+( ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+( ///////////*1000+ HACKING TRICKS & TUTORIALS - ebook By Mukesh Bhardwaj Blogger  - Paid Version - only @ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(TekGyd | itechhacks | Mukeshtricks4u*///////) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+( Translating Binary to Text: The Hard Way) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(A Tutorial for those willing to Learn) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Contents) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(1. Introduction) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(2. The Binary System) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(3. Converting Binary to ASCII \(Text\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Introduction:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(We’ve all seen binary code. We’ve come to think of them as a bunch of ones and zeroes in long strings…) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(010010101010101001101011) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(But these ones and zeroes can also represent decimal numbers. First off, I will show you how to read these ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(numbers as the decimal numbers we’re used to in our daily life. Then, I will show you how to use those numbers) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(and your keypad to translate them into text. Note that your computer doesn’t use the decimal system, so ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(technically, when it converts binary to text, it doesn’t go through the process I will show you. This is just ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(a divertive way of explaining you how the binary system works.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(The Binary System:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Here’s a simple example of binary:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(10101) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Let’s think of the example above as empty slots:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(_ _ _ _ _) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(First off, you read binary from right-to-left. It’s just the way it’s designed. The first slot from the right ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(represents a value of one, the second from the right a value of two, the third from the right a value of four,) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(the fourth from the right a value of eight, the fifth from the right a value of sixteen, and the cycle ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(continues by multiples of 2. This will never change.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(By putting a 1 or a 0 in those slots you are either saying you want to corresponding value that’s attached to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(that slot or you don’t. A 1 means yes, and a 0 means no. For example, putting a zero in the first slot from ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(the right, but a 1 in the second slot from the right means you want a two, but not a one:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(_ _ _ 1 0) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(As such, the number above equals to a decimal value of two.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(As an example, let’s say you want to represent eight in binary form. Well, thinking about the slots, you want ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(the first slot to be 0 because you don’t want a one, you want the second slot to also be 0 because you don’t ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(want a two, you want the third slot to also to be 0 because you don’t want a four, but you want the fifth slot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(to be 1 because you want a value of eight. As such, eight in binary form is:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(1 0 0 0 \(or simply 1000 without those underlines\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Now it is important to note that the amount of zeroes that precede the first value of one from the left is ) Tj
+ET
+endstream
+endobj
+9 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 4170
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(unimportant. So for example:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(1 0 0 0 is the same as 0 0 0 1 0 0 0 \(1000 = 000100\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(To get it cleared up, here’s another example:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(0 1 is the same as 1) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Exercises: What do the following equal in decimal terms?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(a\) 100) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(b] 000100) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(c\) 100000) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(d\) 0010) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Answers:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(a\) 4) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(b] 4) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(c\) 32) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(d\) 2) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(If you got the answers above right, then you pretty much understand the basics of binary.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Let’s now understand how to get the corresponding decimal values to the numbers which are not multiples of 2.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(To get the total value of a binary number, add the values corresponding to each slot. So, for example, three ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(in binary would be:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(11) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(The above corresponds to three because if you add the total values of all the slots, that is to say a one from) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(the slot to the right, and a two from the second slot to the right, then it equals three.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(As another example, let’s say you want to represent 5 in binary terms. Then you would need a value of one to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(be added to a value of four, and you would not want a value of two:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(101 [Reading from the right: 1\(one\) + 0\(two\) + 1\(four\) = five]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Here’s an additional example:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(001011 [Reading from the right: 1\(one\) + 1\(two\) + 0\(four\) + 1\(eight\) + 0\(sixteen\) + 0\(thirty-two\) = eleven\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Exercises: What do the following equal in decimal terms?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(a\) 11011) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(b] 110) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(c\) 010101) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(d\) 10110) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Answers:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(a\) 27) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(b] 6) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(c\) 21) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(d\) 22) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(If you got the above questions correct [without cheating], then you essentially understand the binary system. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(Understanding the binary system was the hard part. What follows is pretty easy.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(3. Converting Binary to ASCII \(Text\)) Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4960
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(ASCII is essentially the letters, numbers and symbols that are stored in our computers through the use of ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(fonts. When the keyboard relays the buttons you pressed, it sends in a code which is then converted to the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(ASCII equivalent of “k” or “5” or whatever key you pressed.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Here’s an example of a message “hidden” in binary text:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(0100100001100101011011000110110001101111) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Now there are only so many letters, numbers and symbols stored for ASCII. Having sets of 8 digits for their ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(binary equivalent is more than enough to represent all of these letters and the like. As such, all strings ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(that represent text like in the above are separated into bits of 8 for simplicity:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(01001000 01100101 01101100 01101100 01101111) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Okay, so our example message was separated into 8 digit strings. The decimal value for each of these strings ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(in the example was calculated for you.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(01001000 = 72) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(01100101 = 101) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(01101100 = 108) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(01101100 = 108) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(01101111 = 111) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(The result was 72,101,108,108,111. Now, there is something called the ASCII table. It essentially corresponds ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(to the binary numbers from yore to the equivalent letters/symbols/numbers. But since we found the decimal ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(values of these binary strings, we can use a major shortcut.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(By pressing ALT + [The Number], you will get the ASCII equivalent of that number. For example, by pressing the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(ALT key and at then \(while keeping it down\) the numbers 72 in any text editor, you will get the corresponding ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(“H” to show up.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Let’s do so for the entire example message:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(72 = H) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(101 = e) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(108 = l) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(108 = l) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(111 = o) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(So the entire “hidden” message translates to “Hello”.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Exercise: Decode the following message) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(010000110110111101101110011001110111001001100001011101000111010101101100011000010111010001) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(101001011011110110111001110011 00100001) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Hint: The first step on your way to decoding the message \(separated into bytes for you\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(01000011 01101111 01101110 01100111 01110010 01100001 01110100 01110101 01101100 01100001 01110100 01101001 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(01101111 01101110 01110011 00100001) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(PS. Please note that this is the information as I've come to understand it. As such, it's somewhat easier to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(understand, but it may not necessarily be accurate. In other words, if another source contradicts what has ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(been indicated here, that source is probably right. This text was completely written up by me, with no other ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(sources for aid. If you wish to distribute this text, feel free to do so, but I would appreciate it if you ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(contacted me first.) Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type/Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type/Pages
+/Kids[
+9 0 R
+11 0 R
+13 0 R
+]
+/Count 3
+/Resources 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/ProcSet[/PDF/Text/ImageC]
+/Font<<
+/F0 7 0 R
+>>
+>>
+endobj
+xref
+0 15
+0000000000 65535 f
+0000000009 00000 n
+0000016468 00000 n
+0000016556 00000 n
+0000000168 00000 n
+0000000168 00000 n
+0000001113 00000 n
+0000001256 00000 n
+0000001421 00000 n
+0000006899 00000 n
+0000006993 00000 n
+0000011215 00000 n
+0000011311 00000 n
+0000016323 00000 n
+0000016419 00000 n
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 1 0 R
+/ID[(424044343ttrstgirTTtd)(424044343ttrstgirTTtd)]
+>>
+startxref
+16625
+%%EOF

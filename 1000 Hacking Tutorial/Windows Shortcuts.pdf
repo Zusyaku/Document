@@ -1,0 +1,2060 @@
+%PDF-1.3
+1 0 obj
+<<
+/CreationDate(D:20160204102532)
+/Title()
+/Author(PDFZilla)
+/Keywords(PDFZilla,Zilla PDF)
+/Producer(PDFZilla - Zilla TXT To PDF Converter)
+>>
+endobj
+5 0 obj
+[
+750 750 278 278 355 556 556 889 667 190 333 333 389 584 278 333 
+278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 
+584 556 1015 667 667 722 722 667 610 778 722 278 500 667 556 832 
+722 778 667 778 722 667 610 722 667 944 667 667 610 278 278 278 
+469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 832 
+556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 
+584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 
+610 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 
+500 667 278 333 556 556 556 556 260 556 333 736 370 556 584 333 
+736 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 
+834 610 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 
+278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 
+667 610 556 556 556 556 556 556 889 500 556 556 556 556 278 278 
+278 278 556 556 556 556 556 556 556 549 610 556 556 556 556 500 
+556 500 
+]
+endobj
+6 0 obj
+<<
+/Type/FontDescriptor
+/FontName/Arial
+/Ascent 905
+/Descent -212
+/ItalicAngle 0
+/CapHeight 905
+/Flags 32
+/FontBBox[0 0 0 0]
+>>
+endobj
+7 0 obj
+<<
+/Type/Font
+/Subtype/TrueType
+/Name/F0
+/BaseFont/Arial
+/Encoding/WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths 5 0 R
+/FontDescriptor 6 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 4275
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Run Commands:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(compmgmt.msc - Computer management) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(devmgmt.msc - Device manager) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(diskmgmt.msc - Disk management) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(dfrg.msc - Disk defrag) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(eventvwr.msc - Event viewer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(fsmgmt.msc - Shared folders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(gpedit.msc - Group policies) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(lusrmgr.msc - Local users and groups) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(perfmon.msc - Performance monitor) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(rsop.msc - Resultant set of policies) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(secpol.msc - Local security settings) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(services.msc - Various Services) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(msconfig - System Configuration Utility) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(regedit - Registry Editor) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(msinfo32 _ System Information) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(sysedit _ System Edit) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(win.ini _ windows loading information\(also system.ini\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(winver _ Shows current version of windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(mailto: _ Opens default email client) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(command _ Opens command prompt) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Run Commands to access the control panel:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Add/Remove Programs control appwiz.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Date/Time Properties control timedate.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Display Properties control desk.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(FindFast control findfast.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Fonts Folder control fonts) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Internet Properties control inetcpl.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(Keyboard Properties control main.cpl keyboard) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(Mouse Properties control main.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Multimedia Properties control mmsys.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Network Properties control netcpl.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Password Properties control password.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(Printers Folder control printers) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Sound Properties control mmsys.cpl sounds) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(System Properties control sysdm.cpl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Command Prompt:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(ANSI.SYS Defines functions that change display graphics, control cursor movement, and reassign keys.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(APPEND Causes MS-DOS to look in other directories when editing a file or running a command.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(ARP Displays, adds, and removes arp information from network devices.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(ASSIGN Assign a drive letter to an alternate letter.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(ASSOC View the file associations.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(AT Schedule a time to execute commands or programs.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5354
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(ATMADM Lists connections and addresses seen by Windows ATM call manager.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(ATTRIB Display and change file attributes.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(BATCH Recovery console command that executes a series of commands in a file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(BOOTCFG Recovery console command that allows a user to view, modify, and rebuild the boot.ini) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(BREAK Enable / disable CTRL + C feature.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(CACLS View and modify file ACL's.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(CALL Calls a batch file from another batch file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(CD Changes directories.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(CHCP Supplement the International keyboard and character set information.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(CHDIR Changes directories.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(CHKDSK Check the hard disk drive running FAT for errors.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(CHKNTFS Check the hard disk drive running NTFS for errors.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(CHOICE Specify a listing of multiple options within a batch file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(CLS Clears the screen.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(CMD Opens the command interpreter.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(COLOR Easily change the foreground and background color of the MS-DOS window.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(COMP Compares files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(COMPACT Compresses and uncompress files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(CONTROL Open control panel icons from the MS-DOS prompt.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(CONVERT Convert FAT to NTFS.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(COPY Copy one or more files to an alternate location.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(CTTY Change the computers input/output devices.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(DATE View or change the systems date.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(DEBUG Debug utility to create assembly programs to modify hardware settings.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(DEFRAG Re-arrange the hard disk drive to help with loading programs.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(DEL Deletes one or more files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(DELETE Recovery console command that deletes a file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(DELTREE Deletes one or more files and/or directories.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(DIR List the contents of one or more directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(DISABLE Recovery console command that disables Windows system services or drivers.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(DISKCOMP Compare a disk with another disk.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(DISKCOPY Copy the contents of one disk and place them on another disk.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(DOSKEY Command to view and execute commands that have been run in the past.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(DOSSHELL A GUI to help with early MS-DOS users.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(DRIVPARM Enables overwrite of original device drivers.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(ECHO Displays messages and enables and disables echo.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(EDIT View and edit files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(EDLIN View and edit files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(EMM386 Load extended Memory Manager.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(ENABLE Recovery console command to enable a disable service or driver.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(ENDLOCAL Stops the localization of the environment changes enabled by the setlocal command.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(ERASE Erase files from computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(EXIT Exit from the command interpreter.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(EXPAND Expand a M*cros*ft Windows file back to it's original format.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(EXTRACT Extract files from the M*cros*ft Windows cabinets.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(FASTHELP Displays a listing of MS-DOS commands and information about them.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(FC Compare files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(FDISK Utility used to create partitions on the hard disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(FIND Search for text within a file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(FINDSTR Searches for a string of text within a file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(FIXBOOT Writes a new boot sector.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(FIXMBR Writes a new boot record to a disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(FOR Boolean used in batch files.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(FORMAT Command to erase and prepare a disk drive.) Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5411
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(FTP Command to connect and operate on a FTP server.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(FTYPE Displays or modifies file types used in file extension associations.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(GOTO Moves a batch file to a specific label or location.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(GRAFTABL Show extended characters in graphics mode.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(HELP Display a listing of commands and brief explanation.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(IF Allows for batch files to perform conditional processing.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(IFSHLP.SYS 32-bit file manager.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(IPCONFIG Network command to view network adapter settings and assigned values.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(KEYB Change layout of keyboard.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(LABEL Change the label of a disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(LH Load a device driver in to high memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(LISTSVC Recovery console command that displays the services and drivers.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(LOADFIX Load a program above the first 64k.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(LOADHIGH Load a device driver in to high memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(LOCK Lock the hard disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(LOGON Recovery console command to list installations and enable administrator login.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(MAP Displays the device name of a drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(MD Command to create a new directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(MEM Display memory on system.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(MKDIR Command to create a new directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(MODE Modify the port or display settings.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(MORE Display one page at a time.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(MOVE Move one or more files from one directory to another directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(MSAV Early M*cros*ft Virus scanner.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(MSD Diagnostics utility.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(MSCDEX Utility used to load and provide access to the CD-ROM.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(NBTSTAT Displays protocol statistics and current TCP/IP connections using NBT) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(NET Update, fix, or view the network or network settings) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(NETSH Configure dynamic and static network information from MS-DOS.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(NETSTAT Display the TCP/IP network protocol statistics and information.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(NLSFUNC Load country specific information.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(NSLOOKUP Look up an IP address of a domain or host on a network.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(PATH View and modify the computers path location.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(PATHPING View and locate locations of network latency.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(PAUSE Command used in batch files to stop the processing of a command.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(PING Test / send information to another network computer or network device.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(POPD Changes to the directory or network path stored by the pushd command.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(POWER Conserve power with computer portables.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(PRINT Prints data to a printer port.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(PROMPT View and change the MS-DOS prompt.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(PUSHD Stores a directory or network path in memory so it can be returned to at any time.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(QBASIC Open the QBasic.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(RD Removes an empty directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(REN Renames a file or directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(RENAME Renames a file or directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(RMDIR Removes an empty directory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(ROUTE View and configure windows network route tables.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(RUNAS Enables a user to execute a program on another computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(SCANDISK Run the scandisk utility.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(SCANREG Scan registry and recover registry from errors.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(SET Change one variable or string to another.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(SETLOCAL Enables local environments to be changed without affecting anything else.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(SETVER Change MS-DOS version to trick older MS-DOS programs.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(SHARE Installs support for file sharing and locking capabilities.) Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 4995
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(SHIFT Changes the position of replaceable parameters in a batch program.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(SHUTDOWN Shutdown the computer from the MS-DOS prompt.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(SMARTDRV Create a disk cache in conventional memory or extended memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(SORT Sorts the input and displays the output to the screen.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(START Start a separate window in Windows from the MS-DOS prompt.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(SUBST Substitute a folder on your computer for another drive letter.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(SWITCHES Remove add functions from MS-DOS.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(SYS Transfer system files to disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(TELNET Telnet to another computer / device from the prompt.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(TIME View or modify the system time.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(TITLE Change the title of their MS-DOS window.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(TRACERT Visually view a network packets route across a network.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(TREE View a visual tree of the hard disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(TYPE Display the contents of a file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(UNDELETE Undelete a file that has been deleted.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(UNFORMAT Unformat a hard disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(UNLOCK Unlock a disk drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(VER Display the version information.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(VERIFY Enables or disables the feature to determine if files have been written properly.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(VOL Displays the volume information about the designated drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(XCOPY Copy multiple files, directories, and/or drives from one location to another.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(TRUENAME When placed before a file, will display the whole directory in which it exists) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(TASKKILL It allows you to kill those unneeded or locked up applications) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Windows XP Shortcuts:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(ALT+- \(ALT+hyphen\) Displays the Multiple Document Interface \(MDI\) child window's System menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(ALT+ENTER View properties for the selected item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(ALT+ESC Cycle through items in the order they were opened) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(ALT+F4 Close the active item, or quit the active program) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(ALT+SPACEBAR Display the System menu for the active window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(ALT+TAB Switch between open items) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(ALT+Underlined letter Display the corresponding menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(BACKSPACE View the folder one level up in My Computer or Windows Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(CTRL+A Select all) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(CTRL+B Bold) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(CTRL+C Copy) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(CTRL+I Italics) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(CTRL+O Open an item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(CTRL+U Underline) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(CTRL+V Paste) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(CTRL+X Cut) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(CTRL+Z Undo) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(CTRL+F4 Close the active document) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(CTRL while dragging Copy selected item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(CTRL+SHIFT while dragging Create shortcut to selected iteM) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(CTRL+RIGHT ARROW Move the insertion point to the beginning of the next word) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(CTRL+LEFT ARROW Move the insertion point to the beginning of the previous word) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(CTRL+DOWN ARROW Move the insertion point to the beginning of the next paragraph) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(CTRL+UP ARROW Move the insertion point to the beginning of the previous paragraph) Tj
+ET
+endstream
+endobj
+15 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 14 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4429
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(SHIFT+DELETE Delete selected item permanently without placing the item in the Recycle Bin) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(ESC Cancel the current task) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(F1 Displays Help) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(F2 Rename selected item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(F3 Search for a file or folder) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(F4 Display the Address bar list in My Computer or Windows Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(F5 Refresh the active window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(F6 Cycle through screen elements in a window or on the desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(F10 Activate the menu bar in the active program) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(SHIFT+F10 Display the shortcut menu for the selected item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(CTRL+ESC Display the Start menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(SHIFT+CTRL+ESC Launches Task Manager) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(SHIFT when you insert a CD Prevent the CD from automatically playing) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(WIN Display or hide the Start menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(WIN+BREAK Display the System Properties dialog box) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(WIN+D Minimizes all Windows and shows the Desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(WIN+E Open Windows Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(WIN+F Search for a file or folder) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(WIN+F+CTRL Search for computers) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(WIN+L Locks the desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(WIN+M Minimize or restore all windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(WIN+R Open the Run dialog box) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(WIN+TAB Switch between open items) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Windows Explorer Shortcuts:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(ALT+SPACEBAR - Display the current window’s system menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(SHIFT+F10 - Display the item's context menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(CTRL+ESC - Display the Start menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(ALT+TAB - Switch to the window you last used) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(ALT+F4 - Close the current window or quit) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(CTRL+A - Select all items) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(CTRL+X - Cut selected item\(s\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(CTRL+C - Copy selected item\(s\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(CTRL+V - Paste item\(s\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(CTRL+Z - Undo last action) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(CTRL+\(+\) - Automatically resize the columns in the right hand pane) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(TAB - Move forward through options) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(ALT+RIGHT ARROW - Move forward to a previous view) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(ALT+LEFT ARROW - Move backward to a previous view) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(SHIFT+DELETE - Delete an item immediately) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(BACKSPACE - View the folder one level up) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(ALT+ENTER - View an item’s properties) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(F10 - Activate the menu bar in programs) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(F6 - Switch between left and right panes) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(F5 - Refresh window contents) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(F3 - Display Find application) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(F2 - Rename selected item) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 3187
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Internet Explorer Shortcuts:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Quote:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(CTRL+A - Select all items on the current page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(CTRL+D - Add the current page to your Favorites) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(CTRL+E - Open the Search bar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(CTRL+F - Find on this page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(CTRL+H - Open the History bar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(CTRL+I - Open the Favorites bar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(CTRL+N - Open a new window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(CTRL+O - Go to a new location) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(CTRL+P - Print the current page or active frame) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(CTRL+S - Save the current page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(CTRL+W - Close current browser window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(CTRL+ENTER - Adds the http://www. \(url\) .com) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(SHIFT+CLICK - Open link in new window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(BACKSPACE - Go to the previous page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(ALT+HOME - Go to your Home page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(HOME - Move to the beginning of a document) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(TAB - Move forward through items on a page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(END - Move to the end of a document) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(ESC - Stop downloading a page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(F11 - Toggle full-screen view) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(F5 - Refresh the current page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(F4 - Display list of typed addresses) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(F6 - Change Address bar and page focus) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(ALT+RIGHT ARROW - Go to the next page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(SHIFT+CTRL+TAB - Move back between frames) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(SHIFT+F10 - Display a shortcut menu for a link) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(SHIFT+TAB - Move back through the items on a page) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(CTRL+TAB - Move forward between frames) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(CTRL+C - Copy selected items to the clipboard) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(CTRL+V - Insert contents of the clipboard) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(ENTER - Activate a selected link) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(HOME - Move to the beginning of a document) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(END - Move to the end of a document) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(F1 - Display Internet Explorer Help) Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type/Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type/Pages
+/Kids[
+9 0 R
+11 0 R
+13 0 R
+15 0 R
+17 0 R
+19 0 R
+]
+/Count 6
+/Resources 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/ProcSet[/PDF/Text/ImageC]
+/Font<<
+/F0 7 0 R
+>>
+>>
+endobj
+xref
+0 21
+0000000000 65535 f
+0000000009 00000 n
+0000030006 00000 n
+0000030115 00000 n
+0000000168 00000 n
+0000000168 00000 n
+0000001113 00000 n
+0000001256 00000 n
+0000001421 00000 n
+0000005747 00000 n
+0000005841 00000 n
+0000011247 00000 n
+0000011343 00000 n
+0000016806 00000 n
+0000016902 00000 n
+0000021949 00000 n
+0000022045 00000 n
+0000026526 00000 n
+0000026622 00000 n
+0000029861 00000 n
+0000029957 00000 n
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 1 0 R
+/ID[(424044344ttioocsd)(424044344ttioocsd)]
+>>
+startxref
+30184
+%%EOF

@@ -1,0 +1,968 @@
+%PDF-1.3
+1 0 obj
+<<
+/CreationDate(D:20160204102527)
+/Title()
+/Author(PDFZilla)
+/Keywords(PDFZilla,Zilla PDF)
+/Producer(PDFZilla - Zilla TXT To PDF Converter)
+>>
+endobj
+5 0 obj
+[
+750 750 278 278 355 556 556 889 667 190 333 333 389 584 278 333 
+278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 
+584 556 1015 667 667 722 722 667 610 778 722 278 500 667 556 832 
+722 778 667 778 722 667 610 722 667 944 667 667 610 278 278 278 
+469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 832 
+556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 
+584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 
+610 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 
+500 667 278 333 556 556 556 556 260 556 333 736 370 556 584 333 
+736 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 
+834 610 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 
+278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 
+667 610 556 556 556 556 556 556 889 500 556 556 556 556 278 278 
+278 278 556 556 556 556 556 556 556 549 610 556 556 556 556 500 
+556 500 
+]
+endobj
+6 0 obj
+<<
+/Type/FontDescriptor
+/FontName/Arial
+/Ascent 905
+/Descent -212
+/ItalicAngle 0
+/CapHeight 905
+/Flags 32
+/FontBBox[0 0 0 0]
+>>
+endobj
+7 0 obj
+<<
+/Type/Font
+/Subtype/TrueType
+/Name/F0
+/BaseFont/Arial
+/Encoding/WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths 5 0 R
+/FontDescriptor 6 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 5992
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+( Tutorial Objective) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+( ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+( ///////////*1000+ HACKING TRICKS & TUTORIALS - ebook By Mukesh Bhardwaj Blogger  - Paid Version - only @ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(TekGyd | itechhacks | Mukeshtricks4u*///////) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(This tutorial talks about anything about the virtual memory and how much virtual memory you need for your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(system.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Tutorial Introduction & Background) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Today application is getting bigger and bigger. Therefore, it requires a bigger system memory in order for the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(system to hold the application data, instruction, and thread and to load it. The system needs to copy the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(application data from the HDD into the system memory in order for it to process and execute the data. Once the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(memory gets filled up with data, the system will stop loading the program. In this case, users need to add ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(more memory onto their system to support that intense application. However, adding more system memory costs ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(the money and the normal user only needs to run the the intense application that requires the memory only for ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(one or two days. Therefore, virtual memory is introduced to solve that type of problem.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Terminology & Explanation) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(There are two types of memory, which are as follows:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(* System Memory is a memory that is used to store the application data and instruction in order for the system) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(to process and execute that application data and instruction. When you install the memory sticks to increase ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(the system RAM, you are adding more system memory. System Memory can be known as either the physical memory or) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(the main memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(* Virtual Memory is a memory that uses a portion of HDD space as the memory to store the application data and ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(instruction that the system deemed it doesn't need to process for now. Virtual Memory can be known as the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(logical memory, and it controls by the Operating System, which is Microsoft Windows. Adding the Virtual Memory) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(can be done in system configuration.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Tutorial Information & Facts or Implementation) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Virtual Memory is a HDD space that uses some portion of it as the memory. It is used to store application data) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(and instruction that is currently not needed to be process by the system.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(During the program loading process, the system will copy the application data and its instruction from the HDD) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(into the main memory \(system memory\). Therefore the system can use its resources such as CPU to process and ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(execute it. Once the system memory gets filled up, the system will start moving some of the data and ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(instruction that don't need to process anymore into the Virtual Memory until those data and instruction need ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(to process again. So the system can call the next application data and instruction and copy it into the main ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(memory in order for the system to process the rest and load the program. When the data and instruction that is) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(in the Virtual Memory needs to process again, the system will first check the main memory for its space. If ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(there is space, it will simply swap those into the main memory. If there are not any space left for the main ) Tj
+ET
+endstream
+endobj
+9 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5585
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(memory, the system will first check the main memory and move any data and instructions that doesn't need to be) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(process into the Virtual Memory. And then swap the data and instruction that need to be process by the system ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(from the Virtual Memory into the main memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Having too low of Virtual Memory size or large Virtual Memory size \(meaning the size that is above double of ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(the system memory\) is not a good idea. If you set the Virtual Memory too low, then the OS will keep issuing an) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(error message that states either Not enough memory or Virtual too low. This is because some portion of the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(system memory are used to store the OS Kernel, and it requires to be remain in the main memory all the time. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Therefore the system needs to have a space to store the not currently needed process data and instruction when) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(the main memory get filled up. If you set the Virtual Memory size too large to support the intensive ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(application, it is also not a good idea. Because it will create the performance lagging, and even it will take) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(the HDD free space. The system needs to transfer the application data and instruction back and forth between ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(the Virtual Memory and the System Memory. Therefore, that is not a good idea. The ideal size for the Virtual ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Memory is the default size of Virtual Memory, and it should not be exceed the value of the triple size of ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(system memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(To determine how much virtual memory you need, since the user's system contains the different amount of RAM, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(it is based on the system. By default, the OS will set the appropriate size for Virtual Memory. The default ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(and appropriate size of Virtual Memory is:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(CODE) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(<Amount_Of_System_Memory> * 1.5 = <Default_Appropriate_Size_Of_Virtual Memory>) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(For example, if your system contains 256 MB of RAM, you should set 384 MB for Virtual Memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(CODE) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(256 MB of RAM \(Main Memory\) * 1.5 = 384 MB for Virtual Memory) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(If you would like to determine how much the Virtual Memory is for your system and/or would like to configure ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(and add more virtual memory, follow the procedure that is shown below. The following procedure is based on ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(windows XP Professional.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(1-1\) Go to right-click My Computer and choose Properties) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(1-2\) In the System Properties dialog box, go to Advanced tab) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(1-3\) Click Settings button that is from the Performance frame) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(1-4\) Once the Performance Options shows up on the screen, go to Advanced tab) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(1-5\) Under the Advanced tab, click the Change button from the Virtual Memory frame to access to the Virtual ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Memory setting) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Then the Virtual Memory dialog box appears on the screen. In there, you are able to check how much the Virtual) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(Memory you set. If you would like to modify the size of Virtual Memory, follow the procedure that is shown ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(below.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(2-1\) In there, select the drive letter that is used to install the Operating System) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(2-2\) Choose the option that says, "Custom Size:") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Once you choose that option, the setting for Initial Size and Maximum Size become available for you to set. ) Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 2393
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Initial Size \(MB\) means the actual size of Virtual Memory, and Maximum Size \(MB\) means the maximum size of ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Virtual Memory that is allowed to use.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Let's say if your system contains 512 MB of RAM, then the ideal setting for the Virtual Memory is as follows:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(CODE) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Initial Size \(MB\):  768) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Maximum Size \(MB\):  1500) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Once you are happy with that Virtual Memory size, click the Set button from Paging file size for selected ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(drive to apply the setting for the Virtual Memory size. Then click the OK button to apply the setting.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(That's where you can manage and configure for the size of Virtual Memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Additional Information) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(* To maintain the good overall system performance, you should be using the default size of actual size for ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Virtual Memory and the triple the value of the size of the main memory for the maximum size of Virtual Memory.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(If you find that main memory plus virtual memory is not big enough to load the intensive application, then you) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(will need to add more main memory onto your system.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Search Keyword) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(virtual memory ) Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type/Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type/Pages
+/Kids[
+9 0 R
+11 0 R
+13 0 R
+]
+/Count 3
+/Resources 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/ProcSet[/PDF/Text/ImageC]
+/Font<<
+/F0 7 0 R
+>>
+>>
+endobj
+xref
+0 15
+0000000000 65535 f
+0000000009 00000 n
+0000015881 00000 n
+0000015969 00000 n
+0000000168 00000 n
+0000000168 00000 n
+0000001113 00000 n
+0000001256 00000 n
+0000001421 00000 n
+0000007464 00000 n
+0000007558 00000 n
+0000013195 00000 n
+0000013291 00000 n
+0000015736 00000 n
+0000015832 00000 n
+trailer
+<<
+/Size 15
+/Root 14 0 R
+/Info 1 0 R
+/ID[(424044344ttiumynrtnd)(424044344ttiumynrtnd)]
+>>
+startxref
+16038
+%%EOF

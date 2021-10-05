@@ -1,0 +1,5762 @@
+%PDF-1.3
+1 0 obj
+<<
+/CreationDate(D:20160204102533)
+/Title()
+/Author(PDFZilla)
+/Keywords(PDFZilla,Zilla PDF)
+/Producer(PDFZilla - Zilla TXT To PDF Converter)
+>>
+endobj
+5 0 obj
+[
+750 750 278 278 355 556 556 889 667 190 333 333 389 584 278 333 
+278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 
+584 556 1015 667 667 722 722 667 610 778 722 278 500 667 556 832 
+722 778 667 778 722 667 610 722 667 944 667 667 610 278 278 278 
+469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 832 
+556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 
+584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 
+610 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 
+500 667 278 333 556 556 556 556 260 556 333 736 370 556 584 333 
+736 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 
+834 610 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 
+278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 
+667 610 556 556 556 556 556 556 889 500 556 556 556 556 278 278 
+278 278 556 556 556 556 556 556 556 549 610 556 556 556 556 500 
+556 500 
+]
+endobj
+6 0 obj
+<<
+/Type/FontDescriptor
+/FontName/Arial
+/Ascent 905
+/Descent -212
+/ItalicAngle 0
+/CapHeight 905
+/Flags 32
+/FontBBox[0 0 0 0]
+>>
+endobj
+7 0 obj
+<<
+/Type/Font
+/Subtype/TrueType
+/Name/F0
+/BaseFont/Arial
+/Encoding/WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths 5 0 R
+/FontDescriptor 6 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 4688
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Hacking Windows XP Registry) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+( ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+( ///////////*1000+ HACKING TRICKS & TUTORIALS - ebook By Mukesh Bhardwaj Blogger  - Paid Version - only @ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(TekGyd | itechhacks | Mukeshtricks4u*///////) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Structure of Windows XP Registry :) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(When you will open the Windows XP Registry , you will see it's divided into two panes. On the left side there ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(are Five main ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Keys as shown below. These can be expanded to several Sub-Keys, which further has many Sub-Keys.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(+HKEY_CLASSES_ROOT) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(+HKEY_CURRENT_USER) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(+HKEY_LOCAL_MACHINE) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(+HKEY_USERS) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(+HKEY_CURRENT_CONFIG) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Before you try out the Tweaks, learn how to Backup and Restore Windows XP Registry.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Types of Registry Backups :) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(It?s very important that before you do editing you make a backup of the current registry. If you ignore this ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(warning, it might prove deadly for you?so better listen to me J ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Open your registry. Go to Start>Run , type regedit . When you invoke the Export function from File>Export, you) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(are given a choice of different file types that can be saved :) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Registration Files \(*.reg\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Registry Hive Files \(*.*\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Text Files \(*.txt\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Win9x/NT 4 Registration Files \(*.reg\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(All Files) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(Each one of the different file types above plays an important role in how the data you export is saved. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(Choosing the wrong type can give you unexpected results. So let me explain you quickly these file types.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(Registrations Files : The Registration Files option creates a .reg file. This is the most well known file ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(format used for backing up the registry. The Registration File can be used in two ways. As a text file it can ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(be read and edited using Notepad outside of Registry Editor. Once the changes have been made and saved, right ) Tj
+ET
+endstream
+endobj
+9 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5335
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(clicking the file and using the [Merge] command adds the changed file back into the registry. If you make ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(additions to the registry using regedit and then merge the previously saved Registration File, anything that ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(you've added via regedit will not be removed, but changes you make to data using regedit that previously ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(existed in the saved Registration File will be overwritten when it is merged) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Registry Hive Files : Unlike the Registration Files option above, the Registry Hive Files option creates a ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(binary image of the selected registry key. The image file is not editable via Notepad nor can you view its ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(contents using a text editor. However, what the Registry Hive Files format does is create an image perfect ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(view of the selected key and allow you to import it back into the registry to insure any problematic changes ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(you made are eliminated. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Text Files : This option does just as the name suggests. It creates a text file containing the information in ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(the selected key. It's most useful purpose is creating a record or snapshot of a key at a particular point in ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(time that you can refer back to if necessary. It cannot be merged back into the registry like a Registration ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(File.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Win9x/NT 4 Registration Files : This option creates a .reg file in the same manner used by the Registration ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Files option. It's used by previous Windows versions and serves no purpose in XP unless you want to merge a ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(key from XP into a previous version of Windows.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Out of the give above choices , the safest method of backing up registry is to use Registry Hive Files option.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(No matter what ever you do or goes wrong in editing, importing the image of the key will eliminate all ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(changes.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(**Note-> I have included the exact name/value between [ ] brackets. [ & ] should be ignored, only the data ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(inside them should be considered. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(1. Customize Windows Media Player Title Bar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Change the title bar to read Windows Media Player provided by <your text>, so if I had entered text ?Abhishek ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Bhuyan? , it would read: Windows Media Player provided by Abhishek Bhuyan) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Go to HKEY_CURRENT_USER\\Software\\Policies\\Microsoft) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Create the Key [WindowsMediaPlayer]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Create String value named [TitleBar] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Data Type: REG_SZ // Value Name: TitleBar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Double click TitleBar and Enter the text to be displayed in the title bar.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(2. Minimize Outlook 2002 to the System Tray) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(If you frequently access Outlook during the day it?s more convenient to have it minimized to the system tray ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(rather than invoking it each time you need to send/receive e-mail. This tweak minimizes Outlook 2002 to the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(system tray:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Go to HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\10.0\\Outlook\\Preferences) Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4437
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Modify/Create Data Type DWORD named [MinToTray]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Setting for Value Data: [0 = Disabled / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(3. Specify Default IE Download Directory) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(This tweak changes the default directory where downloads initiated in Internet Explorer are stored on the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(system.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Go to HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Modify/Create String Value of Data type REG_SZ Named [Download Directory]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Value Data: [Enter Path to Directory to be Assigned as Defualt for Downloads]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(4. Force Use of Classic Start Menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(This tweak loads the Classic Start Menu and makes it impossible to change back to the Windows XP version) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Go to HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Modify/Create the DWORD Value of Data type REG_DWORD Named [NoSimpleStartMenu]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Value Data: [0 = Default / 1 = Force Classic Start Menu]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(5. Hide/Show Internet Explorer Desktop Icon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(By default, Windows XP does not show the Internet Explorer icon on the Windows desktop. Using the registry ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(tweak below allows you to control whether or not the Internet Explorer icon is displayed. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Go to HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [NoInternetIcon]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Setting for Value Data: [0 = Disabled / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(6. Increase Menu Display Speed) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(When you click on the Start Menu there is some delay to display the contents , just for no reason. Effects are) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(pretty though. The default speed can be adjusted with a quick registry entry.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(The default value is 400. Set it to 0 and the delay is gone. If you are not able to adjust pick a number that ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(suits your style and make the change.) Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 4566
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Go to HKEY_CURRENT_USER\\Control Panel\\Desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Modify/Create String value of Data type REG_SZ Named [MenuShowDelay]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Value Data: [Default = 400 / Adjust to Preference]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(7. Change the Location of Special Folders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(This tweak allows changing the location of special folders on the system. Any of the folders listed in the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(registry key may be moved.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Go to : HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserShell Folders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Modify/Create String value of Data type REG_SZ Named [Various Folder Names] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Data Type: REG_SZ [String Value] // Value Name: Consult RegEdit for Folder Names) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Value Data: [Move the folder to the new desired location using explorer, and then edit the matching folder in ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(RegEdit to reflect the new folder location]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Exit Registry and Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(8. Faster Browsing in Windows Explorer on Network Computers) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(By default, a Windows XP machine connecting to a Windows 95/98/Me computer will search for scheduled tasks or ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(enabled printers on the remote computer. Two sub-keys control this behavior. Deleting them will speed up ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(browsing on the remote computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Go to : HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RemoteComputer\\NameSpace) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(To Disable Scheduled Task Checking) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Value Name: {D6277990-4C6A-11CF-8D87-00AA0060F5BF}) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Delete the sub-key in the left pane of Registry Editor) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(To Disable Printer Checking) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Value Name: {2227A280-3AEA-1069-A2DE-08002B30309D}) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Delete the sub-key in the left pane of Registry Editor) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(9. Add Administrator Account to Log In Screen) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(When Windows XP is first installed it requires you to enter at least one name of a user who will access the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(computer. Once you create this name the default Administrator account vanishes. To access it, press ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Ctrl-Alt-Delete twice at the Welcome screen to retrieve the standard Windows 2000 logon dialog. Log on as ) Tj
+ET
+endstream
+endobj
+15 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 14 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4694
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Administrator from this point. To log the Administrator off, click [Start] [Log Off] and [Log Off] when the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+([Log Off Windows] selection box appears. The Log On screen with the available users will be displayed.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(To Make the Administrator Account Always Visible on the Login Screen use this Registry Tweak.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Go to: HKEY_LOCALMACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\SpecialAccounts\\UserList) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [Administrator]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(Setting for Value Data: [0 = Disabled / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(10. Increase Internet Download Connections) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Increase Simultaneous Internet Download Connections. Increases the number of allowed simultaneous connections ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(to ten \(10\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Go to: HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [MaxConnectionsPer1_0Server]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Setting for Value Data: [0000000a]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [MaxConnectionsPerServer]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Setting for Value Data: [0000000a]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(11. Connected Web Files and Folders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(Connecting web files and folders allows a primary .htm or .html file to be moved in conjunction with files ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(associated with the primary document. Once the primary document has been defined, create a sub-folder using ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(the same name as the primary document but assign it a .files extension. Whenever the primary file is moved, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(the sub-folder will also move and remain as a sub-folder of the primary.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Go to: HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [NoFileFolderConnection]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Setting for Value Data: [0 = Enabled \(Default\) / 1 = Disabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(12. Hide/Show My Documents Folder on Desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(By default, Windows XP does not show the My Documents folder on the Windows desktop. Using the registry tweak ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(below allows you to control whether or not My Documents is displayed. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+([Start] [Run] [Regedit]) Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 4565
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Go to: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\CLSID\\{450D8FBA-AD25-11D0-98A8-0800361B11) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(03}\\ShellFolder) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [Attributes]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Setting for Value Data: [Default = 0xf0400174 / Hidden = 0xf0500174]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(13. Create a Hidden User Account) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(This tweak allows an account that is normally displayed on the Welcome screen to be hidden from view. To log ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(on using the account it's necessary to use the Log On To Windows dialog box similar to the one in Windows 2000) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(i.e. press CTRL+ALT+DEL twice.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion\\Winlogon\\SpecialAccounts\\UserList) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [Type Name of Account to be Hidden]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Setting for Value Data: [0 = Account is Hidden / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(While the account is hidden on the Welcome screen, note that the account profile will be visible in ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(C:\\Documents and Settings or wherever user profiles are stored as well as in Local Users and Groups.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(14. Create Legal Notice Logon Dialog Box) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(In situations where you need users to read a legal notice before logging on, this tweak will create the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(caption for the notice. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Modify/Create String Value of Data type REG_SZ Named [LegalNoticeCaption]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Value Data for LegalNoticeCaption: [Type the Caption for the Dialog Box]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Modify/Create String Value of Data type REG_SZ Named [LegalNoticeText]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Value Data for LegalNoticeText: [Type the Data for the Legal Notice]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(15. Manage Internet Explorer Error Reporting) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(This tweak removes the IE Error Reporting tool from appearing with the option to send browser debugging ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(reports to Microsoft.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(Go to: HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Internet Explorer\\Main) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4488
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Note:- Create both values listed below and set according to the bold type for the tweak to function properly.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [IEWatsonEnabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Value Data: [0 - Disabled / 1 - Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [IEWatsonDisabled] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Value Data: [0 - Disabled / 1 - Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(16. Customize Logon and Security Dialog Title) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\ CurrentVersion\\Winlogon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Modify/Create String Value of Data type REG_SZ Named [Welcome]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Value Data: [0 = Disabled / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(17. Customize Logon Box Message) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(This is the message displayed on the Classic Logon box, not the XP ?Welcome? logon screen) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\ CurrentVersion\\Winlogon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Modify/Create String Value of Data type REG_SZ Named [LogonPrompt]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Value Data: [Enter the text of the message]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(18. Welcome Screen Logon Vs Classic Logon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(This tweak specifies whether the Welcome screen or the Classic logon will be used to access Windows XP.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [LogonType]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Value Data: [0 - Classic Mode / 1 - Welcome Screen]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(19. QoS \(Quality Of Service\) Bandwidth Reserve Setting) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(By default, Windows XP reserves 20% of the connection bandwidth for QoS traffic. This tweak allows the setting) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(to be altered to a different percentage of connection bandwidth. If the system uses more than a single adapter) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(for network connections, each adapter may be set individually by navigating to:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\Psched\\Parameters\\Adapters\\{Adpater-ID} rather than ) Tj
+ET
+endstream
+endobj
+21 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 20 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 4540
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [NonBestEffortLimit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Setting for Value Data: [Enter as a Percentage / Default Value = 20]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(20. Enable/Disable Save Password in DUN) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(This tweak saves user passwords for Dial Up Networking so they do not have to be re-entered each session.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Go to: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\RasMan\\Parameters) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [DisableSavePassword]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Setting for Value Data: [0 = Disabled \(Passwords Saved\) / 1 = Enabled \(Passwords Not Saved\)]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(21. Change the Registered Organization/Owner of Windows XP) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(This tweak allows modification of the registered owner and organization of the Windows XP software.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Note:- This tweak has nothing to do with Windows Product Activation \(WPA\) and will not allow you to register ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(illegal XP software.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(Modify/Create String Value of Data type REG_SZ Named [RegisteredOrganization] or [RegisteredOwner]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Setting for Value Data: [Modify the Values to Reflect Current Information]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(22. Remove Links Folder in Favorites) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(The Links folder is part of Favorites whether it's being accessed through Internet Explorer or the Favorites ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(menu in the Start Menu. This tweak will remove it from those locations.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Go to: HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Toolbar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(Modify/Create String Value of Data type REG_SZ Named [LinksFolderName]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(Value Data: [Set the String Value to a blank string]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(Open Internet Explorer and manually delete the Links folder from Favorites Menu.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(The Links folder will not be recreated.) Tj
+ET
+endstream
+endobj
+23 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 22 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 4705
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(23. Enable/Disable Active Window Tracking to Mouse Movements) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(When the mouse is moved over an open window it automatically sets the focus to that particular window. It does) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(not bring the window to the foreground of the open windows.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(Go to: HKEY_CURRENT_USER\\Control Panel\\Mouse) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [ActiveWindowTracking]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Setting for Value Data: [0 = ActiveWindowTracking Disabled / 1 = ActiveWindowTracking Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(24. Auto Disconnect for Internet Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Use this edit to automatically disconnect from Internet Explorer after a specified length of time has elapsed.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Use this trick on anyone whom you don?t like using your computer with net J ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Go to: HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\\LanmanServer\\Parameters) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [Autodisconnect]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Value Data: [Enter a new disconnect time. Use Hexadecimal if you are unfamiliar with Binary]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(25. Auto Reboot on System Crash) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(By default, when the Windows XP operating system crashes an automatic reboot of the system occurs. While this ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(behavior can be convenient, the downside is the error message accompanying the crash is not visible. Often ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(times this information can be a great help in troubleshooting the source of the crash. This behavior can be ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(modified in two ways; via the registry or using the System Properties property sheet.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Registry Key: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\CrashControl) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [AutoReboot]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(Setting for Value Data: [0 = AutoReboot Disabled / 1 = AutoReboot Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Open System Properties via Start > Control Panel > Performance and Maintenance > System) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+([System Properties may also be opened using the WinKey+Pause key combination]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(Select the Advanced tab and then click Settings in the Startup and Recovery section) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(In System Failure section, clear the checkbox next to Automatically Restart) Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4378
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Click OK and OK to exit) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(26. Modify Control Panel Categories) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Even if you like the new style for Control Panel, you might at times wish you could shift some items around ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(into a different category. It's possible. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(Go to: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Control Panel\\Extended ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Properties\\{305CA226-D286-468e-B848-2B2E8E697B74} 2) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [Choose one of the applets with .cpl extension]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Setting for Value Data: [Select the value from table below]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Other Control Panel Options 0 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Appearance and Themes 1 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Printers and Other Hardware 2 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Network and Internet Connections 3 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Sounds, Speed, and Audio Devices 4 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Performance and Maintenance 5 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Date, Time, Language, and Regional Options 6 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Accessibility Options 7 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Add or Remove Programs 8 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(User Accounts 9 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(To further customize the items that appear in the new Control Panel, do a search of your system for all files ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(that end in .cpl extension. If they aren't already listed, you can add them with a new DWORD value and then ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(assign them to a category of your choosing.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(27. Enable/Disable Run Commands Specific to the Registry) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(This tweak controls the use of the Run command on the local machine) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Go to: HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\ Policies\\Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Create a DWORD value of Data Type REG_DWORD for each Run function that will be disabled.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Modify/Create the Value Name [DisableLocalMachineRun] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Modify/Create the Value Name [DisableLocalMachineRunOnce] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Modify/Create the Value Name [DisableCurrentUserRun] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(Modify/Create the Value Name [DisableCurrentUserRunOnce] ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(Setting for Value Data: [0 = Disabled / 1 = Enabled]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+27 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 26 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5089
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(28. Enable/Disable System Properties Access from My Computer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(This tweak removes access to System Properties via My Computer as well as via Control Panel.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+([Start] [Run] [Regedit]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Go to: HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Modify/Create DWORD Value of Data type REG_DWORD Named [NoPropertiesMyComputer]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Value Data: [0 - Display Properties / 1 - Hide Properties]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Exit Registry / Reboot) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(29. Uninstall Programs Manually) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Just because Windows XP has the Add/Remove Programs feature it doesn't mean your application will appear in ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(the list. Furthermore, even if it does appear, it's no guarantee that the uninstall feature will work. When ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(you run across one of these situations the items listed below will help in getting rid of the application. Be ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(aware that these steps may not remove everything associated with the application and can impact other ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(applications on the computer. Have a backup or restore point and use caution.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Find the directory for the application and delete all the files in the directory. Delete the directory. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Open regedit and navigate to HKEY_LOCAL_MACHINE\\SOFTWARE and find the folder for the application. Delete the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(folder. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Open regedit and navigate to HKEY_CURRENT_USER\\SOFTWARE and find the folder for the application. Delete the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(folder. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(To remove the application entry from Add/Remove Programs \(if present\) open regedit and navigate to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall and find the folder for the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(application. Delete the folder. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Some applications have Services attached to them. If this is the case, navigate to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services, locate and delete the service. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(In Windows Explorer, navigate to the individual user settings and delete program references. Common places to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(check would be: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(C:\\Documents and Settings\\All Users\\Start Menu\\Programs and delete relevant entries.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(C:\\Documents and Settings\\All Users\\Start Menu\\Programs\\Startup and delete relevant entries.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(C:\\Documents and Settings\\%YourUserID%\\Start Menu\\Programs and delete relevant entries.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+([Do this for each User ID listed]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(C:\\Documents and Settings\\%YourUserID%\\Start Menu\\Programs\\Startup and delete relevant entries.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+([Do this for each User ID listed]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(If no entries were found in the previous step and the application launches automatically, navigate to) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Windows) Tj
+ET
+endstream
+endobj
+29 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 28 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 5004
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(and delete the entry.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(30. Create a right-click command prompt option) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(You can right-click a folder to get a list of actions you can apply to it. Here?s a way to create an action on) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(that right-click menu that opens a command prompt window with that folder as the current directory. In a text ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(editor such as Notepad, type the following exactly:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Windows Registry Editor Version 5.00) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+([HKEY_CLASSES_ROOT\\Folder\\shell\\Cmd Here]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(@=?Command &Prompt Here?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+([HKEY_CLASSES-ROOT\\Folder\\shell\\Cmd Here\\command]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(@=?cmd.exe /k pushd %L?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Save the file with any name you want, with a .reg extension. Then double-click the saved file and choose Yes ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(to merge the file?s information into the Registry. You can delete the file. Right-click any folder and you?ll ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(see the CommandPrompt Here option.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(31. Adjusting System Restore values) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(The new System Restore feature in Windows XP automatically backs up a snapshot of your system, including your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Registry, every 24 hours. It also saves restore points for 90 days. Neither of these values is directly ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(editable in the System Restore program, but you can change them in the Registry. Go to:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsNT\\CurrentVersion\\SystemRestore ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(You?ll find an assortment of settings here. To change the interval between automatically created restore ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(points, change the RPGlobalInterval setting. To change the number of days that a restore point is retained, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(change the RPLifeInterval setting.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(System Restore time intervals are measured in seconds, not days, so you must convert the number of days you ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(want into seconds. There are 86,400 seconds in a day, so multiply 86,400 by the number of days you want to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(determine the value. \(There are 3,600 seconds in an hour, I hope you know\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(32. Erase the swap file at shutdown) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(You might be concerned about someone browsing your users? swap files and gathering up little bits of their ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(sensitive data. A remote possibility, to be sure, but it could happen. For that extra measure of security, go ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(to:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\Memory Management ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(Set the ClearPageFileAtShutdown DWORD to 1. This will make shutdowns take longer, because it overwrites ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(everything in the swap file with zeroes. Don?t turn this feature on unless you have a serious security threat.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(33. Delete the Files Stored on This Computer category in the My Computer window) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 5609
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(In Windows XP, the My Computer window?s listing is broken down by categories: Hard Disk Drives, Devices with ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Removable Storage, and so on. One of these categories is Files Stored on This Computer, which appears at the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(top of the My Computer window. If a user doesn?t need it , you can get rid of it. To do so, go to:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MyComputer\\) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(NameSpace\\Delegate Folders ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Delete the {59031a47-3f72-44a7-89c55595fe6b30ee} subkey to remove the category.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(34. Change the desktop cleanup frequency) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Through Display Properties \(Desktop tab, Customize Desktop button, General tab\), you can turn on and off a ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(feature that runs the Desktop Cleanup Wizard every 60 days. You don?t have an option to set a different ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(interval there, but you can change the interval in the Registry. To do so, go to:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Desktop\\CleanupWiz ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Change the Days Between Clean Up Value to some other number of days \(in decimal format\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(35. Sort menus alphabetically) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(When you install a new program for a user, it doesn?t find its place in the alphabetical Start menu hierarchy ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(right away; it hangs out at the bottom for a little while. If your users employ the Classic Start menu, they ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(can re-alphabetize it manually by right-clicking the taskbar and choosing Properties, clicking the Customize ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(button next to the Classic Start Menu, and clicking the Sort button. With the Windows XP style of Start menu, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(however, you don?t have an equivalent button. To make Windows always alphabetize the list, remove the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(permissions from the Registry key that controls the sort order for the Start menu. To do so, go to: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\MenuOrder ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Choose Edit | Permissions and click the Advanced button. Deselect the Inherit From Parent The Permission ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Entries That Apply To Child Objects check box and then click Copy when the Security dialog box pops up. Click ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(OK and clear the Full Control entry for your account and all security groups you are a member of. Leave only ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Read permission.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(36. Prevent programs from loading at startup) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Remember back in the good old days of Windows 3.1 when you could open up the Win.ini file in a text editor and) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(remove an item from the RUN= line to disable it from running at startup? With Windows 9x and above, the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(Win.ini file became less useful because 32-bit programs were set to run at startup from within the Registry ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(instead.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(One way to selectively disable programs from loading at startup is to use MSCONFIG \(from the Run command\) to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(deselect certain items. Another way to remove them is to edit the Registry directly. Consider the following ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(locations: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Run) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(for applications that start up for all users ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(for applications that start up when the current user logs on ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+33 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 32 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 4582
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Remove the entry for a program by right-clicking it and selecting Delete to prevent it from loading.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(37. Change categories in the Control Panel) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Windows XP?s Control Panel is broken down by category in the default Category view, but the group to which an ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(item belongs is not always obvious. If you disagree with Microsoft?s assignments, you can switch them around. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(To assign a different category to an item, go to: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Control Panel\\Extended Properties\\) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+({305CA226-D286-468e-B848-2B2E8E697B74} 2 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Find the item you want to change and double-click it to bring up a dialog box. Change the item?s DWORD value ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(to your preference. Use the Table given below as a guide \(shown with decimal numbers, which is the way you ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(should enter them\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(DWORD value to set ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Other Control Panel Options 0 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Appearance and Themes 1 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Printers and Other Hardware 2 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Network and Internet Connections 3 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Sounds, Speed, and Audio Devices 4 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Performance and Maintenance 5 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Date, Time, Language, and Regional Options 6 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Accessibility Options 7 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Add or Remove Programs 8 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(User Accounts 9) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(38. Grouping multiple open windows ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(Windows XP will group multiple open windows \(IE windows for example\) into one group on the task bar to keep ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(the taskbar clear. This can be annoying at times - especially when comparing different web pages because you ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(have to go back to the task bar, click on the group and then click on the page you want and then you only get ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(one page because you have to click on each one separately. I think the default for this is 8 windows - any ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(combination of apps or utilities open. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(You can modify this behavior by adding this registry key at: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(HKEY_CURRRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(add a Dword value of type REG_DWORD named [TaskbarGroupSize]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(modify "TaskbarGroupSize" entry to be the number of windows you want open before XP starts to group them on ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(the task bar. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+35 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 34 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 4278
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(A value of 2 will cause the Taskbar buttons to always group ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Another tweak is to disable or enable recent documents history. This can be done at: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(HKEY_CURRRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\\ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(this key should already be present - if it isn't you'll need to add it: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Add a Binary value of type REG_BINARY named [NoRecentDocsHistory]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(modify it so that value reads 01 00 00 00) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(39. Disable Tips ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(To disable Ballon tips in Windows XP do this registry tweak) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Go to : HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Create a new DWORD value, name it EnableBalloonTips, and set it equal to 0. If EnableBalloonTips is already ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(there and equal to 1, set it equal to 0. Quit the registry editor, log off, and log back on. Voila! Your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(computer will stop talking down to you.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(40. Add/Remove optional features of Windows XP ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(To dramatically expand the list of applications you can remove from Windows XP after installation, navigate to) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(C:\\WINDOWS\\inf and open the sysoc.inf file. {Opps , if you didn?t find the inf directory, you are right. It?s ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(a hidden folder, so go to Tools>Folder Options> View , enable Show Hidden Files & Folders.}) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+([Version]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Signature = "$Windows NT$") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(DriverVer=07/01/2001,5.1.2600.0) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+([Components]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(NtComponents=ntoc.dll,NtOcSetupProc,,4) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(WBEM=ocgen.dll,OcEntry,wbemoc.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Display=desk.cpl,DisplayOcSetupProc,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Fax=fxsocm.dll,FaxOcmSetupProc,fxsocm.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(NetOC=netoc.dll,NetOcSetupProc,netoc.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(iis=iis.dll,OcEntry,iis.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(com=comsetup.dll,OcEntry,comnt5.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(dtc=msdtcstp.dll,OcEntry,dtcnt5.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(IndexSrv_System = setupqry.dll,IndexSrv,setupqry.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 36 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 4478
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(TerminalServer=TsOc.dll, HydraOc, TsOc.inf,hide,2) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(msmq=msmqocm.dll,MsmqOcm,msmqocm.inf,,6) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(ims=imsinsnt.dll,OcEntry,ims.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(fp_extensions=fp40ext.dll,FrontPage4Extensions,fp40ext.inf,,7 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(AutoUpdate=ocgen.dll,OcEntry,au.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(RootAutoUpdate=ocgen.dll,OcEntry,rootau.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(IEAccess=ocgen.dll,OcEntry,ieaccess.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Games=ocgen.dll,OcEntry,games.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(AccessUtil=ocgen.dll,OcEntry,accessor.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(CommApps=ocgen.dll,OcEntry,communic.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(MultiM=ocgen.dll,OcEntry,multimed.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(AccessOpt=ocgen.dll,OcEntry,optional.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Pinball=ocgen.dll,OcEntry,pinball.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(MSWordPad=ocgen.dll,OcEntry,wordpad.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(ZoneGames=zoneoc.dll,ZoneSetupProc,igames.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+([Global]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(WindowTitle=%WindowTitle%) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(WindowTitle.StandAlone="*") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(The entries that include the text hide or HIDE will not show up in Add/Remove Windows Components by default. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(To fix this, do a global search and replace for ,hide and change each instance of this to , \(a comma\). Then, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(save the file, re launch Add/Remove Windows Components, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(41. Remove Windows Messenger ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(It seems that a lot of people are interested in removing Windows Messenger for some reason, though I strongly ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(recommend against this: In Windows XP, Windows Messenger will be the hub of your connection to the .NET world,) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(and now that this feature is part of Windows, I think we're going to see a lot of .NET Passport-enabled Web ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(sites appearing as well. But if you can't stand the little app, there are a couple of ways to get rid of it, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(and ensure that it doesn't pop up every time you boot into XP. The best way simply utilizes the previous tip: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(If you'd like Windows Messenger to show up in the list of programs you can add and remove from Windows, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(navigate to C:\\WINDOWS\\inf and open sysoc.inf \(see the previous tip for more information about this file\). ) Tj
+ET
+endstream
+endobj
+39 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 38 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 2416
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(You'll see a line that reads: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,hide,7 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Change this to the following and Windows Messenger will appear in Add or Remove Programs, then Add/Remove ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Windows Components, then , and you can remove it for good: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(42. Rename multiple files \( it is not a Registry tweak though. I thought this to be really cool, so I have put) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(it here\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(A new, small, neat feature for Windows XP deals with renaming files. I personally have always wanted the OS to) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(include a way to do a mass file renaming on a bunch of files. You can now rename multiple files at once .Its ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(really simple: ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Select several files in Explorer, press F2 and rename one of those files to something else. All the selected ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(files get renamed to the new file name \(plus a number added to the end\). Simple J ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(I hope you enjoyed the above Registry tricks ! May be next time I?ll come up with more. That's all for now . ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(To know more tricks + topics on Hacking, Security, Programming.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+endstream
+endobj
+41 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 40 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type/Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type/Pages
+/Kids[
+9 0 R
+11 0 R
+13 0 R
+15 0 R
+17 0 R
+19 0 R
+21 0 R
+23 0 R
+25 0 R
+27 0 R
+29 0 R
+31 0 R
+33 0 R
+35 0 R
+37 0 R
+39 0 R
+41 0 R
+]
+/Count 17
+/Resources 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/ProcSet[/PDF/Text/ImageC]
+/Font<<
+/F0 7 0 R
+>>
+>>
+endobj
+xref
+0 43
+0000000000 65535 f
+0000000009 00000 n
+0000081835 00000 n
+0000082022 00000 n
+0000000168 00000 n
+0000000168 00000 n
+0000001113 00000 n
+0000001256 00000 n
+0000001421 00000 n
+0000006160 00000 n
+0000006254 00000 n
+0000011641 00000 n
+0000011737 00000 n
+0000016226 00000 n
+0000016322 00000 n
+0000020940 00000 n
+0000021036 00000 n
+0000025782 00000 n
+0000025878 00000 n
+0000030495 00000 n
+0000030591 00000 n
+0000035131 00000 n
+0000035227 00000 n
+0000039819 00000 n
+0000039915 00000 n
+0000044672 00000 n
+0000044768 00000 n
+0000049198 00000 n
+0000049294 00000 n
+0000054435 00000 n
+0000054531 00000 n
+0000059587 00000 n
+0000059683 00000 n
+0000065344 00000 n
+0000065440 00000 n
+0000070074 00000 n
+0000070170 00000 n
+0000074500 00000 n
+0000074596 00000 n
+0000079126 00000 n
+0000079222 00000 n
+0000081690 00000 n
+0000081786 00000 n
+trailer
+<<
+/Size 43
+/Root 42 0 R
+/Info 1 0 R
+/ID[(424044344ttiogtesd)(424044344ttiogtesd)]
+>>
+startxref
+82091
+%%EOF

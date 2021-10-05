@@ -1,0 +1,4388 @@
+%PDF-1.3
+1 0 obj
+<<
+/CreationDate(D:20160204102534)
+/Title()
+/Author(PDFZilla)
+/Keywords(PDFZilla,Zilla PDF)
+/Producer(PDFZilla - Zilla TXT To PDF Converter)
+>>
+endobj
+5 0 obj
+[
+750 750 278 278 355 556 556 889 667 190 333 333 389 584 278 333 
+278 278 556 556 556 556 556 556 556 556 556 556 278 278 584 584 
+584 556 1015 667 667 722 722 667 610 778 722 278 500 667 556 832 
+722 778 667 778 722 667 610 722 667 944 667 667 610 278 278 278 
+469 556 333 556 556 500 556 556 278 556 556 222 222 500 222 832 
+556 556 556 556 333 500 278 556 500 722 500 500 500 334 260 334 
+584 750 556 750 222 556 333 1000 556 556 333 1000 667 333 1000 750 
+610 750 750 222 222 333 333 350 556 1000 333 1000 500 333 944 750 
+500 667 278 333 556 556 556 556 260 556 333 736 370 556 584 333 
+736 552 400 549 333 333 333 576 537 333 333 333 365 556 834 834 
+834 610 667 667 667 667 667 667 1000 722 667 667 667 667 278 278 
+278 278 722 722 778 778 778 778 778 584 778 722 722 722 722 667 
+667 610 556 556 556 556 556 556 889 500 556 556 556 556 278 278 
+278 278 556 556 556 556 556 556 556 549 610 556 556 556 556 500 
+556 500 
+]
+endobj
+6 0 obj
+<<
+/Type/FontDescriptor
+/FontName/Arial
+/Ascent 905
+/Descent -212
+/ItalicAngle 0
+/CapHeight 905
+/Flags 32
+/FontBBox[0 0 0 0]
+>>
+endobj
+7 0 obj
+<<
+/Type/Font
+/Subtype/TrueType
+/Name/F0
+/BaseFont/Arial
+/Encoding/WinAnsiEncoding
+/FirstChar 30
+/LastChar 255
+/Widths 5 0 R
+/FontDescriptor 6 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 5069
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Windows Xp Tips 'n' Tricks, Windows XP Tips 'n' Tricks) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+( ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+( ///////////*1000+ HACKING TRICKS & TUTORIALS - ebook By Mukesh Bhardwaj Blogger  - Paid Version - only @ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(TekGyd | itechhacks | Mukeshtricks4u*///////) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(--------------------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(----------------------------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Please note that some of these tips require you to use a Registry Editor \(regedit.exe\), which could render ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(your system unusable. Thus, none of these tips are supported in any way: Use them at your own risk. Also note ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(that most of these tips will require you to be logged on with Administrative rights.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Unlocking WinXP's setupp.ini) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(============================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(WinXP's setupp.ini controls how the CD acts. IE is it an OEM version or retail? First, find your setupp.ini ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(file in the i386 directory on your WinXP CD. Open it up, it'll look something like this:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(ExtraData=707A667567736F696F697911AE7E05) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Pid=55034000) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(The Pid value is what we're interested in. What's there now looks like a standard default. There are special ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(numbers that determine if it's a retail, oem, or volume license edition. First, we break down that number into) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(two parts. The first five digits determines how the CD will behave, ie is it a retail cd that lets you clean ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(install or upgrade, or an oem cd that only lets you perform a clean install? The last three digits determines ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(what CD key it will accept. You are able to mix and match these values. For example you could make a WinXP cd ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(that acted like a retail cd, yet accepted OEM keys.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Now, for the actual values. Remember the first and last values are interchangable, but usually you'd keep them) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(as a pair:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(Retail = 51882 335) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Volume License = 51883 270) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(OEM = 82503 OEM) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(So if you wanted a retail CD that took retail keys, the last line of your setupp.ini file would read:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Pid=51882335) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(And if you wanted a retail CD that took OEM keys, you'd use:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Pid=51882OEM) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(How do I get the "Administrator" name on Welcome Screen?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(========================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(To get Admin account on the "Welcome Screen" as well as the other usernames, make sure that there are no ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(accounts logged in.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 4415
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(Press "ctrl-alt-del" twice and you should be able to login as administrator!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(finally worked for me after i found out that all accounts have to be logged out first) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Fix Movie Inteferance in AVI files) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(==================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(If you have any AVI files that you saved in Windows 9x, which have interference when opened in Windows XP, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(there is an easy fix to get rid of the interference:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Open Windows Movie Maker.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(Click View and then click Options.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Click in the box to remove the check mark beside Automatically create clips.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Now, import the movie file that has interference and drag it onto the timeline. Then save the movie, and ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(during the rerendering, the interference will be removed.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Create a Password Reset Disk) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(============================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(If you’re running Windows XP Professional as a local user in a workgroup environment, you can create a ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(password reset disk to log onto your computer when you forget your password. To create the disk:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Click Start, click Control Panel, and then click User Accounts.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Click your account name.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Under Related Tasks, click Prevent a forgotten password.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Follow the directions in the Forgotten Password Wizard to create a password reset disk.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(Store the disk in a secure location, because anyone using it can access your local user account) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(Change Web Page Font Size on the Fly) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(====================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(If your mouse contains a wheel for scrolling, you can change font size on the fly when viewing a Web page. To ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(do so:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Press and hold Ctrl. Scroll down \(or towards yourself\) to enlarge the font size. Scroll up \(or away from ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(yourself\) to reduce the font size.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(You might find it useful to reduce font size when printing a Web page, so that you can fit more content on the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(page.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(WinXP Clear Page file on shutdown) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(=================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+11 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 10 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 4718
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(WINXPCPS.REG \(WinXP Clear Page file on shutdown\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(This Registration \(.REG\) file clears the Page file when you power off the computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Restart Windows for these changes to take effect!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(ALWAYS BACKUP YOUR SYSTEM BEFORE MAKING ANY CHANGES!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Browse to: HKEY_LOCAL_MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ Memory Management) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(and add the DWORD variable "ClearPageFileAtShutdown"=dword:00000001) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(You can also do this without reg hacking.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Go to Control panel Administartative tools, local security policy. then goto local policies ---> security ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(options.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Then change the option for "Shutdown: Clear Virtual Memory Pagefile") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Group Policy for Windows XP) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(===========================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(One of the most full featured Windows XP configuration tools available is hidden right there in your system, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(but most people don't even know it exists. It's called the Local Group Policy Editor, or gpedit for short. To ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(invoke this editor, select Start and then Run, then type the following:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(gpedit.msc) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(After you hit ENTER, you'll be greeted by gpedit, which lets you modify virtually every feature in Windows XP ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(without having to resort to regedit. Dig around and enjoy!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Forgetting What Your Files Are?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(===============================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(This procedure works under NTFS.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(As times goes along you have a lot files on your computer. You are going to forget what they are. Well here is) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(way to identify them as you scroll through Windows Explorer in the future.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(This procedure works under NTFS.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(1.. Open up a folder on your system that you want to keep track of the different files you might one to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(identify in the future.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(2.. Under View make certain that you set it to the Details.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(3.. Highlight the file you want to keep more information on. Right click the file and you will get a pop up ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(menu. Click on properties.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(4.. Click on the Summary Tab \(make sure it says simple not advanced on the button in the box\), You should now ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(get the following fields,) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(Title,Subject, Author, Category, Keywords, Comments) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(You will see advanced also if you have changed it to simple, Here will be other fields you can fill in.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 4473
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(5.. Next you can fill in what ever field you want.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(6.. After you finished click the apply button then OK.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(7.. Next right click the bar above your files, under the address barand you should get a drop down menu. Here ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(you can click the fields you want to display.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(8.. You should now see a list with the new fields and any comments you have done.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(9.. Now if you want to sort these just right click a blank spot and then you sort the information to your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(liking.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Temporarily Assign Yourself Administrative Permissions) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(======================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Many programs require you to have Administrative permissions to be able to install them. Here is an easy way ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(to temporarily assign yourself Administrative permissions while you remain logged in as a normal user.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Hold down the Shift key as you right-click on the program’s setup file.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Click Run as.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Type in a username and password that have Administrative permissions.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(This will also work on applications in the Start menu.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Create a Shortcut to Lock Your Computer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(=======================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Leaving your computer in a hurry but you don’t want to log off? You can double-click a shortcut on your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(desktop to quickly lock the keyboard and display without using CTRL+ALT+DEL or a screensaver.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(To create a shortcut on your desktop to lock your computer:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(Right-click the desktop.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Point to New, and then click Shortcut.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(The Create Shortcut Wizard opens. In the text box, type the following:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(rundll32.exe user32.dll,LockWorkStation) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Click Next.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Enter a name for the shortcut. You can call it "Lock Workstation" or choose any name you like.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(Click Finish.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(You can also change the shortcut's icon \(my personal favorite is the padlock icon in shell32.dll\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(To change the icon:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(Right click the shortcut and then select Properties.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Click the Shortcut tab, and then click the Change Icon button.) Tj
+ET
+endstream
+endobj
+15 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 14 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4118
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(In the Look for icons in this file text box, type:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(Shell32.dll.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Click OK.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Select one of the icons from the list and then click OK) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(You could also give it a shortcut keystroke such CTRL+ALT+L. This would save you only one keystroke from the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(normal command, but it could be more convenient.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Create a Shortcut to Start Remote Desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(=========================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Tip: You can add a shortcut to the desktop of your home computer to quickly start Remote Desktop and connect ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(to your office computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(To create a shortcut icon to start Remote Desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Click Start, point to More Programs, point to Accessories, point to Communications, and then click on Remote ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Desktop Connection.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Click Options.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Configure settings for the connection to your office computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Click Save As, and enter a name, such as Office Computer. Click Save.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Open the Remote Desktops folder.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Right-click on the file named Office Computer, and then click Create Shortcut.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(Drag the shortcut onto the desktop of your home computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(To start Remote Desktop and connect to your office computer, double-click on the shortcut) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(Instantly Activate a Screensaver) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(Turn on a screensaver without having to wait by adding a shortcut to your desktop:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(Click the Start button, and then click Search.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(In the Search Companion window, click All file types.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(In the file name box, type *.scr) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(In the Look in box, choose Local Hard Drives \(C or the drive where you have system files stored on your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(Click Search.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+17 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 16 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 4797
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(You will see a list of screensavers in the results. Pick a screensaver you want. You can preview it by ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(double-clicking it.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Right click on the file, choose Send To, and then click Desktop \(create shortcut\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(To activate the screensaver, double-click the icon on your desktop) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Add a Map Drive Button to the Toolbar) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(=====================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Do you want to quickly map a drive, but can’t find the toolbar button? If you map drives often, use one of ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(these options to add a Map Drive button to the folder toolbar.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(Option One \(Long Term Fix\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Click Start, click My Computer, right-click the toolbar, then unlock the toolbars, if necessary.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(Right-click the toolbar again, and then click Customize.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Under Available toolbar buttons, locate Map Drive, and drag it into the position you want on the right under ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Current toolbar buttons.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Click Close, click OK, and then click OK again.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(You now have drive mapping buttons on your toolbar, so you can map drives from any folder window. To unmap ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(drives, follow the above procedure, selecting Disconnect under Available toolbar buttons. To quickly map a ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(drive, try this option.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(Option Two \(Quick Fix\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(Click Start, and right-click My Computer.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Click Map Network Drive.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(If you place your My Computer icon directly on the desktop, you can make this move in only two clicks!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Software not installing?) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(========================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(If you have a piece of software that refuses to install because it says that you are not running Windows 2000 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(\(such as the Win2K drivers for a Mustek scanner!!\) you can simply edit ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows NT/CurrentVersion/ProductName to say Microsoft Windows 2000 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(instead of XP and it will install. You may also have to edit the version number or build number, depending on ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(how hard the program tries to verify that you are installing on the correct OS. I had to do this for my Mustek) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(600 CP scanner \(compatibility mode didn''t help!!!\) and it worked great, so I now have my scanner working with) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(XP \(and a tech at Mustek can now eat his words\).) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(BTW, don''t forget to restore any changes you make after you get your software installed) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(You do this at your own risk.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(Use your Windows Key) Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 4758
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(====================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(The Windows logo key, located in the bottom row of most computer keyboards is a little-used treasure. Don''t ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(ignore it. It is the shortcut anchor for the following commands:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Windows: Display the Start menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Windows + D: Minimize or restore all windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Windows + E: Display Windows Explorer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(Windows + F: Display Search for files) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Windows + Ctrl + F: Display Search for computer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(Windows + F1: Display Help and Support Center) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(Windows + R: Display Run dialog box) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Windows + break: Display System Properties dialog box) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Windows + shift + M: Undo minimize all windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(Windows + L: Lock the workstation) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(Windows + U: Open Utility Manager) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(Windows + Q: Quick switching of users \(Powertoys only\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(Windows + Q: Hold Windows Key, then tap Q to scroll thru the different users on your pc) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(Change your cd key) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(==================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(You don't need to re-install if you want to try the key out ... just do this:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(1. Go to Activate Windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(2. Select the Telephone option) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(3. Click "Change Product Key") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(4. Enter NOT ALLOWED ~ Zabref) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(5. Click "Update") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(Now log off and log back in again. It should now show 60 days left, minus the number of days it had already ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(counted down.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(Note: If your crack de-activated REGWIZC.DLL and LICDLL.DLL, you are going to have to re-register them.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(Remove the Shared Documents folders from My Computer) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(====================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(One of the most annoying things about the new Windows XP user interface is that Microsoft saw fit to provide ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(links to all of the Shared Documents folders on your system, right at the top of the My Computer window. I ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(can't imagine why this would be the default, even in a shared PC environment at home, but what's even more ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(annoying is that you cannot change this behavior through the sh*ll) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(: Those icons are stuck there and you have to live with it.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(Until now, that is.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(Simply fire up the Registry Editor and navigate to the following key:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(HKEY_LOCAL_MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ My Computer \\ NameSpace \\ ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(DelegateFolders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(You'll see a sub-key named {59031a47-3f72-44a7-89c5-5595fe6b30ee}. If you delete this, all of the Shared ) Tj
+ET
+endstream
+endobj
+21 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 20 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 5313
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(Documents folders \(which are normally under the group called "Other Files Stored on This Computer" will be ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(gone.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(You do not need to reboot your system to see the change.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Before: A cluttered mess with icons no one will ever use \(especially that orpaned one\). After: Simplicity ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(itself, and the way it should be by default.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(This tip For older XP builds) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(===================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(Edit or remove the "Comments" link in window title bars) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(During the Windows XP beta, Microsoft has added a "Comments?" hyperlink to the title bar of each window in the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(system so that beta testers can more easily send in a problem report about the user interface. But for most of) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(us, this isn't an issue, and the Comments link is simply a visual distraction. And for many programs that ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(alter the title bar, the Comments link renders the Minimize, Maximize, and Close window buttons unusable, so ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(it's actually a problem.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Let's get rid of it. Or, if you're into this kind of thing, you can edit it too.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(Open the Registry Editor and navigate to the following keys:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(My Computer \\ HKEY_CURRENT_USER \\ Control Panel \\ Desktop \\ LameButtonEnabled) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(My Computer \\ HKEY_CURRENT_USER \\ Control Panel \\ Desktop \\ LameButtonText) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(The first key determines whether the link appears at all; change its value to 0 to turn it off. The second key) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(lets you have a little fun with the hyperlink; you can change the text to anything you'd like, such as "Paul ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(Thurrott" or whatever.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Editing either value requires a restart before the changes take effect.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Before: An unnecessary hyperlink. Have some fun with it! Or just remove it entirely. It's up to you.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(Rip high-quality MP3s in Windows Media Player 8) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(The relationship between Windows Media Player 8 and the MP3 audio format is widely misunderstood. Basically, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(WMP8 will be able to playback MP3 files, but encoding \(or "ripping" CD audio into MP3 format will require an ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(MP3 plug-in. So during the Windows XP beta, Microsoft is supplying a sample MP3 plug-in for testing purposes, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(but it's limited to 56 Kbps rips, which is pretty useless. However, if you have an externally installed MP3 ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(codec, you can use WMP8 to rip at higher bit rates. But you'll have to edit the Registry to make this work.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Fire up the Registry Editor and navigate to the following key:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(HKEY_LOCAL_MACHINE \\ SOFTWARE \\ Microsoft \\ MediaPlayer \\ Settings \\ MP3Encoding) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(Here, you'll see sub-keys for LowRate and LowRateSample, which of course equates to the single 56 Kbps sample ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(rate you see in WMP8. To get better sampling rates, try adding the following keys \(Using New then DWORD ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(value\):) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+("LowRate" = DWORD value of 0000dac0) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+("MediumRate" = DWORD value of 0000fa00) Tj
+ET
+endstream
+endobj
+23 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 22 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5161
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+("MediumHighRate" = DWORD value of 0001f400) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+("HighRate" = DWORD value of 0002ee00) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(Now, when you launch WMP8 and go into Tools, then Options, then Copy Music, you will have four encoding ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(choices for MP3: 56 Kbps, 64 Kbps, 128 Kbps, and 192 Kbps. Note that you will not get higher bit rate encoding) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(unless you have installed an MP3 codec separately; the version in Windows Media Player 8 is limited to 56 Kbps) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(only.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Find the appropriate location in the Registry... ...add a few DWORD values... ...And then you'll be ripping ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(CDs in higher-quality MP3 format!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(Speed up the Start Menu) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(=======================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(The default speed of the Start Menu is pretty slow, but you can fix that by editing a Registry Key. Fire up ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(the Registry Editor and navigate to the following key:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(HKEY_CURRENT_USER \\ Control Panel \\ Desktop \\ MenuShowDelay) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(By default, the value is 400. Change this to a smaller value, such as 0, to speed it up.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Speed up the Start Menu \(Part two\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(==================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(If your confounded by the slow speed of the Start Menu, even after using the tip above, then you might try the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(following: Navigate to Display Properties then Appearance then Advanced and turn off the option titled Show ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(menu shadow . You will get much better overall performance.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(Speed up Internet Explorer 6 Favorites) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(======================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(For some reason, the Favorites menu in IE 6 seems to slow down dramatically sometimes--I've noticed this ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(happens when you install Tweak UI 1.33, for example, and when you use the preview tip to speed up the Start ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(menu. But here's a fix for the problem that does work, though it's unclear why:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(Just open a command line window \(Start button -> Run -> cmd\) and type sfc, then hit ENTER. This command line ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(runs the System File Checker, which performs a number of services, all of which are completely unrelated to IE) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(6. But there you go: It works.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Do an unattended installation) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(=============================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(The Windows XP Setup routine is much nicer than that in Windows 2000 or Windows Me, but it's still an ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(hour-long process that forces you to sit in front of your computer for an hour, answering dialog boxes and ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(typing in product keys. But Windows XP picks up one of the more useful features from Windows 2000, the ability) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(to do an unattended installation, so you can simply prepare a script that will answer all those dialogs for ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(you and let you spend some quality time with your family.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(I've written about Windows 2000 unattended installations and the process is pretty much identical on Windows ) Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 5791
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(XP, so please read that article carefully before proceeding. And you need to be aware that this feature is ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(designed for a standalone Windows XP system: If you want to dual-boot Windows XP with another OS, you're going) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(to have to go through the interactive Setup just like everyone else: An unattended install will wipe out your ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(hard drive and install only Windows XP, usually.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(To perform an unattended installation, you just need to work with the Setup Manager, which is located on the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Windows XP CD-ROM in D:\\SupportTools\\DEPLOY.CAB by default: Extract the contents of this file and you'll find ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(a number of useful tools and help files; the one we're interested in is named setupmgr.exe. This is a very ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(simple wizard application that will walk you through the process of creating an answer file called winnt.sif ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(that can be used to guide Windows XP Setup through the unattended installation.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+(One final tip: There's one thing that Setup Manager doesn't add: Your product key. However, you can add this ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(to the unattend.txt file manually. Simply open the file in Notepad and add the following line under the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+([UserData] section:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(ProductID=RK7J8-2PGYQ-P47VV-V6PMB-F6XPQ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(\(This is a 60 day cd key\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(Then, just copy winnt.sif to a floppy, put your Windows XP CD-ROM in the CD drive, and reboot: When the CD ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(auto-boots, it will look for the unattend.txt file in A: automatically, and use it to answer the Setup ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(questions if it's there.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(Finally, please remember that this will wipe out your system! Back up first, and spend some time with the help) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(files in DEPLOY.CAB before proceeding.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(For Older builds or not using setupreg.hiv file) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(===============================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(Remove the Desktop version text) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(During the Windows XP beta, you will see text in the lower right corner of the screen that says Windows XP ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(Professional, Evaluation Copy. Build 2462 or similar. A lot of people would like to remove this text for some ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(reason, and while it's possible to do so, the cure is more damaging than the problem, in my opinion. So the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(following step will remove this text, but you'll lose a lot of the nice graphical effects that come in Windows) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(XP, such as the see-through icon text.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(To remove the desktop version text, open Display Properties \(right-click the desktop, then choose Properties\) ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(and navigate to the Desktop page. Click Customize Desktop and then choose the Web page in the resulting ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(dialog. On this page, check the option titled Lock desktop items. Click OK to close the dialog, and then OK to) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(close Display Properties. The text disappears. But now the rest of your system is really ugly. You can reverse) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(the process by unchecking Lock desktop items.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(There's also a shortcut for this process: Just right-click the desktop and choose Arrange by then Lock Web ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Icons on the Desktop.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(--------------------------------------------------------------------------------) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(Enable ClearType on the Welcome Screen!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+(=======================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(As laptop users and other LCD owners are quickly realizing, Microsoft's ClearType technology in Windows XP ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(really makes a big difference for readability. But the this feature is enabled on a per-user basis in Windows ) Tj
+ET
+endstream
+endobj
+27 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 26 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 5371
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(XP, so you can't see the effect on the Welcome screen; it only appears after you logon.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(But you can fix that. Fire up the Registry Editor and look for the following keys:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(\(default user\) HKEY_USERS \\ .Default \\ Control Panel \\ Desktop \\ FontSmoothing \(String Value\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(HKEY_USERS \\ .Default \\ Control Panel \\ Desktop \\ FontSmoothingType \(Hexadecimal DWORD Value\)) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(Make sure both of these values are set to 2 and you'll have ClearType enabled on the Welcome screen and on ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+(each new user by default.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Stop Windows Messenger from Auto-Starting) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(=========================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(If you're not a big fan of Windows Messenger simply delete the following Registry Key:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\MSMSGS) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(Display Hibernate Option on the Shut Down dialog) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+(================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(For some reason, Hibernate may not be available from the default Shut Down dialog. But you can enable it ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(simply enough, by holding down the SHIFT key while the dialog is visible. Now you see it, now you don't!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(Add album art to any music folder) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(=================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(One of the coolest new features in Windows XP is its album thumbnail generator, which automatically places the) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(appropriate album cover art on the folder to which you are copying music \(generally in WMA format\). But what ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(about those people that have already copied their CDs to the hard drive using MP3 format? You can download ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(album cover art from sites such as cdnow.com or amguide.com, and then use the new Windows XP folder customize ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(feature to display the proper image for each folder. But this takes time--you have to manually edit the folder) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(properties for every single folder--and you will lose customizations if you have to reinstall the OS. There's ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(an excellent fix, however.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(When you download the album cover art from the Web, just save the images as folder.jpg each time and place ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(them in the appropriate folder. Then, Windows XP will automatically use that image as the thumbnail for that ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(folder and, best of all, will use that image in Windows Media Player for Windows XP \(MPXP\) if you choose to ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(display album cover art instead of a visualization. And the folder customization is automatic, so it survives ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(an OS reinstallation as well. Your music folders never looked so good!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(Album cover art makes music folder thumbnails look better than ever!) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(Change the location of the My Music or My Pictures folders) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+(==========================================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(In Windows 2000, Microsoft added the ability to right-click the My Documents folder and choose a new location ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(for that folder in the sh*ll) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+(. With Windows XP, Microsoft has elevated the My Music and My Pictures folders to the same "special sh*ll) Tj
+ET
+endstream
+endobj
+29 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 28 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 4886
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(folder" status of My Documents, but they never added a similar \(and simple\) method for changing those folder's) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(locations. However, it is actually pretty easy to change the location of these folders, using the following ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(method.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+(Open a My Computer window and navigate to the location where you'd like My Music \(or My Pictures\) to reside. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+(Then, open the My Documents folder in a different window. Drag the My Music \(or My Pictures\) folder to the ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(other window, and Windows XP will update all of the references to that folder to the new location, including ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+(the Start menu.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Or use Tweak UI) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(Add/Remove optional features of Windows XP) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(==========================================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(To dramatically expand the list of applications you can remove from Windows XP after installation, navigate to) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(C:\\WINDOWS\\inf \(substituting the correct drive letter for your version of Windows\) and open the sysoc.inf ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+(file. Under Windows XP Professional Edition RC1, this file will resemble the following by default:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+([Version] Signature = "$Windows NT$") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(DriverVer=06/26/2001,5.1.2505.0) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+([Components]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+(NtComponents=ntoc.dll,NtOcSetupProc,,4) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(WBEM=ocgen.dll,OcEntry,wbemoc.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Display=desk.cpl,DisplayOcSetupProc,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+(Fax=fxsocm.dll,FaxOcmSetupProc,fxsocm.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(NetOC=netoc.dll,NetOcSetupProc,netoc.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 407.64 Td
+(iis=iis.dll,OcEntry,iis.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 393.467 Td
+(com=comsetup.dll,OcEntry,comnt5.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 379.294 Td
+(dtc=msdtcstp.dll,OcEntry,dtcnt5.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 365.121 Td
+(IndexSrv_System = setupqry.dll,IndexSrv,setupqry.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 350.948 Td
+(TerminalServer=TsOc.dll, HydraOc, TsOc.inf,hide,2) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 336.774 Td
+(msmq=msmqocm.dll,MsmqOcm,msmqocm.inf,,6) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 322.601 Td
+(ims=imsinsnt.dll,OcEntry,ims.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 308.428 Td
+(fp_extensions=fp40ext.dll,FrontPage4Extensions,fp40ext.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 294.255 Td
+(AutoUpdate=ocgen.dll,OcEntry,au.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 280.081 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 265.908 Td
+(msnexplr=ocmsn.dll,OcEntry,msnmsn.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 251.735 Td
+(smarttgs=ocgen.dll,OcEntry,msnsl.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 237.562 Td
+(RootAutoUpdate=ocgen.dll,OcEntry,rootau.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 223.388 Td
+(Games=ocgen.dll,OcEntry,games.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 209.215 Td
+(AccessUtil=ocgen.dll,OcEntry,accessor.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 195.042 Td
+(CommApps=ocgen.dll,OcEntry,communic.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 180.869 Td
+(MultiM=ocgen.dll,OcEntry,multimed.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 166.696 Td
+(AccessOpt=ocgen.dll,OcEntry,optional.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 152.522 Td
+(Pinball=ocgen.dll,OcEntry,pinball.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 138.349 Td
+(MSWordPad=ocgen.dll,OcEntry,wordpad.inf,HIDE,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 124.176 Td
+(ZoneGames=zoneoc.dll,ZoneSetupProc,igames.inf,,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 110.003 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 95.829 Td
+([Global]) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 81.656 Td
+(WindowTitle=%WindowTitle%) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 67.483 Td
+(WindowTitle.StandAlone="*") Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 53.31 Td
+() Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 2946
+>>
+stream
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 804.491 Td
+(The entries that include the text hide or HIDE will not show up in Add/Remove Windows Components by default. ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 790.318 Td
+(To fix this, do a global search and replace for ,hide and change each instance of this to , \(a comma\). Then, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 776.144 Td
+(save the file, relaunch Add/Remove Windows Components, and tweak the installed applications to your heart's ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 761.971 Td
+(content.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 747.798 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 733.625 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 719.451 Td
+(Cool, eh? There are even more new options now under "Accessories and Utilities" too.) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 705.278 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 691.105 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 676.932 Td
+(Remove Windows Messenger) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 662.759 Td
+(========================) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 648.585 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 634.412 Td
+(It seems that a lot of people are interested in removing Windows Messenger for some reason, though I strongly ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 620.239 Td
+(recommend against this: In Windows XP, Windows Messenger will be the hub of your connection to the .NET world,) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 606.066 Td
+(and now that this feature is part of Windows, I think we're going to see a lot of .NET Passport-enabled Web ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 591.892 Td
+(sites appearing as well. But if you can't stand the little app, there are a couple of ways to get rid of it, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 577.719 Td
+(and ensure that it doesn't pop up every time you boot into XP. The best way simply utilizes the previous tip:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 563.546 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 549.373 Td
+(If you'd like Windows Messenger to show up in the list of programs you can add and remove from Windows, ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 535.199 Td
+(navigate to C:\\WINDOWS\\inf \(substituting the correct drive letter for your version of Windows\) and open ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 521.026 Td
+(sysoc.inf \(see the previous tip for more information about this file\). You'll see a line that reads:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 506.853 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 492.68 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,hide,7) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 478.507 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 464.333 Td
+(Change this to the following and Windows Messenger will appear in Add or Remove Programs, then Add/Remove ) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 450.16 Td
+(Windows Components, then , and you can remove it for good:) Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 435.987 Td
+() Tj
+ET
+BT
+/F0 10 Tf
+0 0 0 rg
+28.346 421.814 Td
+(msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,7 ) Tj
+ET
+endstream
+endobj
+33 0 obj
+<<
+/Type/Page
+/Parent 2 0 R
+/MediaBox[ 0 0 595.276 841.89 ]
+/Contents 32 0 R
+>>
+endobj
+34 0 obj
+<<
+/Type/Catalog
+/Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type/Pages
+/Kids[
+9 0 R
+11 0 R
+13 0 R
+15 0 R
+17 0 R
+19 0 R
+21 0 R
+23 0 R
+25 0 R
+27 0 R
+29 0 R
+31 0 R
+33 0 R
+]
+/Count 13
+/Resources 3 0 R
+>>
+endobj
+3 0 obj
+<<
+/ProcSet[/PDF/Text/ImageC]
+/Font<<
+/F0 7 0 R
+>>
+>>
+endobj
+xref
+0 35
+0000000000 65535 f
+0000000009 00000 n
+0000065207 00000 n
+0000065366 00000 n
+0000000168 00000 n
+0000000168 00000 n
+0000001113 00000 n
+0000001256 00000 n
+0000001421 00000 n
+0000006541 00000 n
+0000006635 00000 n
+0000011102 00000 n
+0000011198 00000 n
+0000015968 00000 n
+0000016064 00000 n
+0000020589 00000 n
+0000020685 00000 n
+0000024855 00000 n
+0000024951 00000 n
+0000029800 00000 n
+0000029896 00000 n
+0000034706 00000 n
+0000034802 00000 n
+0000040167 00000 n
+0000040263 00000 n
+0000045476 00000 n
+0000045572 00000 n
+0000051415 00000 n
+0000051511 00000 n
+0000056934 00000 n
+0000057030 00000 n
+0000061968 00000 n
+0000062064 00000 n
+0000065062 00000 n
+0000065158 00000 n
+trailer
+<<
+/Size 35
+/Root 34 0 R
+/Info 1 0 R
+/ID[(424044344ttiopisd)(424044344ttiopisd)]
+>>
+startxref
+65435
+%%EOF
