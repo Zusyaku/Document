@@ -1,0 +1,7 @@
+
+Pros Jacking Method.
+
+First You try to get info from the target' for example: Hey' can I get your paypal? I want to buy something' the target will send his email' it's 99% of the time that he doesnt use his main email ofcourse' so you'll have to dox him. You can use 
+http://pipl.com  to try to get his email. There are some tutorials on youtube. When you got the email you can go to https://haveibeenpwned.com  and enter the email' if it turns red you got a hit. For example' you see that it has been leaked in the database "000webhost" then you go to forums like: http://raidforums.com  or http://leakforums.com  or nulled.to and try to find it there' download the database and search for the email' you'll find it if you downloaded the database. Sometimes it's plain text and sometimes its decrypted. HaveIbeenpwned sometimes says in the description if it is encrypted and with what kind of encryption. A good site to decrypt the "Encrypted password" is http://finder.insidepro.com  If everything goes correct you have a chance that you got the email of the target + the password now. Have fun hacking!
+How to stay anonymous? 
+Get Tor Browser, do EVERY hack thing on there. Use a VPN (I prefer IPVanish).

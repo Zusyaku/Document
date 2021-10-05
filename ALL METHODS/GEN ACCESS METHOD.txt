@@ -1,0 +1,1 @@
+1. Go to your Chrome Webstore and install "Mod Header" 2. Go to the gen website 3. Open mod header and click the + symbol and choose response header 4. Type "Location" in Response Header 5. Check both boxes 6. Click Generator option on the website NOTE: DOES NOT WORK ON EVERY GEN

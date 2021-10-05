@@ -1,0 +1,1 @@
+1. Go to http://cc.namsopro.com 2. Use the pin 531010xxxxxxxxxx 3. Enable Fecha, CCV2 and Tipo Banco 4. Put the number of how many VCCs you want to generate! 5. Click "Generar Tarjetas" 6. Enjoy!
