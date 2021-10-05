@@ -1,0 +1,57 @@
+Carding from Dell (working march2013)
+
+
+1. Fresh Drop (if ur drop is blacklist in DELL u won't pass even ur CC is good)
+2. Good CCV (non-VBV or non-MSC)
+3. Sock / VPN / SSH / VPS (tis not important, but good sock at same state of CC is better)
+
+Now, let start:
+
+A - If You Want To Make Only Single Order With Single Cvv2 ( Which is Valid and virgin Ofcourse !! )
+
+
+1- first check the cc and make sure it`s Valid .. choose Your Item (Fast-track items)
+
+2- Click On Add To Cart Then Check Out , You Will Be Prompted To Sign Up For A New User Or Sign In If You Have An Existing Account ( Sign Up For A New Account )
+
+3- Enter The First And Last Name For Your Drop As The Account First And Last Name In The Sign Up Page , Provide A Valid Email address And Password .
+
+4- You`ll Be Redirected To The Shipping Info Page , You`ll Find The First Name and Last Name Provided In The Sign Up Page Stored There , Just Add The Address and Other Info
+
+*Note : You Don`t Have To Provide A Valid Phone Number For Shipping Address , The Billing Phone Also Works For Shipping
+
+5- Choose The Fastest Shipping Method (Next Day Air ) Also 2nd Day air will work , but Make Sure The Total Amount Doesn`t Exceed 470-480 $
+
+6- On The Billing Page , Remove The Shipping Info Stored . Then Add The Billing Info Which Must Be Same As stored In Bank ( Make Sure The CC Is 100 % Valid ) The Most IMPORTANT PART HERE IS THE BILLING PHONE NUMBER
+
+which must be the same stored with bank coz they use this number for verification ( not calling the card holder , but to verify the info with bank )
+
+7- Don`t Choose Any Limit In The Billing Page ( Choose:No Limit )
+
+Click Submit !!
+
+
+B- IF You Intend To Use The Same Card More Than Once To Order More Than 1 Item ;
+
+*First Note That This Method May Get You In Trouble If You Send These Items To Your Own Home , Also the items May get returned to shipper before You Recieve Them .
+
+1- Follow The 1st Method For Ordering Single Item With 1 Cc , you`ll recieve 2 emails after ordering ( Dell Order Acknowledgement - Dell Order Confirmation ) as soon as You Recieve The Second Email Which Is : Dell Order Confirmation
+
+check the order status in 10 - 30 minutes IF You See Something Like (In-Production Or Pre-Production ) Go To The Next Step .
+
+2- Make Another Order and which must not exceed 480 $
+
+3- Follow All Previous Steps ( Storing Your Credit Card Info Will Ease The Mission )
+
+4- Repeat This For As Many Times as The Limit Of The CC Allow .
+
+5- Don`t Make Any Orders If The Previous Order Status Isn`t ( In-Production OR Pre-Production )
+
+6- If They Suspect One Of The Orders They Will Cancel All Orders . Ofcourse Next Day Shipping Method Will Decrease The Chance Of Getting Items Returned To Shipper .
+
+That`s All , And Enjoy Your Carding Of DELL
+
+P/s:
+1. iIf U don't want to get problem with VBV or MSC, use Lolifox browser,with this browser Dell won't ask u for VBV even though your CC is VBV, where to get it... Google is ur friend (try and see, its my trick in DELL )
+2. if you recieve the Hold payment emails, don't abandon it, try to chat with DEll's customer service, and tell them u want to give new CC for your order, then give them new CCV infomation (this time they don't check VBV or MSC)
+3. with my experience, find Credit Signature CC, its have more % success

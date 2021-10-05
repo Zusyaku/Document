@@ -1,0 +1,362 @@
+Carding Tutorial#1
+
+
+Carding: Carding: Online, Instore, Going through vendors and advice, Phishing for change of billing addresses
+Including drops and what you need to know;Huge guide written by me
+
+Carding: Carding: Online, Instore, Going through vendors and advice, Phishing for change of billing addresses
+Including drops and what you need to know;Huge guide written by me
+
+kay major updates done to this carding yext, it will cover the basics of most carding knowledge. Going into absolutely everything would mean having to go onto ID theft and fake IDs which can be classed as 2 different categories of their own.
+
+kay major updates done to this carding text, it will cover the basics of most carding knowledge. Going into absolutely everything would mean having to go onto ID theft and fake IDs which can be classed as 2 different categories of their own.
+
+What I'm going to cover:
+
+Online Carding
+- A quick overview of what online carding is
+- SOCKS and why we use them
+- Finding a cardable site and what cardable means
+- Carding "non cardable websites" with fake CC scans and other fake documents
+
+Carding while on the job
+- Getting CC, CVV, CVV2 through use of mobiles
+- Skimming whilst on the job
+- Using carbonless receipts to get details (pretty outdated method)
+
+Trashing
+- Trashing for receipts and credit reports (pretty outdated although still works)
+
+Phishing over the phone
+- Phishing over the phone for details
+
+Keylogging for CVV2s
+- Hardware keylogging
+
+Carding Instore
+- What instore carding is (very brief)
+- How it's done
+- How to act and present yourself instore
+
+Carding over the phone
+- Carding over the phone
+
+IRC
+- Services provided in IRC
+- Advantages to using IRC for info
+- Disadvantages
+- How to find carding channels (Will not go too much into this as there are secrets between fellow carders which we like people interested enough to find out for themselves)
+- Vendors and how to approach them
+- How to rip in IRC (EVERY vendor, reliable or not has ripped some n00b who acted like they knew what they were doing)
+::::WU BUG BULLSHIT and how to rip n00bs and gain more::::
+
+Phishing for Change of billing
+- What COB is and why it's useful
+- Use through phishing pages
+- Use through keylogging
+
+Drops and what you need to know about them
+- Drops and what you need to know about them
+
+What carding is
+Carding summed up quickly is the act of obtaining someone's credit card information, from the CC#, CVV, CVV2, CVN, and the billing address, along with the expiry date and name of the person the card belongs to along with a signature.
+
+Online Carding
+Online carding is the purchasing of goods done over the internet with the CVV2.
+Now for you n00bies you're probably wondering what a CVV2 is, it's simply just the database of basic info for the card such as the card type (e.g. Mastercard) First and last name, address and post code, phone number of the card owner, the expiry date (and start date if it's a debit card or prepaid CC), the actual CC number and the CVC (card verification code, which is the 3 digits on the back of the card).
+
+This is the format you usually get them in when you buy off IRC:
+:::MC ::: Mr Nigerian Mugu ::: 1234567890123456 ::: 09|11 ::: 01/15 ::: 123 ::: 123 fake street, fakeville, ::: Fake City ::: DE24 TRH ::: 01234-567890 :::
+
+SOCKS and why we use them
+Now with ANY fraud at all you have to take precautions so you don't make it easy for anyone to catch you in your wrong doings. As usual I swear against TOR for carding/scammin because most nodes are blacklisted by websites and because TOR cycles through various different proxies; and even if you configure it to go straight through an exit node of your choice it's still not worth it. You can use JAP but make sure you're using some constant sock proxies from the same city, town or area that the card is from; also go wardriving and use a VPN (don't trust anyone off IRC with these, you'll have to do some searching around yourself for a highly trusted one and one which won't comply with LE).
+
+You can get good SOCKS from anyproxy.net (people are selling accounts for the site in IRC all the time), that's the best place but even I ended up losing the account eventually (unknowingly I was sharing it with some Nigerian dude who became selfish).
+
+So we use SOCKS because they stay constant. But don't let that get your guard down, you want FRESH proxies everytime you card.
+
+Finding a cardable site and what cardable means
+Basically a cardable site holds these characteristics and what you should be looking for to determine an easily "cardable" website:
+- The top one you need to look for on the site's TOS is that they send to any address and not just the one registered on the card (although you can easily get around this if they don't, with a COB, photoshopped verification (will go into detail later) or some social engineering over the phone).
+- The next important to look for is if they have a visa verification code or mastercard secure code (most of the time if you ask your vendor they'll include them in your CVV2 details textfile), if they do have one of these you have to put in and you don't have them then don't waste your time
+- If they ship internationally (for obvious reasons, but you can just stick to local websites and order to your local drop)
+- If they leave packages at the door when no one's in, or around the back in a safe area (I know of one site in the UK that has all these qualities including this one, it is perfect for carding clothes)
+- Also you can't forget to see what other security checks they need to do (if they need to call you up to verify or want a utility bill, passport or a scan of the actual CC)
+
+It is hard to find websites online now that have most of these qualities, therefore we have to use COBs and photoshop to help us along the way, which is what I'll go into now.
+
+Carding "non cardable websites" with fake CC scans and other fake documents
+Okay so say you come across a site that will deliver to another house not registered on the card, but they want verificaton either through phone or scans of a utility bill, credit card or passport.
+
+For this you'll want to get a pay as you go deal for a cheap shitty mobile all in fake details (say a nokia 3210, brick LMAO!), or you can use spoofcard.com to your advantage to help you. Hell if the person's details you're using is local to you and you're daring then go to their home and beige box from there; it'd be very convincing.
+
+If they speak to you over the phone have all details in your mind about the item you're carding, have some bullshit story if you're having it sent to a diff address such as a family member's birthday and you need it there as quick as possible as it's a last minute thing, or some shit like that. If you're carding multiple sites at the same time it's easy to get them mixed up, so make sure who it is calling you 1st.
+
+For CC scans and how to do them check the attachments at the end of this file, they explain so much better than I could. How you use them is once you've made them like the tuts have said to do, you then tilt them a little bit so it does actually look like a scan. To make it even more believable put some paper in the scanner (dark shade if you must), scan it and open in photoshop and then put the shopped CC scan of the front onto it and then do the same with the back, then send the scans to them via e-mail or post. Same goes for utility bills (can be got through trashing or your own, and then edited in PS).
+
+Do not use the same designs when making your CC scans, otherwise it will become too obvious. To give you a head start on mastercards (what I recommend for n00bs to go for) I'm giving you a globe hologram image so you won't have to buy them in IRC; unfortunately all of my visa hologram pics are shit, but I'm working on getting a good one soon.
+
+
+VISA hologram pic coming soon!
+
+Carding whilst on the job
+Getting CC, CVV, CVV2 through use of mobiles
+Believe it or not giving your information out to anyone anywhere is not a wise choice, you can not trust anyone in this day and age. Yes there are carders working on the inside in places where there are a lot of people around flashing off their plastic cash and using them freely without a care in the world. The most common of places for a carder to work at are brand label clothing stores such as Limey's, Charlie Brown's and all the other trendy shops.
+
+Ever noticed when yourself or someone else has paid at the desk with a debit card or credit card that they bring out a keypad from under the desk, then put your card into it and have the buyer input the pin? Think again when they take your credit card and go under the desk with it to get the keypad, they are doing more than just that; just because they're not taking the card and running off with it does not mean they're not stealing your information. A friend of my dad used to card and work in a clothing store, he used to have a piece of play doh stuck under the desk and he used to press the card onto the piece of play doh, unfortunately he began doing it too much and because he'd gotten away with it so many times he became careless and got caught out by a co worker and from what I know he is still doing time. The moral is, be careful with the play doh method. The unfortunate thing is you can only get the full info of 2 cards at the max, and you don't know exactly if you're pressing over the info of another card already put on to the play doh. Also you can't get the CVC through this method, I was just giving a classic example from the olden days.
+
+But there is a new wonderful invention called cameras, video recording, and mobile phones and they are even all working on the same thing. It's best to test it out 1st and have a camera on your phone that is at least over 2 megapixel and allows long enough video recording times. The phone is set to video record and on a lighting if needed, and taped underneath the desk for you to record both sides of the card for all the information you need, as well as being quick you can get a lot more than 2 on, depending on how long each recording lasts, you may need to start more than one recording.
+
+You need good reason to be going under the desk to get the chip and pin machine, so make the desk look cluttered up and put shit in the way of everything, such as coat hangers and various other items; or you could just flat out bullshit the customer and say that the chip and pin machine on the desk isn't working so you need to get the other one, take their card and then go under searching the desk and quickly show it to the camera phone and then get the chip and pin machine and put the card in it and then hand to the customer to put in their pin as normal, unaware you have a CVV2 to later use when shopping online.
+
+Skimming whilst on the job
+For skimming you'll want a mini portable MSR500M reader that can be fitted on your waistline belt or of course once again under the desk, if you're a cashier. But you'll also want a MSR206 writer if you plan on writing the tracks to an embossed CR-80 piece of plastic later (you can make these yourself but embossers are expensive and it's an expensive procedure, so wait a while until you do that yourself and buy them from IRC (be careful, people like to rip with plastics, or you'll get shit quality if you don't watch out).
+
+If you plan to just sell the dumps on IRC then that's fine, but you'll still need the PIN as well, so if you're a waiter you can get a cheeky peek at them putting their pin into the chip and pin device while you keep hold of it slightly (have them put the pin in while they're sat down and you're standing up). It's much easier to skim in a restaurant rather than clothing retail, as you don't have to think it out and set it up as much. You can keep the MSR500M in your front pocket of the uniform you're wearing and pretend to be giving the card a clean on the sleeve (bullshit and say the device won't read it), while really you're giving it a swipe into your reader. This way the person doesn't even get suspicious because you don't take their card out of sight with them. I guess you could do that technique with clothing retail too when you get their card in your dirty little hands, but peeking for the PIN is harder or you'll have to have a friend shoulder surf for it (or if they're on the next register have them use a sony cyber shot c902 camera phone and pretend to have them talking on the phone while really they're recording the person next to them putting in their PIN; cybershots are really inconspicuous looking with their cameras and VERY clear [5mpixel]).
+
+I'll go into detail what to do with the dumps you have later in the instore carding section.
+
+Using carbonless receipts to get details (pretty outdated method)
+If the store you work at hasn't gone carbonless on the transactions information then you can get most of the info from the receipt you get a copy of for yourself and note down the pin on this as well when/if you get it.
+
+Trashing
+Trashing for receipts and credit reports (pretty outdated although still works)
+Ever heard the expression "Another man's trash is another man's gold"? That's exactly what this is. You'd be surprised how many people haven't heard of a paper shredder or bonfire. They just dump their financial records containing SSN's/NI, full name, address, bank, credit card number, CVV, CVV2 etc. All on forms people couldn't be bothered to dispose of properly because they thought they were JUST old records. Again carders wok on the inside again for when they want to do trashing, a lot of janitors wear rags but you'd be surprised how secretly rich most of them are (along with the other shit they steal from work as well). But also from this if there is not enough info for you on the forms then there is definitely the phone number of the mark on the form that they've scrapped; almost always, and if not then there is enough info on their to look them up in the phone directory. Then of course you use social engineering skills over the phone to get the extra info that you need. If you know of a store that is not carbonless, then go trashing in the bins at the back of the store for the receipts with the credit card details on it.
+
+Phishing over the phone
+Phishing over the phone for details
+Ever had telemarketers ask for your credit card info over the phone? (this is if you haven't already hung up by just hearing a nigger or paki on the phone) chances are they're a carder. Believe it or not there are people actually stupid enough to fall for these obvious scams. Even more people fall for this if they believe that the caller is from the credit card company itself or part of the secret service or credit fraud investigations; the FBI, CIA and police have nothing at all to do with credit card fraud believe it or not. If you sound professional or part of an important group such as investigations then people are more likely to comply with you if they believe that their card has been used for credit fraud purposes and have to give their credit card info and billing address for verification. The best time to call up the mark is when they are at work as it'll take them by surprise and they'll be wanting to get it sorted asap so that they can get back to work. Also if it's "serious" then the secret service don't wait for you to finish work before they question you. Play along well to the part you're pretending to be. Some social engineering skills are required and you must gain the experience of lying to people yourself. Before calling up the person find out as much information about them as you can.
+
+If you've stolen a CC from someone personally you can call them up pretending to be their bank and tell them there has been some suspicious charges made to the credit card from places such as South Africa, Nigeria, Turkey, Russia; places like that, get them to confirm their details (milk as much as you want out of them, ask them bullshit security questions such as their mother's maiden name, address, etc; you may as well, it'll make it easier to get a COB for you to use).
+
+You can also get their PIN out of them if you want as well by either straight out asking them to confirm it, or be crafty and after you've told them to verify their PIN you're putting them through to a different department; then play some cheesy music down the phone for a few mins, have a female voice recording (use AV vocie changer) asking them to input their PIN on their dialpad (this won't be as suspicious); get these recorded so they can be decoded with DTMF decoding hardware/software later (although it's expensive). Guessing DTMF tones is pretty easy too, but you need to know what each tone sounds like, it's preferred to use decoding software to ensure you have it correct.
+
+If you try hard enough you can get full info about anyone over the phone (I suggest using spoofcard for this).
+
+Keylogging for CVV2s
+Hardware keylogging
+First of all it's best if you use hardware keyloggers here that you put into the keyboard of a computer belonging to an area where a lot of people are going online a lot and logging into e-mails, ebays, paypals etc, pretty much giving you enough info for you to go searching through if you get in their e-mails, or maybe you're lucky enough to get someone who is buying something online anyway. Get the keyloggers from here:
+Code:
+http://tyner.com/datalogger/keykatcher.htm
+And come back within 2 days time or so and collect the keylogger after doing some browsing yourself (as to not look suspicious just coming in and then leaving a few seconds later).
+
+Or of course you could set one up in a business and do the classic call in and do some social engineering from the credit card company or secret service and have them go to the bank online and have them log in to verify, or maybe even have them log in to a fake bank online made by yourself that will collect anyone's info who logs in on it.
+
+Carding Instore
+Instore carding is the act of skimming a credit card and writing the dumps and track1+2 to a CR-80 piece of plastic and then either cashing out at the ATM or shopping for goods instore, as long as you have the PIN as well through whatever method you choose to use.
+
+How it's done is through the use of thejerm software or any other magstripe utility software (thejerm is the best to use). And you do it like this:
+Written by: Acetrace
+
+1. Load up thejerms software
+
+2. hit settings tab
+
+3. hit "Defaults" in Leading Zeros box
+
+4. hit "75 bpi" in Set Track 2 density box
+
+5. go bak to actions
+
+6. hit LoCo or HiCo in Coercivity box, depending on which you want to do
+
+7. input your tracks 1 & 2 (without the % ; or ? symbols because the program already does it for you)
+
+8. hit Write Card and swipe your card. (i usually do a read card afterwards to make sure everything went ok)
+
+9. GO SHOPPING!!!
+
+Download thejerm from here:
+Code:
+PM ME FOR DOWNLOAD LINKS (OMNISCIENT)
+I was a member of this site and it came from there so don't worry about it not being safe, I used this software a lot back in the day.
+
+Now how you should act when you go carding instore is pretty much common sense, but some people get caught up in the moment with nerves, cockiness or just too much weird amounts of excitement.
+
+Simple what you do, make sure you KNOW the PIN for the card you're using before you go, don't be stuck at the counter trying to remember it. If you're going to be carding expensive goods then dress smart for the occasion, wear brand named clothing (that you've previously carded Razz) or even a suit. It would look suspicious someone with a hoodie going into a store and buying a Louis Vuitton watch, so walk in with style. When you go instore, you ACT like you are using your own card, because essentially that's what it is (well it is now anyway lol) no looking shifty and don't look at the fucking cameras; the cameras mean nothing anyway, they don't know your name or where you live, they're not being watched half of the time, so stop worrying about the fucking cameras; remember you're doing nothing wrong. When you go in, don't rush take your time, browse around some other items. Find the item you want to card and even ask the employee simple questions about it (if it's a TV or comp just ask questions about certain specs and if it's good for playing video games on). You'll be most nervous at the checkout, just act as normal as you always have been, don't make too much small talk but be polite and civil. Once you have the good sin your hands don't bolt out the door, just say thank you and then casually walk out the door, get to your car and then celebrate all you want.
+
+Carding over the phone
+Okay 1st of all do not be a dumb fuck now, do not call from your own phones at all. For extra lulz you could use a beige box and call from someone else's phone but that's a totally different game all together and is also a major felony to go agains tyou on the chance that you do get caught so we'll keep it simple and use a payphone (it's not AS risky to phreak these but the only recent red box tones I have are from the year 2007 and I'm pretty sure they'd have changed the system again...bastards, I'll check sometime though . The next day postage is said so that they have less time to look up details on the order. Some cards will have difficulty shipping to any address other than the billing address, but it doesn't hurt to try. If they start to question you then just answer the questions and talk your way around the situation with your social engineering skills; don't just run away from the questions or hang up straight away, otherwise that is cause for suspicion and they may investigate. If all goes well you should have your item of choice delivered to your drop location or a house of someone else's address who you don't know and call them up saying that you called up the store and they've sent the package to the wrong address and it is still sending there, and ask them if they could kindly keep and sign for the package and you'll pick it up after work (this is a last resort and only to be tried if you're good at talking to people, which you should be if you're a carder). I recommend checking out the section on drops later on in this text.
+
+I recommend using spoofcard for verification over the payphone, if they need to verify (if they won't send without some verification which is usually the case).
+
+IRC
+Services provided in IRC
+IRC is the main gathering for fellow carders, scam artists and rippers. To put it in a nut shell, IRC is THE black market, unlike craigslist and eBay which are just black markets. You can get anything illegal off IRC from CP to warez to CC details (which is what we want).
+
+To concentrate on carding though you can buy:
+CVVs
+CVV2s
+SSNs
+Utility bill scans
+CC scans
+COB (a service to get someone to call up the victim's bank and get the billing address changed to your drop)
+Payment for using someone else's drop and then sending to you
+Spyware
+Fake ID/ ID scans
+DUMPZ
+Phisher pages
+
+The list really is endless
+
+There are a lot of advantages to using IRC networks and channels which I'll go into now:
+- The channels are often underground and not known to many people, so they're harder to stumble upon by some random guy.
+- The messages can be encrypted so they can't be read by anyone happening to be on the network sniffing the traffic. This makes it harder for investigators to uncover.
+- Easier and quicker to communicate with mass amounts of like minded people.
+- Variety of channels to go to if one doesn't suit you (there are MILLIONS and new ones being made every second, guaranteed).
+- And of course a varity of services, if you need something you can bet someone from the other side of the world will be willing to share or/and sell to you.
+
+There are a lot of disadvantages though, IRC is the equivalent of a backstreet alley, you'll be fine if you stay cautious, here's what you should be weary of:
+
+
+
+- Viruses
+- If you don't have strong anti viruses and firewalls you will get infected (no norton shit, kaspersky and NOD32 are what you want)
+- Do not accept random .exes or any file for that matter
+- It is easy to get ripped off, choose your forms of payments and who you deal with wisely
+
+How to find carding channels (Will not go too much into this as there are secrets between fellow carders which we like people interested enough to find out for themselves)
+
+Here is the most commonly asked question I get asked by n00bies and fellow carders; where do you find these channels?
+If I'm being totally honest the best place to find out about them is through Nigerians; no bullshit that is where I found out about a lot of the carder channels I used, also how I found out about forums and their IRCs too such as cardersplanet, darkmarket etc. How I found him out was just on a normal scam bait I was doing, it wasn't a long one, but in the end he tried phishing me so I tried back and we had a laugh about it; I was straight up with him and told him I wanted to get deeper into the game, I looked up to his type of people and wanted to get rich/successful (I also shared the double claim secret about paypal with him which got him trusting me a little bit) he then sent me an invite to cardersplanet (this site was full of Nigerians). Eventually I went in the IRC (admittedly got ripped a few times) then started vending myself under various diff nicknames, then moved onto different sites like darkmarket and cardingzone when I'd got invites for them (although cardingzone is shit it's good to get in the IRC for starting off, you'll get invited to better forums the more you hang out in IRC, trust me). Don't ask me for invites to cardingzone, I was banned for ripping (I didn't rip anyone :angry
+
+The quicker way is to use these and search for certain keywords:
+Code:
+http://www.irclinux.org
+http://www.irctrace.com
+http://www.irclog.org
+http://www.rcarchive.info
+http://www.irc-chat-logs.com
+http://www.irseek.com/
+And of course don't forget google.
+
+I'm only going to give you one clue for searching through google for a carding IRC, and that word is "undernet".
+
+Fellow carders don't like revealing their IRCs, and for obvious reasons.
+
+My advice is find a scammer through e-mail, and chat to him; be witty with it but be respectful to a fellow fraudster.
+
+Vendors and how to approach them
+Vendors are the people in IRC who are selling and providing the services for you. There are certain ways you should speak to vendors otherwise they're going to rip you (remember this is the black market, this is just like going up to a random drug dealer in the street and not knowing what you really want or what you're getting into; you'll get ripped off). Ask as many questions as possible of what you want to know, if you're buying a CVV2 ask to see proof of their details working (get them to make a small purchase somewhere; they should show you a before and after and the limits that are there on the card [there are methods out there of checking your balance; you can even get it through text/sms]. This is a market so remember there are more people that will be willing to buy from that vendor, it's open for all, you can get a full load of info including dumps for as low as ?3/$5, drops usually go for ?7; if someone is saying higher prices don't be afraid to haggle down to these prices or a little bit lower. COBs go for a little bit higher in ranges of ?15-?20 because the vendor needs to get full info on someone and then change the billing address through the bank to where ever your drop is.
+
+Now when you go in the channel don't fucking say or request anything, shut up and see what the vendors are saying they have to offer and then send them a private message and talk to them. If any "vendor" messages you 1st trying to push onto you to buy from them then they're most likely a ripper; however don't piss off the rippers or assume someone is a ripper because you never know who is going to be there to help you out later on down the line or who might be pissed off enough to fuck you over.
+
+I can't give any big advice on not getting ripped in IRC because you don't personally know anyone in there at all, you just have to take your chances (expect to get ripped your 1st few times going in there, just don't go to them again, because if they get away with it once they'll definitely try again if you go back to them).
+
+DO NOT BUY ANY WU BUG(Western Union Bug); it is a massive ripper technique which is bullshit. The WU BUG used to work but was patched a looong time ago, most of the time now you'll get nothing or you'll end up with a rootkit on your comp. Rippers always say ridiculous prices for these too such as $200+; but if someone says lower prices it's still bullshit and most likely a rootkit/trojan/keylogger going to be installed on your machine while you get some useless program that does nothing.
+
+Ripping
+Easy as hell to do, not much photoshop skills needed really either.
+
+Bullshit and say you're selling full info (you're getting the info from fakenamegenerator.com or any credit card gen program; of course they don't fucking work), if they want to see proof just use your own legit CC or another stolen CC to buy something and show them proof of you buying it, except photoshop the details to that which you're going to be giving him later. Take payment through Western Union ONLY (since e-gold isn't around anymore), then just send him the bullshit info.
+
+If they want the report to go to their phone via SMS then just spoof a text with an sms bomber saying some bullshit reports. Then get the payment via WU.
+
+To get victims you message them 1st, message out in the whole channel 1st and then PM random buyers (look for ones requesting).
+
+::::WU BUG::::
+seriously this is bullshit, all people are doing are showing buyers fake screenshots made in PS or are actually making quick programs themselves and taking screens of them and then selling them, although essentially they're useless. You want to do this, but you want to actually send them a file as well, but bind a keylogger or trojan to it; not only can you rip them out of their cash to buy your infection but the info you get from spying on them will be so much more as well ranging from their info to other stolen CC info, you'll have a backdoor on what they do and can exploit it.
+
+If you can't be bothered making fake screenshots then get them from other rippers trying to sell them, get them to show you pics, vids and info; then use it for yourself and rip some n00bs.
+
+Phishing for Change of billing
+A billing address is the details used for a person's bank account and most often their credit cards and everything else too, this includes their phone number too.
+
+What a change of billing (COB) is in a nutshell is changing the billing address registered to the card to your drop address you're gonna be using. When you want to card BIG at various online websites the orders will look more legit that you're not sending it else where other than the one registered to the card (obviously after you've changed the billing address), meaning the delivery of your goods will be quicker and will require a lot less verification.
+
+Most of the time you change the billing address over the phone but SOME banks will let you do it online; when you phone up to change it you use spoofcard.com or the pay as you go mobile phone you're going to be using when carding, or beige boxing Razz
+
+When changing the billing address you need to know as much info as possible about the person's billing address you're changing, because the bank is going to ask you 3 security questions you set (such as mother's maiden name) before they change it.
+
+You can phish for details over the phone (see the phishin over the phone section above), however it's best to use keyloggers and phisher pages for this with a MIX of over the phone.
+
+Use through phishing pages
+2 methods here, 1 including over the phone, one isn't.
+
+The method without the phone is to just send a ton of e-mails out to random people and send them a html e-mail telling them they need to update their information before the account is suspended or their account with the bank will be cancelled, you have them go to a phisher page off the template and the phisher pages "requires" them to answer security questions like their mother's maiden name, their pet's name, you know those type of questions.
+
+Another method is to call them up pretending to be the bank and saying there have been different ip ranges logging on their account and they need to confirm their details online, link them to the phisher page and have them fill in the details; have the phisher page redirect to the actual online bank's login page; then ask if they've done that over the phone, tell them to wait a minute while you confirm and check it all out, say it's all clear and tell them to log in, they'll think nothing of it and you now have the answers to their secret questions which you can give to the bank itself when you go to change the billing address.
+
+Use through keylogging
+This is my favourite method and what I told S_E last night in IRC.
+
+You have a hardware (or software) keylogger set on someone's comp, use sock proxies when logging into their online bank account and then change their password, call them up pretending to be the bank and then get them to go to the actual online bank link and fill in their forgotten password options (answering secret questions) or of course get them to go to your phisher page and fill in the details (this is if you want to add more fields to get more info) then pretend to be checking it all over, then change their password again to some random letters and numbers and give it to them to log back in (it doesn't matter because they're keylogged and you'll get their new login if they change the password again anyway), you'll have all their info logged down too for you to answer your questions when you call the bank.
+
+Best time to do all of this is around the 10th day of the month (people usually get their credit reports at the start of every month), this will give you plenty of time to card enough for the remaining days until they see they're not getting their reports coming to them anymore (if you're crafty you can pretend to have cancelled the online bank account for them after they've gave you the info you need to know; I used to do this method and keep it going without them knowing).
+
+You need as much info as possible when calling up the bank to change the billing address.
+
+Drops and what you need to know about them
+Drops and what you need to know about them
+What drop locations are and what they?re used for 
+Well simply a drop location is an abandoned house, or any house that is not under your name or any of your details. You can lead young children into these to make a sexy time with them, get items delivered to them that you want no one else to find about or risking finding, or just use it to squat in if you have no where else to go. Basically they are used in ways of keeping your nose clean and are used by mostly scam artists and sex offenders. 
+
+How to find a drop location 
+There are many ways of finding a drop location for use, whether it temporarily or permanently (although I suggest swapping and changing locations because my main last one I used got raided or broken into and is boarded up and too hot to use); I will suggest 3 ways on how you can find some for you to use. 
+
+One final tip is don?t bother going for houses that are boarded up at the front where it is visible to passers by (it?s okay if round the back is boarded up) 
+
+Way #1 
+As just mentioned you can go about it many different ways but one of the ways the way I prefer to go about it is you should be looking around some older housing estates and more ghetto areas (could also tie in with the sob story you feed to a paedophile/child predator you are possibly scamming). For example in Derby there is an area called Sinfin, but now there is 2 parts to it and they are New Sinfin and Old Sinfin. Old Sinfin is the are you would want to go to, because it?s older it?s most likely to be alot more houses abandoned or deemed unsafe (it?s bullshit). 
+
+Or if you were lucky like I once were then you could ask around your mates if there are any empty houses in their area. If there are then you?re in luck and can even have your friend keep tabs and watching over it for you and give you details so you can keep it all under wraps and safe. It may be alot riskier with neighbour hood watch morons, and nosey neighbours, but it?s still ideal and a little bit less suspicious than the abandoned houses in the older estates, and this is because the older estates usually have all abandoned houses close by, where as the odd one out covered with a street filled with inhabitants will seem less suspicious to the postman. 
+
+Way #2 
+Now this is a temporary way of finding a drop location, but is sometimes an effective ways and means of getting what you need but has a bit more risk to it; and personally is a way I have never used even till today. 
+
+Have you ever been eavesdropping on a conversation between a neighbour and one of their family member?s or friends?, or been down the pub and heard the common as muck chavs boasting about a holiday they are going away on for however long they say they?re going away for? 
+
+Well listen out for these type of conversations. Because them away on holiday means the house is most likely going to be empty for however long they?re going away for. So if you already know where they live then that?s great the job is made easier; if you know their first name and surname then look them up in the phone directory and find their address to go along with the number. If you don?t know where they live, or their name then just listen out to see if you can hear their names come up in conversation; just remember that if it?s in the pub it?s most likely local to it that they live, so you could easily find out by following them home and seeing. 
+
+Way #3 
+Possibly the safest, easiest way of finding, and quickest way to get a drop location. 
+
+Most areas have houses up for sale am I right? 
+Or houses that are up for bidding on, am I right? 
+
+Well they have a website with a full list of your local area(s) that have houses up for bidding on and for sale. 
+
+For example I would search Derbyhomefinders and look at the list on their site. 
+
+All of these houses are empty and often do not have a sign up outside them either (if they do then just take it down and hide it somewhere for the time being). 
+
+The advantage to using the lists to find the drop locations to use is it will usually say when the bid is up or if the house has been sold (this lets you know that it will not be ideal to use that certain house now it?s most likely to be inhabited) and will have the houses on there that are still being bidded on and that are still up for sale, these are the ones you want to be using. 
+
+The best thing about this though is that you have a full list of many different drops to use (like I said earlier it?s best to switch drop locations and use many different ones) and it is updated with new ones coming up and tells you full which ones are over and not usable. 
+
+You just need to know your agencies for housing and find their website. 
+
+Obtaining and using drop locations 
+You?re probably thinking now I?ve got/found one that?s great and everything but how the fuck do I keep it a secret? 
+
+for way 1
+this much is obvious that you do not tell anyone except your partner if you?re doing a team bait, and 1 trustworthy friend to keep tabs on it if you are doing a bait on your own, and also the paedophile, but only when he asks. But there is alot more to it than that, also maintaining your abandoned house and making the postman think someone living there. 
+
+Appearance isn?t everything at all in any case and it isn?t for this either, but of course you try to make yourself look as best as you can. The same principles are applied to keeping an abandoned house; you should atleast try to get a new lock put on the door which you will also have a key for; just so that if any druggies go there before you then they will have a tougher time getting in (of course it?s ideal you don?t get somewhere known to druggies but this is an example of what use it could have) but also if there is a fucked up lock on a door then it?s pretty damn obvious only low life scum or some criminal(s) are using the place, so buy a new lock for the door and get it fitted on, whether you do it yourself or get assistance from a friend who knows what they are doing. 
+
+Now as for overgrowing plants and weeds, you can only do so much without being suspected. Do not use a lawn mower, use clippers and hack it as short as you can. It?s best to get all of this done when everyone is at work during the day time; but in reality it isn?t ideal at all and most criminals don?t tend to bother with this. Instead they will make it seem someone is in but is just too ill to do anything with the garden or is just a lazy fucker. They do this by often writing up a note and sticking it to the door or leaving it on the floor near the door saying something such as "No milk today please" or "Not in, please leave packages at post office". 
+
+Write a few letters to yourself aswell ready to come on the same day as the parcel, this will make it look like you get mail and not just the one off suspicious package now and then. 
+
+Now 2 alternatives, you can either get to the abandoned house and take the mail from the mailman while acting like you live there (you must look the part as lazy or disabled if you have ingrown plants in "your" garden) or you can leave a note saying to take any packages to the post office for pick up because you are at work or something along those lines. 
+
+One final rule is do not be in and out of the hideout everyday or whatever, visit probably 2 or 3 times a week. 
+
+Way 2
+Now there are 2 ways to go about this; you can either just get to the house early in the morning a little bit just before the postman arrives and be at the house outside pretending you?re just about to leave and then sign for the package (if you need to) and collect it off the postman and then be on your way after he?s gone. Or if you?re good at bypassing alarms (I have a guide on burglary) or the house has no alarm then you could bump key in at night time (not recommended) or during the day time the day before when everyone else will be at work aswell, and hide out there for a bit (hell even take some food that is left in the fridge and feed yourself since you?re spending the rest of the day and early morning there). Basic rules are don?t have tv on too loud if at all, or if you do then put head phones on into the tv if it?s that old of a model, and leave everything how it was left an say upstairs so incase any neighbours or anyone looking after the house while the owners are away come in then you have time to hide. 
+
+Obviously if it?s a package you don?t have to sign for then you can stick up a note on the door early in the morning before the post man comes saying to leave it round the back or what ever excuse you wanna make up. 
+
+Way #3 
+Easy, just as previously except you don?t have to be as cautious and often the alarms are disabled for that time being anyway so you don?t have to worry as much if you bump key into it. 
+
+As also stated previously in this guide, if there are any up for bidding/for sale signs then take them down and just get them out of the way. 
+
+You can even go to this one the night before instead of day time because no one is hardly going to be watching over this unless it?s in a neighbourhood watch area (in which case you chose the wrong area anyway, you dumbass). 
+
+Some basic tips to keep in mind 
+-- Be there before the postman! can?t stress this enough, it?s too fucking obvious if you?re late. 
+
+-- When signing for packages, if you need to, then sign a fake signature (the sig can be any made up fake shit) with your hand that you don?t write with, so it?s harder to trace incase things go tits up later on down the line. 
+
+-- Take anything in any guide with a pinch of salt, things may be different circumstances for you and your situations
