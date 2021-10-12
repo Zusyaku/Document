@@ -1,0 +1,91 @@
+TUTORIAL Carding with dumps
+
+What do I need for real carding?
+This is a very good question you will need some cash. And the following will be helpful but not required at first. You should get these items at some point, but you don't need them right away. And I will tell you why in next section.
+
+Computer-laptop is best, as you can carry it with you on your op?s if you desire. If you don't have a laptop you can use your home P.C. till you can afford to get one. Of course with home PC you cant take it with you on your ops
+
+Encoder - If you look around most every has or talks about an MSR206 this seems to be the preferred encoder, but you can also use an AMC722. The AMC722 is usually cheaper and does the same thing. Look on the net and you can find these for pretty decent prices. There is a internet company that will ship overnight and you can send payment by Western Union. The have a special for $550.00 you get MSR206 + Exeba Encoding Software + 50 loco or hico cards. Also XRAYSWIPE has pretty good deals on them also and is a reviewed vendor. You can use Exeba Comm software or TheJerm has a software program for the MSR206.
+
+Laptop Bag - You can put your laptop and encoder in this also. Nice to have if you want to take your laptop and encoder on op?s.
+
+Power Inverter - Needed to run your encoder and nice to have if out for long period of time and laptop is dying. You can get these just about anywhere even wallyworld.
+
+Novelty Id - This should be at the top of your list as one of the first thing?s you should get. You will need this at some point you do not want to use your real info. I repeat do not even for 1 time use your real information. There are some good vendors that are quick also. Just look under the reviewed vendor section for more details.
+
+Dumps - Get them from zeusk. You can get classic, gold, platinum, world, business, signature etc. If this is your first time you may want to get classic and start by shopping for low end items. IE anything under $200-$500. Now classics working not good and will go for 1 or 3 times that but the general rule of thumb is under $300 and you should be okay. Gold and Platinum for items above $500 but say to $1,000 and Business, Signature $1,000 and above. These are just suggestions and not hard rules.
+
+Track 1 and 2 or just Track2 - you can get from zeusk. If you just have track2 only you can generate track 1 with PCKit-track1 generator. You will want to encode both tracks to your card. Making sure to change the name on the dump. Some stores only use track2 but it's best to stay safe and encode both.
+
+Dump Example
+Track1 B410000000000000000000^REGAN/RONALD^0409XXXXXXXXXXXXXXXXXX
+Track2 41000000000000000000=04091XXXXXXXXXXXXXXXXXXX
+
+You of course change the name on track1 to your Novelty last name and first name.
+
+
+Plastic cards to put dumps on: Okay again never use your own card to encode onto, just not the best idea. You can get cards from just about anywhere, some drugstores sell prepaid cc's, you can try that or get a Visa or MasterCard branded gift card. Most malls carry this type of GiftCard. Simon Cards have been used a lot in the past so I would suggest staying clear of those. The best way Buy from plastic vendor.
+
+Wallet-You will need extra wallet to store you novelty items. You don?t want to use your own wallet and keep having to take you real cards and id out and replacing them with your novelty.
+
+Anon Phone-Don't really need but if you have a phone merchant you can call from anon cell before going to use your card.
+
+You don't need everything I have but they all are helpful.
+
+Quick Start Up: Okay so you don?t have the time to wait to get all your tools or maybe your cash flow is not flowing. You may ponder how can I get up and going as quickly and cheaply as possible.
+
+Answer: You can buy dumps from reviewed vendor of course and buy plastic from plastic vendor. Most plastic vendors will encode your cards for you. This may be the cheapest way to go. Say you buy 5 dumps for $50.00 = $250.00 and 5 plastic for $75.00 =$375.00 total for both $625.00. Add a drop to that $50.00 and for $675.00 you will be ready to go. Another advantage with going this route is you will have matching plastic. The plastic vendor will emboss your plastic with your novelty information. If you don?t have a lot of funds try taking a cash advance on your own card. You will be able to repay it rather quickly.
+
+Okay I finally got everything, I'm Ready to go Right?
+
+Answer: Okay hang on there Skippy, you may think you are ready but are you??
+
+Get into The Correct Frame Of Mind: Remember you are the Cardholder this is your card and you will treat it as such. Repeat 50 times then say back words 25 times, lol, Just kidding but you are who you say you are. This is your card don?t be scared this is your card. Who?s Your Card? Also a good idea to be aware of what your novelty id says. Know the address etc, this will help you feel more at ease and will help if cashier ask off the wall question. Be prepared go over in your mind how different scenes might play out and have good sensible answers.
+
+Remember the customer is always right, Never let them think you?re not legit even if they throw it in your face.
+
+Pick Your Poison! (Where should I shop)
+If you are a Newbie you should try stores with self swipe checkouts. Just beware some of the self swipes will verify your id. Also if you want to get your feet wet grocery stores with self swipe are real nice. They even have the ones that you ring up your own shit and pay without any cashier present.
+
+Gas Stations- I would suggest staying away from gas stations. Most have cameras and why risk someone getting your car info for such a small purchase. Plus some dumps will die quickly when using a Gas Station.
+
+Using Cards with non-matching last 4- Simple shop at stores that do not check last 4 or use AVS or type in CW2 I?m not going to post which stores do and do not at this time. If you don?t know any off hand go there in person and use your legit card and watch what they do.
+
+Cards with matching last 4- Shop anywhere that doesn?t have AVS or type in CW2 I will not list any stores you will have to do your own research.
+
+
+What is AVS?
+
+Address Verification System- verifies cardholders real addy, sometimes only uses zipcode.
+
+
+Security- This is a very important topic, and here are some tips. First never park in front of store in which you are shopping. If someone gets suspicious of you they may write down your license plate or if they have cameras outside they may catch it on there cameras. Always park far enough away that the store cant see which car you got into. If possible park around a corner or have someone else drive and wait out of site for you. If you are using the buddy system You can get some 2 way radios or both keep cell phone on you and if shit hits the fan you can sprint away and have the car meet you somewhere nearby. Never run directly toward your car if shit hits the fan and you have the run, then security is probably running after you. See planning for more information on this. Also you may want to carry a small can of mace or pepper spray key chain size etc. This can be used to get your freedom from security but may lead to more charges if your caught.
+
+Planning- Okay You are now just about ready to go.
+
+1. What area will I be shopping at and what stores- Best to know in advance you can make driving directions to the area and from store to store. This is nice and will sped up the time your in one area. Helps you find the quickest way to and from area also. You don?t have to go this route you can go what I would call this free styling.
+
+2. Once you spot your store find good parking spot away from camera out of view from store. Look around what will you do if shit goes wrong. A good rule of thumb is never run directly toward your car. You can park around the corner in next parking lot over. If shit hits fan you can exit store go in opposite direction and loop around behind the store to your car. Unless your 500 pounds and cant run in which if you try this method you may bet caught if you have to run.
+
+3. Bring other Shirts with you. This is nice, you can change your shit when shopping at different stores this will help you keep much safer. And if your being chased you can take one off and have the other one underneath.
+
+4. Most of the time you wont have any problems and you may tire of parking so far away, you tell yourself I?ve done this 100 times and no problems. But never let your guard or security down. This is what keeps you safe plus it?s good to walk a bit for heath reasons.
+
+5. Keep them guessing, some people wear hats and sunglasses. My advice don?t wear sunglasses inside it only makes you look shady. A easy way to change your appearance is to use real glasses. If you don?t wear glasses use Stage glasses these look like regular lenses but are clear with no prescription. If you already wear glasses try different frames or use contact lenses. Also you can change your facial hair, grow a mustache or a goatee or beard. Then shave it off after sometime and go bareback etc. These are ideas to change your appearence.
+
+6. Dress the part, dress to fit in, you don?t want people to remember you.
+
+7. Always shop a good distance from where you live. You don?t want them to catch you on camera and put a picture of you on the news for your family or friends to see. Also you don?t want to go back to the same stores using your legit information. It?s unlikely they will catch you but you can never be too safe.
+
+Okay I?m ready
+
+Okay you have your cards and dumps, you planned your op out and you have got your mind ready to go what?s next?
+
+Shopping- Yeah let?s go, Remember this is your card. Be confident and act normal. Pick out your product proceed to cashier and check out. Choosing your cashier is vital and you will get rather good with this as you go from what I have heard. Usually younger females are the best. You want them to process you like everyone else. Make them feel they have no reason to ask for more information like id etc. If they ask for id show them , keep in your wallet and just hold it for the can see,
+If they ask to see your card to compare signatures let them do it but keep you hand held out till they give it back. Start small and grow slowly , take time to learn the ropes and it will pay off for you big time.
+
+Also if you card is declined it?s a good idea to carry a backup with you. You can tell them you might have overdrawn your account or limit and tell them you will try another card. If your 2nd card is declined or you don?t have one. Tell them you will go to bank or go get your checkbook etc. If for some reason you get a pick up card tell them you wife or girlfriend lost her card and reported her?s lost and you forgot. 99% of the time they will say okay. You can then try another card or tell them you will be back with checkbook.
+
+Call for authorization- if this happens tell them you in a hurry and don?t have the time to deal with that or tell them your card must be over the limit and you don?t want to purchase the item now. Act as a cardholder would act embarrassed. Whatever you do don?t go through with the call especially if they have your card in there hand.
+
+What to stay away from- If you are new don?t try carding a laptop right away. Start small , I would suggest staying away from high fraud items IE laptops and electronics. Also stay away from high security stores i.e. BB and CC. And stay away from malls they have more security then you need to deal with in the beginning.

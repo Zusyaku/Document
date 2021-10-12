@@ -1,0 +1,48 @@
+Short tut, on how to make track one with track 2. 
+
+Take example of last dump Track2 (this is a dump): 
+Example dump info: 4888603170607238=15051011203191805191 PATACSIL/DAVID Bank 
+of America, N.A. (USA) CREDIT PLATINUM United States of America 
+
+
+4888603170607238=15051011203191805191 <----This is Track 2 (we want to make Track 1 out of Track 2) 
+Smith/John <---the name of the card holder (LASTNAME/FIRSTNAME) 
+Bank of America, N.A. <-- Bank Name 
+(USA) <--- Country of Bank 
+CREDIT <-- Credit or Debit ( in this case it is Credit) 
+PLATINUM <--type of card, eg. Classice, Gold,Platinum 
+United States of America <--Country 
+
+When you see and equal sign (=) in a Track it always means it is Track 2 
+When you see the letter "B" in front of the Track it is always Track 1 
+
+
+Now to Make a Track1 From Track2 see instructions below:
+
+Take the Credit Card account number from Track 2 in this example it is: 
+4888603170607238 
+
+Add the letter "B" in the front of the number like this: 
+B4888603170607238 
+
+Then add the cardholder name YOU want to show on the card B4888603170607238^Smith/John^(Last name first/First Name) 
+
+Next add the expiry date and service code (expiry date is YYMM in this case 1505,and in this case the 3 digit service code is 101 so add 1505101): 
+B4888603170607238^Smith/John^1505101 
+
+Now add 10 zero's after service code: 
+B4888603170607238^Smith/John^15051010000000000 
+
+Next add the remaning numbers from Track2 (after the service code): 
+B4888603170607238^Smith/John^150510100000000001203191805191 
+
+And then add six zero's (6) zero's: 
+B4888603170607238^Smith/John^150510100000000001203191805191000000 this is 
+your Track 1 
+
+
+Track 1: B4888603170607238^Smith/John^150510100000000001203191805191000000 
+
+
+REMEMEBER THIS IS ONLY FOR VISA AND MASTER CARD(16digits) , AMEX HAS 15 
+DIGITS, this doesn't work for Amex 
