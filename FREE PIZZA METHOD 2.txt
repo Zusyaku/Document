@@ -1,0 +1,11 @@
+pizza: pizza method:
+
+1) call  for example dominos and ask to speak the manager
+
+2)  say to the manager 'i had a pizza 2 hours ago, i bought that and the dough was too hard to bite, it was overheated'.
+
+3) he'll say that you can replace the pizza if you take the ticket of your payment at dominos
+
+4) you tell the manager that you're going to send your son to there
+
+5) go there and take your pizza, if they ask for the ticket, just say that your father didn't gave you it.

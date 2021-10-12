@@ -1,0 +1,46 @@
+
+Jacking Method 2 (HARDEST)
+
+Method: Phishing
+This option is much more difficult than the rest, but it is also the most common method to hack someone's account. The most popular type of phishing involves creating a fake login page. The page can be sent via email to your victim and will look exactly like the Facebook login page. If the victim logs in, the information will be sent to you instead of to Facebook. This process is difficult because you will need to create a web hosting account and a fake login page.
+ 
+The easiest way to do this would be to follow our guide on how to clone a website to make an exact copy of the facebook login page. Then you'll just need to tweak the submit form to copy / store / email the login details a victim enters. If you need help with the exact steps, there are detailed instructions available by Alex Long here on Null Byte. Users are very careful now with logging into Facebook through other links, though, and email phishing filters are getting better every day, so that only adds to this already difficult process. But, it's still possible, especially if you clone the entire Facebook website.
+ 
+Step 1: Download & Install HTTrack
+From Kali, we need to navigate to "System Tools" and then "Add/Remove Software," like in the screenshot below.
+That will open a screen like the one below. Notice the window in the upper left-hand corner next to the "Find" button. Enter "httrack" there and it will find the packages you need to install HTTrack.
+You can also install it by typing the following in a terminal.
+ 
+kali > apt-get install httrack
+Step 2: Use HTTrack
+Now that we have installed HTTrack, let's start by looking at the help file for HTTrack. When you downloaded and installed HTTrack, it placed it in the /usr/bin directory, so it should be accessible from any directory in Kali as /usr/bin is in the PATH variable. Let's type:
+ 
+kali > httrack --help
+ 
+I've highlighted the key syntax line in the screenshot above. The basic syntax is the following, where -O stands for "output." This switch tells HTTrack where to send the website to.
+ 
+kali > httrack <the URL of the site> [any options] URL Filter -O <location to send copy to>
+Using HTTrack is fairly simple. We need only point it at the website we want to copy and then direct the output (-O) to a directory on our hard drive where we want to store the website. One caution here, though. Some sites are HUGE. If you tried to copy Facebook to your hard drive, I can guarantee you that you do not have enough drive space, so start small.
+ 
+Step 3: Test HTTrack
+In an earlier tutorial on hacking MySQL databases behind websites (MySQL is the most widely used database backend behind websites), we used a website that we could hack with impunity called webscantest.com. Let's try to make a copy of that site to our hard drive.
+ 
+kali > httrack http://www.webscantest.com -O /tmp/webscantest
+ 
+As you can see, we successfully made a copy of all the pages of this site on our hard drive.
+ 
+Step 4: Explore the Site Copy
+Now that we have captured and copied the entire site to our hard drive, let's take a look at it.
+ 
+We can open the IceWeasel browser (or any browser) and view the contents of our copied site to the location on our hard drive. Since we copied the web site to /tmp/webscantest, we simply point our browser there and can view all the content of the website! If we point it to /tmp/webscantest/www.webscantest.com/login.html, we can see that we have an exact copy of the login page!
+Hmmm...what could we possibly use that for???
+ 
+Step 5: Copy Our Favorite Web Site
+Now, let's try HTTrack on our favorite website, wonderhowto.com. Let's try to make a copy of a forum post I wrote last week about the CryptoLocker hack. First, let's open that page right here and copy the address into Kali after the HTTrack command and then the location where you want send the copy to.
+ 
+kali> httrack http://nullbyte.wonderhowto.com/forum/cryptolocker-innovative-creative-hack-0151753 -O /tmp/crytoloc
+You can send the copied website to any location, but I sent mine to /tmp/crytoloc. When we do so, HTTrack will go into Null Byte, grab that webpage, and store an exact copy of it on your hard drive. Notice it also tells us that it is 208 bytes.
+ 
+As you can see below, we were able to copy my Null Byte article on CryptoLocker to my Kali hard drive and open an exact copy of it with my browser.
+ 
+If you are trying to find information about a particular company for social engineering or trying to spoof a website or login, HTTrack is an excellent tool for both tasks. Many of you have been asking about how to create a clone website for dnsspoof or grab credentials for an Evil Twin, now you have the tool to do so!
