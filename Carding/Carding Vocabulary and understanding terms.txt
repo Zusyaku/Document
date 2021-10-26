@@ -1,0 +1,116 @@
+Carding Vocabulary/ TERMS
+
+
+-CC's that start with number 3xxx-xxxx-xxxx-xxxx are AMEX (or AmericanExpress) and their cvv2 is with 4 digits (some RARE times with 3)
+-CC's that start with number 4xxx-xxxx-xxxx-xxxx are VISA and their cvv2 is with 3 digits
+-CC's that start with number 5xxx-xxxx-xxxx-xxxx are Mastercard and their cvv2 is with 3 digits
+-CC's that start with number 6xxx-xxxx-xxxx-xxxx are Discover(or Novus) and their cvv2 is with 3 digits (some RARE times with 4)
+
+-------------------------------------------------------------------------
+
+Bank-emitent (Issuing bank) - bank which has issued the card
+
+Billing address - the card owner address
+
+Drop - innerman. His task is to receive the money or goods and, accordingly, to give the part of the earnings to you.
+
+Biling - office, which has agreement with a bank. Also this office assumes payments for the cards.
+
+Card bill - it's a Bank emitent card bill.
+
+Bank-equirer - bank, in which the store opens the account.
+
+Merchant account - bank account for accepting credit cards.
+
+Merchant Bank - bank, through which occur the payments between the buyer and the salesman (frequently it is used as synonym "bank-equirer").
+
+Cardholder - owner of the card.
+
+Validity - suitability card using.
+
+White plastic - a piece of the pure plastic, where the information is plot.
+
+CR-80 - rectangular piece of pure white plastic (without the drawing image) with the size of a credit card with the magnetic strip.
+
+Transaction - charege to the credit card
+
+POS terminal (Point Of Sale terminal) - reading card device, which stands at commercial point.
+
+PIN-code - the sequence, which consists of 4-12 numbers. It is known only to the owner of card. By simple words password for the work with ATM and so on.
+
+AVS - the card owner address checking. It is used for the confirmation of the card belonging exactly to its holder.
+
+"Globe" - card holographic gluing with the image of two hemispheres (MasterCard).
+
+Pigeon (hen) - card holographic gluing with the image of the flying pigeon (VISA).
+
+Reader - information reading device for the readout from the magnetic strip of card.
+
+Encoder - read/write device for the magnetic track of the card.
+
+Embosser - card symbol extrusion device.
+
+Card printer - card information printing device.
+
+Exp.date - card validity period.
+
+Area code - the first of 3 or 6 numbers of the card owner phone.
+
+CVV2, cvv, cvn - 3 or 4 additional numbers, which stand at the end of the number of card.
+
+ePlus - program for checking the cards.
+
+BIN - first 6 numbers of the card number due to those it is possible to learn what bank issued out the card and what is the type of this card (ATM-card, credit, gold, etc.). Synonym of word "Prefix".
+
+Chargeback - the cardholder's bank voids the removal of money from its card.
+
+Dump - information, which is written to the magnetic strip of the card, it consists of 1,2 or 3 tracks.
+
+Track (road) - a part of the dump with the specific information. Every 1-st track is the information about the owner of the card, 2-nd track - information about the owner of card, about the bank issued the card, etc. 3-rd track - it is possible to say - spare, it is used by stores for the addition of the points and other.
+
+Slip - synonym to the word "cheque" (conformably to card settlings).
+
+Card balance - money sum that finding on the card account.
+MMN Mothers Maiden Name, important if you want to change the billing address
+
+some terms:
+
+Automated Clearing House (ACH) - the automated clearing house. The voluntary association of depositors, which achieves clearing of checks and electronic units by the direct exchange of means between the members of association.
+
+Continuous Acqusition and Life-cycle Support (CALS) - the integrated system of the production guaranteeing, purchase and expluatation. This system makes possible to computerize all data about the design, development, production, servicing and the propagation of the production.
+
+Debit Card - Card, which resembles the credit card by the method of using, but making possible to realize direct buyer account debiting at the moment of the purchase of goods or service.
+
+Delivery Versus Payment (DVP) - the system of calculations in the operations with the valuable papers, which ensures the mechanism, which guarantees that the delivery will occur only in the case of payment and at the moment of payment.
+
+Direcht debit - payment levy method, mainly, with the repetitive nature (lease pay, insurance reward, etc.) with which the debitor authorizes his financial establishment to debit his current account when obtaining of calculation on payment from the indicated creditor.
+
+Electronic Fund Transfer (EFT) - the remittance of means, initiated from the terminal, telephone or magnetic carrier (tape or diskette), by transfer of instructions or authorities to financial establishment, that concern to the debiting or crediting of the account (see Electronic Fund Transfer/Point of Sale - EFT/POS).
+
+Electronic Fund Transfer/Point of Sale - EFT/POS - debiting from the electronic terminal, for the means transfer purpose from the account of a buyer into the payment on the obligations, which arose in the course of transaction at the point of sale.
+
+Integrated Circuit (IC) Card - It is known also as chip card. Card equipped with one either several computer micros-chip or integrated microcircuits for identification and storing of data or their special treatment, utilized for the establishment of the authenticity of personal identification number (PIN), for delivery of permission for the purchase, account balance checking and storing the personal records. In certain cases, the card memory renewal during each use (renewed account balance).
+
+Internet - the open world communication infrastructure, which consists of the interrelated computer networks and which provides access to the remote information and information exchange between the computers.
+
+International Standardisation Organisation (ISO) - International organization, which carries out standardization, with the staff office in Geneva, Switzerland.
+
+Magnetic Ink Character Recignition (MICR) - System, which ensures the machine reading of the information, substituted by magnetic inks in the lower part of the check, including the number of check, the code of department, sum and the number of account.
+
+RSA - the coding and autentification technology, developed in 1977 in MIT by Rivest, Shamir and Adel'man, which subsequently opened their own company RSA Data Sechurity, Inc., purchased recently by the company Security Dynamics Technologies, Inc.
+
+Real-Time Gross Settlement (RTGS) - the payment method, with which the transfer of means is achieved for each transaction in obtaining of instructions about the payment. Decrease the risk with the payment.
+
+SSN (Social Security Number) - nine-digit number issued in US only to an individual. Its primary purpose is to track individuals for taxation purposes.
+
+Smart Card - card equipped with integrated circuit and microprocessor, capable to carrying out the calculations.
+
+System risk - the risk, with which the incapacity of one of the payment system participants either financial market participants as a whole to fullfill their obligations causes the incapacity of other participants or financial establishments to fulfill its obligations (including obligations regarding the realization of calculations in means transfer systems) properly. This failure can cause significant liquidity or crediting problems and, as result, it can cause loss to the stability of financial markets (with the subsequent action on the level of economic activity).
+
+Truncation - procedure, which makes it possible to limit the physical displacements of a paper document, in the ideal version, by the bank of the first presentation, by the replacement by electronic transfer of entire or part of the information, which is contained on this document (check).
+
+Tipper - a machine designed for use with PVC plastic cards to create raised print. (basically a plastic card embosser)
+
+COB - Change of billing. Used for online carding, to change the billing address of a card since Online Stores will only ship large items if the billing and shipping address match. You can obtain these from vendors in CP. Once you have this, you can easily change the card address to that of your drop so that the stores ship items to your drop, since the billing and shipping addresses will match.
+
+DOB - Date of birth of the card owner

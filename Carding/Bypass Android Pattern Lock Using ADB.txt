@@ -1,0 +1,27 @@
+Bypass Android Pattern Lock from ADB Tool
+
+You can bypass or disable your android pattern lock from usinh ADB (AndroidDebugging Bridge)Tool.
+You can download this tools from its official website.
+ADB tools work with your Window PC Linux,You can easily bypass android lockscreen from ADB Tools.
+
+MakeSure USB Debugging is enabled in your android phone.If your Mobile USB Debugging is not enabled in your android phone,you can;tuse this method.
+
+1.Download and Install ADB Drivers in your Window PC.
+
+2.Connect Your Android Phone with your Window PC.
+
+3.Open Command Prompt ,type adb devices and press enter.
+
+4.Now you see your Device Name with its model number.
+
+5.Type   one by one these commands in your Command Prompt Screen.👇👇👇
+
+▶️ adb shell  
+
+▶️ su      
+
+▶️ rm /data/system/gesture.key
+
+▶️now enter any pattern in your android phone and you can easily bypass android pattern lockscreen from using adb in your windows pc.
+
+@squadhackers
