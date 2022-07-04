@@ -1,0 +1,31 @@
+/ip firewall filter add chain=forward connection-state=invalid action=drop comment=”drop_invalid_connections”
+/ip firewall filter add chain=virus protocol=tcp dst-port=135-139 action=drop comment=”Drop_Blaster_Worm”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1433-1434 action=drop comment=”Worm”
+/ip firewall filter add chain=virus protocol=tcp dst-port=445 action=drop comment=”Drop_Blaster_Worm”
+/ ip firewall filter chain=virus protocol=udp dst-port=445 action=drop comment=”Drop_Blaster_Worm”
+/ip firewall filter add chain=virus protocol=tcp dst-port=593 action=drop comment=”________”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1024-1030 action=drop comment=”__________”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1080 action=drop comment=” Drop¬_MyDoom”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1214 action=drop comment=”______”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1363 action=drop comment=”ndm requester”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1364 action=drop comment=”ndm server”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1368 action=drop comment=”screen cast”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1373 action=drop comment=”hromgrafx”
+/ip firewall filter add chain=virus protocol=tcp dst-port=1377 action=drop comment=”cichlid”
+/ip firewall filter add chain=virus protocol=tcp dst-port=2745 action=drop comment=”BagleVirus”
+/ip firewall filter add chain=virus protocol=tcp dst-port=2283 action=drop comment=”DropDumaruY”
+/ip firewall filter add chain=virus protocol=tcp dst-port=2535 action=drop comment=”DropBeagle”
+/ip firewall filter add chain=virus protocol=tcp dst-port=2745 action=drop comment=”DropBeagle_C-K”
+/ip firewall filter add chain=virus protocol=tcp dst-port=3127 action=drop comment=”DropMyDoom”
+/ip firewall filter add chain=virus protocol=tcp dst-port=3410 action=drop comment=”DropBackdoorOptixPro”
+/ip firewall filter add chain=virus protocol=tcp dst-port=4444 action=drop comment=”Worm1”
+/ip firewall filter add chain=virus protocol=udp dst-port=4444 action=drop comment=”Worm2”
+/ip firewall filter add chain=virus protocol=tcp dst-port=5554 action=drop comment=”DropSasser”
+/ip firewall filter add chain=virus protocol=tcp dst-port=8866 action=drop comment=”DropBeagleB”
+/ip firewall filter add chain=virus protocol=tcp dst-port=9898 action=drop comment=”DropDabber-A-B”
+/ip firewall filter add chain=virus protocol=tcp dst-port=10080 action=drop comment=”DropMyDoom-B”
+chain=virus protocol=tcp dst-port=12345 action=drop comment=”DropNetBus”
+/ip firewall filter add chain=virus protocol=tcp dst-port=17300 action=drop comment=”DropKuang2”
+/ip firewall filter add chain=virus protocol=tcp dst-port=27374 action=drop comment=”DropSubSeven”
+/ip firewall filter add chain=virus protocol=tcp dst-port=65506 action=drop comment=”DropPhatBot,Agobot,Gaobot”
+/ip firewall filter add chain=forward action=jump jump-target=virus comment=”jump to the virus chain”

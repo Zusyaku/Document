@@ -1,0 +1,461 @@
+Game Point Blank Untuk Game lain sesuaikan Port/IP-nya
+
+chain=GAMES
+protocol=tcp 6
+dst-port=39190
+action=mark-connection
+new-connection-mark=Game
+passthrough=yes
+comment=Point Blank
+
+
+chain=GAMES
+protocol=udp 17
+dst-port=40000-40010
+action=mark-connection
+new-connection-mark=Game
+passthrough=yes
+
+
+chain=GAMES
+action=mark-packet
+new-packet-mark=Game_Akses
+passthrough=no
+connection-mark=Game
+
+
+chain=prerouting
+action=jump
+jump-target=GAMES
+
+===================================
+
+Game Zynga POKER
+
+chain=forward
+protocol=tcp
+dst-address-list=LOAD POKER
+action=mark-connection
+new-connection-mark=Poker_Akses
+passthrough=yes
+comment=POKER
+
+
+chain=forward
+protocol=tcp
+content=statics.poker.static.zynga.com
+action=mark-connection
+new-connection-mark=Poker_Akses
+passthrough=yes
+
+
+chain=forward
+connection-mark=Poker_Akses
+action=mark-packet
+new-packet-mark=Poker
+passthrough=no
+
+===================================
+
+Browsing
+
+chain=forward
+action=mark-connection
+new-connection-mark=HTTP
+passthrough=yes
+protocol=tcp
+in-interface=WAN ( Provider )
+out-interface=LOKAL ( ke Client )
+packet-mark=!Game_Akses
+connection-mark=!GAMES
+connection-bytes=0-261024
+comment=BROWSING
+
+
+chain=forward
+action=mark-packet
+new-packet-mark=http_akses
+passthrough=no
+protocol=tcp
+connection-mark=HTTP
+
+===================================
+
+Upload
+
+chain=prerouting
+action=mark-packet
+new-packet-mark=Upload
+passthrough=no
+protocol=tcp
+src-address=192.168.0.0/24
+in-interface=LOKAL
+packet-mark=!icmp_pkt
+comment=UPLOAD
+
+===================================
+
+Download Limiter
+
+chain=forward
+action=mark-connection
+new-connection-mark=Download
+passthrough=yes
+protocol=tcp
+in-interface=WAN
+out-interface=LOKAL
+packet-mark=!Game_Akses
+connection-mark=!Poker_Akses
+connection bytes=262146-4294967295
+comment=LIMIT DOWNLOAD
+
+
+chain=forward
+action=mark-packet
+new-packet-mark=Download_paket
+passthrough=no
+packet-mark=!Game_Akses
+connection-mark=Download
+
+===================================
+
+Queue
+
+queue type
+
+name=Download
+kind=pcq pcq-rate=256000
+pcq-limit=50
+pcq-classifier=dst-address
+pcq-total-limit=2000
+
+
+name=''Http''
+kind=pcq
+pcq-rate=1M
+pcq-limit=50
+pcq-classifier=dst-address
+pcq-total-limit=2000
+
+
+name=Games
+kind=pcq
+pcq-rate=0
+pcq-limit=50
+pcq-classifier=src-address,dst-address,src-port,dst-port
+pcq-total-limit=2000
+
+
+name=Upload
+kind=pcq
+pcq-rate=0
+pcq-limit=50
+pcq-classifier=src-address
+pcq-total-limit=2000
+
+===================================
+
+Queue Tree
+
+name=Browsing
+parent=LOKAL
+limit-at=0
+priority=8
+max-limit=1M
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Browse
+parent=Browsing
+packet-mark=http_Akses
+limit-at=0
+queue=Http
+priority=8
+max-limit=1M
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Game
+parent=global-total
+packet-mark=Game_Akses
+limit-at=0
+queue=Game
+priority=1
+max-limit=0
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Poker
+parent=global-out
+packet-mark=Poker
+limit-at=0
+queue=Game
+priority=3
+max-limit=0
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Download
+parent=global-out
+packet-mark=Download_Akses
+limit-at=0
+queue=Download
+priority=8
+max-limit=256k
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Main Upload
+parent=global-in
+limit-at=0
+priority=8
+max-limit=256k
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+
+name=Upload
+parent=Main Upload
+packet-mark=Upload
+limit-at=0
+queue=Upload
+priority=8
+max-limit=0
+burst-limit=0
+burst-threshold=0
+burst-time=0s
+
+===================================
+
+IP Firewall Address-list
+
+add address=202.93.20.0/24 list=game
+add address=202.93.20.218 list=game
+add address=202.93.20.0/24 list=game
+add address=202.93.20.172 list=game
+add address=209.190.9.202 list=game
+add address=75.125.122.98 list=game
+add address=202.93.20.215 list=game
+add address=209.51.218.170 list=game
+add address=122.102.49.0/24 list=game
+add address=122.102.49.70 list=game
+add address=122.102.49.71 list=game
+add address=122.102.49.72 list=game
+add address=122.102.49.73 list=game
+add address=122.102.49.74 list=game
+add address=122.102.49.75 list=game
+add address=122.102.49.76 list=game
+add address=122.102.49.77 list=game
+add address=122.102.49.78 list=game
+add address=122.102.49.79 list=game
+add address=122.102.49.80 list=game
+add address=122.102.48.0/24 list=game
+add address=119.110.77.1 list=game
+add address=119.110.77.2 list=game
+add address=119.110.77.3 list=game
+add address=119.110.77.4 list=game
+add address=119.110.77.5 list=game
+add address=119.110.77.6 list=game
+add address=119.110.77.7 list=game
+add address=122.102.50.0/24 list=game
+add address=122.102.51.0/24 list=game
+add address=122.102.52.0/24 list=game
+add address=122.102.53.0/24 list=game
+add address=122.102.54.0/24 list=game
+add address=122.102.55.0/24 list=game
+add address=202.93.16.0/24 list=game
+add address=202.93.17.0/24 list=game
+add address=202.93.18.0/24 list=game
+add address=202.93.19.0/24 list=game
+add address=202.93.20.0/24 list=game
+add address=202.93.21.0/24 list=game
+add address=202.93.22.0/24 list=game
+add address=202.93.23.0/24 list=game
+add address=202.93.24.0/24 list=game
+add address=202.93.25.0/24 list=game
+add address=202.93.26.0/24 list=game
+add address=202.93.27.0/24 list=game
+add address=202.93.28.0/24 list=game
+add address=202.93.29.0/24 list=game
+add address=202.93.30.0/24 list=game
+add address=202.93.31.0/24 list=game
+
+Informasi Tambahan :
+BROWSING 1Mbs bagi dengan Adil dalam satu jaringan
+DOWNLOAD 256Kbps terbagi rata di Jaringan LOKAL
+GAME dengan bandwith disesuaikan kebutuhan Client
+POKER dengan bandwith disesuaikan kebutuhan Client
+UPLOAD seadanya bandwith bagi rata sesuai kebutuhan Client
+
+================================================
+
+Berikut ini data port game online yang menggunakan IIX/koneksi lokal:
+
+1. Ayo Dance : tcp 18901-18909
+2. SealOnline : tcp 1818
+3. PointBlank : tcp 39190, udp 40000-40010
+4. Lineage2 : tcp 7777
+5. GhostOnline : tcp 19101
+6. RF-Elven : tcp 27780
+7. Perfect world : tcp 29000
+8. Rohan : tcp 22100
+9. Zeus RO : tcp 5121
+10. Dotta : tcp 6000-6152
+11. IdolStreet : tcp 2001
+12. CrazyKart : 9601-9602
+13. WOW AMPM : tcp 8085
+14. DriftCity : tcp 11011-11041
+15. GetAmped : tcp 13413
+16. Yullgang : tcp 19000
+17. RAN Online : tcp 5105
+18. CrossFire : tcp 10009, udp 12060-12070
+19. WarRock : tcp 5340-5352
+20. FastBlack : tcp 6000-6001
+21. Rose Online : tcp 29200
+22. Return Of Warrior : tcp 10402
+23. CrazyKart 2 : tcp 9600
+25. Luna Online : tcp 15002
+26. Runes Of Magic : tcp 16402-16502
+27. FreshRO : tcp 5126
+28. Tantra Online : tcp 3010
+29. Heroes Of Newearth Incatamers : tcp 11031 udp 11100-11125,11440-11460
+30. Atlantica : tcp 4300 , ip 203.89.147.0/24
+31. ECO Online : tcp Port 12011 , 12110
+32. Cabal Indo : tcp Port 15001, 15002
+33. X-SHOT : tcp 7341,7451 , udp 7808,30000
+34. Return Of Warrior : tcp 10402
+35. CrazyKart 2 : tcp 9600
+36. Luna Online : tcp 15000-15002
+37. Runes Of Magic : tcp 16402-16502
+38. Fresh Ragnarok PS, www.freshro.org dst address 119.110.87.179 : 5171
+39. Tantra Online : tcp 3010
+40. Heroes Of Newearth Incatamers chat server -> TCP 11031 game server -> UDP 11100-11125 VOIP -> UDP 11440-11460 (by LOVIAN)
+41. Atlantica : tcp 4300 , ip 203.89.147.0/24 link: http://atlantica.gemscool.com/
+42. ECO Online --> Port 12011 , 12110 by RB750
+43. Cabal Indo --> Port 15001, 15002 by RB750
+44. X-SHOT : tcp 7341-7350,7451 , udp 7777-7977,30000
+45. 3 Kingdoms : UDP 42051-42052
+
+Sebagai Tambahan untuk di mangle-nya
+
+Download
+chain=prerouting action=mark-connection
+new-connection-mark=conn download passthrough=yes protocol=tcp
+dst-port=80 connection-bytes=175000-4294967295
+
+chain=prerouting action=mark-packet new-packet-mark=cekek bw
+passthrough=no protocol=tcp connection-mark=conn download
+
+Browsing
+chain=prerouting action=mark-connection
+new-connection-mark=conn browsing passthrough=yes protocol=tcp
+dst-port=80 content=!statics.poker.static.zynga.com
+connection-bytes=0-175000
+
+chain=prerouting action=mark-connection new-connection-mark=conn browsing
+passthrough=yes protocol=tcp dst-port=80 connection-bytes=0-175000
+
+chain=prerouting action=mark-packet new-packet-mark=browsing packet
+passthrough=no connection-mark=conn browsing connection-bytes=0-175000
+
+Limit IDM
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.exe
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.mpg
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.avi
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.mov
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.rar
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.zip
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.wav
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.mov
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.wma
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.wmv
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.tiff
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.tif
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.pdf
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.7z
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.3gp
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.mp3
+
+chain=forward action=add-dst-to-address-list protocol=tcp
+address-list=cekek address-list-timeout=1h content=.rm
+
+chain=forward action=mark-packet new-packet-mark=jerat bw passthrough=no
+protocol=tcp src-address-list=cekek connection-bytes=175000-4294967295
+
+Point Blank
+chain=prerouting action=mark-connection new-connection-mark=PB_1
+passthrough=yes protocol=udp dst-address=203.89.146.0/23
+dst-port=40000-40010
+
+chain=prerouting action=mark-connection new-connection-mark=PB_1
+passthrough=yes protocol=tcp dst-address=203.89.146.0/23 dst-port=39190
+
+chain=prerouting action=mark-packet new-packet-mark=PB Oke passthrough=no
+connection-mark=PB_1
+
+
+Zynga Poker
+chain=forward action=mark-connection new-connection-mark=Poker conn
+passthrough=yes protocol=tcp dst-address-list=Load Game
+
+chain=forward action=mark-connection new-connection-mark=Poker conn
+passthrough=yes protocol=tcp content=profile.ak.fbcdn.net
+
+chain=forward action=mark-connection new-connection-mark=Poker conn
+passthrough=yes protocol=tcp content=statics.poker.static.zynga.com
+
+chain=forward action=mark-connection new-connection-mark=Poker conn
+passthrough=yes protocol=tcp content=apps.facebook.com
+
+chain=forward action=mark-packet new-packet-mark=Poker passthrough=no
+connection-mark=Poker conn
+
+Ayo Dance
+chain=prerouting action=mark-connection new-connection-mark=Ayo Dance
+passthrough=yes protocol=tcp dst-address=122.102.48.0/24
+dst-port=18901-18909
+
+chain=prerouting action=mark-packet new-packet-mark=Ayo Dance Oke
+passthrough=no connection-mark=Ayo Dance

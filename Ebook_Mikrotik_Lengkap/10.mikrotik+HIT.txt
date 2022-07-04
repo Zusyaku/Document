@@ -1,0 +1,80 @@
+    Study Kasus, Mohon diperhatikan :
+
+       1. Semua aktifitas user port 80, 81, 8080 dan 3128 di belokkan ke proxy, jika proxy belum mengcache maka si proxy akan mengambil dari Modem(internet), menyimpan di cache sekaligus menjawab request dari user.
+       2. Aktivitas user selain port 80, 81, 8080 dan 3128 akan melewati jalur menuju arah modem [download dari FTP ata dari P2P => jika akses P2P tidak di blok]
+
+    Dari 2 study kasus di atas muncullah pemikiran, bahwa :
+
+       1. Semua akses ke arah Modem harus di limit agar ada BW dapat tersisa yg bisa di gunakan untuk GAME online mengingat port game tidak di belokkan ke proxy squid.
+       2. Sedangkan akses antara Proxy Squid dan User di LOSS agar terjadi HIT atau transfer packet yg udah ada di cache proxy dapat di nikmati LOSS oleh user.
+
+Dari alur pemikiran itu  menggasilkan beberapa baris untuk mendapatkan proxy hit dari external proxy. Dan membatasi akses user kemodem yang berarti juga memberikan akses yang lebih leluasa untuk game yang nota bene tidak di lewatkan melalui proxy.
+
+Script  seperti di bawah ini
+/ip firewall mangle
+
+add action=mark-connection chain=forward comment=Proxy_HIT 
+disabled=no in-interface=Proxy new-connection-mark=Hit
+out-interface=Lokal passthrough=yes protocol=tcp
+
+add action=mark-packet chain=forward comment="" connection-mark=Hit
+disabled=no in-interface=Proxy new-packet-mark=Proxy Hit
+out-interface=Lokal passthrough=no protocol=tcp
+
+/queue tree
+
+add burst-limit=0 burst-threshold=0 burst-time=0s disabled=no
+limit-at=0 max-limit=0 name=.:Proxy Hit:. packet-mark=Hit
+parent=global-out priority=1 queue=default
+
+Nah itu dia proxy hit untuk meloloskan paket agar tidak terlimit oleh mikrotik, namun si ubur masih belum puas dengan hal tersebut dan muncullah pikiran lainnyah bahwa koneksi ke modem dari user atau dari user ke modem harus juga di batasi.
+
+Dan muncullah script di bawah ini
+
+2. Limit Aktifitas modem – user
+
+/ip firewall mangle
+
+add action=mark-connection chain=forward 
+comment=DownloadfromLan connection-bytes=256000-4294967295
+disabled=no in-interface=Modem new-connection-mark=DownLan
+out-interface=Lokal passthrough=yes protocol=tcp
+
+add action=mark-packet chain=forward comment="" 
+connection-mark=Down Lan disabled=no 
+in-interface=Modem new-packet-mark=DownloadLan
+out-interface=Lokal passthrough=no protocol=tcp
+
+/que ty
+
+add kind=pcq name=Download pcq-classifier=dst-address 
+pcq-limit=50 pcq-rate=128000 pcq-total-limit=2000
+
+/que tr
+add burst-limit=0 burst-threshold=0 burst-time=0s 
+disabled=no limit-at=0 max-limit=256000 name=LimitDownloadformLan
+packet-mark=DownloadLan parent=global-out priority=8 queue=Download
+
+tidak hanya sampai disitu masih adalagi yang lain. Apa itu ?
+Yakni Aktifitas modem ke proxy harus dibatasi. Lalu muncullah script ini
+
+/ip firewall mangle
+
+add action=mark-connection chain=forward comment=DownloadfromProxy
+connection-bytes=256000-4294967295 disabled=no in-interface=Modem 
+new-connection-mark=Down Proxy out-interface=Proxy
+passthrough=yes protocol=tcp
+
+add action=mark-packet chain=forward comment=""
+connection-mark=Down Proxy disabled=no in-interface=Modem 
+new-packet-mark=DownloadProxy out-interface=Proxy 
+passthrough=no protocol=tcp
+
+/que ty
+add kind=pcq name=Download pcq-classifier=dst-address pcq-limit=50
+pcq-rate=128000 pcq-total-limit=2000
+
+/que tr
+add burst-limit=0 burst-threshold=0 burst-time=0s disabled=no limit-at=0 
+max-limit=256000 name=Limit DownloadfromProxy
+packet-mark=DownloadProxy parent=global-out priority=8 queue=Do
